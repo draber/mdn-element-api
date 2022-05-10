@@ -1,0 +1,24 @@
+{
+  "name": "mdn-tag-collector",
+  "version": "1.0.0",
+  "description": "Generate lists with all HTML and SVG elements from MDN",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/draber/mdn-tag-collector.git"
+  },
+  "author": "Dieter Raber",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/draber/mdn-tag-collector/issues"
+  },
+  "homepage": "https://github.com/draber/mdn-tag-collector#readme",
+  "dependencies": {
+    "fs-extra": "^10.1.0",
+    "yamljs": "^0.3.0"
+  }
+}
