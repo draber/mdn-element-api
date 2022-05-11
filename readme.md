@@ -6,20 +6,23 @@ A single entry has the following structure:
 ```json
 {
     "audio": {
-		"interface": "HTMLAudioElement",
-		"attributes": [
-			"autoplay",
-			"buffered",
-			"controls",
-			"crossorigin",
-			"loop",
-			"muted",
-			"preload",
-			"src"
-		]
-	}
+        "interface": "HTMLAudioElement",
+        "attributes": [
+            "autoplay",
+            "buffered",
+            "controls",
+            "crossorigin",
+            "loop",
+            "muted",
+            "preload",
+            "src"
+        ]
+    }
 }
 ```
+
+## A fair warning
+This work has been written as a one-off. There isn't anything sophisticated about it. Error handling is minimal, there are no tests either.
 
 ## Installation
 
@@ -33,6 +36,3 @@ npm install
 node .
 ```
 The two files will be created in _build_.
-
-## Warning
-This work has been written as a one-off. There isn't anything sophisticated about it. Error handling is minimal, there are no tests either.
