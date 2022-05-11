@@ -1,0 +1,738 @@
+{
+	"a": {
+		"interface": "HTMLAnchorElement",
+		"attributes": [
+			"download",
+			"href",
+			"hreflang",
+			"media",
+			"ping",
+			"referrerpolicy",
+			"rel",
+			"shape",
+			"target"
+		]
+	},
+	"abbr": {
+		"interface": "HTMLElement",
+		"attributes": []
+	},
+	"address": {
+		"interface": "HTMLElement",
+		"attributes": []
+	},
+	"area": {
+		"interface": "HTMLAreaElement",
+		"attributes": [
+			"alt",
+			"coords",
+			"download",
+			"href",
+			"hreflang",
+			"media",
+			"ping",
+			"referrerpolicy",
+			"rel",
+			"shape",
+			"target"
+		]
+	},
+	"article": {
+		"interface": "HTMLElement",
+		"attributes": []
+	},
+	"aside": {
+		"interface": "HTMLElement",
+		"attributes": []
+	},
+	"audio": {
+		"interface": "HTMLAudioElement",
+		"attributes": [
+			"autoplay",
+			"buffered",
+			"controls",
+			"crossorigin",
+			"loop",
+			"muted",
+			"preload",
+			"src"
+		]
+	},
+	"b": {
+		"interface": "HTMLElement",
+		"attributes": []
+	},
+	"base": {
+		"interface": "HTMLBaseElement",
+		"attributes": [
+			"href",
+			"target"
+		]
+	},
+	"bdi": {
+		"interface": "HTMLElement",
+		"attributes": []
+	},
+	"bdo": {
+		"interface": "HTMLElement",
+		"attributes": []
+	},
+	"blockquote": {
+		"interface": "HTMLQuoteElement",
+		"attributes": [
+			"cite"
+		]
+	},
+	"body": {
+		"interface": "HTMLBodyElement",
+		"attributes": [
+			"background",
+			"bgcolor"
+		]
+	},
+	"br": {
+		"interface": "HTMLBRElement",
+		"attributes": []
+	},
+	"button": {
+		"interface": "HTMLButtonElement",
+		"attributes": [
+			"autofocus",
+			"disabled",
+			"form",
+			"formaction",
+			"formenctype",
+			"formmethod",
+			"formnovalidate",
+			"formtarget",
+			"name",
+			"type",
+			"value"
+		]
+	},
+	"canvas": {
+		"interface": "HTMLCanvasElement",
+		"attributes": [
+			"height",
+			"width"
+		]
+	},
+	"caption": {
+		"interface": "HTMLTableCaptionElement",
+		"attributes": [
+			"align"
+		]
+	},
+	"cite": {
+		"interface": "HTMLElement",
+		"attributes": []
+	},
+	"code": {
+		"interface": "HTMLElement",
+		"attributes": []
+	},
+	"col": {
+		"interface": "HTMLTableColElement",
+		"attributes": [
+			"align",
+			"bgcolor",
+			"span"
+		]
+	},
+	"colgroup": {
+		"interface": "HTMLTableColElement",
+		"attributes": [
+			"align",
+			"bgcolor",
+			"span"
+		]
+	},
+	"data": {
+		"interface": "HTMLDataElement",
+		"attributes": [
+			"value"
+		]
+	},
+	"datalist": {
+		"interface": "HTMLDataListElement",
+		"attributes": []
+	},
+	"dd": {
+		"interface": "HTMLElement",
+		"attributes": []
+	},
+	"del": {
+		"interface": "HTMLModElement",
+		"attributes": [
+			"cite",
+			"datetime"
+		]
+	},
+	"details": {
+		"interface": "HTMLDetailsElement",
+		"attributes": [
+			"open"
+		]
+	},
+	"dfn": {
+		"interface": "HTMLElement",
+		"attributes": []
+	},
+	"dialog": {
+		"interface": "HTMLDialogElement",
+		"attributes": [
+			"open"
+		]
+	},
+	"div": {
+		"interface": "HTMLDivElement",
+		"attributes": []
+	},
+	"dl": {
+		"interface": "HTMLDListElement",
+		"attributes": []
+	},
+	"dt": {
+		"interface": "HTMLElement",
+		"attributes": []
+	},
+	"em": {
+		"interface": "HTMLElement",
+		"attributes": []
+	},
+	"embed": {
+		"interface": "HTMLEmbedElement",
+		"attributes": [
+			"height",
+			"src",
+			"type",
+			"width"
+		]
+	},
+	"fieldset": {
+		"interface": "HTMLFieldSetElement",
+		"attributes": [
+			"disabled",
+			"form",
+			"name"
+		]
+	},
+	"figcaption": {
+		"interface": "HTMLElement",
+		"attributes": []
+	},
+	"figure": {
+		"interface": "HTMLElement",
+		"attributes": []
+	},
+	"footer": {
+		"interface": "HTMLElement",
+		"attributes": []
+	},
+	"form": {
+		"interface": "HTMLFormElement",
+		"attributes": [
+			"accept",
+			"accept-charset",
+			"action",
+			"autocomplete",
+			"enctype",
+			"method",
+			"name",
+			"novalidate",
+			"target"
+		]
+	},
+	"head": {
+		"interface": "HTMLHeadElement",
+		"attributes": []
+	},
+	"header": {
+		"interface": "HTMLElement",
+		"attributes": []
+	},
+	"h1": {
+		"interface": "HTMLHeadingElement",
+		"attributes": []
+	},
+	"hr": {
+		"interface": "HTMLHRElement",
+		"attributes": [
+			"align",
+			"color"
+		]
+	},
+	"html": {
+		"interface": "HTMLHtmlElement",
+		"attributes": []
+	},
+	"i": {
+		"interface": "HTMLElement",
+		"attributes": []
+	},
+	"iframe": {
+		"interface": "HTMLIFrameElement",
+		"attributes": [
+			"align",
+			"allow",
+			"height",
+			"name",
+			"referrerpolicy",
+			"sandbox",
+			"src",
+			"srcdoc",
+			"width"
+		]
+	},
+	"img": {
+		"interface": "HTMLImageElement",
+		"attributes": [
+			"align",
+			"alt",
+			"border",
+			"crossorigin",
+			"decoding",
+			"height",
+			"ismap",
+			"referrerpolicy",
+			"sizes",
+			"src",
+			"srcset",
+			"usemap",
+			"width"
+		]
+	},
+	"input": {
+		"interface": "HTMLInputElement",
+		"attributes": [
+			"accept",
+			"alt",
+			"autocomplete",
+			"autofocus",
+			"capture",
+			"checked",
+			"dirname",
+			"disabled",
+			"form",
+			"formaction",
+			"formenctype",
+			"formmethod",
+			"formnovalidate",
+			"formtarget",
+			"height",
+			"list",
+			"max",
+			"maxlength",
+			"minlength",
+			"min",
+			"multiple",
+			"name",
+			"pattern",
+			"placeholder",
+			"readonly",
+			"required",
+			"size",
+			"src",
+			"step",
+			"type",
+			"usemap",
+			"value",
+			"width"
+		]
+	},
+	"ins": {
+		"interface": "HTMLModElement",
+		"attributes": [
+			"cite",
+			"datetime"
+		]
+	},
+	"kbd": {
+		"interface": "HTMLElement",
+		"attributes": []
+	},
+	"label": {
+		"interface": "HTMLLabelElement",
+		"attributes": [
+			"for",
+			"form"
+		]
+	},
+	"legend": {
+		"interface": "HTMLLegendElement",
+		"attributes": []
+	},
+	"li": {
+		"interface": "HTMLLIElement",
+		"attributes": [
+			"value"
+		]
+	},
+	"link": {
+		"interface": "HTMLLinkElement",
+		"attributes": [
+			"crossorigin",
+			"href",
+			"hreflang",
+			"integrity",
+			"media",
+			"referrerpolicy",
+			"rel",
+			"sizes",
+			"type"
+		]
+	},
+	"main": {
+		"interface": "HTMLElement",
+		"attributes": []
+	},
+	"map": {
+		"interface": "HTMLMapElement",
+		"attributes": [
+			"name"
+		]
+	},
+	"mark": {
+		"interface": "HTMLElement",
+		"attributes": []
+	},
+	"menu": {
+		"interface": "HTMLMenuElement",
+		"attributes": [
+			"type"
+		]
+	},
+	"meta": {
+		"interface": "HTMLMetaElement",
+		"attributes": [
+			"charset",
+			"content",
+			"http-equiv",
+			"name"
+		]
+	},
+	"meter": {
+		"interface": "HTMLMeterElement",
+		"attributes": [
+			"form",
+			"high",
+			"low",
+			"max",
+			"min",
+			"optimum",
+			"value"
+		]
+	},
+	"nav": {
+		"interface": "HTMLElement",
+		"attributes": []
+	},
+	"noscript": {
+		"interface": "HTMLElement",
+		"attributes": []
+	},
+	"object": {
+		"interface": "HTMLObjectElement",
+		"attributes": [
+			"border",
+			"data",
+			"form",
+			"height",
+			"name",
+			"type",
+			"usemap",
+			"width"
+		]
+	},
+	"ol": {
+		"interface": "HTMLOListElement",
+		"attributes": [
+			"reversed",
+			"start"
+		]
+	},
+	"optgroup": {
+		"interface": "HTMLOptGroupElement",
+		"attributes": [
+			"disabled",
+			"label"
+		]
+	},
+	"option": {
+		"interface": "HTMLOptionElement",
+		"attributes": [
+			"disabled",
+			"label",
+			"selected",
+			"value"
+		]
+	},
+	"output": {
+		"interface": "HTMLOutputElement",
+		"attributes": [
+			"for",
+			"form",
+			"name"
+		]
+	},
+	"p": {
+		"interface": "HTMLParagraphElement",
+		"attributes": []
+	},
+	"picture": {
+		"interface": "HTMLPictureElement",
+		"attributes": []
+	},
+	"portal": {
+		"interface": "HTMLUnknownElement",
+		"attributes": []
+	},
+	"pre": {
+		"interface": "HTMLPreElement",
+		"attributes": []
+	},
+	"progress": {
+		"interface": "HTMLProgressElement",
+		"attributes": [
+			"form",
+			"max",
+			"value"
+		]
+	},
+	"q": {
+		"interface": "HTMLQuoteElement",
+		"attributes": [
+			"cite"
+		]
+	},
+	"rp": {
+		"interface": "HTMLElement",
+		"attributes": []
+	},
+	"rt": {
+		"interface": "HTMLElement",
+		"attributes": []
+	},
+	"ruby": {
+		"interface": "HTMLElement",
+		"attributes": []
+	},
+	"s": {
+		"interface": "HTMLElement",
+		"attributes": []
+	},
+	"samp": {
+		"interface": "HTMLElement",
+		"attributes": []
+	},
+	"script": {
+		"interface": "HTMLScriptElement",
+		"attributes": [
+			"async",
+			"charset",
+			"crossorigin",
+			"defer",
+			"integrity",
+			"referrerpolicy",
+			"src",
+			"type"
+		]
+	},
+	"section": {
+		"interface": "HTMLElement",
+		"attributes": []
+	},
+	"select": {
+		"interface": "HTMLSelectElement",
+		"attributes": [
+			"autocomplete",
+			"autofocus",
+			"disabled",
+			"form",
+			"multiple",
+			"name",
+			"required",
+			"size"
+		]
+	},
+	"slot": {
+		"interface": "HTMLSlotElement",
+		"attributes": []
+	},
+	"small": {
+		"interface": "HTMLElement",
+		"attributes": []
+	},
+	"source": {
+		"interface": "HTMLSourceElement",
+		"attributes": [
+			"media",
+			"sizes",
+			"src",
+			"srcset",
+			"type"
+		]
+	},
+	"span": {
+		"interface": "HTMLSpanElement",
+		"attributes": []
+	},
+	"strong": {
+		"interface": "HTMLElement",
+		"attributes": []
+	},
+	"style": {
+		"interface": "HTMLStyleElement",
+		"attributes": [
+			"media",
+			"type"
+		]
+	},
+	"sub": {
+		"interface": "HTMLElement",
+		"attributes": []
+	},
+	"summary": {
+		"interface": "HTMLElement",
+		"attributes": []
+	},
+	"sup": {
+		"interface": "HTMLElement",
+		"attributes": []
+	},
+	"table": {
+		"interface": "HTMLTableElement",
+		"attributes": [
+			"align",
+			"background",
+			"bgcolor",
+			"border"
+		]
+	},
+	"tbody": {
+		"interface": "HTMLTableSectionElement",
+		"attributes": [
+			"align",
+			"bgcolor"
+		]
+	},
+	"td": {
+		"interface": "HTMLTableCellElement",
+		"attributes": [
+			"align",
+			"background",
+			"bgcolor",
+			"colspan",
+			"headers",
+			"rowspan"
+		]
+	},
+	"template": {
+		"interface": "HTMLTemplateElement",
+		"attributes": []
+	},
+	"textarea": {
+		"interface": "HTMLTextAreaElement",
+		"attributes": [
+			"autocomplete",
+			"autofocus",
+			"cols",
+			"dirname",
+			"disabled",
+			"form",
+			"inputmode",
+			"maxlength",
+			"minlength",
+			"name",
+			"placeholder",
+			"readonly",
+			"required",
+			"rows",
+			"wrap"
+		]
+	},
+	"tfoot": {
+		"interface": "HTMLTableSectionElement",
+		"attributes": [
+			"align",
+			"bgcolor"
+		]
+	},
+	"th": {
+		"interface": "HTMLTableCellElement",
+		"attributes": [
+			"align",
+			"background",
+			"bgcolor",
+			"colspan",
+			"headers",
+			"rowspan",
+			"scope"
+		]
+	},
+	"thead": {
+		"interface": "HTMLTableSectionElement",
+		"attributes": [
+			"align"
+		]
+	},
+	"time": {
+		"interface": "HTMLTimeElement",
+		"attributes": [
+			"datetime"
+		]
+	},
+	"title": {
+		"interface": "HTMLTitleElement",
+		"attributes": []
+	},
+	"tr": {
+		"interface": "HTMLTableRowElement",
+		"attributes": [
+			"align",
+			"bgcolor"
+		]
+	},
+	"track": {
+		"interface": "HTMLTrackElement",
+		"attributes": [
+			"default",
+			"kind",
+			"label",
+			"src",
+			"srclang"
+		]
+	},
+	"u": {
+		"interface": "HTMLElement",
+		"attributes": []
+	},
+	"ul": {
+		"interface": "HTMLUListElement",
+		"attributes": []
+	},
+	"var": {
+		"interface": "HTMLElement",
+		"attributes": []
+	},
+	"video": {
+		"interface": "HTMLVideoElement",
+		"attributes": [
+			"autoplay",
+			"buffered",
+			"controls",
+			"crossorigin",
+			"height",
+			"loop",
+			"muted",
+			"poster",
+			"preload",
+			"src",
+			"width"
+		]
+	},
+	"wbr": {
+		"interface": "HTMLElement",
+		"attributes": []
+	}
+}

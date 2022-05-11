@@ -1,0 +1,404 @@
+{
+	"a": {
+		"interface": "SVGAElement",
+		"attributes": [
+			"href",
+			"hreflang",
+			"target",
+			"type"
+		]
+	},
+	"animate": {
+		"interface": "SVGAnimateElement",
+		"attributes": []
+	},
+	"animateMotion": {
+		"interface": "SVGAnimateMotionElement",
+		"attributes": [
+			"keyPoints",
+			"path",
+			"rotate"
+		]
+	},
+	"animateTransform": {
+		"interface": "SVGAnimateTransformElement",
+		"attributes": []
+	},
+	"circle": {
+		"interface": "SVGCircleElement",
+		"attributes": [
+			"cx",
+			"cy",
+			"r",
+			"pathLength"
+		]
+	},
+	"clipPath": {
+		"interface": "SVGClipPathElement",
+		"attributes": [
+			"clipPathUnits"
+		]
+	},
+	"defs": {
+		"interface": "SVGDefsElement",
+		"attributes": []
+	},
+	"desc": {
+		"interface": "SVGDescElement",
+		"attributes": []
+	},
+	"discard": {
+		"interface": "SVGElement",
+		"attributes": []
+	},
+	"ellipse": {
+		"interface": "SVGEllipseElement",
+		"attributes": [
+			"cx",
+			"cy",
+			"rx",
+			"ry",
+			"pathLength"
+		]
+	},
+	"feBlend": {
+		"interface": "SVGFEBlendElement",
+		"attributes": []
+	},
+	"feColorMatrix": {
+		"interface": "SVGFEColorMatrixElement",
+		"attributes": []
+	},
+	"feComponentTransfer": {
+		"interface": "SVGFEComponentTransferElement",
+		"attributes": []
+	},
+	"feComposite": {
+		"interface": "SVGFECompositeElement",
+		"attributes": []
+	},
+	"feConvolveMatrix": {
+		"interface": "SVGFEConvolveMatrixElement",
+		"attributes": []
+	},
+	"feDiffuseLighting": {
+		"interface": "SVGFEDiffuseLightingElement",
+		"attributes": []
+	},
+	"feDisplacementMap": {
+		"interface": "SVGFEDisplacementMapElement",
+		"attributes": []
+	},
+	"feDistantLight": {
+		"interface": "SVGFEDistantLightElement",
+		"attributes": []
+	},
+	"feDropShadow": {
+		"interface": "SVGFEDropShadowElement",
+		"attributes": [
+			"dx",
+			"dy",
+			"stdDeviation"
+		]
+	},
+	"feFlood": {
+		"interface": "SVGFEFloodElement",
+		"attributes": []
+	},
+	"feFuncA": {
+		"interface": "SVGFEFuncAElement",
+		"attributes": []
+	},
+	"feFuncB": {
+		"interface": "SVGFEFuncBElement",
+		"attributes": []
+	},
+	"feFuncG": {
+		"interface": "SVGFEFuncGElement",
+		"attributes": []
+	},
+	"feFuncR": {
+		"interface": "SVGFEFuncRElement",
+		"attributes": []
+	},
+	"feGaussianBlur": {
+		"interface": "SVGFEGaussianBlurElement",
+		"attributes": []
+	},
+	"feImage": {
+		"interface": "SVGFEImageElement",
+		"attributes": []
+	},
+	"feMerge": {
+		"interface": "SVGFEMergeElement",
+		"attributes": []
+	},
+	"feMergeNode": {
+		"interface": "SVGFEMergeNodeElement",
+		"attributes": []
+	},
+	"feMorphology": {
+		"interface": "SVGFEMorphologyElement",
+		"attributes": []
+	},
+	"feOffset": {
+		"interface": "SVGFEOffsetElement",
+		"attributes": []
+	},
+	"fePointLight": {
+		"interface": "SVGFEPointLightElement",
+		"attributes": []
+	},
+	"feSpecularLighting": {
+		"interface": "SVGFESpecularLightingElement",
+		"attributes": []
+	},
+	"feSpotLight": {
+		"interface": "SVGFESpotLightElement",
+		"attributes": []
+	},
+	"feTile": {
+		"interface": "SVGFETileElement",
+		"attributes": []
+	},
+	"feTurbulence": {
+		"interface": "SVGFETurbulenceElement",
+		"attributes": []
+	},
+	"filter": {
+		"interface": "SVGFilterElement",
+		"attributes": []
+	},
+	"foreignObject": {
+		"interface": "SVGForeignObjectElement",
+		"attributes": [
+			"height",
+			"width",
+			"x",
+			"y"
+		]
+	},
+	"g": {
+		"interface": "SVGGElement",
+		"attributes": []
+	},
+	"glyph": {
+		"interface": "SVGGlyphElement",
+		"attributes": []
+	},
+	"image": {
+		"interface": "SVGImageElement",
+		"attributes": []
+	},
+	"linearGradient": {
+		"interface": "SVGLinearGradientElement",
+		"attributes": [
+			"gradientUnits",
+			"gradientTransform",
+			"href",
+			"spreadMethod",
+			"x1",
+			"x2",
+			"y1",
+			"y2"
+		]
+	},
+	"marker": {
+		"interface": "SVGMarkerElement",
+		"attributes": [
+			"markerHeight",
+			"markerUnits",
+			"markerWidth",
+			"orient",
+			"preserveAspectRatio",
+			"refX",
+			"refY",
+			"viewBox"
+		]
+	},
+	"mask": {
+		"interface": "SVGMaskElement",
+		"attributes": [
+			"height",
+			"maskContentUnits",
+			"maskUnits",
+			"x",
+			"y",
+			"width"
+		]
+	},
+	"metadata": {
+		"interface": "SVGMetadataElement",
+		"attributes": []
+	},
+	"mpath": {
+		"interface": "SVGMPathElement",
+		"attributes": []
+	},
+	"path": {
+		"interface": "SVGPathElement",
+		"attributes": [
+			"d",
+			"pathLength"
+		]
+	},
+	"pattern": {
+		"interface": "SVGPatternElement",
+		"attributes": [
+			"height",
+			"href",
+			"patternContentUnits",
+			"patternTransform",
+			"patternUnits",
+			"preserveAspectRatio",
+			"viewBox",
+			"width",
+			"x",
+			"y"
+		]
+	},
+	"radialGradient": {
+		"interface": "SVGRadialGradientElement",
+		"attributes": [
+			"cx",
+			"cy",
+			"fr",
+			"fx",
+			"fy",
+			"gradientUnits",
+			"gradientTransform",
+			"href",
+			"r",
+			"spreadMethod"
+		]
+	},
+	"rect": {
+		"interface": "SVGRectElement",
+		"attributes": [
+			"x",
+			"y",
+			"width",
+			"height",
+			"rx",
+			"ry",
+			"pathLength"
+		]
+	},
+	"script": {
+		"interface": "SVGScriptElement",
+		"attributes": [
+			"crossorigin",
+			"href",
+			"type"
+		]
+	},
+	"set": {
+		"interface": "SVGSetElement",
+		"attributes": [
+			"to"
+		]
+	},
+	"stop": {
+		"interface": "SVGStopElement",
+		"attributes": [
+			"offset",
+			"stop-color",
+			"stop-opacity"
+		]
+	},
+	"style": {
+		"interface": "SVGStyleElement",
+		"attributes": [
+			"type",
+			"media",
+			"title"
+		]
+	},
+	"svg": {
+		"interface": "SVGSVGElement",
+		"attributes": [
+			"height",
+			"preserveAspectRatio",
+			"viewBox",
+			"width",
+			"x",
+			"y"
+		]
+	},
+	"switch": {
+		"interface": "SVGSwitchElement",
+		"attributes": []
+	},
+	"symbol": {
+		"interface": "SVGSymbolElement",
+		"attributes": [
+			"height",
+			"preserveAspectRatio",
+			"refX",
+			"refY",
+			"viewBox",
+			"width",
+			"x",
+			"y"
+		]
+	},
+	"text": {
+		"interface": "SVGTextElement",
+		"attributes": [
+			"x",
+			"y",
+			"dx",
+			"dy",
+			"rotate",
+			"lengthAdjust",
+			"textLength"
+		]
+	},
+	"textPath": {
+		"interface": "SVGTextPathElement",
+		"attributes": [
+			"href",
+			"lengthAdjust",
+			"method",
+			"path",
+			"side",
+			"spacing",
+			"startOffset",
+			"textLength"
+		]
+	},
+	"title": {
+		"interface": "SVGTitleElement",
+		"attributes": []
+	},
+	"tref": {
+		"interface": "SVGTRefElement",
+		"attributes": []
+	},
+	"tspan": {
+		"interface": "SVGTSpanElement",
+		"attributes": [
+			"x",
+			"y",
+			"dx",
+			"dy",
+			"rotate",
+			"lengthAdjust",
+			"textLength"
+		]
+	},
+	"use": {
+		"interface": "SVGUseElement",
+		"attributes": [
+			"href",
+			"x",
+			"y",
+			"width",
+			"height"
+		]
+	},
+	"view": {
+		"interface": "SVGViewElement",
+		"attributes": []
+	}
+}

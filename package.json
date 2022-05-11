@@ -20,5 +20,8 @@
   "dependencies": {
     "fs-extra": "^10.1.0",
     "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "global-jsdom": "^8.4.0"
   }
 }
