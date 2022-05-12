@@ -16,7 +16,8 @@ A single entry has the following structure:
             "muted",
             "preload",
             "src"
-        ]
+        ],
+        "description": "The `<audio>` HTML element is used to embed sound content in documents. It may contain one or more audio sources, represented using the `src` attribute or the source element: the browser will choose the most suitable one. It can also be the destination for streamed media, using a MediaStream."
     }
 }
 ```
