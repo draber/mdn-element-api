@@ -2,8 +2,9 @@ import fs from "fs-extra";
 import YAML from "yamljs";
 import 'global-jsdom/register';
 import groupData from './data/mdn-content/files/jsondata/GroupData.json' assert { type: "json" };
-import htmlAttributes from "./html-attributes.js";
-import getSvgAttributes from "./svg-attributes.js";
+import htmlAttributes from "./modules/html-attributes.js";
+import getSvgAttributes from "./modules/svg-attributes.js";
+import getDescription from "./modules/descriptions.js";
 
 const svgInterfaceMap = new Map(groupData[0].SVG.interfaces.map(e => [e.toLowerCase(), e]));
 
@@ -27,7 +28,8 @@ const getProperties = (tag, type) => {
     }
     return {
         interface: interfaceName,
-        attributes
+        attributes,
+        description: getDescription(type, tag)
     };
 };
 
