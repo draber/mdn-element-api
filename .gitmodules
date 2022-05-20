@@ -1,3 +1,4 @@
-[submodule "data/mdn-content"]
-	path = data/mdn-content
+
+[submodule "mdn-content"]
+	path = mdn-content
 	url = https://github.com/draber/mdn-content.git
