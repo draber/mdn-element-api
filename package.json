@@ -1,27 +1,30 @@
 {
-  "name": "mdn-tag-collector",
+  "name": "mdn-element-api",
   "version": "1.0.0",
   "description": "Generate lists with all HTML and SVG elements from MDN",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node .",
+    "build": "node . --env=prod"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/draber/mdn-tag-collector.git"
+    "url": "git+https://github.com/draber/mdn-element-api.git"
   },
   "author": "Dieter Raber",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/draber/mdn-tag-collector/issues"
+    "url": "https://github.com/draber/mdn-element-api/issues"
   },
-  "homepage": "https://github.com/draber/mdn-tag-collector#readme",
+  "homepage": "https://github.com/draber/mdn-element-api#readme",
   "dependencies": {
+    "a-nicer-console": "^1.0.2",
+    "elastic-object": "^1.0.9",
     "fs-extra": "^10.1.0",
+    "global-jsdom": "^8.4.0",
+    "markdown-it": "^13.0.1",
+    "minimist": "^1.2.6",
     "yamljs": "^0.3.0"
-  },
-  "devDependencies": {
-    "global-jsdom": "^8.4.0"
   }
 }
