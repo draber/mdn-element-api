@@ -1,25 +1,65 @@
-# MDN Tag Collector
+# MDN Element API
 
-Simple parser for the [MDN content repository](https://github.com/mdn/content) that pulls all non-deprecated tags from the repository and stores them in JSON files. The HTML and the SVG directory are parsed separately.
+Content parser for the [MDN content repository](https://github.com/mdn/content) that converts information about elements and attributes into JSON.
 
-A single entry has the following structure:
+Global attributes have this structure:
+
 ```json
-{
-    "audio": {
-        "interface": "HTMLAudioElement",
-        "attributes": [
-            "autoplay",
-            "buffered",
-            "controls",
-            "crossorigin",
-            "loop",
-            "muted",
-            "preload",
-            "src"
-        ],
-        "description": "The `<audio>` HTML element is used to embed sound content in documents. It may contain one or more audio sources, represented using the `src` attribute or the source element: the browser will choose the most suitable one. It can also be the destination for streamed media, using a MediaStream."
-    }
+"/web/html/global_attributes/autofocus": {
+    "type": "attribute",
+    "scope": "html:global:generic",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/autofocus",
+    "status": "living",
+    "summary": "The `autofocus` global attribute is a Boolean attribute indicating that an element should be focused on page load, or when the dialog that it is part of is displayed.",
+    "name": "autofocus",
+    "tags": [
+        "Autofocus",
+        "Global attributes",
+        "HTML",
+        "Reference"
+    ]
 }
+```
+
+Elements are stored in the same tree and look like this:
+
+```json
+	"/web/html/element/optgroup": {
+		"tags": [
+			"Element",
+			"Forms",
+			"HTML",
+			"HTML forms",
+			"Reference",
+			"Web"
+		],
+		"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup",
+		"name": "optgroup",
+		"status": "living",
+		"interface": "HTMLOptGroupElement",
+		"summary": "The `<optgroup>` HTML element creates a grouping of options within a select element.",
+		"type": "element",
+		"scope": "HTML",
+		"globalAttributeScopes": [
+			"html:global:generic",
+			"html:global:eventhandler",
+			"html:global:aria"
+		],
+		"attributes": {
+			"/web/html/element/optgroup/attributes/disabled": {
+				"name": "disabled",
+				"status": "living",
+				"scope": "html:optgroup",
+				"summary": "If this Boolean attribute is set, none of the items in this option group is selectable. Often browsers grey out such control and it won't receive any browsing events, like mouse clicks or focus-related ones."
+			},
+			"/web/html/element/optgroup/attributes/label": {
+				"name": "label",
+				"status": "living",
+				"scope": "html:optgroup",
+				"summary": "The name of the group of options, which the browser can use when labeling the options in the user interface. This attribute is mandatory if this element is used."
+			}
+		}
+	}
 ```
 
 ## A fair warning
@@ -28,7 +68,7 @@ This work has been written as a one-off. There isn't anything sophisticated abou
 ## Installation
 
 ```bash
-git clone --recursive https://github.com/draber/mdn-tag-collector.git # This might take a minute
+git clone --recursive https://github.com/draber/mdn-element-api.git # This might take a minute
 npm install
 ```
 
