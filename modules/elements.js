@@ -39,22 +39,27 @@ const getAttributes = (attrContent, elemFragment, scope) => {
 
     const attributes = {};
 
-    const atttrContentArr = attrContent.split("\n").filter((e) => !!e);
+    const attrContentArr = attrContent.split("\n").filter((e) => !!e);
 
-    atttrContentArr.forEach((line, index) => {
-        let match = [...line.matchAll(
-            /- {{[^\(]+\(("|')?(?<attr>[^"'\)]+)\1\)\s*}}\s*({{(?<status>[^_]+)_Inline\s*}})?/gi
-        )];
+    attrContentArr.forEach((line, index) => {
+        let match = [
+            ...line.matchAll(
+                /- {{[^\(]+\(("|')?(?<attr>[^"'\)]+)\1\)\s*}}\s*({{(?<status>[^_]+)_Inline\s*}})?/gi
+            ),
+        ];
         if (!match.length) {
             return;
         }
         match = match.pop();
         const name = match.groups.attr;
         const fragment = `${elemFragment}/attributes/${name}`;
-        const nextLine = atttrContentArr[index + 1];
-        let nextLineCheck = nextLine.match(/({{(?<status>[^_]+)_Header\s*}})/i); 
-
-        let status = (match.groups.status || nextLineCheck?.groups?.status || "living").toLowerCase();  
+        const nextLine = attrContentArr[index + 1];
+        let nextLineCheck = nextLine.match(/({{(?<status>[^_]+)_Header\s*}})/i);
+        let status = (
+            match.groups.status ||
+            nextLineCheck?.groups?.status ||
+            "living"
+        ).toLowerCase();
 
         const summary = getSummary(nextLine);
 
@@ -62,7 +67,7 @@ const getAttributes = (attrContent, elemFragment, scope) => {
             name,
             status,
             scope,
-            summary,
+            summary
         };
     });
     return attributes;
@@ -72,14 +77,11 @@ const globalAttributeScopes = {
     html: [
         "html:global:generic",
         "html:global:eventhandler",
-        "html:global:aria"
+        "html:global:aria",
     ],
-    svg: [
-        "svg:global:styling",
-        "svg:global:core"
-    ],
-    mathml: []
-}
+    svg: ["svg:global:styling", "svg:global:core"],
+    mathml: [],
+};
 
 const getElements = (type) => {
     const directory = path.dirname(
@@ -94,6 +96,9 @@ const getElements = (type) => {
         fragment = resource.normalizeFragment(fragment);
         const contentObj = getContentObj(fragment);
         contentObj.meta.name = contentObj.meta.name.match(/<([^>]+)>/)[1];
+        contentObj.meta.tags = contentObj.meta.tags.filter(
+            (e) => e.toLowerCase() !== contentObj.meta.name.toLowerCase()
+        );
 
         const properties = {
             ...contentObj.meta,

@@ -26,12 +26,9 @@ Elements are stored in the same tree and look like this:
 ```json
 "/web/html/element/optgroup": {
     "tags": [
-        "Element",
         "Forms",
         "HTML",
-        "HTML forms",
-        "Reference",
-        "Web"
+        "HTML forms"
     ],
     "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup",
     "name": "optgroup",
@@ -63,7 +60,7 @@ Elements are stored in the same tree and look like this:
 ```
 
 ## A fair warning
-This work has been written as a one-off. There isn't anything sophisticated about it. Error handling is minimal, there are no tests either.
+This work has originally been written as a one-off. There isn't anything sophisticated about it. Error handling is minimal, there are no tests either.
 
 ## Installation
 
@@ -76,4 +73,4 @@ npm install
 ```javascript
 node .
 ```
-The two files will be created in _build_.
+The JSON file will be created in _api_.
