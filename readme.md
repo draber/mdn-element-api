@@ -24,42 +24,42 @@ Global attributes have this structure:
 Elements are stored in the same tree and look like this:
 
 ```json
-	"/web/html/element/optgroup": {
-		"tags": [
-			"Element",
-			"Forms",
-			"HTML",
-			"HTML forms",
-			"Reference",
-			"Web"
-		],
-		"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup",
-		"name": "optgroup",
-		"status": "living",
-		"interface": "HTMLOptGroupElement",
-		"summary": "The `<optgroup>` HTML element creates a grouping of options within a select element.",
-		"type": "element",
-		"scope": "HTML",
-		"globalAttributeScopes": [
-			"html:global:generic",
-			"html:global:eventhandler",
-			"html:global:aria"
-		],
-		"attributes": {
-			"/web/html/element/optgroup/attributes/disabled": {
-				"name": "disabled",
-				"status": "living",
-				"scope": "html:optgroup",
-				"summary": "If this Boolean attribute is set, none of the items in this option group is selectable. Often browsers grey out such control and it won't receive any browsing events, like mouse clicks or focus-related ones."
-			},
-			"/web/html/element/optgroup/attributes/label": {
-				"name": "label",
-				"status": "living",
-				"scope": "html:optgroup",
-				"summary": "The name of the group of options, which the browser can use when labeling the options in the user interface. This attribute is mandatory if this element is used."
-			}
-		}
-	}
+"/web/html/element/optgroup": {
+    "tags": [
+        "Element",
+        "Forms",
+        "HTML",
+        "HTML forms",
+        "Reference",
+        "Web"
+    ],
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup",
+    "name": "optgroup",
+    "status": "living",
+    "interface": "HTMLOptGroupElement",
+    "summary": "The `<optgroup>` HTML element creates a grouping of options within a select element.",
+    "type": "element",
+    "scope": "HTML",
+    "globalAttributeScopes": [
+        "html:global:generic",
+        "html:global:eventhandler",
+        "html:global:aria"
+    ],
+    "attributes": {
+        "/web/html/element/optgroup/attributes/disabled": {
+            "name": "disabled",
+            "status": "living",
+            "scope": "html:optgroup",
+            "summary": "If this Boolean attribute is set, none of the items in this option group is selectable. Often browsers grey out such control and it won't receive any browsing events, like mouse clicks or focus-related ones."
+        },
+        "/web/html/element/optgroup/attributes/label": {
+            "name": "label",
+            "status": "living",
+            "scope": "html:optgroup",
+            "summary": "The name of the group of options, which the browser can use when labeling the options in the user interface. This attribute is mandatory if this element is used."
+        }
+    }
+}
 ```
 
 ## A fair warning
