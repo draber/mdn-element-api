@@ -8,6 +8,21 @@ const md = new MarkdownIt();
 
 const getMetaData = (raw) => {
     const meta = YAML.parse(raw);
+    meta.tags = (meta.tags || [])
+        .map((e) => e.replace(/HTML\:/, "HTML "))
+        .filter(
+            (e) =>
+                ![
+                    "element",
+                    "attribute",
+                    "reference",
+                    "global attributes",
+                    "global attribute",
+                    "web",
+                    "html5",
+                ].includes(e.toLowerCase())
+        )
+        .filter((e) => !e.startsWith("Needs"));
     meta.url = meta.slug
         ? "https://developer.mozilla.org/en-US/docs/" + meta.slug
         : "";
