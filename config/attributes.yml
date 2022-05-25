@@ -1,0 +1,40 @@
+---
+html:
+	generic:
+    file: web/html/global_attributes
+    parser: linkedList
+    key: list of global attributes
+    details: web/html/global_attributes/<attribute>
+    scope: 'html:global:generic'
+	eventhandler:
+    file: web/html/global_attributes
+    parser: wordList
+    key: summary
+    details: web/api/globaleventhandlers/<attribute>
+    scope: 'html:global:eventhandler'
+	aria-r:
+    file: web/html/global_attributes
+    parser: eventAttributeList
+    key: list of global attributes
+    scope: 'html:global:aria'
+	aria-a:
+    file: web/html/global_attributes
+    parser: linkedList
+    key: global aria attributes
+    scope: 'html:global:aria'
+  
+  	
+svg:
+	styling:
+  	file: web/svg/attribute/styling
+    parser: unlinkedList
+    key: attributes
+    scope: 'svg:global:styling'
+	core:
+  	file: web/svg/attribute/core
+    parser: unlinkedList
+    key: attributes
+    scope: 'svg:global:core'
+mathml:
+    
+    
