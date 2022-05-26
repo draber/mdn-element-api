@@ -37,8 +37,6 @@ const getMetaData = (raw) => {
     }
     delete meta.slug;
     delete meta.title;
-    // delete meta.tags;
-    // delete meta["spec-urls"];
     delete meta["browser-compat"];
     return meta;
 };
