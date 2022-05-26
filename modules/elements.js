@@ -1,5 +1,3 @@
-// import getSvgAttributes from "./modules/svg-attributes.js";
-// import htmlAttributes from "./modules/html-attributes.js";
 import "global-jsdom/register";
 import fs from "fs-extra";
 import groupData from "../mdn-content/files/jsondata/GroupData.json" assert { type: "json" };
@@ -7,17 +5,39 @@ import path from "path";
 import resource from "./common/resource.js";
 import store from "./store.js";
 import { getSummary, getContentObj } from "./common/extractors.js";
+import { getPreset } from "./common/utils.js";
+import attributes from "./common/attributes.js";
 
 const svgInterfaceMap = new Map(
     groupData[0].SVG.interfaces.map((e) => [e.toLowerCase(), e])
 );
 
+
+/**
+ * Container for global attributes
+ * @param {String} type 
+ * @returns {Object}
+ */
+const anyElement = (type) => {
+    return {
+        name: `${type}:*`,
+        status: "virtual",
+        summary: `Container to hold the global attributes of all ${type} elements.`,
+        url: `https://developer.mozilla.org/en-US/docs/Web/${type}/Element`,
+        type: "element",
+        scope: type,
+        tags: [type],
+        interface: `${type}Element`,
+        attributes: {},
+    };
+};
+
 const getInterface = (tag, type) => {
     switch (type) {
-        case "html":
+        case "HTML":
             const element = document.createElement(tag);
             return element.constructor.name;
-        case "svg":
+        case "SVG":
             const guess = `svg${tag.toLowerCase()}element`;
             return svgInterfaceMap.has(guess)
                 ? svgInterfaceMap.get(guess)
@@ -37,53 +57,34 @@ const getAttributes = (attrContent, elemFragment, scope) => {
         return [];
     }
 
-    const attributes = {};
+    const attrObj = {};    
 
-    const attrContentArr = attrContent.split("\n").filter((e) => !!e);
+    const lineArr = attributes.blockToLineArr(attrContent)
 
-    attrContentArr.forEach((line, index) => {
-        let match = [
-            ...line.matchAll(
-                /- {{[^\(]+\(("|')?(?<attr>[^"'\)]+)\1\)\s*}}\s*({{(?<status>[^_]+)_Inline\s*}})?/gi
-            ),
-        ];
-        if (!match.length) {
+    lineArr.forEach((line, index) => {
+        if (!line.startsWith("- [`")) {
             return;
         }
-        match = match.pop();
-        const name = match.groups.attr;
-        const fragment = `${elemFragment}/attributes/${name}`;
-        const nextLine = attrContentArr[index + 1];
-        let nextLineCheck = nextLine.match(/({{(?<status>[^_]+)_Header\s*}})/i);
-        let status = (
-            match.groups.status ||
-            nextLineCheck?.groups?.status ||
-            "living"
-        ).toLowerCase();
-
-        const summary = getSummary(nextLine);
-
-        attributes[fragment] = {
-            name,
-            status,
-            scope,
-            summary
-        };
+        const data = attributes.getData(line, index, lineArr, scope);
+        attrObj[data.name] = data;
     });
-    return attributes;
+    return attrObj;
 };
 
 const globalAttributeScopes = {
-    html: [
-        "html:global:generic",
-        "html:global:eventhandler",
-        "html:global:aria",
+    HTML: [
+        "HTML:global:generic",
+        "HTML:global:eventhandler",
+        "HTML:global:aria",
     ],
-    svg: ["svg:global:styling", "svg:global:core"],
+    SVG: ["SVG:global:styling", "SVG:global:core"],
     mathml: [],
 };
 
 const getElements = (type) => {
+    // build an empty generic element to hold the global attributes
+    store.set(`/web/${type.toLowerCase()}/element/*`, anyElement(type));
+    
     const directory = path.dirname(
         resource.normalizeLocalPath(`/web/${type}/element`)
     );
@@ -101,12 +102,12 @@ const getElements = (type) => {
         );
 
         const properties = {
+            ...getPreset('element'),
             ...contentObj.meta,
             ...{
                 interface: getInterface(contentObj.meta.name, type),
                 summary: getSummary(contentObj.summary),
-                type: "element",
-                scope: type === "mathml" ? "MathML" : type.toUpperCase(),
+                scope: type,
             },
             globalAttributeScopes: globalAttributeScopes[type],
             attributes: getAttributes(
