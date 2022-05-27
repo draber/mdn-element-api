@@ -1,8 +1,8 @@
-import getGlobalAttributes from "./modules/global-attributes.js";
-import getElements from "./modules/elements.js";
-import resource from "./modules/common/resource.js";
+import getGlobalAttributes from "./modules/collect-global-attributes.js";
+import getElements from "./modules/collect-elements.js";
+import resource from "./modules/resource.js";
 import store from "./modules/store.js";
-
+import getSingleElement from "./modules/get-single-element.js";
 
 ["HTML", "SVG", "MathML"].forEach((type) => {
     getElements(type);
@@ -19,3 +19,10 @@ import store from "./modules/store.js";
 });
 
 resource.write("data.json", store);
+store
+    .keys()
+    .filter((key) => !key.endsWith("*"))
+    .forEach((key) => {
+        const elem = getSingleElement(store, key);
+        resource.write(`${elem.scope.toLowerCase()}-${elem.name}.json`, elem);
+    });

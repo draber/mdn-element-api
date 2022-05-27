@@ -19,8 +19,7 @@
 				"type": "attribute",
 				"scope": "HTML:global:generic",
 				"tags": [
-					"HTML",
-					"accesskey"
+					"HTML"
 				]
 			},
 			"autocapitalize": {
@@ -31,7 +30,6 @@
 				"type": "attribute",
 				"scope": "HTML:global:generic",
 				"tags": [
-					"Autocapitalize",
 					"HTML"
 				]
 			},
@@ -43,7 +41,6 @@
 				"type": "attribute",
 				"scope": "HTML:global:generic",
 				"tags": [
-					"Autofocus",
 					"HTML"
 				]
 			},
@@ -69,7 +66,6 @@
 					"Editing",
 					"HTML",
 					"Text Editing",
-					"contenteditable",
 					"text entry",
 					"text input"
 				]
@@ -82,9 +78,7 @@
 				"type": "attribute",
 				"scope": "HTML:global:generic",
 				"tags": [
-					"Deprecated",
-					"HTML",
-					"contextmenu"
+					"HTML"
 				]
 			},
 			"data-*": {
@@ -176,7 +170,6 @@
 					"Text",
 					"contenteditable",
 					"global",
-					"inputmode",
 					"text input"
 				]
 			},
@@ -188,8 +181,7 @@
 				"type": "attribute",
 				"scope": "HTML:global:generic",
 				"tags": [
-					"HTML",
-					"is"
+					"HTML"
 				]
 			},
 			"itemid": {
@@ -202,8 +194,7 @@
 				"tags": [
 					"HTML",
 					"HTML Microdata",
-					"Microdata",
-					"itemid"
+					"Microdata"
 				]
 			},
 			"itemprop": {
@@ -288,8 +279,7 @@
 				"type": "attribute",
 				"scope": "HTML:global:generic",
 				"tags": [
-					"HTML",
-					"part"
+					"HTML"
 				]
 			},
 			"slot": {
@@ -344,8 +334,7 @@
 				"type": "attribute",
 				"scope": "HTML:global:generic",
 				"tags": [
-					"HTML",
-					"Title"
+					"HTML"
 				]
 			},
 			"translate": {
@@ -356,18 +345,8 @@
 				"type": "attribute",
 				"scope": "HTML:global:generic",
 				"tags": [
-					"Experimental",
 					"HTML"
 				]
-			},
-			"xml:lang": {
-				"name": "xml:lang",
-				"status": "living",
-				"summary": "",
-				"url": "",
-				"type": "attribute",
-				"scope": "HTML:global:eventhandler",
-				"tags": []
 			},
 			"onabort": {
 				"name": "onabort",
@@ -379,7 +358,6 @@
 				"tags": [
 					"API",
 					"Event Handler",
-					"Experimental",
 					"GlobalEventHandlers",
 					"Property",
 					"Window"
@@ -503,7 +481,6 @@
 					"API",
 					"Dialog",
 					"Event Handler",
-					"Experimental",
 					"GlobalEventHandlers",
 					"HTML DOM",
 					"Property"
@@ -763,8 +740,7 @@
 					"Event Handler",
 					"GlobalEventHandlers",
 					"HTML DOM",
-					"Property",
-					"Deprecated"
+					"Property"
 				]
 			},
 			"onkeyup": {
@@ -794,8 +770,7 @@
 					"Event Handler",
 					"GlobalEventHandlers",
 					"HTML DOM",
-					"Property",
-					"onload"
+					"Property"
 				]
 			},
 			"onloadeddata": {
@@ -839,8 +814,7 @@
 					"GlobalEventHandlers",
 					"HTML DOM",
 					"Property",
-					"events",
-					"onloadstart"
+					"events"
 				]
 			},
 			"onmousedown": {
@@ -953,9 +927,7 @@
 				"url": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onmousewheel",
 				"type": "attribute",
 				"scope": "HTML:global:eventhandler",
-				"tags": [
-					"Deprecated"
-				]
+				"tags": []
 			},
 			"onpause": {
 				"name": "onpause",
@@ -1044,8 +1016,7 @@
 					"Event Handler",
 					"GlobalEventHandlers",
 					"HTML DOM",
-					"Property",
-					"onresize"
+					"Property"
 				]
 			},
 			"onscroll": {
@@ -1208,8 +1179,7 @@
 					"Accessibility",
 					"ARIA",
 					"ARIA attribute",
-					"ARIA property",
-					"aria-atomic"
+					"ARIA property"
 				],
 				"spec-urls": "https://w3c.github.io/aria/#aria-atomic"
 			},
@@ -1224,7 +1194,6 @@
 					"Accessibility",
 					"ARIA",
 					"ARIA attribute",
-					"aria-busy",
 					"aria live regions",
 					"aria state"
 				],
@@ -1244,8 +1213,7 @@
 					"Accessibility",
 					"ARIA",
 					"ARIA attribute",
-					"ARIA property",
-					"aria-controls"
+					"ARIA property"
 				],
 				"spec-urls": "https://w3c.github.io/aria/#aria-controls"
 			},
@@ -1260,8 +1228,7 @@
 					"Accessibility",
 					"ARIA",
 					"ARIA attribute",
-					"ARIA property",
-					"aria-current"
+					"ARIA property"
 				],
 				"spec-urls": "https://w3c.github.io/aria/#aria-current"
 			},
@@ -1276,8 +1243,7 @@
 					"Accessibility",
 					"ARIA",
 					"ARIA attribute",
-					"ARIA property",
-					"aria-describedby"
+					"ARIA property"
 				],
 				"spec-urls": [
 					"https://w3c.github.io/aria/#aria-describedby",
@@ -1295,8 +1261,7 @@
 					"Accessibility",
 					"ARIA",
 					"ARIA attribute",
-					"ARIA property",
-					"aria-description"
+					"ARIA property"
 				],
 				"spec-urls": "https://w3c.github.io/aria/#aria-description"
 			},
@@ -1312,7 +1277,6 @@
 					"ARIA",
 					"ARIA attribute",
 					"ARIA property",
-					"aria-details",
 					"longdesc"
 				],
 				"spec-urls": "https://w3c.github.io/aria/#aria-details"
@@ -1328,14 +1292,13 @@
 					"Accessibility",
 					"ARIA",
 					"ARIA attribute",
-					"ARIA property",
-					"aria-disabled"
+					"ARIA property"
 				],
 				"spec-urls": "https://w3c.github.io/aria/#aria-disabled"
 			},
 			"aria-dropeffect": {
 				"name": "aria-dropeffect",
-				"status": "living",
+				"status": "deprecated",
 				"summary": "The global `aria-dropeffect` attribute indicates what functions may be performed when a dragged object is released on the drop target.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-dropeffect",
 				"type": "attribute",
@@ -1345,9 +1308,7 @@
 					"ARIA",
 					"ARIA attribute",
 					"ARIA property",
-					"aria-dropeffect",
-					"drag and drop",
-					"deprecated"
+					"drag and drop"
 				],
 				"spec-urls": "https://w3c.github.io/aria/#aria-dropeffect"
 			},
@@ -1362,8 +1323,7 @@
 					"Accessibility",
 					"ARIA",
 					"ARIA attribute",
-					"ARIA property",
-					"aria-errormessage"
+					"ARIA property"
 				],
 				"spec-urls": "https://w3c.github.io/aria/#aria-errormessage"
 			},
@@ -1378,14 +1338,13 @@
 					"Accessibility",
 					"ARIA",
 					"ARIA attribute",
-					"ARIA property",
-					"aria-flowto"
+					"ARIA property"
 				],
 				"spec-urls": "https://w3c.github.io/aria/#aria-flowto"
 			},
 			"aria-grabbed": {
 				"name": "aria-grabbed",
-				"status": "living",
+				"status": "deprecated",
 				"summary": "The `aria-grabbed` state indicates an element's \"grabbed\" state in a drag-and-drop operation.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-grabbed",
 				"type": "attribute",
@@ -1394,9 +1353,7 @@
 					"Accessibility",
 					"ARIA",
 					"ARIA attribute",
-					"ARIA property",
-					"aria-grabbed",
-					"deprecated"
+					"ARIA property"
 				],
 				"spec-urls": "https://w3c.github.io/aria/#aria-grabbed"
 			},
@@ -1411,8 +1368,7 @@
 					"Accessibility",
 					"ARIA",
 					"ARIA attribute",
-					"ARIA property",
-					"aria-haspopup"
+					"ARIA property"
 				],
 				"spec-urls": "https://w3c.github.io/aria/#aria-haspopup"
 			},
@@ -1427,8 +1383,7 @@
 					"Accessibility",
 					"ARIA",
 					"ARIA attribute",
-					"ARIA property",
-					"aria-hidden"
+					"ARIA property"
 				],
 				"spec-urls": "https://w3c.github.io/aria/#aria-hidden"
 			},
@@ -1443,8 +1398,7 @@
 					"Accessibility",
 					"ARIA",
 					"ARIA attribute",
-					"ARIA property",
-					"aria-invalid"
+					"ARIA property"
 				],
 				"spec-urls": "https://w3c.github.io/aria/#aria-invalid"
 			},
@@ -1459,8 +1413,7 @@
 					"Accessibility",
 					"ARIA",
 					"ARIA attribute",
-					"ARIA property",
-					"aria-keyshortcuts"
+					"ARIA property"
 				],
 				"spec-urls": [
 					"https://w3c.github.io/aria/#aria-keyshortcuts",
@@ -1478,8 +1431,7 @@
 					"Accessibility",
 					"ARIA",
 					"ARIA attribute",
-					"ARIA property",
-					"aria-label"
+					"ARIA property"
 				],
 				"spec-urls": "https://w3c.github.io/aria/#aria-label"
 			},
@@ -1494,8 +1446,7 @@
 					"Accessibility",
 					"ARIA",
 					"ARIA attribute",
-					"ARIA property",
-					"aria-labelledby"
+					"ARIA property"
 				],
 				"spec-urls": "https://w3c.github.io/aria/#aria-labelledby"
 			},
@@ -1510,8 +1461,7 @@
 					"Accessibility",
 					"ARIA",
 					"ARIA attribute",
-					"ARIA property",
-					"aria-live"
+					"ARIA property"
 				],
 				"spec-urls": "https://w3c.github.io/aria/#aria-live"
 			},
@@ -1526,8 +1476,7 @@
 					"Accessibility",
 					"ARIA",
 					"ARIA attribute",
-					"ARIA property",
-					"aria-owns"
+					"ARIA property"
 				],
 				"spec-urls": "https://w3c.github.io/aria/#aria-owns"
 			},
@@ -1542,8 +1491,7 @@
 					"Accessibility",
 					"ARIA",
 					"ARIA attribute",
-					"ARIA property",
-					"aria-relevant"
+					"ARIA property"
 				],
 				"spec-urls": "https://w3c.github.io/aria/#aria-relevant"
 			},
@@ -1558,8 +1506,7 @@
 					"Accessibility",
 					"ARIA",
 					"ARIA attribute",
-					"ARIA property",
-					"aria-roledescription"
+					"ARIA property"
 				],
 				"spec-urls": "https://w3c.github.io/aria/#aria-roledescription"
 			}
@@ -1698,8 +1645,7 @@
 		"scope": "HTML",
 		"tags": [
 			"HTML",
-			"HTML Flow content",
-			"Deprecated"
+			"HTML Flow content"
 		],
 		"interface": "HTMLElement",
 		"attributes": {},
@@ -1744,8 +1690,7 @@
 		"scope": "HTML",
 		"tags": [
 			"HTML",
-			"Java",
-			"Deprecated"
+			"Java"
 		],
 		"interface": "HTMLUnknownElement",
 		"attributes": {
@@ -2216,7 +2161,6 @@
 			"Fonts",
 			"HTML",
 			"Layout",
-			"Deprecated",
 			"Style"
 		],
 		"interface": "HTMLElement",
@@ -2340,8 +2284,7 @@
 			"Background Sound",
 			"HTML",
 			"Internet Explorer",
-			"Non-standard",
-			"Deprecated"
+			"Non-standard"
 		],
 		"interface": "HTMLUnknownElement",
 		"attributes": {
@@ -2396,8 +2339,7 @@
 		"type": "element",
 		"scope": "HTML",
 		"tags": [
-			"HTML",
-			"Deprecated"
+			"HTML"
 		],
 		"interface": "HTMLElement",
 		"attributes": {},
@@ -2415,8 +2357,7 @@
 		"type": "element",
 		"scope": "HTML",
 		"tags": [
-			"HTML",
-			"Deprecated"
+			"HTML"
 		],
 		"interface": "HTMLUnknownElement",
 		"attributes": [],
@@ -2959,7 +2900,6 @@
 		"scope": "HTML",
 		"tags": [
 			"HTML",
-			"Deprecated",
 			"Text",
 			"Text Alignment",
 			"alignment"
@@ -3085,7 +3025,6 @@
 		"scope": "HTML",
 		"tags": [
 			"DOM",
-			"Deprecated",
 			"HTML",
 			"HTML Web Components",
 			"Placeholder",
@@ -3324,7 +3263,6 @@
 			"Directory",
 			"HTML",
 			"HTML Lists",
-			"Deprecated",
 			"lists"
 		],
 		"interface": "HTMLDirectoryElement",
@@ -3588,8 +3526,7 @@
 		"type": "element",
 		"scope": "HTML",
 		"tags": [
-			"HTML",
-			"Deprecated"
+			"HTML"
 		],
 		"interface": "HTMLFontElement",
 		"attributes": {
@@ -3731,7 +3668,6 @@
 		"type": "element",
 		"scope": "HTML",
 		"tags": [
-			"Deprecated",
 			"HTML"
 		],
 		"interface": "HTMLFrameElement",
@@ -3814,7 +3750,6 @@
 		"type": "element",
 		"scope": "HTML",
 		"tags": [
-			"Deprecated",
 			"HTML"
 		],
 		"interface": "HTMLFrameSetElement",
@@ -4015,8 +3950,6 @@
 		"type": "element",
 		"scope": "HTML",
 		"tags": [
-			"Deprecated",
-			"Experimental",
 			"HTML"
 		],
 		"interface": "HTMLElement",
@@ -4313,8 +4246,7 @@
 			"HTML Element Reference",
 			"HTML Reference",
 			"HTML element",
-			"Non-standard",
-			"Deprecated"
+			"Non-standard"
 		],
 		"interface": "HTMLUnknownElement",
 		"attributes": [],
@@ -4571,9 +4503,7 @@
 		"type": "element",
 		"scope": "HTML",
 		"tags": [
-			"Deprecated",
-			"HTML",
-			"Deprecated"
+			"HTML"
 		],
 		"interface": "HTMLUnknownElement",
 		"attributes": {
@@ -4971,8 +4901,7 @@
 		"type": "element",
 		"scope": "HTML",
 		"tags": [
-			"HTML",
-			"Deprecated"
+			"HTML"
 		],
 		"interface": "HTMLMarqueeElement",
 		"attributes": {
@@ -5109,7 +5038,6 @@
 		"type": "element",
 		"scope": "HTML",
 		"tags": [
-			"Deprecated",
 			"HTML",
 			"Navigation",
 			"Navigation Menus",
@@ -5356,8 +5284,7 @@
 		"scope": "HTML",
 		"tags": [
 			"HTML",
-			"Non-standard",
-			"Deprecated"
+			"Non-standard"
 		],
 		"interface": "HTMLElement",
 		"attributes": [],
@@ -5378,8 +5305,7 @@
 			"Embedded content",
 			"Embedding",
 			"HTML",
-			"Non-standard",
-			"Deprecated"
+			"Non-standard"
 		],
 		"interface": "HTMLElement",
 		"attributes": [],
@@ -5399,8 +5325,7 @@
 		"tags": [
 			"Frames",
 			"HTML",
-			"HTML frames",
-			"Deprecated"
+			"HTML frames"
 		],
 		"interface": "HTMLElement",
 		"attributes": {},
@@ -5795,8 +5720,7 @@
 		"type": "element",
 		"scope": "HTML",
 		"tags": [
-			"HTML",
-			"Deprecated"
+			"HTML"
 		],
 		"interface": "HTMLParamElement",
 		"attributes": {
@@ -5874,7 +5798,6 @@
 		"scope": "HTML",
 		"tags": [
 			"HTML",
-			"Deprecated",
 			"Plain text"
 		],
 		"interface": "HTMLElement",
@@ -6035,7 +5958,6 @@
 		"type": "element",
 		"scope": "HTML",
 		"tags": [
-			"Deprecated",
 			"HTML",
 			"Ruby",
 			"Text"
@@ -6098,7 +6020,6 @@
 		"type": "element",
 		"scope": "HTML",
 		"tags": [
-			"Deprecated",
 			"HTML",
 			"Ruby Text",
 			"Text"
@@ -6407,7 +6328,6 @@
 		"type": "element",
 		"scope": "HTML",
 		"tags": [
-			"Deprecated",
 			"HTML",
 			"HTML Web Components",
 			"Shadow Root",
@@ -6566,8 +6486,7 @@
 		"type": "element",
 		"scope": "HTML",
 		"tags": [
-			"HTML",
-			"Deprecated"
+			"HTML"
 		],
 		"interface": "HTMLUnknownElement",
 		"attributes": {},
@@ -6605,8 +6524,7 @@
 		"type": "element",
 		"scope": "HTML",
 		"tags": [
-			"HTML",
-			"Deprecated"
+			"HTML"
 		],
 		"interface": "HTMLElement",
 		"attributes": {},
@@ -7183,7 +7101,6 @@
 			"Monospace",
 			"Monotype",
 			"Non-proportional Type",
-			"Deprecated",
 			"Teletype",
 			"Teletype Text",
 			"font-family"
@@ -7454,8 +7371,7 @@
 		"type": "element",
 		"scope": "HTML",
 		"tags": [
-			"HTML",
-			"Deprecated"
+			"HTML"
 		],
 		"interface": "HTMLPreElement",
 		"attributes": {},
@@ -7545,7 +7461,6 @@
 				"type": "attribute",
 				"scope": "SVG:global:core",
 				"tags": [
-					"Deprecated",
 					"SVG",
 					"SVG Attribute"
 				]
@@ -7601,29 +7516,57 @@
 			"href": {
 				"name": "href",
 				"status": "living",
-				"summary": "The URL or URL fragment the hyperlink points to.",
-				"url": "",
+				"summary": "The `href` attribute defines a link to a resource as a reference URL. The exact meaning of that link depends on the context of each element using it.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/href",
 				"type": "attribute",
 				"scope": "SVG:a",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				]
 			},
 			"target": {
 				"name": "target",
 				"status": "living",
-				"summary": "Where to display the linked URL.",
-				"url": "",
+				"summary": "The `target` attribute should be used when there are multiple possible targets for the ending resource, such as when the parent document is embedded within an HTML or XHTML document, or is viewed with a tabbed browser. This attribute specifies the name of the browsing context (e.g., a browser tab or an (X)HTML iframe or object element) into which a document is to be opened when the link is activated.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/target",
 				"type": "attribute",
 				"scope": "SVG:a",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				]
 			},
 			"xlink:href": {
 				"name": "xlink:href",
-				"status": "deprecated",
-				"summary": "The URL or URL fragment that the hyperlink points to. May be required for backwards compatibility for older browsers.",
-				"url": "",
+				"status": "living",
+				"summary": "The `xlink:href` attribute defines a reference to a resource as a reference IRI. The exact meaning of that link depends on the context of each element using it.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xlink:href",
 				"type": "attribute",
 				"scope": "SVG:a",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://www.w3.org/TR/SVG11/linking.html#AElementXLinkHrefAttribute",
+					"https://www.w3.org/TR/SVG11/text.html#AltGlyphElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/animate.html#HrefAttribute",
+					"https://www.w3.org/TR/SVG11/interact.html#CursorElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/filters.html#feImageElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/filters.html#FilterElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/fonts.html#FontFaceUriElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/text.html#GlyphRefElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/struct.html#ImageElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/pservers.html#LinearGradientElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/animate.html#MPathElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/pservers.html#PatternElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/pservers.html#RadialGradientElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/script.html#ScriptElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/text.html#TextPathElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/struct.html#UseElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/text.html#TRefElementHrefAttribute"
+				]
 			}
 		},
 		"globalAttributeScopes": [
@@ -7632,14 +7575,13 @@
 		]
 	},
 	"/web/svg/element/altglyph": {
-		"name": "altGlyph",
+		"name": "altglyph",
 		"status": "deprecated",
 		"summary": "The `<altGlyph>` SVG element allows sophisticated selection of the glyphs used to render its child character data.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/altGlyph",
 		"type": "element",
 		"scope": "SVG",
 		"tags": [
-			"Deprecated",
 			"SVG",
 			"SVG Text Content"
 		],
@@ -7648,74 +7590,149 @@
 			"x": {
 				"name": "x",
 				"status": "living",
-				"summary": "This attribute defines the corresponding absolute x-coordinates for rendering the element.",
-				"url": "",
+				"summary": "The `x` attribute defines an x-axis coordinate in the user coordinate system.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/x",
 				"type": "attribute",
-				"scope": "SVG:altGlyph",
-				"tags": []
+				"scope": "SVG:altglyph",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-x",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-x",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fepointlight-x",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-x",
+					"https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-x",
+					"https://svgwg.org/svg2-draft/geometry.html#X",
+					"https://svgwg.org/svg2-draft/pservers.html#PatternElementXAttribute",
+					"https://svgwg.org/svg2-draft/text.html#TextElementXAttribute"
+				]
 			},
 			"y": {
 				"name": "y",
 				"status": "living",
-				"summary": "This attribute defines the corresponding absolute y-coordinates for rendering the element.",
-				"url": "",
+				"summary": "The `y` attribute defines a y-axis coordinate in the user coordinate system.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/y",
 				"type": "attribute",
-				"scope": "SVG:altGlyph",
-				"tags": []
+				"scope": "SVG:altglyph",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-y",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-y",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fepointlight-y",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-y",
+					"https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-y",
+					"https://svgwg.org/svg2-draft/geometry.html#Y",
+					"https://svgwg.org/svg2-draft/pservers.html#PatternElementYAttribute",
+					"https://svgwg.org/svg2-draft/text.html#TextElementYAttribute"
+				]
 			},
 			"dx": {
 				"name": "dx",
 				"status": "living",
-				"summary": "This attribute indicates a shift along the x-axis on the position of the element.",
-				"url": "",
+				"summary": "The `dx` attribute indicates a shift along the x-axis on the position of an element or its content.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/dx",
 				"type": "attribute",
-				"scope": "SVG:altGlyph",
-				"tags": []
+				"scope": "SVG:altglyph",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fedropshadow-dx",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-feoffset-dx",
+					"https://svgwg.org/svg2-draft/text.html#TextElementDXAttribute"
+				]
 			},
 			"dy": {
 				"name": "dy",
 				"status": "living",
-				"summary": "This attribute indicates a shift along the x-axis on the position of the element.",
-				"url": "",
+				"summary": "The `dy` attribute indicates a shift along the y-axis on the position of an element or its content.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/dy",
 				"type": "attribute",
-				"scope": "SVG:altGlyph",
-				"tags": []
+				"scope": "SVG:altglyph",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fedropshadow-dy",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-feoffset-dy",
+					"https://svgwg.org/svg2-draft/text.html#TextElementDYAttribute"
+				]
 			},
 			"rotate": {
 				"name": "rotate",
-				"status": "living",
-				"summary": "This attribute defines the supplemental rotation that will be applied to the element.",
-				"url": "",
+				"status": "experimental",
+				"summary": "The `rotate` attribute specifies how the animated element rotates as it travels along a path specified in an animateMotion element.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/rotate",
 				"type": "attribute",
-				"scope": "SVG:altGlyph",
-				"tags": []
+				"scope": "SVG:altglyph",
+				"tags": [
+					"Animation",
+					"Graphics",
+					"SVG"
+				],
+				"spec-urls": "https://svgwg.org/specs/animations/#RotateAttribute"
 			},
-			"glyphRef": {
-				"name": "glyphRef",
-				"status": "living",
-				"summary": "The glyph identifier, the format of which is dependent on the format defined by the `format` attribute of the given font.",
-				"url": "",
+			"glyphref": {
+				"name": "glyphref",
+				"status": "deprecated",
+				"summary": "The `glyphRef` attribute represents the glyph identifier, the format of which is dependent on the format of the given font.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/glyphRef",
 				"type": "attribute",
-				"scope": "SVG:altGlyph",
-				"tags": []
+				"scope": "SVG:altglyph",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				]
 			},
 			"format": {
 				"name": "format",
-				"status": "living",
-				"summary": "The format of the given font.",
-				"url": "",
+				"status": "deprecated",
+				"summary": "The `format` attribute indicates the format of the given font.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/format",
 				"type": "attribute",
-				"scope": "SVG:altGlyph",
-				"tags": []
+				"scope": "SVG:altglyph",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				]
 			},
 			"xlink:href": {
 				"name": "xlink:href",
 				"status": "living",
-				"summary": "An <iri> reference either to a glyph element in an SVG document or to an altGlyphDef element.",
-				"url": "",
+				"summary": "The `xlink:href` attribute defines a reference to a resource as a reference IRI. The exact meaning of that link depends on the context of each element using it.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xlink:href",
 				"type": "attribute",
-				"scope": "SVG:altGlyph",
-				"tags": []
+				"scope": "SVG:altglyph",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://www.w3.org/TR/SVG11/linking.html#AElementXLinkHrefAttribute",
+					"https://www.w3.org/TR/SVG11/text.html#AltGlyphElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/animate.html#HrefAttribute",
+					"https://www.w3.org/TR/SVG11/interact.html#CursorElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/filters.html#feImageElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/filters.html#FilterElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/fonts.html#FontFaceUriElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/text.html#GlyphRefElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/struct.html#ImageElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/pservers.html#LinearGradientElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/animate.html#MPathElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/pservers.html#PatternElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/pservers.html#RadialGradientElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/script.html#ScriptElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/text.html#TextPathElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/struct.html#UseElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/text.html#TRefElementHrefAttribute"
+				]
 			}
 		},
 		"globalAttributeScopes": [
@@ -7724,14 +7741,13 @@
 		]
 	},
 	"/web/svg/element/altglyphdef": {
-		"name": "altGlyphDef",
+		"name": "altglyphdef",
 		"status": "deprecated",
 		"summary": "The `<altGlyphDef>` SVG element defines a substitution representation for glyphs.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/altGlyphDef",
 		"type": "element",
 		"scope": "SVG",
 		"tags": [
-			"Deprecated",
 			"SVG",
 			"SVG Text Content"
 		],
@@ -7743,14 +7759,13 @@
 		]
 	},
 	"/web/svg/element/altglyphitem": {
-		"name": "altGlyphItem",
+		"name": "altglyphitem",
 		"status": "deprecated",
 		"summary": "The `<altGlyphItem>` element provides a set of candidates for glyph substitution by the altGlyph element.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/altGlyphItem",
 		"type": "element",
 		"scope": "SVG",
 		"tags": [
-			"Deprecated",
 			"SVG",
 			"SVG Text Content"
 		],
@@ -7780,7 +7795,7 @@
 		]
 	},
 	"/web/svg/element/animatemotion": {
-		"name": "animateMotion",
+		"name": "animatemotion",
 		"status": "living",
 		"summary": "The SVG `<animateMotion>` element provides a way to define how an element moves along a motion path.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/animateMotion",
@@ -7792,32 +7807,47 @@
 		],
 		"interface": "SVGAnimateMotionElement",
 		"attributes": {
-			"keyPoints": {
-				"name": "keyPoints",
+			"keypoints": {
+				"name": "keypoints",
 				"status": "living",
-				"summary": "This attribute indicate, in the range [0,1], how far is the object along the path for each keyTimes associated values.",
-				"url": "",
+				"summary": "The `keyPoints` attribute indicates the simple duration of an animation.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/keyPoints",
 				"type": "attribute",
-				"scope": "SVG:animateMotion",
-				"tags": []
+				"scope": "SVG:animatemotion",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				]
 			},
 			"path": {
 				"name": "path",
 				"status": "living",
-				"summary": "This attribute defines the path of the motion, using the same syntax as the  attribute.",
-				"url": "",
+				"summary": "The `path` attribute has two different meanings, either it defines a text path along which the characters of a text are rendered, or a motion path along which a referenced element is animated.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/path",
 				"type": "attribute",
-				"scope": "SVG:animateMotion",
-				"tags": []
+				"scope": "SVG:animatemotion",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://svgwg.org/svg2-draft/text.html#TextPathElementPathAttribute",
+					"https://svgwg.org/specs/animations/#AnimateMotionElementPathAttribute"
+				]
 			},
 			"rotate": {
 				"name": "rotate",
-				"status": "living",
-				"summary": "This attribute defines a rotation applied to the element animated along a path, usually to make it pointing in the direction of the animation.",
-				"url": "",
+				"status": "experimental",
+				"summary": "The `rotate` attribute specifies how the animated element rotates as it travels along a path specified in an animateMotion element.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/rotate",
 				"type": "attribute",
-				"scope": "SVG:animateMotion",
-				"tags": []
+				"scope": "SVG:animatemotion",
+				"tags": [
+					"Animation",
+					"Graphics",
+					"SVG"
+				],
+				"spec-urls": "https://svgwg.org/specs/animations/#RotateAttribute"
 			}
 		},
 		"globalAttributeScopes": [
@@ -7826,7 +7856,7 @@
 		]
 	},
 	"/web/svg/element/animatetransform": {
-		"name": "animateTransform",
+		"name": "animatetransform",
 		"status": "living",
 		"summary": "The `animateTransform` element animates a transformation attribute on its target element, thereby allowing animations to control translation, scaling, rotation, and/or skewing.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/animateTransform",
@@ -7859,38 +7889,63 @@
 			"cx": {
 				"name": "cx",
 				"status": "living",
-				"summary": "The x-axis coordinate of the center of the circle.",
-				"url": "",
+				"summary": "The `cx` attribute define the x-axis coordinate of a center point.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/cx",
 				"type": "attribute",
 				"scope": "SVG:circle",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://svgwg.org/svg2-draft/geometry.html#CX",
+					"https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementCXAttribute"
+				]
 			},
 			"cy": {
 				"name": "cy",
 				"status": "living",
-				"summary": "The y-axis coordinate of the center of the circle.",
-				"url": "",
+				"summary": "The `cy` attribute define the y-axis coordinate of a center point.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/cy",
 				"type": "attribute",
 				"scope": "SVG:circle",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://svgwg.org/svg2-draft/geometry.html#CY",
+					"https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementCYAttribute"
+				]
 			},
 			"r": {
 				"name": "r",
 				"status": "living",
-				"summary": "The radius of the circle. A value lower or equal to zero disables rendering of the circle.",
-				"url": "",
+				"summary": "The `r` attribute defines the radius of a circle.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/r",
 				"type": "attribute",
 				"scope": "SVG:circle",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://svgwg.org/svg2-draft/geometry.html#R",
+					"https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementRAttribute"
+				]
 			},
-			"pathLength": {
-				"name": "pathLength",
+			"pathlength": {
+				"name": "pathlength",
 				"status": "living",
-				"summary": "The total length for the circle's circumference, in user units.",
-				"url": "",
+				"summary": "The `pathLength` attribute lets authors specify a total length for the path, in user units. This value is then used to calibrate the browser's distance calculations with those of the author, by scaling all distance computations using the ratio `pathLength`/(computed value of path length).",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/pathLength",
 				"type": "attribute",
 				"scope": "SVG:circle",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": "https://svgwg.org/svg2-draft/paths.html#PathLengthAttribute"
 			}
 		},
 		"globalAttributeScopes": [
@@ -7899,7 +7954,7 @@
 		]
 	},
 	"/web/svg/element/clippath": {
-		"name": "clipPath",
+		"name": "clippath",
 		"status": "living",
 		"summary": "The `<clipPath>` SVG element defines a clipping path, to be used by the clip-path property.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/clipPath",
@@ -7910,14 +7965,18 @@
 		],
 		"interface": "SVGClipPathElement",
 		"attributes": {
-			"clipPathUnits": {
-				"name": "clipPathUnits",
+			"clippathunits": {
+				"name": "clippathunits",
 				"status": "living",
-				"summary": "Defines the coordinate system for the contents of the `<clipPath>` element.",
-				"url": "",
+				"summary": "The `clipPathUnits` attribute indicates which coordinate system to use for the contents of the clipPath element.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/clipPathUnits",
 				"type": "attribute",
-				"scope": "SVG:clipPath",
-				"tags": []
+				"scope": "SVG:clippath",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": "https://drafts.fxtf.org/css-masking-1/#element-attrdef-clippath-clippathunits"
 			}
 		},
 		"globalAttributeScopes": [
@@ -7933,7 +7992,6 @@
 		"type": "element",
 		"scope": "SVG",
 		"tags": [
-			"Deprecated",
 			"SVG"
 		],
 		"interface": "SVGCursorElement",
@@ -8013,47 +8071,73 @@
 			"cx": {
 				"name": "cx",
 				"status": "living",
-				"summary": "The x position of the ellipse.",
-				"url": "",
+				"summary": "The `cx` attribute define the x-axis coordinate of a center point.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/cx",
 				"type": "attribute",
 				"scope": "SVG:ellipse",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://svgwg.org/svg2-draft/geometry.html#CX",
+					"https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementCXAttribute"
+				]
 			},
 			"cy": {
 				"name": "cy",
 				"status": "living",
-				"summary": "The y position of the ellipse.",
-				"url": "",
+				"summary": "The `cy` attribute define the y-axis coordinate of a center point.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/cy",
 				"type": "attribute",
 				"scope": "SVG:ellipse",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://svgwg.org/svg2-draft/geometry.html#CY",
+					"https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementCYAttribute"
+				]
 			},
 			"rx": {
 				"name": "rx",
 				"status": "living",
-				"summary": "The radius of the ellipse on the x axis.",
-				"url": "",
+				"summary": "The `rx` attribute defines a radius on the x-axis.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/rx",
 				"type": "attribute",
 				"scope": "SVG:ellipse",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": "https://svgwg.org/svg2-draft/geometry.html#RX"
 			},
 			"ry": {
 				"name": "ry",
 				"status": "living",
-				"summary": "The radius of the ellipse on the y axis.",
-				"url": "",
+				"summary": "The `ry` attribute defines a radius on the y-axis.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/ry",
 				"type": "attribute",
 				"scope": "SVG:ellipse",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": "https://svgwg.org/svg2-draft/geometry.html#RY"
 			},
-			"pathLength": {
-				"name": "pathLength",
+			"pathlength": {
+				"name": "pathlength",
 				"status": "living",
-				"summary": "This attribute lets specify the total length for the path, in user units.",
-				"url": "",
+				"summary": "The `pathLength` attribute lets authors specify a total length for the path, in user units. This value is then used to calibrate the browser's distance calculations with those of the author, by scaling all distance computations using the ratio `pathLength`/(computed value of path length).",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/pathLength",
 				"type": "attribute",
 				"scope": "SVG:ellipse",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": "https://svgwg.org/svg2-draft/paths.html#PathLengthAttribute"
 			}
 		},
 		"globalAttributeScopes": [
@@ -8062,7 +8146,7 @@
 		]
 	},
 	"/web/svg/element/feblend": {
-		"name": "feBlend",
+		"name": "feblend",
 		"status": "living",
 		"summary": "The `<feBlend>` SVG filter primitive composes two objects together ruled by a certain blending mode. This is similar to what is known from image editing software when blending two layers. The mode is defined by the mode attribute.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feBlend",
@@ -8080,7 +8164,7 @@
 		]
 	},
 	"/web/svg/element/fecolormatrix": {
-		"name": "feColorMatrix",
+		"name": "fecolormatrix",
 		"status": "living",
 		"summary": "The `<feColorMatrix>` SVG filter element changes colors based on a transformation matrix. Every pixel's color value `[R,G,B,A]` is matrix multiplied by a 5 by 5 color matrix to create new color `[R',G',B',A']`.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feColorMatrix",
@@ -8098,7 +8182,7 @@
 		]
 	},
 	"/web/svg/element/fecomponenttransfer": {
-		"name": "feComponentTransfer",
+		"name": "fecomponenttransfer",
 		"status": "living",
 		"summary": "The `<feComponentTransfer>` SVG filter primitive performs color-component-wise remapping of data for each pixel. It allows operations like brightness adjustment, contrast adjustment, color balance or thresholding.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feComponentTransfer",
@@ -8116,7 +8200,7 @@
 		]
 	},
 	"/web/svg/element/fecomposite": {
-		"name": "feComposite",
+		"name": "fecomposite",
 		"status": "living",
 		"summary": "The `<feComposite>` SVG filter primitive performs the combination of two input images pixel-wise in image space using one of the Porter-Duff compositing operations: `over`, `in`, `atop`, `out`, `xor`, `lighter`, or `arithmetic`.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feComposite",
@@ -8134,7 +8218,7 @@
 		]
 	},
 	"/web/svg/element/feconvolvematrix": {
-		"name": "feConvolveMatrix",
+		"name": "feconvolvematrix",
 		"status": "living",
 		"summary": "The `<feConvolveMatrix>` SVG filter primitive applies a matrix convolution filter effect. A convolution combines pixels in the input image with neighboring pixels to produce a resulting image. A wide variety of imaging operations can be achieved through convolutions, including blurring, edge detection, sharpening, embossing and beveling.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feConvolveMatrix",
@@ -8153,7 +8237,7 @@
 		]
 	},
 	"/web/svg/element/fediffuselighting": {
-		"name": "feDiffuseLighting",
+		"name": "fediffuselighting",
 		"status": "living",
 		"summary": "The `<feDiffuseLighting>` SVG filter primitive lights an image using the alpha channel as a bump map. The resulting image, which is an RGBA opaque image, depends on the light color, light position and surface geometry of the input bump map.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feDiffuseLighting",
@@ -8171,7 +8255,7 @@
 		]
 	},
 	"/web/svg/element/fedisplacementmap": {
-		"name": "feDisplacementMap",
+		"name": "fedisplacementmap",
 		"status": "living",
 		"summary": "The `<feDisplacementMap>` SVG filter primitive uses the pixel values from the image from in2 to spatially displace the image from in.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feDisplacementMap",
@@ -8189,7 +8273,7 @@
 		]
 	},
 	"/web/svg/element/fedistantlight": {
-		"name": "feDistantLight",
+		"name": "fedistantlight",
 		"status": "living",
 		"summary": "The `<feDistantLight>` filter primitive defines a distant light source that can be used within a lighting filter primitive: feDiffuseLighting or feSpecularLighting.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feDistantLight",
@@ -8208,7 +8292,7 @@
 		]
 	},
 	"/web/svg/element/fedropshadow": {
-		"name": "feDropShadow",
+		"name": "fedropshadow",
 		"status": "living",
 		"summary": "The SVG `<feDropShadow>` filter primitive creates a drop shadow of the input image. It can only be used inside a  element.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feDropShadow",
@@ -8223,29 +8307,49 @@
 			"dx": {
 				"name": "dx",
 				"status": "living",
-				"summary": "This attribute defines the x offset of the drop shadow.",
-				"url": "",
+				"summary": "The `dx` attribute indicates a shift along the x-axis on the position of an element or its content.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/dx",
 				"type": "attribute",
-				"scope": "SVG:feDropShadow",
-				"tags": []
+				"scope": "SVG:fedropshadow",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fedropshadow-dx",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-feoffset-dx",
+					"https://svgwg.org/svg2-draft/text.html#TextElementDXAttribute"
+				]
 			},
 			"dy": {
 				"name": "dy",
 				"status": "living",
-				"summary": "This attribute defines the y offset of the drop shadow.",
-				"url": "",
+				"summary": "The `dy` attribute indicates a shift along the y-axis on the position of an element or its content.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/dy",
 				"type": "attribute",
-				"scope": "SVG:feDropShadow",
-				"tags": []
+				"scope": "SVG:fedropshadow",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fedropshadow-dy",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-feoffset-dy",
+					"https://svgwg.org/svg2-draft/text.html#TextElementDYAttribute"
+				]
 			},
-			"stdDeviation": {
-				"name": "stdDeviation",
+			"stddeviation": {
+				"name": "stddeviation",
 				"status": "living",
-				"summary": "This attribute defines the standard deviation for the blur operation in the drop shadow.",
-				"url": "",
+				"summary": "The `stdDeviation` attribute defines the standard deviation for the blur operation.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/stdDeviation",
 				"type": "attribute",
-				"scope": "SVG:feDropShadow",
-				"tags": []
+				"scope": "SVG:fedropshadow",
+				"tags": [
+					"Filters",
+					"SVG",
+					"SVG Attribute"
+				]
 			}
 		},
 		"globalAttributeScopes": [
@@ -8254,7 +8358,7 @@
 		]
 	},
 	"/web/svg/element/feflood": {
-		"name": "feFlood",
+		"name": "feflood",
 		"status": "living",
 		"summary": "The `<feFlood>` SVG filter primitive fills the filter subregion with the color and opacity defined by flood-color and flood-opacity.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feFlood",
@@ -8272,7 +8376,7 @@
 		]
 	},
 	"/web/svg/element/fefunca": {
-		"name": "feFuncA",
+		"name": "fefunca",
 		"status": "living",
 		"summary": "The `<feFuncA>` SVG filter primitive defines the transfer function for the alpha component of the input graphic of its parent feComponentTransfer element.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feFuncA",
@@ -8290,7 +8394,7 @@
 		]
 	},
 	"/web/svg/element/fefuncb": {
-		"name": "feFuncB",
+		"name": "fefuncb",
 		"status": "living",
 		"summary": "The `<feFuncB>` SVG filter primitive defines the transfer function for the blue component of the input graphic of its parent feComponentTransfer element.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feFuncB",
@@ -8308,7 +8412,7 @@
 		]
 	},
 	"/web/svg/element/fefuncg": {
-		"name": "feFuncG",
+		"name": "fefuncg",
 		"status": "living",
 		"summary": "The `<feFuncG>` SVG filter primitive defines the transfer function for the green component of the input graphic of its parent feComponentTransfer element.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feFuncG",
@@ -8326,7 +8430,7 @@
 		]
 	},
 	"/web/svg/element/fefuncr": {
-		"name": "feFuncR",
+		"name": "fefuncr",
 		"status": "living",
 		"summary": "The `<feFuncR>` SVG filter primitive defines the transfer function for the red component of the input graphic of its parent feComponentTransfer element.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feFuncR",
@@ -8344,7 +8448,7 @@
 		]
 	},
 	"/web/svg/element/fegaussianblur": {
-		"name": "feGaussianBlur",
+		"name": "fegaussianblur",
 		"status": "living",
 		"summary": "The `<feGaussianBlur>` SVG filter primitive blurs the input image by the amount specified in stdDeviation, which defines the bell-curve.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feGaussianBlur",
@@ -8362,7 +8466,7 @@
 		]
 	},
 	"/web/svg/element/feimage": {
-		"name": "feImage",
+		"name": "feimage",
 		"status": "living",
 		"summary": "The `<feImage>` SVG filter primitive fetches image data from an external source and provides the pixel data as output (meaning if the external source is an SVG image, it is rasterized.)",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feImage",
@@ -8380,7 +8484,7 @@
 		]
 	},
 	"/web/svg/element/femerge": {
-		"name": "feMerge",
+		"name": "femerge",
 		"status": "living",
 		"summary": "The `<feMerge>` SVG element allows filter effects to be applied concurrently instead of sequentially. This is achieved by other filters storing their output via the result attribute and then accessing it in a feMergeNode child.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feMerge",
@@ -8398,7 +8502,7 @@
 		]
 	},
 	"/web/svg/element/femergenode": {
-		"name": "feMergeNode",
+		"name": "femergenode",
 		"status": "living",
 		"summary": "The `feMergeNode` takes the result of another filter to be processed by its parent feMerge.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feMergeNode",
@@ -8416,7 +8520,7 @@
 		]
 	},
 	"/web/svg/element/femorphology": {
-		"name": "feMorphology",
+		"name": "femorphology",
 		"status": "living",
 		"summary": "The `<feMorphology>` SVG filter primitive is used to erode or dilate the input image. Its usefulness lies especially in fattening or thinning effects.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feMorphology",
@@ -8434,7 +8538,7 @@
 		]
 	},
 	"/web/svg/element/feoffset": {
-		"name": "feOffset",
+		"name": "feoffset",
 		"status": "living",
 		"summary": "The `<feOffset>` SVG filter primitive allows to offset the input image. The input image as a whole is offset by the values specified in the dx and dy attributes.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feOffset",
@@ -8452,7 +8556,7 @@
 		]
 	},
 	"/web/svg/element/fepointlight": {
-		"name": "fePointLight",
+		"name": "fepointlight",
 		"status": "living",
 		"summary": "The `<fePointLight>` filter primitive defines a light source which allows to create a point light effect. It that can be used within a lighting filter primitive: feDiffuseLighting or feSpecularLighting.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/fePointLight",
@@ -8471,7 +8575,7 @@
 		]
 	},
 	"/web/svg/element/fespecularlighting": {
-		"name": "feSpecularLighting",
+		"name": "fespecularlighting",
 		"status": "living",
 		"summary": "The `<feSpecularLighting>` SVG filter primitive lights a source graphic using the alpha channel as a bump map. The resulting image is an RGBA image based on the light color. The lighting calculation follows the standard specular component of the Phong lighting model. The resulting image depends on the light color, light position and surface geometry of the input bump map. The result of the lighting calculation is added. The filter primitive assumes that the viewer is at infinity in the z direction.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feSpecularLighting",
@@ -8489,7 +8593,7 @@
 		]
 	},
 	"/web/svg/element/fespotlight": {
-		"name": "feSpotLight",
+		"name": "fespotlight",
 		"status": "living",
 		"summary": "The `<feSpotLight>` SVG filter primitive defines a light source that can be used to create a spotlight effect. It is used within a lighting filter primitive: feDiffuseLighting or feSpecularLighting.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feSpotLight",
@@ -8507,7 +8611,7 @@
 		]
 	},
 	"/web/svg/element/fetile": {
-		"name": "feTile",
+		"name": "fetile",
 		"status": "living",
 		"summary": "The `<feTile>` SVG filter primitive allows to fill a target rectangle with a repeated, tiled pattern of an input image. The effect is similar to the one of a pattern.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feTile",
@@ -8525,7 +8629,7 @@
 		]
 	},
 	"/web/svg/element/feturbulence": {
-		"name": "feTurbulence",
+		"name": "feturbulence",
 		"status": "living",
 		"summary": "The `<feTurbulence>` SVG filter primitive creates an image using the Perlin turbulence function. It allows the synthesis of artificial textures like clouds or marble. The resulting image will fill the entire filter primitive subregion.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feTurbulence",
@@ -8567,7 +8671,6 @@
 		"type": "element",
 		"scope": "SVG",
 		"tags": [
-			"Deprecated",
 			"SVG",
 			"SVG Font"
 		],
@@ -8586,7 +8689,6 @@
 		"type": "element",
 		"scope": "SVG",
 		"tags": [
-			"Deprecated",
 			"SVG",
 			"SVG Font"
 		],
@@ -8605,7 +8707,6 @@
 		"type": "element",
 		"scope": "SVG",
 		"tags": [
-			"Deprecated",
 			"SVG",
 			"SVG Font"
 		],
@@ -8624,7 +8725,6 @@
 		"type": "element",
 		"scope": "SVG",
 		"tags": [
-			"Deprecated",
 			"SVG",
 			"SVG Font"
 		],
@@ -8643,7 +8743,6 @@
 		"type": "element",
 		"scope": "SVG",
 		"tags": [
-			"Deprecated",
 			"SVG",
 			"SVG Font"
 		],
@@ -8662,7 +8761,6 @@
 		"type": "element",
 		"scope": "SVG",
 		"tags": [
-			"Deprecated",
 			"SVG",
 			"SVG Font"
 		],
@@ -8674,7 +8772,7 @@
 		]
 	},
 	"/web/svg/element/foreignobject": {
-		"name": "foreignObject",
+		"name": "foreignobject",
 		"status": "living",
 		"summary": "The `<foreignObject>` SVG element includes elements from a different XML namespace. In the context of a browser, it is most likely (X)HTML.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/foreignObject",
@@ -8688,38 +8786,84 @@
 			"height": {
 				"name": "height",
 				"status": "living",
-				"summary": "The height of the foreignObject.",
-				"url": "",
+				"summary": "The `height` attribute defines the vertical length of an element in the user coordinate system.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/height",
 				"type": "attribute",
-				"scope": "SVG:foreignObject",
-				"tags": []
+				"scope": "SVG:foreignobject",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-height",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-height",
+					"https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-height",
+					"https://svgwg.org/svg2-draft/geometry.html#Sizing",
+					"https://svgwg.org/svg2-draft/pservers.html#PatternElementHeightAttribute"
+				]
 			},
 			"width": {
 				"name": "width",
 				"status": "living",
-				"summary": "The width of the foreignObject.",
-				"url": "",
+				"summary": "The `width` attribute defines the horizontal length of an element in the user coordinate system.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/width",
 				"type": "attribute",
-				"scope": "SVG:foreignObject",
-				"tags": []
+				"scope": "SVG:foreignobject",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-width",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-width",
+					"https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-width",
+					"https://svgwg.org/svg2-draft/geometry.html#Sizing",
+					"https://svgwg.org/svg2-draft/pservers.html#PatternElementWidthAttribute"
+				]
 			},
 			"x": {
 				"name": "x",
 				"status": "living",
-				"summary": "The x coordinate of the foreignObject.",
-				"url": "",
+				"summary": "The `x` attribute defines an x-axis coordinate in the user coordinate system.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/x",
 				"type": "attribute",
-				"scope": "SVG:foreignObject",
-				"tags": []
+				"scope": "SVG:foreignobject",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-x",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-x",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fepointlight-x",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-x",
+					"https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-x",
+					"https://svgwg.org/svg2-draft/geometry.html#X",
+					"https://svgwg.org/svg2-draft/pservers.html#PatternElementXAttribute",
+					"https://svgwg.org/svg2-draft/text.html#TextElementXAttribute"
+				]
 			},
 			"y": {
 				"name": "y",
 				"status": "living",
-				"summary": "The y coordinate of the foreignObject.",
-				"url": "",
+				"summary": "The `y` attribute defines a y-axis coordinate in the user coordinate system.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/y",
 				"type": "attribute",
-				"scope": "SVG:foreignObject",
-				"tags": []
+				"scope": "SVG:foreignobject",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-y",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-y",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fepointlight-y",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-y",
+					"https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-y",
+					"https://svgwg.org/svg2-draft/geometry.html#Y",
+					"https://svgwg.org/svg2-draft/pservers.html#PatternElementYAttribute",
+					"https://svgwg.org/svg2-draft/text.html#TextElementYAttribute"
+				]
 			}
 		},
 		"globalAttributeScopes": [
@@ -8764,14 +8908,13 @@
 		]
 	},
 	"/web/svg/element/glyphref": {
-		"name": "glyphRef",
+		"name": "glyphref",
 		"status": "deprecated",
 		"summary": "The `glyphRef` element provides a single possible glyph to the referencing altGlyph substitution.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/glyphRef",
 		"type": "element",
 		"scope": "SVG",
 		"tags": [
-			"Deprecated",
 			"SVG",
 			"SVG Text Content"
 		],
@@ -8790,7 +8933,6 @@
 		"type": "element",
 		"scope": "SVG",
 		"tags": [
-			"Deprecated",
 			"SVG",
 			"SVG Font"
 		],
@@ -8835,47 +8977,84 @@
 			"x1": {
 				"name": "x1",
 				"status": "living",
-				"summary": "Defines the x-axis coordinate of the line starting point.",
-				"url": "",
+				"summary": "The `x1` attribute is used to specify the first x-coordinate for drawing an SVG element that requires more than one coordinate. Elements that only need one coordinate use the x attribute instead.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/x1",
 				"type": "attribute",
 				"scope": "SVG:line",
-				"tags": []
+				"tags": [
+					"Drawing Lines",
+					"Gradients",
+					"LInes",
+					"SVG",
+					"SVG Attribute",
+					"SVG Gradients",
+					"Vector Graphics"
+				],
+				"spec-urls": [
+					"https://svgwg.org/svg2-draft/shapes.html#LineElementX1Attribute",
+					"https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementX1Attribute"
+				]
 			},
 			"x2": {
 				"name": "x2",
 				"status": "living",
-				"summary": "Defines the x-axis coordinate of the line ending point.",
-				"url": "",
+				"summary": "The `x2` attribute is used to specify the second x-coordinate for drawing an SVG element that requires more than one coordinate. Elements that only need one coordinate use the x attribute instead.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/x2",
 				"type": "attribute",
 				"scope": "SVG:line",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://svgwg.org/svg2-draft/shapes.html#LineElementX2Attribute",
+					"https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementX2Attribute"
+				]
 			},
 			"y1": {
 				"name": "y1",
 				"status": "living",
-				"summary": "Defines the y-axis coordinate of the line starting point.",
-				"url": "",
+				"summary": "The `y1` attribute is used to specify the first y-coordinate for drawing an SVG element that requires more than one coordinate. Elements that only need one coordinate use the y attribute instead.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/y1",
 				"type": "attribute",
 				"scope": "SVG:line",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://svgwg.org/svg2-draft/shapes.html#LineElementY1Attribute",
+					"https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementY1Attribute"
+				]
 			},
 			"y2": {
 				"name": "y2",
 				"status": "living",
-				"summary": "Defines the y-axis coordinate of the line ending point.",
-				"url": "",
+				"summary": "The `y2` attribute is used to specify the second y-coordinate for drawing an SVG element that requires more than one coordinate. Elements that only need one coordinate use the y attribute instead.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/y2",
 				"type": "attribute",
 				"scope": "SVG:line",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://svgwg.org/svg2-draft/shapes.html#LineElementY2Attribute",
+					"https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementY2Attribute"
+				]
 			},
-			"pathLength": {
-				"name": "pathLength",
+			"pathlength": {
+				"name": "pathlength",
 				"status": "living",
-				"summary": "Defines the total path length in user units.",
-				"url": "",
+				"summary": "The `pathLength` attribute lets authors specify a total length for the path, in user units. This value is then used to calibrate the browser's distance calculations with those of the author, by scaling all distance computations using the ratio `pathLength`/(computed value of path length).",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/pathLength",
 				"type": "attribute",
 				"scope": "SVG:line",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": "https://svgwg.org/svg2-draft/paths.html#PathLengthAttribute"
 			}
 		},
 		"globalAttributeScopes": [
@@ -8884,7 +9063,7 @@
 		]
 	},
 	"/web/svg/element/lineargradient": {
-		"name": "linearGradient",
+		"name": "lineargradient",
 		"status": "living",
 		"summary": "The `<linearGradient>` element lets authors define linear gradients to apply to other SVG elements.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/linearGradient",
@@ -8896,86 +9075,157 @@
 		],
 		"interface": "SVGLinearGradientElement",
 		"attributes": {
-			"gradientUnits": {
-				"name": "gradientUnits",
+			"gradientunits": {
+				"name": "gradientunits",
 				"status": "living",
-				"summary": "This attribute defines the coordinate system for attributes `x1`, `x2`, `y1`, `y2`",
-				"url": "",
+				"summary": "The `gradientUnits` attribute defines the coordinate system used for attributes specified on the gradient elements.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/gradientUnits",
 				"type": "attribute",
-				"scope": "SVG:linearGradient",
-				"tags": []
+				"scope": "SVG:lineargradient",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementGradientUnitsAttribute",
+					"https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementGradientUnitsAttribute"
+				]
 			},
-			"gradientTransform": {
-				"name": "gradientTransform",
+			"gradienttransform": {
+				"name": "gradienttransform",
 				"status": "living",
-				"summary": "This attribute provides additional transformation to the gradient coordinate system.",
-				"url": "",
+				"summary": "The `gradientTransform` attribute contains the definition of an optional additional transformation from the gradient coordinate system onto the target coordinate system (i.e., userSpaceOnUse or objectBoundingBox). This allows for things such as skewing the gradient. This additional transformation matrix is post-multiplied to (i.e., inserted to the right of) any previously defined transformations, including the implicit transformation necessary to convert from object bounding box units to user space.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/gradientTransform",
 				"type": "attribute",
-				"scope": "SVG:linearGradient",
-				"tags": []
+				"scope": "SVG:lineargradient",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				]
 			},
 			"href": {
 				"name": "href",
 				"status": "living",
-				"summary": "This attribute defines a reference to another `<linearGradient>` element that will be used as a template.",
-				"url": "",
+				"summary": "The `href` attribute defines a link to a resource as a reference URL. The exact meaning of that link depends on the context of each element using it.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/href",
 				"type": "attribute",
-				"scope": "SVG:linearGradient",
-				"tags": []
+				"scope": "SVG:lineargradient",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				]
 			},
-			"spreadMethod": {
-				"name": "spreadMethod",
+			"spreadmethod": {
+				"name": "spreadmethod",
 				"status": "living",
-				"summary": "This attribute indicates how the gradient behaves if it starts or ends inside the bounds of the shape containing the gradient.",
-				"url": "",
+				"summary": "The `spreadMethod` attribute determines how a shape is filled beyond the defined edges of a gradient.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/spreadMethod",
 				"type": "attribute",
-				"scope": "SVG:linearGradient",
-				"tags": []
+				"scope": "SVG:lineargradient",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				]
 			},
 			"x1": {
 				"name": "x1",
 				"status": "living",
-				"summary": "This attribute defines the x coordinate of the starting point of the vector gradient along which the linear gradient is drawn.",
-				"url": "",
+				"summary": "The `x1` attribute is used to specify the first x-coordinate for drawing an SVG element that requires more than one coordinate. Elements that only need one coordinate use the x attribute instead.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/x1",
 				"type": "attribute",
-				"scope": "SVG:linearGradient",
-				"tags": []
+				"scope": "SVG:lineargradient",
+				"tags": [
+					"Drawing Lines",
+					"Gradients",
+					"LInes",
+					"SVG",
+					"SVG Attribute",
+					"SVG Gradients",
+					"Vector Graphics"
+				],
+				"spec-urls": [
+					"https://svgwg.org/svg2-draft/shapes.html#LineElementX1Attribute",
+					"https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementX1Attribute"
+				]
 			},
 			"x2": {
 				"name": "x2",
 				"status": "living",
-				"summary": "This attribute defines the x coordinate of the ending point of the vector gradient along which the linear gradient is drawn.",
-				"url": "",
+				"summary": "The `x2` attribute is used to specify the second x-coordinate for drawing an SVG element that requires more than one coordinate. Elements that only need one coordinate use the x attribute instead.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/x2",
 				"type": "attribute",
-				"scope": "SVG:linearGradient",
-				"tags": []
+				"scope": "SVG:lineargradient",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://svgwg.org/svg2-draft/shapes.html#LineElementX2Attribute",
+					"https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementX2Attribute"
+				]
 			},
 			"xlink:href": {
 				"name": "xlink:href",
-				"status": "deprecated",
-				"summary": "An <IRI> reference to another `<linearGradient>` element that will be used as a template.",
-				"url": "",
+				"status": "living",
+				"summary": "The `xlink:href` attribute defines a reference to a resource as a reference IRI. The exact meaning of that link depends on the context of each element using it.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xlink:href",
 				"type": "attribute",
-				"scope": "SVG:linearGradient",
-				"tags": []
+				"scope": "SVG:lineargradient",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://www.w3.org/TR/SVG11/linking.html#AElementXLinkHrefAttribute",
+					"https://www.w3.org/TR/SVG11/text.html#AltGlyphElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/animate.html#HrefAttribute",
+					"https://www.w3.org/TR/SVG11/interact.html#CursorElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/filters.html#feImageElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/filters.html#FilterElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/fonts.html#FontFaceUriElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/text.html#GlyphRefElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/struct.html#ImageElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/pservers.html#LinearGradientElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/animate.html#MPathElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/pservers.html#PatternElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/pservers.html#RadialGradientElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/script.html#ScriptElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/text.html#TextPathElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/struct.html#UseElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/text.html#TRefElementHrefAttribute"
+				]
 			},
 			"y1": {
 				"name": "y1",
 				"status": "living",
-				"summary": "This attribute defines the y coordinate of the starting point of the vector gradient along which the linear gradient is drawn.",
-				"url": "",
+				"summary": "The `y1` attribute is used to specify the first y-coordinate for drawing an SVG element that requires more than one coordinate. Elements that only need one coordinate use the y attribute instead.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/y1",
 				"type": "attribute",
-				"scope": "SVG:linearGradient",
-				"tags": []
+				"scope": "SVG:lineargradient",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://svgwg.org/svg2-draft/shapes.html#LineElementY1Attribute",
+					"https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementY1Attribute"
+				]
 			},
 			"y2": {
 				"name": "y2",
 				"status": "living",
-				"summary": "This attribute defines the y coordinate of the ending point of the vector gradient along which the linear gradient is drawn.",
-				"url": "",
+				"summary": "The `y2` attribute is used to specify the second y-coordinate for drawing an SVG element that requires more than one coordinate. Elements that only need one coordinate use the y attribute instead.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/y2",
 				"type": "attribute",
-				"scope": "SVG:linearGradient",
-				"tags": []
+				"scope": "SVG:lineargradient",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://svgwg.org/svg2-draft/shapes.html#LineElementY2Attribute",
+					"https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementY2Attribute"
+				]
 			}
 		},
 		"globalAttributeScopes": [
@@ -8996,77 +9246,108 @@
 		],
 		"interface": "SVGMarkerElement",
 		"attributes": {
-			"markerHeight": {
-				"name": "markerHeight",
+			"markerheight": {
+				"name": "markerheight",
 				"status": "living",
-				"summary": "This attribute defines the height of the marker viewport.",
-				"url": "",
+				"summary": "The `markerHeight` attribute represents the height of the viewport into which the marker is to be fitted when it is rendered according to the viewBox and preserveAspectRatio attributes.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/markerHeight",
 				"type": "attribute",
 				"scope": "SVG:marker",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				]
 			},
-			"markerUnits": {
-				"name": "markerUnits",
+			"markerunits": {
+				"name": "markerunits",
 				"status": "living",
-				"summary": "This attribute defines the coordinate system for the attributes `markerWidth`, `markerHeight` and the contents of the `<marker>`.",
-				"url": "",
+				"summary": "The `markerUnits` attribute defines the coordinate system for the markerWidth and markerHeight attributes and the contents of the marker.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/markerUnits",
 				"type": "attribute",
 				"scope": "SVG:marker",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				]
 			},
-			"markerWidth": {
-				"name": "markerWidth",
+			"markerwidth": {
+				"name": "markerwidth",
 				"status": "living",
-				"summary": "This attribute defines the width of the marker viewport.",
-				"url": "",
+				"summary": "The `markerWidth` attribute represents the width of the viewport into which the marker is to be fitted when it is rendered according to the viewBox and preserveAspectRatio attributes.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/markerWidth",
 				"type": "attribute",
 				"scope": "SVG:marker",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				]
 			},
 			"orient": {
 				"name": "orient",
 				"status": "living",
-				"summary": "This attribute defines the orientation of the marker relative to the shape it is attached to.",
-				"url": "",
+				"summary": "The `orient` attribute indicates how a marker is rotated when it is placed at its position on the shape.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/orient",
 				"type": "attribute",
 				"scope": "SVG:marker",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attr"
+				]
 			},
-			"preserveAspectRatio": {
-				"name": "preserveAspectRatio",
+			"preserveaspectratio": {
+				"name": "preserveaspectratio",
 				"status": "living",
-				"summary": "This attribute defines how the svg fragment must be deformed if it is embedded in a container with a different aspect ratio.",
-				"url": "",
+				"summary": "The `preserveAspectRatio` attribute indicates how an element with a viewBox providing a given aspect ratio must fit into a viewport with a different aspect ratio.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/preserveAspectRatio",
 				"type": "attribute",
 				"scope": "SVG:marker",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-feimage-preserveaspectratio",
+					"https://svgwg.org/svg2-draft/coords.html#PreserveAspectRatioAttribute"
+				]
 			},
-			"refX": {
-				"name": "refX",
+			"refx": {
+				"name": "refx",
 				"status": "living",
-				"summary": "This attribute defines the x coordinate for the reference point of the marker.",
-				"url": "",
+				"summary": "The `refX` attribute defines the x coordinate of an element's reference point.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/refX",
 				"type": "attribute",
 				"scope": "SVG:marker",
-				"tags": []
+				"tags": [],
+				"spec-urls": [
+					"https://svgwg.org/svg2-draft/painting.html#MarkerElementRefXAttribute",
+					"https://svgwg.org/svg2-draft/struct.html#SymbolElementRefXAttribute"
+				]
 			},
-			"refY": {
-				"name": "refY",
+			"refy": {
+				"name": "refy",
 				"status": "living",
-				"summary": "This attribute defines the y coordinate for the reference point of the marker.",
-				"url": "",
+				"summary": "The `refY` attribute defines the y coordinate of an element's reference point.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/refY",
 				"type": "attribute",
 				"scope": "SVG:marker",
-				"tags": []
+				"tags": [],
+				"spec-urls": [
+					"https://svgwg.org/svg2-draft/painting.html#MarkerElementRefYAttribute",
+					"https://svgwg.org/svg2-draft/struct.html#SymbolElementRefYAttribute"
+				]
 			},
-			"viewBox": {
-				"name": "viewBox",
+			"viewbox": {
+				"name": "viewbox",
 				"status": "living",
-				"summary": "This attribute defines the bound of the SVG viewport for the current SVG fragment.",
-				"url": "",
+				"summary": "The `viewBox` attribute defines the position and dimension, in user space, of an SVG viewport.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/viewBox",
 				"type": "attribute",
 				"scope": "SVG:marker",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": "https://svgwg.org/svg2-draft/coords.html#ViewBoxAttribute"
 			}
 		},
 		"globalAttributeScopes": [
@@ -9090,56 +9371,108 @@
 			"height": {
 				"name": "height",
 				"status": "living",
-				"summary": "This attribute defines the height of the masking area.",
-				"url": "",
+				"summary": "The `height` attribute defines the vertical length of an element in the user coordinate system.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/height",
 				"type": "attribute",
 				"scope": "SVG:mask",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-height",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-height",
+					"https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-height",
+					"https://svgwg.org/svg2-draft/geometry.html#Sizing",
+					"https://svgwg.org/svg2-draft/pservers.html#PatternElementHeightAttribute"
+				]
 			},
-			"maskContentUnits": {
-				"name": "maskContentUnits",
+			"maskcontentunits": {
+				"name": "maskcontentunits",
 				"status": "living",
-				"summary": "This attribute defines the coordinate system for the contents of the `<mask>`.",
-				"url": "",
+				"summary": "The `maskContentUnits` attribute indicates which coordinate system to use for the contents of the mask element.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/maskContentUnits",
 				"type": "attribute",
 				"scope": "SVG:mask",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				]
 			},
-			"maskUnits": {
-				"name": "maskUnits",
+			"maskunits": {
+				"name": "maskunits",
 				"status": "living",
-				"summary": "This attribute defines the coordinate system for attributes x, y, width and height on the `<mask>`.",
-				"url": "",
+				"summary": "The `maskUnits` attribute indicates which coordinate system to use for the geometry properties of the mask element.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/maskUnits",
 				"type": "attribute",
 				"scope": "SVG:mask",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				]
 			},
 			"x": {
 				"name": "x",
 				"status": "living",
-				"summary": "This attribute defines the x-axis coordinate of the top-left corner of the masking area.",
-				"url": "",
+				"summary": "The `x` attribute defines an x-axis coordinate in the user coordinate system.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/x",
 				"type": "attribute",
 				"scope": "SVG:mask",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-x",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-x",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fepointlight-x",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-x",
+					"https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-x",
+					"https://svgwg.org/svg2-draft/geometry.html#X",
+					"https://svgwg.org/svg2-draft/pservers.html#PatternElementXAttribute",
+					"https://svgwg.org/svg2-draft/text.html#TextElementXAttribute"
+				]
 			},
 			"y": {
 				"name": "y",
 				"status": "living",
-				"summary": "This attribute defines the y-axis coordinate of the top-left corner of the masking area.",
-				"url": "",
+				"summary": "The `y` attribute defines a y-axis coordinate in the user coordinate system.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/y",
 				"type": "attribute",
 				"scope": "SVG:mask",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-y",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-y",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fepointlight-y",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-y",
+					"https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-y",
+					"https://svgwg.org/svg2-draft/geometry.html#Y",
+					"https://svgwg.org/svg2-draft/pservers.html#PatternElementYAttribute",
+					"https://svgwg.org/svg2-draft/text.html#TextElementYAttribute"
+				]
 			},
 			"width": {
 				"name": "width",
 				"status": "living",
-				"summary": "This attribute defines the width of the masking area.",
-				"url": "",
+				"summary": "The `width` attribute defines the horizontal length of an element in the user coordinate system.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/width",
 				"type": "attribute",
 				"scope": "SVG:mask",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-width",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-width",
+					"https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-width",
+					"https://svgwg.org/svg2-draft/geometry.html#Sizing",
+					"https://svgwg.org/svg2-draft/pservers.html#PatternElementWidthAttribute"
+				]
 			}
 		},
 		"globalAttributeScopes": [
@@ -9173,7 +9506,6 @@
 		"type": "element",
 		"scope": "SVG",
 		"tags": [
-			"Deprecated",
 			"SVG",
 			"SVG Container"
 		],
@@ -9218,20 +9550,27 @@
 			"d": {
 				"name": "d",
 				"status": "living",
-				"summary": "This attribute defines the shape of the path.",
-				"url": "",
+				"summary": "The `d` attribute defines a path to be drawn.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
 				"type": "attribute",
 				"scope": "SVG:path",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				]
 			},
-			"pathLength": {
-				"name": "pathLength",
+			"pathlength": {
+				"name": "pathlength",
 				"status": "living",
-				"summary": "This attribute lets authors specify the total length for the path, in user units.",
-				"url": "",
+				"summary": "The `pathLength` attribute lets authors specify a total length for the path, in user units. This value is then used to calibrate the browser's distance calculations with those of the author, by scaling all distance computations using the ratio `pathLength`/(computed value of path length).",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/pathLength",
 				"type": "attribute",
 				"scope": "SVG:path",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": "https://svgwg.org/svg2-draft/paths.html#PathLengthAttribute"
 			}
 		},
 		"globalAttributeScopes": [
@@ -9255,101 +9594,192 @@
 			"height": {
 				"name": "height",
 				"status": "living",
-				"summary": "This attribute determines the height of the pattern tile.",
-				"url": "",
+				"summary": "The `height` attribute defines the vertical length of an element in the user coordinate system.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/height",
 				"type": "attribute",
 				"scope": "SVG:pattern",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-height",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-height",
+					"https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-height",
+					"https://svgwg.org/svg2-draft/geometry.html#Sizing",
+					"https://svgwg.org/svg2-draft/pservers.html#PatternElementHeightAttribute"
+				]
 			},
 			"href": {
 				"name": "href",
 				"status": "living",
-				"summary": "This attribute reference a template pattern that provides default values for the `<pattern>` attributes.",
-				"url": "",
+				"summary": "The `href` attribute defines a link to a resource as a reference URL. The exact meaning of that link depends on the context of each element using it.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/href",
 				"type": "attribute",
 				"scope": "SVG:pattern",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				]
 			},
-			"patternContentUnits": {
-				"name": "patternContentUnits",
+			"patterncontentunits": {
+				"name": "patterncontentunits",
 				"status": "living",
-				"summary": "This attribute defines the coordinate system for the contents of the pattern.",
-				"url": "",
+				"summary": "The `patternContentUnits` attribute indicates which coordinate system to use for the contents of the pattern element.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/patternContentUnits",
 				"type": "attribute",
 				"scope": "SVG:pattern",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				]
 			},
-			"patternTransform": {
-				"name": "patternTransform",
+			"patterntransform": {
+				"name": "patterntransform",
 				"status": "living",
-				"summary": "This attribute contains the definition of an optional additional transformation from the pattern coordinate system onto the target coordinate system.",
-				"url": "",
+				"summary": "The `patternTransform` attribute defines a list of transform definitions that are applied to a pattern tile.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/patternTransform",
 				"type": "attribute",
 				"scope": "SVG:pattern",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				]
 			},
-			"patternUnits": {
-				"name": "patternUnits",
+			"patternunits": {
+				"name": "patternunits",
 				"status": "living",
-				"summary": "This attribute defines the coordinate system for attributes `x`, `y`, `width` , and `height`.",
-				"url": "",
+				"summary": "The `patternUnits` attribute indicates which coordinate system to use for the geometry properties of the pattern element.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/patternUnits",
 				"type": "attribute",
 				"scope": "SVG:pattern",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				]
 			},
-			"preserveAspectRatio": {
-				"name": "preserveAspectRatio",
+			"preserveaspectratio": {
+				"name": "preserveaspectratio",
 				"status": "living",
-				"summary": "This attribute defines how the SVG fragment must be deformed if it is embedded in a container with a different aspect ratio.",
-				"url": "",
+				"summary": "The `preserveAspectRatio` attribute indicates how an element with a viewBox providing a given aspect ratio must fit into a viewport with a different aspect ratio.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/preserveAspectRatio",
 				"type": "attribute",
 				"scope": "SVG:pattern",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-feimage-preserveaspectratio",
+					"https://svgwg.org/svg2-draft/coords.html#PreserveAspectRatioAttribute"
+				]
 			},
-			"viewBox": {
-				"name": "viewBox",
+			"viewbox": {
+				"name": "viewbox",
 				"status": "living",
-				"summary": "This attribute defines the bound of the SVG viewport for the pattern fragment.",
-				"url": "",
+				"summary": "The `viewBox` attribute defines the position and dimension, in user space, of an SVG viewport.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/viewBox",
 				"type": "attribute",
 				"scope": "SVG:pattern",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": "https://svgwg.org/svg2-draft/coords.html#ViewBoxAttribute"
 			},
 			"width": {
 				"name": "width",
 				"status": "living",
-				"summary": "This attribute determines the width of the pattern tile.",
-				"url": "",
+				"summary": "The `width` attribute defines the horizontal length of an element in the user coordinate system.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/width",
 				"type": "attribute",
 				"scope": "SVG:pattern",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-width",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-width",
+					"https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-width",
+					"https://svgwg.org/svg2-draft/geometry.html#Sizing",
+					"https://svgwg.org/svg2-draft/pservers.html#PatternElementWidthAttribute"
+				]
 			},
 			"x": {
 				"name": "x",
 				"status": "living",
-				"summary": "This attribute determines the x coordinate shift of the pattern tile.",
-				"url": "",
+				"summary": "The `x` attribute defines an x-axis coordinate in the user coordinate system.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/x",
 				"type": "attribute",
 				"scope": "SVG:pattern",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-x",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-x",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fepointlight-x",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-x",
+					"https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-x",
+					"https://svgwg.org/svg2-draft/geometry.html#X",
+					"https://svgwg.org/svg2-draft/pservers.html#PatternElementXAttribute",
+					"https://svgwg.org/svg2-draft/text.html#TextElementXAttribute"
+				]
 			},
 			"xlink:href": {
 				"name": "xlink:href",
-				"status": "deprecated",
-				"summary": "This attribute reference a template pattern that provides default values for the `<pattern>` attributes.",
-				"url": "",
+				"status": "living",
+				"summary": "The `xlink:href` attribute defines a reference to a resource as a reference IRI. The exact meaning of that link depends on the context of each element using it.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xlink:href",
 				"type": "attribute",
 				"scope": "SVG:pattern",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://www.w3.org/TR/SVG11/linking.html#AElementXLinkHrefAttribute",
+					"https://www.w3.org/TR/SVG11/text.html#AltGlyphElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/animate.html#HrefAttribute",
+					"https://www.w3.org/TR/SVG11/interact.html#CursorElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/filters.html#feImageElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/filters.html#FilterElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/fonts.html#FontFaceUriElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/text.html#GlyphRefElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/struct.html#ImageElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/pservers.html#LinearGradientElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/animate.html#MPathElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/pservers.html#PatternElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/pservers.html#RadialGradientElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/script.html#ScriptElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/text.html#TextPathElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/struct.html#UseElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/text.html#TRefElementHrefAttribute"
+				]
 			},
 			"y": {
 				"name": "y",
 				"status": "living",
-				"summary": "This attribute determines the y coordinate shift of the pattern tile.",
-				"url": "",
+				"summary": "The `y` attribute defines a y-axis coordinate in the user coordinate system.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/y",
 				"type": "attribute",
 				"scope": "SVG:pattern",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-y",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-y",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fepointlight-y",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-y",
+					"https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-y",
+					"https://svgwg.org/svg2-draft/geometry.html#Y",
+					"https://svgwg.org/svg2-draft/pservers.html#PatternElementYAttribute",
+					"https://svgwg.org/svg2-draft/text.html#TextElementYAttribute"
+				]
 			}
 		},
 		"globalAttributeScopes": [
@@ -9373,20 +9803,31 @@
 			"points": {
 				"name": "points",
 				"status": "living",
-				"summary": "This attribute defines the list of points (pairs of `x,y` absolute coordinates) required to draw the polygon.",
-				"url": "",
+				"summary": "The `points` attribute defines a list of points. Each point is defined by a pair of number representing a X and a Y coordinate in the user coordinate system. If the attribute contains an odd number of coordinates, the last one will be ignored.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/points",
 				"type": "attribute",
 				"scope": "SVG:polygon",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://svgwg.org/svg2-draft/shapes.html#PolygonElementPointsAttribute",
+					"https://svgwg.org/svg2-draft/shapes.html#PolylineElementPointsAttribute"
+				]
 			},
-			"pathLength": {
-				"name": "pathLength",
+			"pathlength": {
+				"name": "pathlength",
 				"status": "living",
-				"summary": "This attribute lets specify the total length for the path, in user units.",
-				"url": "",
+				"summary": "The `pathLength` attribute lets authors specify a total length for the path, in user units. This value is then used to calibrate the browser's distance calculations with those of the author, by scaling all distance computations using the ratio `pathLength`/(computed value of path length).",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/pathLength",
 				"type": "attribute",
 				"scope": "SVG:polygon",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": "https://svgwg.org/svg2-draft/paths.html#PathLengthAttribute"
 			}
 		},
 		"globalAttributeScopes": [
@@ -9410,20 +9851,31 @@
 			"points": {
 				"name": "points",
 				"status": "living",
-				"summary": "This attribute defines the list of points (pairs of x,y absolute coordinates) required to draw the polyline",
-				"url": "",
+				"summary": "The `points` attribute defines a list of points. Each point is defined by a pair of number representing a X and a Y coordinate in the user coordinate system. If the attribute contains an odd number of coordinates, the last one will be ignored.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/points",
 				"type": "attribute",
 				"scope": "SVG:polyline",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://svgwg.org/svg2-draft/shapes.html#PolygonElementPointsAttribute",
+					"https://svgwg.org/svg2-draft/shapes.html#PolylineElementPointsAttribute"
+				]
 			},
-			"pathLength": {
-				"name": "pathLength",
+			"pathlength": {
+				"name": "pathlength",
 				"status": "living",
-				"summary": "This attribute lets specify the total length for the path, in user units.",
-				"url": "",
+				"summary": "The `pathLength` attribute lets authors specify a total length for the path, in user units. This value is then used to calibrate the browser's distance calculations with those of the author, by scaling all distance computations using the ratio `pathLength`/(computed value of path length).",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/pathLength",
 				"type": "attribute",
 				"scope": "SVG:polyline",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": "https://svgwg.org/svg2-draft/paths.html#PathLengthAttribute"
 			}
 		},
 		"globalAttributeScopes": [
@@ -9432,7 +9884,7 @@
 		]
 	},
 	"/web/svg/element/radialgradient": {
-		"name": "radialGradient",
+		"name": "radialgradient",
 		"status": "living",
 		"summary": "The `<radialGradient>` element lets authors define radial gradients that can be applied to fill or stroke of graphical elements.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/radialGradient",
@@ -9447,101 +9899,169 @@
 			"cx": {
 				"name": "cx",
 				"status": "living",
-				"summary": "This attribute defines the x coordinate of the end circle of the radial gradient.",
-				"url": "",
+				"summary": "The `cx` attribute define the x-axis coordinate of a center point.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/cx",
 				"type": "attribute",
-				"scope": "SVG:radialGradient",
-				"tags": []
+				"scope": "SVG:radialgradient",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://svgwg.org/svg2-draft/geometry.html#CX",
+					"https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementCXAttribute"
+				]
 			},
 			"cy": {
 				"name": "cy",
 				"status": "living",
-				"summary": "This attribute defines the y coordinate of the end circle of the radial gradient.",
-				"url": "",
+				"summary": "The `cy` attribute define the y-axis coordinate of a center point.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/cy",
 				"type": "attribute",
-				"scope": "SVG:radialGradient",
-				"tags": []
+				"scope": "SVG:radialgradient",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://svgwg.org/svg2-draft/geometry.html#CY",
+					"https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementCYAttribute"
+				]
 			},
 			"fr": {
 				"name": "fr",
 				"status": "living",
-				"summary": "This attribute defines the radius of the start circle of the radial gradient. The gradient will be drawn such that the 0%  is mapped to the perimeter of the start circle.",
-				"url": "",
+				"summary": "The `fr` attribute defines the radius of the focal point for the radial gradient.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/fr",
 				"type": "attribute",
-				"scope": "SVG:radialGradient",
-				"tags": []
+				"scope": "SVG:radialgradient",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				]
 			},
 			"fx": {
 				"name": "fx",
 				"status": "living",
-				"summary": "This attribute defines the x coordinate of the start circle of the radial gradient.",
-				"url": "",
+				"summary": "The `fx` attribute defines the x-axis coordinate of the focal point for a radial gradient.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/fx",
 				"type": "attribute",
-				"scope": "SVG:radialGradient",
-				"tags": []
+				"scope": "SVG:radialgradient",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				]
 			},
 			"fy": {
 				"name": "fy",
 				"status": "living",
-				"summary": "This attribute defines the y coordinate of the start circle of the radial gradient.",
-				"url": "",
+				"summary": "The `fy` attribute defines the y-axis coordinate of the focal point for a radial gradient.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/fy",
 				"type": "attribute",
-				"scope": "SVG:radialGradient",
-				"tags": []
+				"scope": "SVG:radialgradient",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				]
 			},
-			"gradientUnits": {
-				"name": "gradientUnits",
+			"gradientunits": {
+				"name": "gradientunits",
 				"status": "living",
-				"summary": "This attribute defines the coordinate system for attributes `cx`, `cy`, `r`, `fx`, `fy`, `fr`",
-				"url": "",
+				"summary": "The `gradientUnits` attribute defines the coordinate system used for attributes specified on the gradient elements.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/gradientUnits",
 				"type": "attribute",
-				"scope": "SVG:radialGradient",
-				"tags": []
+				"scope": "SVG:radialgradient",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementGradientUnitsAttribute",
+					"https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementGradientUnitsAttribute"
+				]
 			},
-			"gradientTransform": {
-				"name": "gradientTransform",
+			"gradienttransform": {
+				"name": "gradienttransform",
 				"status": "living",
-				"summary": "This attribute provides additional transformation to the gradient coordinate system.",
-				"url": "",
+				"summary": "The `gradientTransform` attribute contains the definition of an optional additional transformation from the gradient coordinate system onto the target coordinate system (i.e., userSpaceOnUse or objectBoundingBox). This allows for things such as skewing the gradient. This additional transformation matrix is post-multiplied to (i.e., inserted to the right of) any previously defined transformations, including the implicit transformation necessary to convert from object bounding box units to user space.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/gradientTransform",
 				"type": "attribute",
-				"scope": "SVG:radialGradient",
-				"tags": []
+				"scope": "SVG:radialgradient",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				]
 			},
 			"href": {
 				"name": "href",
 				"status": "living",
-				"summary": "This attribute defines a reference to another `<radialGradient>` element that will be used as a template.",
-				"url": "",
+				"summary": "The `href` attribute defines a link to a resource as a reference URL. The exact meaning of that link depends on the context of each element using it.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/href",
 				"type": "attribute",
-				"scope": "SVG:radialGradient",
-				"tags": []
+				"scope": "SVG:radialgradient",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				]
 			},
 			"r": {
 				"name": "r",
 				"status": "living",
-				"summary": "This attribute defines the radius of the end circle of the radial gradient. The gradient will be drawn such that the 100%  is mapped to the perimeter of the end circle.",
-				"url": "",
+				"summary": "The `r` attribute defines the radius of a circle.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/r",
 				"type": "attribute",
-				"scope": "SVG:radialGradient",
-				"tags": []
+				"scope": "SVG:radialgradient",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://svgwg.org/svg2-draft/geometry.html#R",
+					"https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementRAttribute"
+				]
 			},
-			"spreadMethod": {
-				"name": "spreadMethod",
+			"spreadmethod": {
+				"name": "spreadmethod",
 				"status": "living",
-				"summary": "This attribute indicates how the gradient behaves if it starts or ends inside the bounds of the shape containing the gradient.",
-				"url": "",
+				"summary": "The `spreadMethod` attribute determines how a shape is filled beyond the defined edges of a gradient.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/spreadMethod",
 				"type": "attribute",
-				"scope": "SVG:radialGradient",
-				"tags": []
+				"scope": "SVG:radialgradient",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				]
 			},
 			"xlink:href": {
 				"name": "xlink:href",
-				"status": "deprecated",
-				"summary": "An <IRI> reference to another `<radialGradient>` element that will be used as a template.",
-				"url": "",
+				"status": "living",
+				"summary": "The `xlink:href` attribute defines a reference to a resource as a reference IRI. The exact meaning of that link depends on the context of each element using it.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xlink:href",
 				"type": "attribute",
-				"scope": "SVG:radialGradient",
-				"tags": []
+				"scope": "SVG:radialgradient",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://www.w3.org/TR/SVG11/linking.html#AElementXLinkHrefAttribute",
+					"https://www.w3.org/TR/SVG11/text.html#AltGlyphElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/animate.html#HrefAttribute",
+					"https://www.w3.org/TR/SVG11/interact.html#CursorElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/filters.html#feImageElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/filters.html#FilterElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/fonts.html#FontFaceUriElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/text.html#GlyphRefElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/struct.html#ImageElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/pservers.html#LinearGradientElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/animate.html#MPathElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/pservers.html#PatternElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/pservers.html#RadialGradientElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/script.html#ScriptElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/text.html#TextPathElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/struct.html#UseElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/text.html#TRefElementHrefAttribute"
+				]
 			}
 		},
 		"globalAttributeScopes": [
@@ -9565,65 +10085,123 @@
 			"x": {
 				"name": "x",
 				"status": "living",
-				"summary": "The x coordinate of the rect.",
-				"url": "",
+				"summary": "The `x` attribute defines an x-axis coordinate in the user coordinate system.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/x",
 				"type": "attribute",
 				"scope": "SVG:rect",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-x",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-x",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fepointlight-x",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-x",
+					"https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-x",
+					"https://svgwg.org/svg2-draft/geometry.html#X",
+					"https://svgwg.org/svg2-draft/pservers.html#PatternElementXAttribute",
+					"https://svgwg.org/svg2-draft/text.html#TextElementXAttribute"
+				]
 			},
 			"y": {
 				"name": "y",
 				"status": "living",
-				"summary": "The y coordinate of the rect.",
-				"url": "",
+				"summary": "The `y` attribute defines a y-axis coordinate in the user coordinate system.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/y",
 				"type": "attribute",
 				"scope": "SVG:rect",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-y",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-y",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fepointlight-y",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-y",
+					"https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-y",
+					"https://svgwg.org/svg2-draft/geometry.html#Y",
+					"https://svgwg.org/svg2-draft/pservers.html#PatternElementYAttribute",
+					"https://svgwg.org/svg2-draft/text.html#TextElementYAttribute"
+				]
 			},
 			"width": {
 				"name": "width",
 				"status": "living",
-				"summary": "The width of the rect.",
-				"url": "",
+				"summary": "The `width` attribute defines the horizontal length of an element in the user coordinate system.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/width",
 				"type": "attribute",
 				"scope": "SVG:rect",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-width",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-width",
+					"https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-width",
+					"https://svgwg.org/svg2-draft/geometry.html#Sizing",
+					"https://svgwg.org/svg2-draft/pservers.html#PatternElementWidthAttribute"
+				]
 			},
 			"height": {
 				"name": "height",
 				"status": "living",
-				"summary": "The height of the rect.",
-				"url": "",
+				"summary": "The `height` attribute defines the vertical length of an element in the user coordinate system.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/height",
 				"type": "attribute",
 				"scope": "SVG:rect",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-height",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-height",
+					"https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-height",
+					"https://svgwg.org/svg2-draft/geometry.html#Sizing",
+					"https://svgwg.org/svg2-draft/pservers.html#PatternElementHeightAttribute"
+				]
 			},
 			"rx": {
 				"name": "rx",
 				"status": "living",
-				"summary": "The horizontal corner radius of the rect. Defaults to `ry` if it is specified.",
-				"url": "",
+				"summary": "The `rx` attribute defines a radius on the x-axis.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/rx",
 				"type": "attribute",
 				"scope": "SVG:rect",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": "https://svgwg.org/svg2-draft/geometry.html#RX"
 			},
 			"ry": {
 				"name": "ry",
 				"status": "living",
-				"summary": "The vertical corner radius of the rect. Defaults to `rx` if it is specified.",
-				"url": "",
+				"summary": "The `ry` attribute defines a radius on the y-axis.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/ry",
 				"type": "attribute",
 				"scope": "SVG:rect",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": "https://svgwg.org/svg2-draft/geometry.html#RY"
 			},
-			"pathLength": {
-				"name": "pathLength",
+			"pathlength": {
+				"name": "pathlength",
 				"status": "living",
-				"summary": "The total length of the rectangle's perimeter, in user units.",
-				"url": "",
+				"summary": "The `pathLength` attribute lets authors specify a total length for the path, in user units. This value is then used to calibrate the browser's distance calculations with those of the author, by scaling all distance computations using the ratio `pathLength`/(computed value of path length).",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/pathLength",
 				"type": "attribute",
 				"scope": "SVG:rect",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": "https://svgwg.org/svg2-draft/paths.html#PathLengthAttribute"
 			}
 		},
 		"globalAttributeScopes": [
@@ -9646,29 +10224,58 @@
 			"href": {
 				"name": "href",
 				"status": "living",
-				"summary": "The URL to the script to load.",
-				"url": "",
+				"summary": "The `href` attribute defines a link to a resource as a reference URL. The exact meaning of that link depends on the context of each element using it.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/href",
 				"type": "attribute",
 				"scope": "SVG:script",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				]
 			},
 			"type": {
 				"name": "type",
 				"status": "living",
-				"summary": "This attribute defines type of the script language to use.",
-				"url": "",
+				"summary": "The `type` attribute is a generic attribute and it has different meaning based on the context in which it's used.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/type",
 				"type": "attribute",
 				"scope": "SVG:script",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute",
+					"filter"
+				]
 			},
 			"xlink:href": {
 				"name": "xlink:href",
-				"status": "deprecated",
-				"summary": "The URL to the script to load.",
-				"url": "",
+				"status": "living",
+				"summary": "The `xlink:href` attribute defines a reference to a resource as a reference IRI. The exact meaning of that link depends on the context of each element using it.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xlink:href",
 				"type": "attribute",
 				"scope": "SVG:script",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://www.w3.org/TR/SVG11/linking.html#AElementXLinkHrefAttribute",
+					"https://www.w3.org/TR/SVG11/text.html#AltGlyphElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/animate.html#HrefAttribute",
+					"https://www.w3.org/TR/SVG11/interact.html#CursorElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/filters.html#feImageElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/filters.html#FilterElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/fonts.html#FontFaceUriElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/text.html#GlyphRefElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/struct.html#ImageElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/pservers.html#LinearGradientElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/animate.html#MPathElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/pservers.html#PatternElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/pservers.html#RadialGradientElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/script.html#ScriptElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/text.html#TextPathElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/struct.html#UseElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/text.html#TRefElementHrefAttribute"
+				]
 			}
 		},
 		"globalAttributeScopes": [
@@ -9692,11 +10299,18 @@
 			"to": {
 				"name": "to",
 				"status": "living",
-				"summary": "This attribute defines the value to be applied to the target attribute for the duration of the animation. The value must match the requirements of the target attribute.",
-				"url": "",
+				"summary": "The `to` attribute indicates the final value of the attribute that will be modified during the animation.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/To",
 				"type": "attribute",
 				"scope": "SVG:set",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://svgwg.org/specs/animations/#SetElementToAttribute",
+					"https://svgwg.org/specs/animations/#ToAttribute"
+				]
 			}
 		},
 		"globalAttributeScopes": [
@@ -9729,20 +10343,26 @@
 			"stop-color": {
 				"name": "stop-color",
 				"status": "living",
-				"summary": "This attribute defines the color of the gradient stop. It can be used as a CSS property.",
-				"url": "",
+				"summary": "The `stop-color` attribute indicates what color to use at a gradient stop.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/stop-color",
 				"type": "attribute",
 				"scope": "SVG:stop",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				]
 			},
 			"stop-opacity": {
 				"name": "stop-opacity",
 				"status": "living",
-				"summary": "This attribute defines the opacity of the gradient stop. It can be used as a CSS property.",
-				"url": "",
+				"summary": "The `stop-opacity` attribute defines the opacity of a given color gradient stop.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/stop-opacity",
 				"type": "attribute",
 				"scope": "SVG:stop",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				]
 			}
 		},
 		"globalAttributeScopes": [
@@ -9765,20 +10385,27 @@
 			"type": {
 				"name": "type",
 				"status": "living",
-				"summary": "This attribute defines type of the style sheet language to use as a media type string.",
-				"url": "",
+				"summary": "The `type` attribute is a generic attribute and it has different meaning based on the context in which it's used.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/type",
 				"type": "attribute",
 				"scope": "SVG:style",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute",
+					"filter"
+				]
 			},
 			"media": {
 				"name": "media",
 				"status": "living",
-				"summary": "This attribute defines to which  the style applies.",
-				"url": "",
+				"summary": "The `media` attribute specifies a media query that must be matched for a style sheet to apply.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/media",
 				"type": "attribute",
 				"scope": "SVG:style",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				]
 			},
 			"title": {
 				"name": "title",
@@ -9807,95 +10434,165 @@
 		],
 		"interface": "SVGSVGElement",
 		"attributes": {
-			"baseProfile": {
-				"name": "baseProfile",
+			"baseprofile": {
+				"name": "baseprofile",
 				"status": "deprecated",
-				"summary": "The minimum SVG language profile that the document requires.",
-				"url": "",
+				"summary": "The `baseProfile` attribute describes the minimum SVG language profile that the author believes is necessary to correctly render the content. The attribute does not specify any processing restrictions; It can be considered metadata.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/baseProfile",
 				"type": "attribute",
 				"scope": "SVG:svg",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": "https://www.w3.org/TR/SVG11/struct.html#SVGElementBaseProfileAttribute"
 			},
-			"contentScriptType": {
-				"name": "contentScriptType",
+			"contentscripttype": {
+				"name": "contentscripttype",
 				"status": "deprecated",
-				"summary": "The default scripting language used by the SVG fragment.",
-				"url": "",
+				"summary": "The `contentScriptType` attribute specifies the default scripting language for the given document fragment on the svg element.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/contentScriptType",
 				"type": "attribute",
 				"scope": "SVG:svg",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				]
 			},
-			"contentStyleType": {
-				"name": "contentStyleType",
+			"contentstyletype": {
+				"name": "contentstyletype",
 				"status": "deprecated",
-				"summary": "The default style sheet language used by the SVG fragment.",
-				"url": "",
+				"summary": "The `contentStyleType` attribute specifies the style sheet language for the given document fragment on the svg element.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/contentStyleType",
 				"type": "attribute",
 				"scope": "SVG:svg",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				]
 			},
 			"height": {
 				"name": "height",
 				"status": "living",
-				"summary": "The displayed height of the rectangular viewport. (Not the height of its coordinate system.)",
-				"url": "",
+				"summary": "The `height` attribute defines the vertical length of an element in the user coordinate system.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/height",
 				"type": "attribute",
 				"scope": "SVG:svg",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-height",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-height",
+					"https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-height",
+					"https://svgwg.org/svg2-draft/geometry.html#Sizing",
+					"https://svgwg.org/svg2-draft/pservers.html#PatternElementHeightAttribute"
+				]
 			},
-			"preserveAspectRatio": {
-				"name": "preserveAspectRatio",
+			"preserveaspectratio": {
+				"name": "preserveaspectratio",
 				"status": "living",
-				"summary": "How the `svg` fragment must be deformed if it is displayed with a different aspect ratio.",
-				"url": "",
+				"summary": "The `preserveAspectRatio` attribute indicates how an element with a viewBox providing a given aspect ratio must fit into a viewport with a different aspect ratio.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/preserveAspectRatio",
 				"type": "attribute",
 				"scope": "SVG:svg",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-feimage-preserveaspectratio",
+					"https://svgwg.org/svg2-draft/coords.html#PreserveAspectRatioAttribute"
+				]
 			},
 			"version": {
 				"name": "version",
 				"status": "deprecated",
-				"summary": "Which version of SVG is used for the inner content of the element.",
-				"url": "",
+				"summary": "The `version` attribute is used to indicate what specification a SVG document conforms to. It is only allowed on the root svg element. It is purely advisory and has no influence on rendering or processing.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/version",
 				"type": "attribute",
 				"scope": "SVG:svg",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				]
 			},
-			"viewBox": {
-				"name": "viewBox",
+			"viewbox": {
+				"name": "viewbox",
 				"status": "living",
-				"summary": "The SVG viewport coordinates for the current SVG fragment.",
-				"url": "",
+				"summary": "The `viewBox` attribute defines the position and dimension, in user space, of an SVG viewport.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/viewBox",
 				"type": "attribute",
 				"scope": "SVG:svg",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": "https://svgwg.org/svg2-draft/coords.html#ViewBoxAttribute"
 			},
 			"width": {
 				"name": "width",
 				"status": "living",
-				"summary": "The displayed width of the rectangular viewport. (Not the width of its coordinate system.)",
-				"url": "",
+				"summary": "The `width` attribute defines the horizontal length of an element in the user coordinate system.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/width",
 				"type": "attribute",
 				"scope": "SVG:svg",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-width",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-width",
+					"https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-width",
+					"https://svgwg.org/svg2-draft/geometry.html#Sizing",
+					"https://svgwg.org/svg2-draft/pservers.html#PatternElementWidthAttribute"
+				]
 			},
 			"x": {
 				"name": "x",
 				"status": "living",
-				"summary": "The displayed x coordinate of the svg container. No effect on outermost `svg` elements.",
-				"url": "",
+				"summary": "The `x` attribute defines an x-axis coordinate in the user coordinate system.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/x",
 				"type": "attribute",
 				"scope": "SVG:svg",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-x",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-x",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fepointlight-x",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-x",
+					"https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-x",
+					"https://svgwg.org/svg2-draft/geometry.html#X",
+					"https://svgwg.org/svg2-draft/pservers.html#PatternElementXAttribute",
+					"https://svgwg.org/svg2-draft/text.html#TextElementXAttribute"
+				]
 			},
 			"y": {
 				"name": "y",
 				"status": "living",
-				"summary": "The displayed y coordinate of the svg container. No effect on outermost `svg` elements.",
-				"url": "",
+				"summary": "The `y` attribute defines a y-axis coordinate in the user coordinate system.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/y",
 				"type": "attribute",
 				"scope": "SVG:svg",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-y",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-y",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fepointlight-y",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-y",
+					"https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-y",
+					"https://svgwg.org/svg2-draft/geometry.html#Y",
+					"https://svgwg.org/svg2-draft/pservers.html#PatternElementYAttribute",
+					"https://svgwg.org/svg2-draft/text.html#TextElementYAttribute"
+				]
 			}
 		},
 		"globalAttributeScopes": [
@@ -9937,74 +10634,139 @@
 			"height": {
 				"name": "height",
 				"status": "living",
-				"summary": "This attribute determines the height of the symbol.",
-				"url": "",
+				"summary": "The `height` attribute defines the vertical length of an element in the user coordinate system.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/height",
 				"type": "attribute",
 				"scope": "SVG:symbol",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-height",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-height",
+					"https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-height",
+					"https://svgwg.org/svg2-draft/geometry.html#Sizing",
+					"https://svgwg.org/svg2-draft/pservers.html#PatternElementHeightAttribute"
+				]
 			},
-			"preserveAspectRatio": {
-				"name": "preserveAspectRatio",
+			"preserveaspectratio": {
+				"name": "preserveaspectratio",
 				"status": "living",
-				"summary": "This attribute defines how the svg fragment must be deformed if it is embedded in a container with a different aspect ratio.",
-				"url": "",
+				"summary": "The `preserveAspectRatio` attribute indicates how an element with a viewBox providing a given aspect ratio must fit into a viewport with a different aspect ratio.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/preserveAspectRatio",
 				"type": "attribute",
 				"scope": "SVG:symbol",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-feimage-preserveaspectratio",
+					"https://svgwg.org/svg2-draft/coords.html#PreserveAspectRatioAttribute"
+				]
 			},
-			"refX": {
-				"name": "refX",
+			"refx": {
+				"name": "refx",
 				"status": "living",
-				"summary": "This attribute determines the x coordinate of the reference point of the symbol.",
-				"url": "",
+				"summary": "The `refX` attribute defines the x coordinate of an element's reference point.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/refX",
 				"type": "attribute",
 				"scope": "SVG:symbol",
-				"tags": []
+				"tags": [],
+				"spec-urls": [
+					"https://svgwg.org/svg2-draft/painting.html#MarkerElementRefXAttribute",
+					"https://svgwg.org/svg2-draft/struct.html#SymbolElementRefXAttribute"
+				]
 			},
-			"refY": {
-				"name": "refY",
+			"refy": {
+				"name": "refy",
 				"status": "living",
-				"summary": "This attribute determines the y coordinate of the reference point of the symbol.",
-				"url": "",
+				"summary": "The `refY` attribute defines the y coordinate of an element's reference point.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/refY",
 				"type": "attribute",
 				"scope": "SVG:symbol",
-				"tags": []
+				"tags": [],
+				"spec-urls": [
+					"https://svgwg.org/svg2-draft/painting.html#MarkerElementRefYAttribute",
+					"https://svgwg.org/svg2-draft/struct.html#SymbolElementRefYAttribute"
+				]
 			},
-			"viewBox": {
-				"name": "viewBox",
+			"viewbox": {
+				"name": "viewbox",
 				"status": "living",
-				"summary": "This attribute defines the bound of the SVG viewport for the current symbol.",
-				"url": "",
+				"summary": "The `viewBox` attribute defines the position and dimension, in user space, of an SVG viewport.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/viewBox",
 				"type": "attribute",
 				"scope": "SVG:symbol",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": "https://svgwg.org/svg2-draft/coords.html#ViewBoxAttribute"
 			},
 			"width": {
 				"name": "width",
 				"status": "living",
-				"summary": "This attribute determines the width of the symbol.",
-				"url": "",
+				"summary": "The `width` attribute defines the horizontal length of an element in the user coordinate system.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/width",
 				"type": "attribute",
 				"scope": "SVG:symbol",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-width",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-width",
+					"https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-width",
+					"https://svgwg.org/svg2-draft/geometry.html#Sizing",
+					"https://svgwg.org/svg2-draft/pservers.html#PatternElementWidthAttribute"
+				]
 			},
 			"x": {
 				"name": "x",
 				"status": "living",
-				"summary": "This attribute determines the x coordinate of the symbol.",
-				"url": "",
+				"summary": "The `x` attribute defines an x-axis coordinate in the user coordinate system.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/x",
 				"type": "attribute",
 				"scope": "SVG:symbol",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-x",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-x",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fepointlight-x",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-x",
+					"https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-x",
+					"https://svgwg.org/svg2-draft/geometry.html#X",
+					"https://svgwg.org/svg2-draft/pservers.html#PatternElementXAttribute",
+					"https://svgwg.org/svg2-draft/text.html#TextElementXAttribute"
+				]
 			},
 			"y": {
 				"name": "y",
 				"status": "living",
-				"summary": "This attribute determines the y coordinate of the symbol.",
-				"url": "",
+				"summary": "The `y` attribute defines a y-axis coordinate in the user coordinate system.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/y",
 				"type": "attribute",
 				"scope": "SVG:symbol",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-y",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-y",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fepointlight-y",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-y",
+					"https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-y",
+					"https://svgwg.org/svg2-draft/geometry.html#Y",
+					"https://svgwg.org/svg2-draft/pservers.html#PatternElementYAttribute",
+					"https://svgwg.org/svg2-draft/text.html#TextElementYAttribute"
+				]
 			}
 		},
 		"globalAttributeScopes": [
@@ -10028,65 +10790,125 @@
 			"x": {
 				"name": "x",
 				"status": "living",
-				"summary": "The x coordinate of the starting point of the text baseline.",
-				"url": "",
+				"summary": "The `x` attribute defines an x-axis coordinate in the user coordinate system.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/x",
 				"type": "attribute",
 				"scope": "SVG:text",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-x",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-x",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fepointlight-x",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-x",
+					"https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-x",
+					"https://svgwg.org/svg2-draft/geometry.html#X",
+					"https://svgwg.org/svg2-draft/pservers.html#PatternElementXAttribute",
+					"https://svgwg.org/svg2-draft/text.html#TextElementXAttribute"
+				]
 			},
 			"y": {
 				"name": "y",
 				"status": "living",
-				"summary": "The y coordinate of the starting point of the text baseline.",
-				"url": "",
+				"summary": "The `y` attribute defines a y-axis coordinate in the user coordinate system.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/y",
 				"type": "attribute",
 				"scope": "SVG:text",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-y",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-y",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fepointlight-y",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-y",
+					"https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-y",
+					"https://svgwg.org/svg2-draft/geometry.html#Y",
+					"https://svgwg.org/svg2-draft/pservers.html#PatternElementYAttribute",
+					"https://svgwg.org/svg2-draft/text.html#TextElementYAttribute"
+				]
 			},
 			"dx": {
 				"name": "dx",
 				"status": "living",
-				"summary": "Shifts the text position horizontally from a previous text element.",
-				"url": "",
+				"summary": "The `dx` attribute indicates a shift along the x-axis on the position of an element or its content.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/dx",
 				"type": "attribute",
 				"scope": "SVG:text",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fedropshadow-dx",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-feoffset-dx",
+					"https://svgwg.org/svg2-draft/text.html#TextElementDXAttribute"
+				]
 			},
 			"dy": {
 				"name": "dy",
 				"status": "living",
-				"summary": "Shifts the text position vertically from a previous text element.",
-				"url": "",
+				"summary": "The `dy` attribute indicates a shift along the y-axis on the position of an element or its content.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/dy",
 				"type": "attribute",
 				"scope": "SVG:text",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fedropshadow-dy",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-feoffset-dy",
+					"https://svgwg.org/svg2-draft/text.html#TextElementDYAttribute"
+				]
 			},
 			"rotate": {
 				"name": "rotate",
-				"status": "living",
-				"summary": "Rotates orientation of each individual glyph. Can rotate glyphs individually.",
-				"url": "",
+				"status": "experimental",
+				"summary": "The `rotate` attribute specifies how the animated element rotates as it travels along a path specified in an animateMotion element.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/rotate",
 				"type": "attribute",
 				"scope": "SVG:text",
-				"tags": []
+				"tags": [
+					"Animation",
+					"Graphics",
+					"SVG"
+				],
+				"spec-urls": "https://svgwg.org/specs/animations/#RotateAttribute"
 			},
-			"lengthAdjust": {
-				"name": "lengthAdjust",
+			"lengthadjust": {
+				"name": "lengthadjust",
 				"status": "living",
-				"summary": "How the text is stretched or compressed to fit the width defined by the `textLength` attribute.",
-				"url": "",
+				"summary": "The lengthAdjust attribute controls how the text is stretched into the length defined by the textLength attribute.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/lengthAdjust",
 				"type": "attribute",
 				"scope": "SVG:text",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				]
 			},
-			"textLength": {
-				"name": "textLength",
+			"textlength": {
+				"name": "textlength",
 				"status": "living",
-				"summary": "A width that the text should be scaled to fit.",
-				"url": "",
+				"summary": "The `textLength` attribute, available on SVG text and tspan elements, lets you specify the width of the space into which the text will draw. The user agent will ensure that the text does not extend farther than that distance, using the method or methods specified by the lengthAdjust attribute. By default, only the spacing between characters is adjusted, but the glyph size can also be adjusted if you change `lengthAdjust`.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/textLength",
 				"type": "attribute",
 				"scope": "SVG:text",
-				"tags": []
+				"tags": [
+					"CSS",
+					"HTML",
+					"JavaScript",
+					"SVG Attribute",
+					"Text",
+					"height",
+					"length",
+					"size",
+					"width"
+				]
 			}
 		},
 		"globalAttributeScopes": [
@@ -10095,7 +10917,7 @@
 		]
 	},
 	"/web/svg/element/textpath": {
-		"name": "textPath",
+		"name": "textpath",
 		"status": "living",
 		"summary": "To render text along the shape of a path, enclose the text in a `<textPath>` element that has an href attribute with a reference to the path element.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/textPath",
@@ -10110,74 +10932,110 @@
 			"href": {
 				"name": "href",
 				"status": "living",
-				"summary": "The URL to the path or basic shape on which to render the text. If the `path` attribute is set, `href` has no effect.",
-				"url": "",
+				"summary": "The `href` attribute defines a link to a resource as a reference URL. The exact meaning of that link depends on the context of each element using it.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/href",
 				"type": "attribute",
-				"scope": "SVG:textPath",
-				"tags": []
+				"scope": "SVG:textpath",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				]
 			},
-			"lengthAdjust": {
-				"name": "lengthAdjust",
+			"lengthadjust": {
+				"name": "lengthadjust",
 				"status": "living",
-				"summary": "Where length adjustment should be applied to the text: the space between glyphs, or both the space and the glyphs themselves.",
-				"url": "",
+				"summary": "The lengthAdjust attribute controls how the text is stretched into the length defined by the textLength attribute.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/lengthAdjust",
 				"type": "attribute",
-				"scope": "SVG:textPath",
-				"tags": []
+				"scope": "SVG:textpath",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				]
 			},
 			"method": {
 				"name": "method",
-				"status": "living",
-				"summary": "Which method to render individual glyphs along the path.",
-				"url": "",
+				"status": "experimental",
+				"summary": "The `method` attribute indicates the method by which text should be rendered along the path of a textPath element.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/method",
 				"type": "attribute",
-				"scope": "SVG:textPath",
-				"tags": []
+				"scope": "SVG:textpath",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": "https://svgwg.org/svg2-draft/text.html#TextPathElementMethodAttribute"
 			},
 			"path": {
 				"name": "path",
 				"status": "living",
-				"summary": "The path on which the text should be rendered.",
-				"url": "",
+				"summary": "The `path` attribute has two different meanings, either it defines a text path along which the characters of a text are rendered, or a motion path along which a referenced element is animated.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/path",
 				"type": "attribute",
-				"scope": "SVG:textPath",
-				"tags": []
+				"scope": "SVG:textpath",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://svgwg.org/svg2-draft/text.html#TextPathElementPathAttribute",
+					"https://svgwg.org/specs/animations/#AnimateMotionElementPathAttribute"
+				]
 			},
 			"side": {
 				"name": "side",
 				"status": "living",
-				"summary": "Which side of the path the text should be rendered.",
-				"url": "",
+				"summary": "The `side` attribute determines the side of a path the text is placed on (relative to the path direction).",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/side",
 				"type": "attribute",
-				"scope": "SVG:textPath",
-				"tags": []
+				"scope": "SVG:textpath",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				]
 			},
 			"spacing": {
 				"name": "spacing",
 				"status": "living",
-				"summary": "How space between glyphs should be handled.",
-				"url": "",
+				"summary": "The `spacing` attribute indicates how the user agent should determine the spacing between typographic characters that are to be rendered along a path.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/spacing",
 				"type": "attribute",
-				"scope": "SVG:textPath",
-				"tags": []
+				"scope": "SVG:textpath",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				]
 			},
-			"startOffset": {
-				"name": "startOffset",
+			"startoffset": {
+				"name": "startoffset",
 				"status": "living",
-				"summary": "How far the beginning of the text should be offset from the beginning of the path.",
-				"url": "",
+				"summary": "The `startOffset` attribute defines an offset from the start of the path for the initial current text position along the path after converting the path to the textPath element's coordinate system.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/startOffset",
 				"type": "attribute",
-				"scope": "SVG:textPath",
-				"tags": []
+				"scope": "SVG:textpath",
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				]
 			},
-			"textLength": {
-				"name": "textLength",
+			"textlength": {
+				"name": "textlength",
 				"status": "living",
-				"summary": "The width of the space into which the text will render.",
-				"url": "",
+				"summary": "The `textLength` attribute, available on SVG text and tspan elements, lets you specify the width of the space into which the text will draw. The user agent will ensure that the text does not extend farther than that distance, using the method or methods specified by the lengthAdjust attribute. By default, only the spacing between characters is adjusted, but the glyph size can also be adjusted if you change `lengthAdjust`.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/textLength",
 				"type": "attribute",
-				"scope": "SVG:textPath",
-				"tags": []
+				"scope": "SVG:textpath",
+				"tags": [
+					"CSS",
+					"HTML",
+					"JavaScript",
+					"SVG Attribute",
+					"Text",
+					"height",
+					"length",
+					"size",
+					"width"
+				]
 			}
 		},
 		"globalAttributeScopes": [
@@ -10237,65 +11095,125 @@
 			"x": {
 				"name": "x",
 				"status": "living",
-				"summary": "The x coordinate of the starting point of the text baseline.",
-				"url": "",
+				"summary": "The `x` attribute defines an x-axis coordinate in the user coordinate system.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/x",
 				"type": "attribute",
 				"scope": "SVG:tspan",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-x",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-x",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fepointlight-x",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-x",
+					"https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-x",
+					"https://svgwg.org/svg2-draft/geometry.html#X",
+					"https://svgwg.org/svg2-draft/pservers.html#PatternElementXAttribute",
+					"https://svgwg.org/svg2-draft/text.html#TextElementXAttribute"
+				]
 			},
 			"y": {
 				"name": "y",
 				"status": "living",
-				"summary": "The y coordinate of the starting point of the text baseline.",
-				"url": "",
+				"summary": "The `y` attribute defines a y-axis coordinate in the user coordinate system.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/y",
 				"type": "attribute",
 				"scope": "SVG:tspan",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-y",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-y",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fepointlight-y",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-y",
+					"https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-y",
+					"https://svgwg.org/svg2-draft/geometry.html#Y",
+					"https://svgwg.org/svg2-draft/pservers.html#PatternElementYAttribute",
+					"https://svgwg.org/svg2-draft/text.html#TextElementYAttribute"
+				]
 			},
 			"dx": {
 				"name": "dx",
 				"status": "living",
-				"summary": "Shifts the text position horizontally from a previous text element.",
-				"url": "",
+				"summary": "The `dx` attribute indicates a shift along the x-axis on the position of an element or its content.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/dx",
 				"type": "attribute",
 				"scope": "SVG:tspan",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fedropshadow-dx",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-feoffset-dx",
+					"https://svgwg.org/svg2-draft/text.html#TextElementDXAttribute"
+				]
 			},
 			"dy": {
 				"name": "dy",
 				"status": "living",
-				"summary": "Shifts the text position vertically from a previous text element.",
-				"url": "",
+				"summary": "The `dy` attribute indicates a shift along the y-axis on the position of an element or its content.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/dy",
 				"type": "attribute",
 				"scope": "SVG:tspan",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fedropshadow-dy",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-feoffset-dy",
+					"https://svgwg.org/svg2-draft/text.html#TextElementDYAttribute"
+				]
 			},
 			"rotate": {
 				"name": "rotate",
-				"status": "living",
-				"summary": "Rotates orientation of each individual glyph. Can rotate glyphs individually.",
-				"url": "",
+				"status": "experimental",
+				"summary": "The `rotate` attribute specifies how the animated element rotates as it travels along a path specified in an animateMotion element.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/rotate",
 				"type": "attribute",
 				"scope": "SVG:tspan",
-				"tags": []
+				"tags": [
+					"Animation",
+					"Graphics",
+					"SVG"
+				],
+				"spec-urls": "https://svgwg.org/specs/animations/#RotateAttribute"
 			},
-			"lengthAdjust": {
-				"name": "lengthAdjust",
+			"lengthadjust": {
+				"name": "lengthadjust",
 				"status": "living",
-				"summary": "How the text is stretched or compressed to fit the width defined by the `textLength` attribute.",
-				"url": "",
+				"summary": "The lengthAdjust attribute controls how the text is stretched into the length defined by the textLength attribute.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/lengthAdjust",
 				"type": "attribute",
 				"scope": "SVG:tspan",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				]
 			},
-			"textLength": {
-				"name": "textLength",
+			"textlength": {
+				"name": "textlength",
 				"status": "living",
-				"summary": "A width that the text should be scaled to fit.",
-				"url": "",
+				"summary": "The `textLength` attribute, available on SVG text and tspan elements, lets you specify the width of the space into which the text will draw. The user agent will ensure that the text does not extend farther than that distance, using the method or methods specified by the lengthAdjust attribute. By default, only the spacing between characters is adjusted, but the glyph size can also be adjusted if you change `lengthAdjust`.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/textLength",
 				"type": "attribute",
 				"scope": "SVG:tspan",
-				"tags": []
+				"tags": [
+					"CSS",
+					"HTML",
+					"JavaScript",
+					"SVG Attribute",
+					"Text",
+					"height",
+					"length",
+					"size",
+					"width"
+				]
 			}
 		},
 		"globalAttributeScopes": [
@@ -10319,56 +11237,127 @@
 			"href": {
 				"name": "href",
 				"status": "living",
-				"summary": "The URL to an element/fragment that needs to be duplicated.",
-				"url": "",
+				"summary": "The `href` attribute defines a link to a resource as a reference URL. The exact meaning of that link depends on the context of each element using it.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/href",
 				"type": "attribute",
 				"scope": "SVG:use",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				]
 			},
 			"xlink:href": {
 				"name": "xlink:href",
-				"status": "deprecated",
-				"summary": "An <IRI> reference to an element/fragment that needs to be duplicated.",
-				"url": "",
+				"status": "living",
+				"summary": "The `xlink:href` attribute defines a reference to a resource as a reference IRI. The exact meaning of that link depends on the context of each element using it.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xlink:href",
 				"type": "attribute",
 				"scope": "SVG:use",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://www.w3.org/TR/SVG11/linking.html#AElementXLinkHrefAttribute",
+					"https://www.w3.org/TR/SVG11/text.html#AltGlyphElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/animate.html#HrefAttribute",
+					"https://www.w3.org/TR/SVG11/interact.html#CursorElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/filters.html#feImageElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/filters.html#FilterElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/fonts.html#FontFaceUriElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/text.html#GlyphRefElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/struct.html#ImageElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/pservers.html#LinearGradientElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/animate.html#MPathElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/pservers.html#PatternElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/pservers.html#RadialGradientElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/script.html#ScriptElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/text.html#TextPathElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/struct.html#UseElementHrefAttribute",
+					"https://www.w3.org/TR/SVG11/text.html#TRefElementHrefAttribute"
+				]
 			},
 			"x": {
 				"name": "x",
 				"status": "living",
-				"summary": "The x coordinate of the use element.",
-				"url": "",
+				"summary": "The `x` attribute defines an x-axis coordinate in the user coordinate system.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/x",
 				"type": "attribute",
 				"scope": "SVG:use",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-x",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-x",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fepointlight-x",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-x",
+					"https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-x",
+					"https://svgwg.org/svg2-draft/geometry.html#X",
+					"https://svgwg.org/svg2-draft/pservers.html#PatternElementXAttribute",
+					"https://svgwg.org/svg2-draft/text.html#TextElementXAttribute"
+				]
 			},
 			"y": {
 				"name": "y",
 				"status": "living",
-				"summary": "The y coordinate of the use element.",
-				"url": "",
+				"summary": "The `y` attribute defines a y-axis coordinate in the user coordinate system.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/y",
 				"type": "attribute",
 				"scope": "SVG:use",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-y",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-y",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-fepointlight-y",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-y",
+					"https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-y",
+					"https://svgwg.org/svg2-draft/geometry.html#Y",
+					"https://svgwg.org/svg2-draft/pservers.html#PatternElementYAttribute",
+					"https://svgwg.org/svg2-draft/text.html#TextElementYAttribute"
+				]
 			},
 			"width": {
 				"name": "width",
 				"status": "living",
-				"summary": "The width of the use element.",
-				"url": "",
+				"summary": "The `width` attribute defines the horizontal length of an element in the user coordinate system.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/width",
 				"type": "attribute",
 				"scope": "SVG:use",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-width",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-width",
+					"https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-width",
+					"https://svgwg.org/svg2-draft/geometry.html#Sizing",
+					"https://svgwg.org/svg2-draft/pservers.html#PatternElementWidthAttribute"
+				]
 			},
 			"height": {
 				"name": "height",
 				"status": "living",
-				"summary": "The height of the use element.",
-				"url": "",
+				"summary": "The `height` attribute defines the vertical length of an element in the user coordinate system.",
+				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/height",
 				"type": "attribute",
 				"scope": "SVG:use",
-				"tags": []
+				"tags": [
+					"SVG",
+					"SVG Attribute"
+				],
+				"spec-urls": [
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-height",
+					"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-height",
+					"https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-height",
+					"https://svgwg.org/svg2-draft/geometry.html#Sizing",
+					"https://svgwg.org/svg2-draft/pservers.html#PatternElementHeightAttribute"
+				]
 			}
 		},
 		"globalAttributeScopes": [
@@ -10401,7 +11390,6 @@
 		"type": "element",
 		"scope": "SVG",
 		"tags": [
-			"Deprecated",
 			"SVG",
 			"SVG Font"
 		],
@@ -10435,8 +11423,8 @@
 		"tags": [
 			"MathML",
 			"MathML Reference",
-			"MathML:Element",
-			"MathML:Enlivening Expressions"
+			"MathML Element",
+			"MathML Enlivening Expressions"
 		],
 		"interface": "MathMLElement",
 		"attributes": {
@@ -10533,7 +11521,7 @@
 		"tags": [
 			"MathML",
 			"MathML Reference",
-			"MathML:Element"
+			"MathML Element"
 		],
 		"interface": "MathMLElement",
 		"attributes": {
@@ -10630,8 +11618,8 @@
 		"tags": [
 			"MathML",
 			"MathML Reference",
-			"MathML:Element",
-			"MathML:General Layout Schemata"
+			"MathML Element",
+			"MathML General Layout Schemata"
 		],
 		"interface": "MathMLElement",
 		"attributes": {
@@ -10719,8 +11707,8 @@
 		"tags": [
 			"MathML",
 			"MathML Reference",
-			"MathML:Element",
-			"MathML:General Layout Schemata"
+			"MathML Element",
+			"MathML General Layout Schemata"
 		],
 		"interface": "MathMLElement",
 		"attributes": {
@@ -10797,11 +11785,10 @@
 		"type": "element",
 		"scope": "MathML",
 		"tags": [
-			"Deprecated",
 			"MathML",
 			"MathML Reference",
-			"MathML:Element",
-			"MathML:General Layout Schemata"
+			"MathML Element",
+			"MathML General Layout Schemata"
 		],
 		"interface": "MathMLElement",
 		"attributes": {
@@ -10898,8 +11885,8 @@
 		"tags": [
 			"MathML",
 			"MathML Reference",
-			"MathML:Element",
-			"MathML:General Layout Schemata"
+			"MathML Element",
+			"MathML General Layout Schemata"
 		],
 		"interface": "MathMLElement",
 		"attributes": {
@@ -11014,8 +12001,8 @@
 		"tags": [
 			"MathML",
 			"MathML Reference",
-			"MathML:Element",
-			"MathML:Token Elements"
+			"MathML Element",
+			"MathML Token Elements"
 		],
 		"interface": "MathMLElement",
 		"attributes": {
@@ -11121,8 +12108,8 @@
 		"tags": [
 			"MathML",
 			"MathML Reference",
-			"MathML:Element",
-			"MathML:Script and Limit Schemata"
+			"MathML Element",
+			"MathML Script and Limit Schemata"
 		],
 		"interface": "MathMLElement",
 		"attributes": {
@@ -11219,8 +12206,8 @@
 		"tags": [
 			"MathML",
 			"MathML Reference",
-			"MathML:Element",
-			"MathML:Token Elements"
+			"MathML Element",
+			"MathML Token Elements"
 		],
 		"interface": "MathMLElement",
 		"attributes": {
@@ -11326,8 +12313,8 @@
 		"tags": [
 			"MathML",
 			"MathML Reference",
-			"MathML:Element",
-			"MathML:Token Elements"
+			"MathML Element",
+			"MathML Token Elements"
 		],
 		"interface": "MathMLElement",
 		"attributes": {
@@ -11460,8 +12447,8 @@
 		"tags": [
 			"MathML",
 			"MathML Reference",
-			"MathML:Element",
-			"MathML:Script and Limit Schemata"
+			"MathML Element",
+			"MathML Script and Limit Schemata"
 		],
 		"interface": "MathMLElement",
 		"attributes": {
@@ -11558,8 +12545,8 @@
 		"tags": [
 			"MathML",
 			"MathML Reference",
-			"MathML:Element",
-			"MathML:General Layout Schemata"
+			"MathML Element",
+			"MathML General Layout Schemata"
 		],
 		"interface": "MathMLElement",
 		"attributes": {
@@ -11683,8 +12670,8 @@
 		"tags": [
 			"MathML",
 			"MathML Reference",
-			"MathML:Element",
-			"MathML:General Layout Schemata"
+			"MathML Element",
+			"MathML General Layout Schemata"
 		],
 		"interface": "MathMLElement",
 		"attributes": {
@@ -11745,8 +12732,8 @@
 		"tags": [
 			"MathML",
 			"MathML Reference",
-			"MathML:Element",
-			"MathML:General Layout Schemata"
+			"MathML Element",
+			"MathML General Layout Schemata"
 		],
 		"interface": "MathMLElement",
 		"attributes": {
@@ -11825,8 +12812,8 @@
 		"tags": [
 			"MathML",
 			"MathML Reference",
-			"MathML:Element",
-			"MathML:General Layout Schemata"
+			"MathML Element",
+			"MathML General Layout Schemata"
 		],
 		"interface": "MathMLElement",
 		"attributes": {
@@ -11914,8 +12901,8 @@
 		"tags": [
 			"MathML",
 			"MathML Reference",
-			"MathML:Element",
-			"MathML:Token Elements"
+			"MathML Element",
+			"MathML Token Elements"
 		],
 		"interface": "MathMLElement",
 		"attributes": {
@@ -12030,8 +13017,8 @@
 		"tags": [
 			"MathML",
 			"MathML Reference",
-			"MathML:Element",
-			"MathML:Token Elements"
+			"MathML Element",
+			"MathML Token Elements"
 		],
 		"interface": "MathMLElement",
 		"attributes": {
@@ -12119,8 +13106,8 @@
 		"tags": [
 			"MathML",
 			"MathML Reference",
-			"MathML:Element",
-			"MathML:General Layout Schemata"
+			"MathML Element",
+			"MathML General Layout Schemata"
 		],
 		"interface": "MathMLElement",
 		"attributes": {
@@ -12199,8 +13186,8 @@
 		"tags": [
 			"MathML",
 			"MathML Reference",
-			"MathML:Element",
-			"MathML:General Layout Schemata"
+			"MathML Element",
+			"MathML General Layout Schemata"
 		],
 		"interface": "MathMLElement",
 		"attributes": {
@@ -12351,8 +13338,8 @@
 		"tags": [
 			"MathML",
 			"MathML Reference",
-			"MathML:Element",
-			"MathML:Script and Limit Schemata"
+			"MathML Element",
+			"MathML Script and Limit Schemata"
 		],
 		"interface": "MathMLElement",
 		"attributes": {
@@ -12440,8 +13427,8 @@
 		"tags": [
 			"MathML",
 			"MathML Reference",
-			"MathML:Element",
-			"MathML:Script and Limit Schemata"
+			"MathML Element",
+			"MathML Script and Limit Schemata"
 		],
 		"interface": "MathMLElement",
 		"attributes": {
@@ -12538,8 +13525,8 @@
 		"tags": [
 			"MathML",
 			"MathML Reference",
-			"MathML:Element",
-			"MathML:Script and Limit Schemata"
+			"MathML Element",
+			"MathML Script and Limit Schemata"
 		],
 		"interface": "MathMLElement",
 		"attributes": {
@@ -12627,8 +13614,8 @@
 		"tags": [
 			"MathML",
 			"MathML Reference",
-			"MathML:Element",
-			"MathML:Tabular Math"
+			"MathML Element",
+			"MathML Tabular Math"
 		],
 		"interface": "MathMLElement",
 		"attributes": {
@@ -12767,6 +13754,15 @@
 				"scope": "MathML:mtable",
 				"tags": []
 			},
+			"rowspacing": {
+				"name": "rowspacing",
+				"status": "unimplemented",
+				"summary": "Specifies the space between table rows.",
+				"url": "",
+				"type": "attribute",
+				"scope": "MathML:mtable",
+				"tags": []
+			},
 			"width": {
 				"name": "width",
 				"status": "living",
@@ -12788,8 +13784,8 @@
 		"tags": [
 			"MathML",
 			"MathML Reference",
-			"MathML:Element",
-			"MathML:Tabular Math"
+			"MathML Element",
+			"MathML Tabular Math"
 		],
 		"interface": "MathMLElement",
 		"attributes": {
@@ -12904,8 +13900,8 @@
 		"tags": [
 			"MathML",
 			"MathML Reference",
-			"MathML:Element",
-			"MathML:Token Elements"
+			"MathML Element",
+			"MathML Token Elements"
 		],
 		"interface": "MathMLElement",
 		"attributes": {
@@ -13011,8 +14007,8 @@
 		"tags": [
 			"MathML",
 			"MathML Reference",
-			"MathML:Element",
-			"MathML:Tabular Math"
+			"MathML Element",
+			"MathML Tabular Math"
 		],
 		"interface": "MathMLElement",
 		"attributes": {
@@ -13109,8 +14105,8 @@
 		"tags": [
 			"MathML",
 			"MathML Reference",
-			"MathML:Element",
-			"MathML:Script and Limit Schemata"
+			"MathML Element",
+			"MathML Script and Limit Schemata"
 		],
 		"interface": "MathMLElement",
 		"attributes": {
@@ -13207,8 +14203,8 @@
 		"tags": [
 			"MathML",
 			"MathML Reference",
-			"MathML:Element",
-			"MathML:Script and Limit Schemata"
+			"MathML Element",
+			"MathML Script and Limit Schemata"
 		],
 		"interface": "MathMLElement",
 		"attributes": {
@@ -13314,7 +14310,7 @@
 		"tags": [
 			"MathML",
 			"MathML Reference",
-			"MathML:Element"
+			"MathML Element"
 		],
 		"interface": "MathMLElement",
 		"attributes": {

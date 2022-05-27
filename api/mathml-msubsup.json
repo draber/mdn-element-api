@@ -1,0 +1,98 @@
+{
+	"name": "msubsup",
+	"status": "living",
+	"summary": "The MathML `<msubsup>` element is used to attach both a subscript and a superscript, together, to an expression.",
+	"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/msubsup",
+	"type": "element",
+	"scope": "MathML",
+	"tags": [
+		"MathML",
+		"MathML Reference",
+		"MathML Element",
+		"MathML Script and Limit Schemata"
+	],
+	"interface": "MathMLElement",
+	"attributes": {
+		"class": {
+			"name": "class",
+			"status": "living",
+			"summary": "Provided for use with stylesheets.",
+			"url": "",
+			"type": "attribute",
+			"scope": "MathML:msubsup",
+			"tags": []
+		},
+		"id": {
+			"name": "id",
+			"status": "living",
+			"summary": "Provided for use with stylesheets.",
+			"url": "",
+			"type": "attribute",
+			"scope": "MathML:msubsup",
+			"tags": []
+		},
+		"style": {
+			"name": "style",
+			"status": "living",
+			"summary": "Provided for use with stylesheets.",
+			"url": "",
+			"type": "attribute",
+			"scope": "MathML:msubsup",
+			"tags": []
+		},
+		"displaystyle": {
+			"name": "displaystyle",
+			"status": "living",
+			"summary": "A Boolean value specifying whether more vertical space is used for displayed equations or, if set to `false`, a more compact layout is used to display formulas. The main effect is that larger versions of operators are displayed, when `displaystyle` is set to `true`. See also `movablelimits` on mo.",
+			"url": "",
+			"type": "attribute",
+			"scope": "MathML:msubsup",
+			"tags": []
+		},
+		"href": {
+			"name": "href",
+			"status": "living",
+			"summary": "Used to set a hyperlink to a specified URI.",
+			"url": "",
+			"type": "attribute",
+			"scope": "MathML:msubsup",
+			"tags": []
+		},
+		"mathbackground": {
+			"name": "mathbackground",
+			"status": "living",
+			"summary": "The background color. You can use `#rgb`, `#rrggbb` and HTML color names.",
+			"url": "",
+			"type": "attribute",
+			"scope": "MathML:msubsup",
+			"tags": []
+		},
+		"mathcolor": {
+			"name": "mathcolor",
+			"status": "living",
+			"summary": "The text color. You can use `#rgb`, `#rrggbb` and HTML color names.",
+			"url": "",
+			"type": "attribute",
+			"scope": "MathML:msubsup",
+			"tags": []
+		},
+		"subscriptshift": {
+			"name": "subscriptshift",
+			"status": "deprecated",
+			"summary": "The minimum space by which to shift the subscript below the baseline of the expression, as a length value.",
+			"url": "",
+			"type": "attribute",
+			"scope": "MathML:msubsup",
+			"tags": []
+		},
+		"superscriptshift": {
+			"name": "superscriptshift",
+			"status": "deprecated",
+			"summary": "The minimum space by which to shift the superscript above the baseline of the expression, as a length value.",
+			"url": "",
+			"type": "attribute",
+			"scope": "MathML:msubsup",
+			"tags": []
+		}
+	}
+}
