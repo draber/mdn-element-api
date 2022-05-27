@@ -1,0 +1,62 @@
+{
+	"name": "mphantom",
+	"status": "living",
+	"summary": "The MathML `<mphantom>` element is rendered invisibly, but dimensions (such as height, width, and baseline position) are still kept.",
+	"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mphantom",
+	"type": "element",
+	"scope": "MathML",
+	"tags": [
+		"MathML",
+		"MathML Reference",
+		"MathML Element",
+		"MathML General Layout Schemata"
+	],
+	"interface": "MathMLElement",
+	"attributes": {
+		"class": {
+			"name": "class",
+			"status": "living",
+			"summary": "Provided for use with stylesheets.",
+			"url": "",
+			"type": "attribute",
+			"scope": "MathML:mphantom",
+			"tags": []
+		},
+		"id": {
+			"name": "id",
+			"status": "living",
+			"summary": "Provided for use with stylesheets.",
+			"url": "",
+			"type": "attribute",
+			"scope": "MathML:mphantom",
+			"tags": []
+		},
+		"style": {
+			"name": "style",
+			"status": "living",
+			"summary": "Provided for use with stylesheets.",
+			"url": "",
+			"type": "attribute",
+			"scope": "MathML:mphantom",
+			"tags": []
+		},
+		"displaystyle": {
+			"name": "displaystyle",
+			"status": "living",
+			"summary": "A Boolean value specifying whether more vertical space is used for displayed equations or, if set to `false`, a more compact layout is used to display formulas. The main effect is that larger versions of operators are displayed, when `displaystyle` is set to `true`. See also `movablelimits` on mo.",
+			"url": "",
+			"type": "attribute",
+			"scope": "MathML:mphantom",
+			"tags": []
+		},
+		"mathbackground": {
+			"name": "mathbackground",
+			"status": "living",
+			"summary": "The background color. You can use `#rgb`, `#rrggbb` and HTML color names.",
+			"url": "",
+			"type": "attribute",
+			"scope": "MathML:mphantom",
+			"tags": []
+		}
+	}
+}

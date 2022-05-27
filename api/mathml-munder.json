@@ -1,0 +1,98 @@
+{
+	"name": "munder",
+	"status": "living",
+	"summary": "The MathML `<munder>` element is used to attach an accent or a limit under an expression. It uses the following syntax: `<munder> base underscript </munder>`",
+	"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/munder",
+	"type": "element",
+	"scope": "MathML",
+	"tags": [
+		"MathML",
+		"MathML Reference",
+		"MathML Element",
+		"MathML Script and Limit Schemata"
+	],
+	"interface": "MathMLElement",
+	"attributes": {
+		"accentunder": {
+			"name": "accentunder",
+			"status": "living",
+			"summary": "If `true`, the element is an accent, which is drawn closer to the base expression.",
+			"url": "",
+			"type": "attribute",
+			"scope": "MathML:munder",
+			"tags": []
+		},
+		"align": {
+			"name": "align",
+			"status": "deprecated",
+			"summary": "The alignment of the underscript. Possible values are: `left`, `center`, and `right`.",
+			"url": "",
+			"type": "attribute",
+			"scope": "MathML:munder",
+			"tags": []
+		},
+		"class": {
+			"name": "class",
+			"status": "living",
+			"summary": "Provided for use with stylesheets.",
+			"url": "",
+			"type": "attribute",
+			"scope": "MathML:munder",
+			"tags": []
+		},
+		"id": {
+			"name": "id",
+			"status": "living",
+			"summary": "Provided for use with stylesheets.",
+			"url": "",
+			"type": "attribute",
+			"scope": "MathML:munder",
+			"tags": []
+		},
+		"style": {
+			"name": "style",
+			"status": "living",
+			"summary": "Provided for use with stylesheets.",
+			"url": "",
+			"type": "attribute",
+			"scope": "MathML:munder",
+			"tags": []
+		},
+		"displaystyle": {
+			"name": "displaystyle",
+			"status": "living",
+			"summary": "A Boolean value specifying whether more vertical space is used for displayed equations or, if set to `false`, a more compact layout is used to display formulas. The main effect is that larger versions of operators are displayed, when `displaystyle` is set to `true`. See also `movablelimits` on mo.",
+			"url": "",
+			"type": "attribute",
+			"scope": "MathML:munder",
+			"tags": []
+		},
+		"href": {
+			"name": "href",
+			"status": "living",
+			"summary": "Used to set a hyperlink to a specified URI.",
+			"url": "",
+			"type": "attribute",
+			"scope": "MathML:munder",
+			"tags": []
+		},
+		"mathbackground": {
+			"name": "mathbackground",
+			"status": "living",
+			"summary": "The background color. You can use `#rgb`, `#rrggbb` and HTML color names.",
+			"url": "",
+			"type": "attribute",
+			"scope": "MathML:munder",
+			"tags": []
+		},
+		"mathcolor": {
+			"name": "mathcolor",
+			"status": "living",
+			"summary": "The text color. You can use `#rgb`, `#rrggbb` and HTML color names.",
+			"url": "",
+			"type": "attribute",
+			"scope": "MathML:munder",
+			"tags": []
+		}
+	}
+}
