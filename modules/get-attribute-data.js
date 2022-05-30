@@ -1,5 +1,6 @@
+import ElasticObject from "elastic-object";
 import { getSummary, getContentObj, parseMdLink } from "./extractors.js";
-import { getPreset } from "./utils.js";
+import { getAttrPreset } from "./utils.js";
 
 const format = (attr, linkPattern) => {
     return `- [\`${attr}\`](${linkPattern}/${attr})`;
@@ -84,6 +85,15 @@ const blockToLineArr = (attrString, link = "invalid") => {
         .filter((line) => line.startsWith("- [") || line.startsWith("  - :"));
 };
 
+/**
+ * Pull data either from the current and next line or from the attribute page
+ * depending on availability
+ * @param {String} line 
+ * @param {Number} index 
+ * @param {Array} lineArr of all lines
+ * @param {String} scope 
+ * @returns 
+ */
 const getData = (line, index, lineArr, scope) => {
     const nextLine =
         lineArr[index + 1] && !lineArr[index + 1].startsWith("- [`")
@@ -97,31 +107,32 @@ const getData = (line, index, lineArr, scope) => {
         "living"
     ).toLowerCase();
 
-    let data = {
-        ...getPreset("attribute"),
-        ...{
+    let attrData = {
+        ...getAttrPreset(),
+        // ensure you don't overwrite with an empty string
+        ...(new ElasticObject({
             summary: nextLine ? getSummary(lineArr[index + 1]) : "",
             scope,
             status,
-        },
+        }).filter(e => e !== '')),
         ...parseMdLink(line),
     };
 
-    const contentObj = getContentObj(data.fragment);
-    data = contentObj.meta
+    const contentObj = getContentObj(attrData.fragment);
+    attrData = contentObj.meta
         ? {
-              ...data,
+              ...attrData,
               ...contentObj.meta,
           }
-        : data;
+        : attrData;
     if (contentObj.summary) {
-        data.summary = getSummary(contentObj.summary);
+        attrData.summary = getSummary(contentObj.summary);
     }
 
-    delete data.fragment;
-    delete data.file;
+    delete attrData.fragment;
+    delete attrData.file;
 
-    return data;
+    return attrData;
 };
 
 export default {

@@ -150,7 +150,7 @@
 			"name": "exportparts",
 			"status": "experimental",
 			"summary": "Used to transitively export shadow parts from a nested shadow tree into a containing light tree.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes",
 			"type": "attribute",
 			"scope": "HTML:global:generic",
 			"tags": []
@@ -169,11 +169,13 @@
 		"id": {
 			"name": "id",
 			"status": "living",
-			"summary": "",
-			"url": "",
+			"summary": "The `id` global attribute defines an identifier (ID) which must be unique in the whole document. Its purpose is to identify the element when linking (using a fragment identifier), scripting, or styling (with CSS).",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id",
 			"type": "attribute",
 			"scope": "HTML:global:generic",
-			"tags": []
+			"tags": [
+				"HTML"
+			]
 		},
 		"inputmode": {
 			"name": "inputmode",
@@ -387,7 +389,7 @@
 			"name": "onautocomplete",
 			"status": "living",
 			"summary": "",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes",
 			"type": "attribute",
 			"scope": "HTML:global:eventhandler",
 			"tags": []
@@ -396,7 +398,7 @@
 			"name": "onautocompleteerror",
 			"status": "living",
 			"summary": "",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes",
 			"type": "attribute",
 			"scope": "HTML:global:eventhandler",
 			"tags": []
@@ -525,7 +527,7 @@
 			"name": "oncuechange",
 			"status": "living",
 			"summary": "",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes",
 			"type": "attribute",
 			"scope": "HTML:global:eventhandler",
 			"tags": []
@@ -995,7 +997,7 @@
 			"name": "onprogress",
 			"status": "living",
 			"summary": "",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes",
 			"type": "attribute",
 			"scope": "HTML:global:eventhandler",
 			"tags": []
@@ -1004,7 +1006,7 @@
 			"name": "onratechange",
 			"status": "living",
 			"summary": "",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes",
 			"type": "attribute",
 			"scope": "HTML:global:eventhandler",
 			"tags": []
@@ -1058,7 +1060,7 @@
 			"name": "onseeked",
 			"status": "living",
 			"summary": "",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes",
 			"type": "attribute",
 			"scope": "HTML:global:eventhandler",
 			"tags": []
@@ -1067,7 +1069,7 @@
 			"name": "onseeking",
 			"status": "living",
 			"summary": "",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes",
 			"type": "attribute",
 			"scope": "HTML:global:eventhandler",
 			"tags": []
@@ -1091,7 +1093,7 @@
 			"name": "onshow",
 			"status": "living",
 			"summary": "",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes",
 			"type": "attribute",
 			"scope": "HTML:global:eventhandler",
 			"tags": []
@@ -1100,7 +1102,7 @@
 			"name": "onsort",
 			"status": "living",
 			"summary": "",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes",
 			"type": "attribute",
 			"scope": "HTML:global:eventhandler",
 			"tags": []
@@ -1109,7 +1111,7 @@
 			"name": "onstalled",
 			"status": "living",
 			"summary": "",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes",
 			"type": "attribute",
 			"scope": "HTML:global:eventhandler",
 			"tags": []
@@ -1133,7 +1135,7 @@
 			"name": "onsuspend",
 			"status": "living",
 			"summary": "",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes",
 			"type": "attribute",
 			"scope": "HTML:global:eventhandler",
 			"tags": []
@@ -1142,7 +1144,7 @@
 			"name": "ontimeupdate",
 			"status": "living",
 			"summary": "",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes",
 			"type": "attribute",
 			"scope": "HTML:global:eventhandler",
 			"tags": []
@@ -1151,7 +1153,7 @@
 			"name": "ontoggle",
 			"status": "living",
 			"summary": "",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes",
 			"type": "attribute",
 			"scope": "HTML:global:eventhandler",
 			"tags": []
@@ -1160,7 +1162,7 @@
 			"name": "onvolumechange",
 			"status": "living",
 			"summary": "",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes",
 			"type": "attribute",
 			"scope": "HTML:global:eventhandler",
 			"tags": []
@@ -1169,7 +1171,7 @@
 			"name": "onwaiting",
 			"status": "living",
 			"summary": "",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes",
 			"type": "attribute",
 			"scope": "HTML:global:eventhandler",
 			"tags": []

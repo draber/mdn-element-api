@@ -18,11 +18,14 @@ const getGlobalAttributes = (scope) => {
     }
 
     const contentObj = getContentObj(fragment);
+
     let lineArr;
     if (scope === "HTML:global:generic") {
         lineArr = attributes.blockToLineArr(
             contentObj["list of global attributes"]
-        );
+        )
+        // dirty fix, there must obviously be a reason for this
+        .filter((line) => !line.includes("invalid/"));
     } else if (scope === "HTML:global:eventhandler") {
         lineArr = attributes.blockToLineArr(
             contentObj["summary"],
@@ -40,19 +43,20 @@ const getGlobalAttributes = (scope) => {
             "web/svg/attribute"
         );
     }
-
-    
+   
 
     const elemFragment = `${scope.slice(
         0,
         scope.indexOf(":")
     ).toLowerCase()}/*`;
 
+
     lineArr.forEach((line, index) => {
         if (!line.startsWith("- [`")) {
             return;
         }
         const data = attributes.getData(line, index, lineArr, scope);
+        data.url = data.url || contentObj.meta.url;
         
         const fragment = `${elemFragment}.attributes.${data.name}`;
         delete data.fragment;

@@ -182,7 +182,7 @@
 			"name": "default",
 			"status": "living",
 			"summary": "",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/Core",
 			"type": "attribute",
 			"scope": "SVG:global:core",
 			"tags": []
