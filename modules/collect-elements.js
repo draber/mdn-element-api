@@ -5,7 +5,7 @@ import path from "path";
 import resource from "./resource.js";
 import store from "./store.js";
 import { getSummary, getContentObj } from "./extractors.js";
-import { getPreset } from "./utils.js";
+import { getElemPreset } from "./utils.js";
 import attributes from "./get-attribute-data.js";
 
 const svgInterfaceMap = new Map(
@@ -54,9 +54,9 @@ const getInterface = (tag, type) => {
 };
 
 /**
- * 
- * @param {*} attrContent 
- * @param {*} scope 
+ * Collect attributes for a specific element
+ * @param {Object} attrContent 
+ * @param {String} scope 
  * @returns 
  */
 const getAttributes = (attrContent, scope) => {
@@ -64,13 +64,11 @@ const getAttributes = (attrContent, scope) => {
         return [];
     }
 
-
     const attrObj = {};    
     let type = scope.slice(0, scope.indexOf(":"));
     let lastFolder = scope === 'HTML' ? 'attributes' : 'attribute';
 
     const lineArr = attributes.blockToLineArr(attrContent, `web/${type}/${lastFolder}`)
-
 
     lineArr.forEach((line, index) => {
         if (!line.startsWith("- [`")) {
@@ -112,8 +110,8 @@ const getElements = (type) => {
         fragment = resource.normalizeFragment(fragment);
         const contentObj = getContentObj(fragment);
 
-        const properties = {
-            ...getPreset('element'),
+        const attrData = {
+            ...getElemPreset(),
             ...contentObj.meta,
             ...{
                 interface: getInterface(contentObj.meta.name, type),
@@ -127,16 +125,18 @@ const getElements = (type) => {
             ),
         };
 
+        attrData.url = attrData.url || contentObj.meta.url;
+
         /**
          * Heading in MDN are all listed in one file ('heading_element.md')
          */
         if (contentObj.meta.name === "h1") {
             ["h1", "h2", "h3", "h4", "h5", "h6"].forEach((name) => {
-                properties.name = name;
-                store.set(`${type.toLowerCase()}/${properties.name}`, properties);
+                attrData.name = name;
+                store.set(`${type.toLowerCase()}/${attrData.name}`, attrData);
             });
         } else {
-            store.set(`${type.toLowerCase()}/${properties.name}`, properties);
+            store.set(`${type.toLowerCase()}/${attrData.name}`, attrData);
         }
     });
 };

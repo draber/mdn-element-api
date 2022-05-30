@@ -3,24 +3,19 @@ import getElements from "./modules/collect-elements.js";
 import resource from "./modules/resource.js";
 import store from "./modules/store.js";
 import getSingleElement from "./modules/get-single-element.js";
+import { getGlobalAttrNs, getTypes } from "./modules/utils.js";
 
 /**
  * Build element listing
  */
-["HTML", "SVG", "MathML"].forEach((type) => {
+getTypes().forEach((type) => {
     getElements(type);
 });
 
 /**
  * Build global attributes
  */
-[
-    "HTML:global:generic",
-    "HTML:global:eventhandler",
-    "HTML:global:aria",
-    "SVG:global:styling",
-    "SVG:global:core",
-].forEach((scope) => {
+ getGlobalAttrNs().forEach((scope) => {
     getGlobalAttributes(scope);
 });
 

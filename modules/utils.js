@@ -8,18 +8,34 @@ const common = {
     tags: [],
 };
 
-export const getPreset = (type) => {
-    const typePreset =
-        type === "element"
-            ? {
-                  interface: "",
-                  attributes: {},
-              }
-            : {};
+export const getAttrPreset = () => {
     return {
         ...common,
-        ...typePreset,
-        ...{ type },
+        ...{ type: "attribute" },
     };
 };
 
+export const getElemPreset = () => {
+    return {
+        ...common,
+        ...{
+            interface: "",
+            attributes: {},
+        },
+        ...{ type: "element" },
+    };
+};
+
+export const getGlobalAttrNs = () => {
+    return [
+        "HTML:global:generic",
+        "HTML:global:eventhandler",
+        "HTML:global:aria",
+        "SVG:global:styling",
+        "SVG:global:core",
+    ];
+};
+
+export const getTypes = () => {
+    return ["HTML", "SVG", "MathML"];
+};
