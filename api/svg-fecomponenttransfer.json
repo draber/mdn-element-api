@@ -1,5 +1,5 @@
 {
-	"name": "fecomponenttransfer",
+	"name": "feComponentTransfer",
 	"status": "living",
 	"summary": "The `<feComponentTransfer>` SVG filter primitive performs color-component-wise remapping of data for each pixel. It allows operations like brightness adjustment, contrast adjustment, color balance or thresholding.",
 	"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feComponentTransfer",

@@ -1,5 +1,5 @@
 {
-	"name": "fefuncr",
+	"name": "feFuncR",
 	"status": "living",
 	"summary": "The `<feFuncR>` SVG filter primitive defines the transfer function for the red component of the input graphic of its parent feComponentTransfer element.",
 	"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feFuncR",

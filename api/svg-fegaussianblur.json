@@ -1,5 +1,5 @@
 {
-	"name": "fegaussianblur",
+	"name": "feGaussianBlur",
 	"status": "living",
 	"summary": "The `<feGaussianBlur>` SVG filter primitive blurs the input image by the amount specified in stdDeviation, which defines the bell-curve.",
 	"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feGaussianBlur",

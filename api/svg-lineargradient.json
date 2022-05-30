@@ -1,5 +1,5 @@
 {
-	"name": "lineargradient",
+	"name": "linearGradient",
 	"status": "living",
 	"summary": "The `<linearGradient>` element lets authors define linear gradients to apply to other SVG elements.",
 	"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/linearGradient",
@@ -11,13 +11,13 @@
 	],
 	"interface": "SVGLinearGradientElement",
 	"attributes": {
-		"gradientunits": {
-			"name": "gradientunits",
+		"gradientUnits": {
+			"name": "gradientUnits",
 			"status": "living",
 			"summary": "The `gradientUnits` attribute defines the coordinate system used for attributes specified on the gradient elements.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/gradientUnits",
 			"type": "attribute",
-			"scope": "SVG:lineargradient",
+			"scope": "SVG:linearGradient",
 			"tags": [
 				"SVG",
 				"SVG Attribute"
@@ -27,13 +27,13 @@
 				"https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementGradientUnitsAttribute"
 			]
 		},
-		"gradienttransform": {
-			"name": "gradienttransform",
+		"gradientTransform": {
+			"name": "gradientTransform",
 			"status": "living",
 			"summary": "The `gradientTransform` attribute contains the definition of an optional additional transformation from the gradient coordinate system onto the target coordinate system (i.e., userSpaceOnUse or objectBoundingBox). This allows for things such as skewing the gradient. This additional transformation matrix is post-multiplied to (i.e., inserted to the right of) any previously defined transformations, including the implicit transformation necessary to convert from object bounding box units to user space.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/gradientTransform",
 			"type": "attribute",
-			"scope": "SVG:lineargradient",
+			"scope": "SVG:linearGradient",
 			"tags": [
 				"SVG",
 				"SVG Attribute"
@@ -45,19 +45,19 @@
 			"summary": "The `href` attribute defines a link to a resource as a reference URL. The exact meaning of that link depends on the context of each element using it.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/href",
 			"type": "attribute",
-			"scope": "SVG:lineargradient",
+			"scope": "SVG:linearGradient",
 			"tags": [
 				"SVG",
 				"SVG Attribute"
 			]
 		},
-		"spreadmethod": {
-			"name": "spreadmethod",
+		"spreadMethod": {
+			"name": "spreadMethod",
 			"status": "living",
 			"summary": "The `spreadMethod` attribute determines how a shape is filled beyond the defined edges of a gradient.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/spreadMethod",
 			"type": "attribute",
-			"scope": "SVG:lineargradient",
+			"scope": "SVG:linearGradient",
 			"tags": [
 				"SVG",
 				"SVG Attribute"
@@ -69,7 +69,7 @@
 			"summary": "The `x1` attribute is used to specify the first x-coordinate for drawing an SVG element that requires more than one coordinate. Elements that only need one coordinate use the x attribute instead.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/x1",
 			"type": "attribute",
-			"scope": "SVG:lineargradient",
+			"scope": "SVG:linearGradient",
 			"tags": [
 				"Drawing Lines",
 				"Gradients",
@@ -90,7 +90,7 @@
 			"summary": "The `x2` attribute is used to specify the second x-coordinate for drawing an SVG element that requires more than one coordinate. Elements that only need one coordinate use the x attribute instead.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/x2",
 			"type": "attribute",
-			"scope": "SVG:lineargradient",
+			"scope": "SVG:linearGradient",
 			"tags": [
 				"SVG",
 				"SVG Attribute"
@@ -106,7 +106,7 @@
 			"summary": "The `xlink:href` attribute defines a reference to a resource as a reference IRI. The exact meaning of that link depends on the context of each element using it.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xlink:href",
 			"type": "attribute",
-			"scope": "SVG:lineargradient",
+			"scope": "SVG:linearGradient",
 			"tags": [
 				"SVG",
 				"SVG Attribute"
@@ -137,7 +137,7 @@
 			"summary": "The `y1` attribute is used to specify the first y-coordinate for drawing an SVG element that requires more than one coordinate. Elements that only need one coordinate use the y attribute instead.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/y1",
 			"type": "attribute",
-			"scope": "SVG:lineargradient",
+			"scope": "SVG:linearGradient",
 			"tags": [
 				"SVG",
 				"SVG Attribute"
@@ -153,7 +153,7 @@
 			"summary": "The `y2` attribute is used to specify the second y-coordinate for drawing an SVG element that requires more than one coordinate. Elements that only need one coordinate use the y attribute instead.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/y2",
 			"type": "attribute",
-			"scope": "SVG:lineargradient",
+			"scope": "SVG:linearGradient",
 			"tags": [
 				"SVG",
 				"SVG Attribute"

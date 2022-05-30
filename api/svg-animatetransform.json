@@ -1,5 +1,5 @@
 {
-	"name": "animatetransform",
+	"name": "animateTransform",
 	"status": "living",
 	"summary": "The `animateTransform` element animates a transformation attribute on its target element, thereby allowing animations to control translation, scaling, rotation, and/or skewing.",
 	"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/animateTransform",

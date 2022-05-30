@@ -30,8 +30,8 @@
 				"https://svgwg.org/svg2-draft/pservers.html#PatternElementHeightAttribute"
 			]
 		},
-		"preserveaspectratio": {
-			"name": "preserveaspectratio",
+		"preserveAspectRatio": {
+			"name": "preserveAspectRatio",
 			"status": "living",
 			"summary": "The `preserveAspectRatio` attribute indicates how an element with a viewBox providing a given aspect ratio must fit into a viewport with a different aspect ratio.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/preserveAspectRatio",
@@ -46,8 +46,8 @@
 				"https://svgwg.org/svg2-draft/coords.html#PreserveAspectRatioAttribute"
 			]
 		},
-		"refx": {
-			"name": "refx",
+		"refX": {
+			"name": "refX",
 			"status": "living",
 			"summary": "The `refX` attribute defines the x coordinate of an element's reference point.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/refX",
@@ -59,8 +59,8 @@
 				"https://svgwg.org/svg2-draft/struct.html#SymbolElementRefXAttribute"
 			]
 		},
-		"refy": {
-			"name": "refy",
+		"refY": {
+			"name": "refY",
 			"status": "living",
 			"summary": "The `refY` attribute defines the y coordinate of an element's reference point.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/refY",
@@ -72,8 +72,8 @@
 				"https://svgwg.org/svg2-draft/struct.html#SymbolElementRefYAttribute"
 			]
 		},
-		"viewbox": {
-			"name": "viewbox",
+		"viewBox": {
+			"name": "viewBox",
 			"status": "living",
 			"summary": "The `viewBox` attribute defines the position and dimension, in user space, of an SVG viewport.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/viewBox",

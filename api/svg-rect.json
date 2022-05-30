@@ -119,8 +119,8 @@
 			],
 			"spec-urls": "https://svgwg.org/svg2-draft/geometry.html#RY"
 		},
-		"pathlength": {
-			"name": "pathlength",
+		"pathLength": {
+			"name": "pathLength",
 			"status": "living",
 			"summary": "The `pathLength` attribute lets authors specify a total length for the path, in user units. This value is then used to calibrate the browser's distance calculations with those of the author, by scaling all distance computations using the ratio `pathLength`/(computed value of path length).",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/pathLength",

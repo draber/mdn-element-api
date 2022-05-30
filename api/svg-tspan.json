@@ -103,8 +103,8 @@
 			],
 			"spec-urls": "https://svgwg.org/specs/animations/#RotateAttribute"
 		},
-		"lengthadjust": {
-			"name": "lengthadjust",
+		"lengthAdjust": {
+			"name": "lengthAdjust",
 			"status": "living",
 			"summary": "The lengthAdjust attribute controls how the text is stretched into the length defined by the textLength attribute.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/lengthAdjust",
@@ -115,8 +115,8 @@
 				"SVG Attribute"
 			]
 		},
-		"textlength": {
-			"name": "textlength",
+		"textLength": {
+			"name": "textLength",
 			"status": "living",
 			"summary": "The `textLength` attribute, available on SVG text and tspan elements, lets you specify the width of the space into which the text will draw. The user agent will ensure that the text does not extend farther than that distance, using the method or methods specified by the lengthAdjust attribute. By default, only the spacing between characters is adjusted, but the glyph size can also be adjusted if you change `lengthAdjust`.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/textLength",

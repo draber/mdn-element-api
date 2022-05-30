@@ -32,6 +32,12 @@ const anyElement = (type) => {
     };
 };
 
+/**
+ * Get the Interface for an element
+ * @param {String} tag 
+ * @param {String} type 
+ * @returns 
+ */
 const getInterface = (tag, type) => {
     switch (type) {
         case "HTML":
@@ -47,8 +53,13 @@ const getInterface = (tag, type) => {
     }
 };
 
-
-const getAttributes = (attrContent, elemFragment, scope) => {
+/**
+ * 
+ * @param {*} attrContent 
+ * @param {*} scope 
+ * @returns 
+ */
+const getAttributes = (attrContent, scope) => {
     if (!attrContent) {
         return [];
     }
@@ -81,9 +92,13 @@ const globalAttributeScopes = {
     mathml: [],
 };
 
+/**
+ * Build the list of elements
+ * @param {String} type 
+ */
 const getElements = (type) => {
     // build an empty generic element to hold the global attributes
-    store.set(`/web/${type.toLowerCase()}/element/*`, anyElement(type));
+    store.set(`${type.toLowerCase()}/*`, anyElement(type));
     
     const directory = path.dirname(
         resource.normalizeLocalPath(`/web/${type}/element`)
@@ -108,19 +123,20 @@ const getElements = (type) => {
             globalAttributeScopes: globalAttributeScopes[type],
             attributes: getAttributes(
                 contentObj.attributes,
-                fragment,
                 `${type}:${contentObj.meta.name}`
             ),
         };
 
+        /**
+         * Heading in MDN are all listed in one file ('heading_element.md')
+         */
         if (contentObj.meta.name === "h1") {
             ["h1", "h2", "h3", "h4", "h5", "h6"].forEach((name) => {
-                fragment = fragment.replace(/(h[1-6]|heading_elements)/, name);
                 properties.name = name;
-                store.set(fragment, properties);
+                store.set(`${type.toLowerCase()}/${properties.name}`, properties);
             });
         } else {
-            store.set(fragment, properties);
+            store.set(`${type.toLowerCase()}/${properties.name}`, properties);
         }
     });
 };

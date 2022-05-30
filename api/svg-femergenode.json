@@ -1,5 +1,5 @@
 {
-	"name": "femergenode",
+	"name": "feMergeNode",
 	"status": "living",
 	"summary": "The `feMergeNode` takes the result of another filter to be processed by its parent feMerge.",
 	"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feMergeNode",

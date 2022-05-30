@@ -30,8 +30,8 @@
 				"https://svgwg.org/svg2-draft/pservers.html#PatternElementHeightAttribute"
 			]
 		},
-		"maskcontentunits": {
-			"name": "maskcontentunits",
+		"maskContentUnits": {
+			"name": "maskContentUnits",
 			"status": "living",
 			"summary": "The `maskContentUnits` attribute indicates which coordinate system to use for the contents of the mask element.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/maskContentUnits",
@@ -42,8 +42,8 @@
 				"SVG Attribute"
 			]
 		},
-		"maskunits": {
-			"name": "maskunits",
+		"maskUnits": {
+			"name": "maskUnits",
 			"status": "living",
 			"summary": "The `maskUnits` attribute indicates which coordinate system to use for the geometry properties of the mask element.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/maskUnits",
