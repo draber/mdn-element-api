@@ -1,5 +1,5 @@
 {
-	"name": "animatemotion",
+	"name": "animateMotion",
 	"status": "living",
 	"summary": "The SVG `<animateMotion>` element provides a way to define how an element moves along a motion path.",
 	"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/animateMotion",
@@ -11,13 +11,13 @@
 	],
 	"interface": "SVGAnimateMotionElement",
 	"attributes": {
-		"keypoints": {
-			"name": "keypoints",
+		"keyPoints": {
+			"name": "keyPoints",
 			"status": "living",
 			"summary": "The `keyPoints` attribute indicates the simple duration of an animation.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/keyPoints",
 			"type": "attribute",
-			"scope": "SVG:animatemotion",
+			"scope": "SVG:animateMotion",
 			"tags": [
 				"SVG",
 				"SVG Attribute"
@@ -29,7 +29,7 @@
 			"summary": "The `path` attribute has two different meanings, either it defines a text path along which the characters of a text are rendered, or a motion path along which a referenced element is animated.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/path",
 			"type": "attribute",
-			"scope": "SVG:animatemotion",
+			"scope": "SVG:animateMotion",
 			"tags": [
 				"SVG",
 				"SVG Attribute"
@@ -45,7 +45,7 @@
 			"summary": "The `rotate` attribute specifies how the animated element rotates as it travels along a path specified in an animateMotion element.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/rotate",
 			"type": "attribute",
-			"scope": "SVG:animatemotion",
+			"scope": "SVG:animateMotion",
 			"tags": [
 				"Animation",
 				"Graphics",

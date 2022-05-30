@@ -1,5 +1,5 @@
 {
-	"name": "fedropshadow",
+	"name": "feDropShadow",
 	"status": "living",
 	"summary": "The SVG `<feDropShadow>` filter primitive creates a drop shadow of the input image. It can only be used inside a  element.",
 	"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feDropShadow",
@@ -17,7 +17,7 @@
 			"summary": "The `dx` attribute indicates a shift along the x-axis on the position of an element or its content.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/dx",
 			"type": "attribute",
-			"scope": "SVG:fedropshadow",
+			"scope": "SVG:feDropShadow",
 			"tags": [
 				"SVG",
 				"SVG Attribute"
@@ -34,7 +34,7 @@
 			"summary": "The `dy` attribute indicates a shift along the y-axis on the position of an element or its content.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/dy",
 			"type": "attribute",
-			"scope": "SVG:fedropshadow",
+			"scope": "SVG:feDropShadow",
 			"tags": [
 				"SVG",
 				"SVG Attribute"
@@ -45,13 +45,13 @@
 				"https://svgwg.org/svg2-draft/text.html#TextElementDYAttribute"
 			]
 		},
-		"stddeviation": {
-			"name": "stddeviation",
+		"stdDeviation": {
+			"name": "stdDeviation",
 			"status": "living",
 			"summary": "The `stdDeviation` attribute defines the standard deviation for the blur operation.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/stdDeviation",
 			"type": "attribute",
-			"scope": "SVG:fedropshadow",
+			"scope": "SVG:feDropShadow",
 			"tags": [
 				"Filters",
 				"SVG",

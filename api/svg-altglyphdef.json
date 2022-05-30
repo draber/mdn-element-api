@@ -1,5 +1,5 @@
 {
-	"name": "altglyphdef",
+	"name": "altGlyphDef",
 	"status": "deprecated",
 	"summary": "The `<altGlyphDef>` SVG element defines a substitution representation for glyphs.",
 	"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/altGlyphDef",

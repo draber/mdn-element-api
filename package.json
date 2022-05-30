@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "node .",
-    "build": "node . --env=prod"
+    "build": "node . --env=prod && npm run site:build"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,6 @@
   },
   "homepage": "https://github.com/draber/mdn-element-api#readme",
   "dependencies": {
-    "a-nicer-console": "^1.0.2",
     "elastic-object": "^1.0.9",
     "fs-extra": "^10.1.0",
     "global-jsdom": "^8.4.0",

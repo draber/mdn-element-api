@@ -1,5 +1,5 @@
 {
-	"/web/html/element/*": {
+	"html/*": {
 		"name": "HTML:*",
 		"status": "virtual",
 		"summary": "Container to hold the global attributes of all HTML elements.",
@@ -1512,7 +1512,7 @@
 			}
 		}
 	},
-	"/web/html/element/a": {
+	"html/a": {
 		"name": "a",
 		"status": "living",
 		"summary": "The `<a>` HTML element (or anchor element), with its `href` attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.",
@@ -1610,7 +1610,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/abbr": {
+	"html/abbr": {
 		"name": "abbr",
 		"status": "living",
 		"summary": "The `<abbr>` HTML element represents an abbreviation or acronym; the optional title attribute can provide an expansion or description for the abbreviation. If present, `title` must contain this full description and nothing else.",
@@ -1636,7 +1636,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/acronym": {
+	"html/acronym": {
 		"name": "acronym",
 		"status": "deprecated",
 		"summary": "The `<acronym>` HTML element allows authors to clearly indicate a sequence of characters that compose an acronym or abbreviation for a word.",
@@ -1655,7 +1655,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/address": {
+	"html/address": {
 		"name": "address",
 		"status": "living",
 		"summary": "The `<address>` HTML element indicates that the enclosed HTML provides contact information for a person or people, or for an organization.",
@@ -1681,7 +1681,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/applet": {
+	"html/applet": {
 		"name": "applet",
 		"status": "deprecated",
 		"summary": "The obsolete HTML Applet Element (`<applet>`) embeds a Java applet into the document; this element has been deprecated in favor of object.",
@@ -1836,7 +1836,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/area": {
+	"html/area": {
 		"name": "area",
 		"status": "living",
 		"summary": "The `<area>` HTML element defines an area inside an image map that has predefined clickable areas. An image map allows geometric areas on an image to be associated with Hyperlink.",
@@ -1949,7 +1949,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/article": {
+	"html/article": {
 		"name": "article",
 		"status": "living",
 		"summary": "The `<article>` HTML element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). Examples include: a forum post, a magazine or newspaper article, or a blog entry, a product card, a user-submitted comment, an interactive widget or gadget, or any other independent item of content.",
@@ -1968,7 +1968,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/aside": {
+	"html/aside": {
 		"name": "aside",
 		"status": "living",
 		"summary": "The `<aside>` HTML element represents a portion of a document whose content is only indirectly related to the document's main content. Asides are frequently presented as sidebars or call-out boxes.",
@@ -1990,7 +1990,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/audio": {
+	"html/audio": {
 		"name": "audio",
 		"status": "living",
 		"summary": "The `<audio>` HTML element is used to embed sound content in documents. It may contain one or more audio sources, represented using the `src` attribute or the source element: the browser will choose the most suitable one. It can also be the destination for streamed media, using a MediaStream.",
@@ -2088,7 +2088,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/b": {
+	"html/b": {
 		"name": "b",
 		"status": "living",
 		"summary": "The `<b>` HTML element is used to draw the reader's attention to the element's contents, which are not otherwise granted special importance. This was formerly known as the Boldface element, and most browsers still draw the text in boldface. However, you should not use `<b>` for styling text; instead, you should use the CSS font-weight property to create boldface text, or the strong element to indicate that text is of special importance.",
@@ -2111,7 +2111,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/base": {
+	"html/base": {
 		"name": "base",
 		"status": "living",
 		"summary": "The `<base>` HTML element specifies the base URL to use for all relative URLs in a document. There can be only one `<base>` element in a document.",
@@ -2150,7 +2150,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/basefont": {
+	"html/basefont": {
 		"name": "basefont",
 		"status": "deprecated",
 		"summary": "The `<basefont>` HTML element is deprecated. It sets a default font face, size, and color for the other elements which are descended from its parent element. With this set, the font's size can then be varied relative to the base size using the font element.",
@@ -2199,7 +2199,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/bdi": {
+	"html/bdi": {
 		"name": "bdi",
 		"status": "living",
 		"summary": "The `<bdi>` HTML element tells the browser's bidirectional algorithm to treat the text it contains in isolation from its surrounding text. It's particularly useful when a website dynamically inserts some text and doesn't know the directionality of the text being inserted.",
@@ -2231,7 +2231,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/bdo": {
+	"html/bdo": {
 		"name": "bdo",
 		"status": "living",
 		"summary": "The `<bdo>` HTML element overrides the current directionality of text, so that the text within is rendered in a different direction.",
@@ -2272,7 +2272,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/bgsound": {
+	"html/bgsound": {
 		"name": "bgsound",
 		"status": "deprecated",
 		"summary": "The `<bgsound>` HTML element is deprecated. It sets up a sound file to play in the background while the page is used; use audio instead.",
@@ -2331,7 +2331,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/big": {
+	"html/big": {
 		"name": "big",
 		"status": "deprecated",
 		"summary": "The `<big>` HTML deprecated element renders the enclosed text at a font size one level larger than the surrounding text (`medium` becomes `large`, for example). The size is capped at the browser's maximum permitted font size.",
@@ -2349,7 +2349,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/blink": {
+	"html/blink": {
 		"name": "blink",
 		"status": "deprecated",
 		"summary": "The `<blink>` HTML element is a non-standard element which causes the enclosed text to flash slowly.",
@@ -2367,7 +2367,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/blockquote": {
+	"html/blockquote": {
 		"name": "blockquote",
 		"status": "living",
 		"summary": "The `<blockquote>` HTML element indicates that the enclosed text is an extended quotation. Usually, this is rendered visually by indentation (see Notes for how to change it). A URL for the source of the quotation may be given using the cite attribute, while a text representation of the source can be given using the cite element.",
@@ -2400,7 +2400,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/body": {
+	"html/body": {
 		"name": "body",
 		"status": "living",
 		"summary": "The `<body>` HTML element represents the content of an HTML document. There can be only one `<body>` element in a document.",
@@ -2673,7 +2673,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/br": {
+	"html/br": {
 		"name": "br",
 		"status": "living",
 		"summary": "The `<br>` HTML element produces a line break in text (carriage-return). It is useful for writing a poem or an address, where the division of lines is significant.",
@@ -2692,7 +2692,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/button": {
+	"html/button": {
 		"name": "button",
 		"status": "living",
 		"summary": "The `<button>` HTML element is an interactive element activated by a user with a mouse, keyboard, finger, voice command, or other assistive technology. Once activated, it then performs a programmable action, such as submitting a form or opening a dialog.",
@@ -2821,7 +2821,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/canvas": {
+	"html/canvas": {
 		"name": "canvas",
 		"status": "living",
 		"summary": "Use the HTML `<canvas>` element with either the canvas scripting API or the WebGL API to draw graphics and animations.",
@@ -2868,7 +2868,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/caption": {
+	"html/caption": {
 		"name": "caption",
 		"status": "living",
 		"summary": "The `<caption>` HTML element specifies the caption (or title) of a table.",
@@ -2891,7 +2891,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/center": {
+	"html/center": {
 		"name": "center",
 		"status": "deprecated",
 		"summary": "The `<center>` HTML element is a block-level element that displays its block-level or inline contents centered horizontally within its containing element. The container is usually, but isn't required to be, body.",
@@ -2912,7 +2912,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/cite": {
+	"html/cite": {
 		"name": "cite",
 		"status": "living",
 		"summary": "The `<cite>` HTML element is used to describe a reference to a cited creative work, and must include the title of that work. The reference may be in an abbreviated form according to context-appropriate conventions related to citation metadata.",
@@ -2936,7 +2936,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/code": {
+	"html/code": {
 		"name": "code",
 		"status": "living",
 		"summary": "The `<code>` HTML element displays its contents styled in a fashion intended to indicate that the text is a short fragment of computer code. By default, the content text is displayed using the user agent default monospace font.",
@@ -2956,7 +2956,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/col": {
+	"html/col": {
 		"name": "col",
 		"status": "living",
 		"summary": "The `<col>` HTML element defines a column within a table and is used for defining common semantics on all common cells. It is generally found within a colgroup element.",
@@ -2986,7 +2986,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/colgroup": {
+	"html/colgroup": {
 		"name": "colgroup",
 		"status": "living",
 		"summary": "The `<colgroup>` HTML element defines a group of columns within a table.",
@@ -3016,7 +3016,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/content": {
+	"html/content": {
 		"name": "content",
 		"status": "deprecated",
 		"summary": "The `<content>` HTML element—an obsolete part of the Web Components suite of technologies—was used inside of Shadow DOM as an insertion point, and wasn't meant to be used in ordinary HTML. It has now been replaced by the slot element, which creates a point in the DOM at which a shadow DOM can be inserted.",
@@ -3049,7 +3049,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/data": {
+	"html/data": {
 		"name": "data",
 		"status": "living",
 		"summary": "The `<data>` HTML element links a given piece of content with a machine-readable translation. If the content is time- or date-related, the time element must be used.",
@@ -3078,7 +3078,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/datalist": {
+	"html/datalist": {
 		"name": "datalist",
 		"status": "living",
 		"summary": "The `<datalist>` HTML element contains a set of option elements that represent the permissible or recommended options available to choose from within other controls.",
@@ -3097,7 +3097,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/dd": {
+	"html/dd": {
 		"name": "dd",
 		"status": "living",
 		"summary": "The `<dd>` HTML element provides the description, definition, or value for the preceding term (dt) in a description list (dl).",
@@ -3130,7 +3130,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/del": {
+	"html/del": {
 		"name": "del",
 		"status": "living",
 		"summary": "The `<del>` HTML element represents a range of text that has been deleted from a document. This can be used when rendering \"track changes\" or source code diff information, for example. The ins element can be used for the opposite purpose: to indicate text that has been added to the document.",
@@ -3169,7 +3169,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/details": {
+	"html/details": {
 		"name": "details",
 		"status": "living",
 		"summary": "The `<details>` HTML element creates a disclosure widget in which information is visible only when the widget is toggled into an \"open\" state. A summary or label must be provided using the summary element.",
@@ -3200,7 +3200,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/dfn": {
+	"html/dfn": {
 		"name": "dfn",
 		"status": "living",
 		"summary": "The `<dfn>` HTML element is used to indicate the term being defined within the context of a definition phrase or sentence. The p element, the dt/dd pairing, or the section element which is the nearest ancestor of the `<dfn>` is considered to be the definition of the term.",
@@ -3222,7 +3222,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/dialog": {
+	"html/dialog": {
 		"name": "dialog",
 		"status": "living",
 		"summary": "The `<dialog>` HTML element represents a dialog box or other interactive component, such as a dismissible alert, inspector, or subwindow.",
@@ -3252,7 +3252,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/dir": {
+	"html/dir": {
 		"name": "dir",
 		"status": "deprecated",
 		"summary": "The `<dir>` HTML element is used as a container for a directory of files and/or folders, potentially with styles and icons applied by the user agent. Do not use this obsolete element; instead, you should use the ul element for lists, including lists of files.",
@@ -3283,7 +3283,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/div": {
+	"html/div": {
 		"name": "div",
 		"status": "living",
 		"summary": "The `<div>` HTML element is the generic container for flow content. It has no effect on the content or layout until styled in some way using CSS (e.g. styling is directly applied to it, or some kind of layout model like Flexbox is applied to its parent element).",
@@ -3305,7 +3305,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/dl": {
+	"html/dl": {
 		"name": "dl",
 		"status": "living",
 		"summary": "The `<dl>` HTML element represents a description list. The element encloses a list of groups of terms (specified using the dt element) and descriptions (provided by dd elements). Common uses for this element are to implement a glossary or to display metadata (a list of key-value pairs).",
@@ -3328,7 +3328,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/dt": {
+	"html/dt": {
 		"name": "dt",
 		"status": "living",
 		"summary": "The `<dt>` HTML element specifies a term in a description or definition list, and as such must be used inside a dl element. It is usually followed by a dd element; however, multiple `<dt>` elements in a row indicate several terms that are all defined by the immediate next dd element.",
@@ -3352,7 +3352,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/em": {
+	"html/em": {
 		"name": "em",
 		"status": "living",
 		"summary": "The `<em>` HTML element marks text that has stress emphasis. The `<em>` element can be nested, with each level of nesting indicating a greater degree of emphasis.",
@@ -3371,7 +3371,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/embed": {
+	"html/embed": {
 		"name": "embed",
 		"status": "living",
 		"summary": "The `<embed>` HTML element embeds external content at the specified point in the document. This content is provided by an external application or other source of interactive content such as a browser plug-in.",
@@ -3430,7 +3430,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/fieldset": {
+	"html/fieldset": {
 		"name": "fieldset",
 		"status": "living",
 		"summary": "The `<fieldset>` HTML element is used to group several controls as well as labels (label) within a web form.",
@@ -3478,7 +3478,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/figcaption": {
+	"html/figcaption": {
 		"name": "figcaption",
 		"status": "living",
 		"summary": "The `<figcaption>` HTML element represents a caption or legend describing the rest of the contents of its parent figure element.",
@@ -3497,7 +3497,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/figure": {
+	"html/figure": {
 		"name": "figure",
 		"status": "living",
 		"summary": "The `<figure>` HTML element represents self-contained content, potentially with an optional caption, which is specified using the figcaption element. The figure, its caption, and its contents are referenced as a single unit.",
@@ -3518,7 +3518,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/font": {
+	"html/font": {
 		"name": "font",
 		"status": "deprecated",
 		"summary": "The `<font>` HTML element defines the font size, color and face for its content.",
@@ -3564,7 +3564,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/footer": {
+	"html/footer": {
 		"name": "footer",
 		"status": "living",
 		"summary": "The `<footer>` HTML element represents a footer for its nearest ancestor sectioning content or sectioning root element. A `<footer>` typically contains information about the author of the section, copyright data or links to related documents.",
@@ -3583,7 +3583,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/form": {
+	"html/form": {
 		"name": "form",
 		"status": "living",
 		"summary": "The `<form>` HTML element represents a document section containing interactive controls for submitting information.",
@@ -3660,7 +3660,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/frame": {
+	"html/frame": {
 		"name": "frame",
 		"status": "deprecated",
 		"summary": "The `<frame>` HTML element defines a particular area in which another HTML document can be displayed. A frame should be used within a frameset.",
@@ -3742,7 +3742,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/frameset": {
+	"html/frameset": {
 		"name": "frameset",
 		"status": "deprecated",
 		"summary": "The `<frameset>` HTML element is used to contain frame elements.",
@@ -3779,7 +3779,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/head": {
+	"html/head": {
 		"name": "head",
 		"status": "living",
 		"summary": "The `<head>` HTML element contains machine-readable information (metadata) about the document, like its title, scripts, and style sheets.",
@@ -3809,7 +3809,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/header": {
+	"html/header": {
 		"name": "header",
 		"status": "living",
 		"summary": "The `<header>` HTML element represents introductory content, typically a group of introductory or navigational aids. It may contain some heading elements but also a logo, a search form, an author name, and other elements.",
@@ -3828,7 +3828,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/h1": {
+	"html/h1": {
 		"name": "h6",
 		"status": "living",
 		"summary": "The `<h1>` to `<h6>` HTML elements represent six levels of section headings. `<h1>` is the highest section level and `<h6>` is the lowest.",
@@ -3847,7 +3847,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/h2": {
+	"html/h2": {
 		"name": "h6",
 		"status": "living",
 		"summary": "The `<h1>` to `<h6>` HTML elements represent six levels of section headings. `<h1>` is the highest section level and `<h6>` is the lowest.",
@@ -3866,7 +3866,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/h3": {
+	"html/h3": {
 		"name": "h6",
 		"status": "living",
 		"summary": "The `<h1>` to `<h6>` HTML elements represent six levels of section headings. `<h1>` is the highest section level and `<h6>` is the lowest.",
@@ -3885,7 +3885,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/h4": {
+	"html/h4": {
 		"name": "h6",
 		"status": "living",
 		"summary": "The `<h1>` to `<h6>` HTML elements represent six levels of section headings. `<h1>` is the highest section level and `<h6>` is the lowest.",
@@ -3904,7 +3904,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/h5": {
+	"html/h5": {
 		"name": "h6",
 		"status": "living",
 		"summary": "The `<h1>` to `<h6>` HTML elements represent six levels of section headings. `<h1>` is the highest section level and `<h6>` is the lowest.",
@@ -3923,7 +3923,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/h6": {
+	"html/h6": {
 		"name": "h6",
 		"status": "living",
 		"summary": "The `<h1>` to `<h6>` HTML elements represent six levels of section headings. `<h1>` is the highest section level and `<h6>` is the lowest.",
@@ -3942,7 +3942,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/hgroup": {
+	"html/hgroup": {
 		"name": "hgroup",
 		"status": "deprecated",
 		"summary": "Warning: `<hgroup>` should not be used because no assistive technology supports it, and as a result it has a detrimental effect on assistance for headings placed within it. > > For more information see the Usage notes below.",
@@ -3960,7 +3960,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/hr": {
+	"html/hr": {
 		"name": "hr",
 		"status": "living",
 		"summary": "The `<hr>` HTML element represents a thematic break between paragraph-level elements: for example, a change of scene in a story, or a shift of topic within a section.",
@@ -4025,7 +4025,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/html": {
+	"html/html": {
 		"name": "html",
 		"status": "living",
 		"summary": "The `<html>` HTML element represents the root (top-level element) of an HTML document, so it is also referred to as the root element. All other elements must be descendants of this element.",
@@ -4071,7 +4071,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/i": {
+	"html/i": {
 		"name": "i",
 		"status": "living",
 		"summary": "The `<i>` HTML element represents a range of text that is set off from the normal text for some reason, such as idiomatic text, technical terms, taxonomical designations, among others. Historically, these have been presented using italicized type, which is the original source of the `<i>` naming of this element.",
@@ -4091,7 +4091,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/iframe": {
+	"html/iframe": {
 		"name": "iframe",
 		"status": "living",
 		"summary": "The `<iframe>` HTML element represents a nested browsing context, embedding another HTML page into the current one.",
@@ -4234,7 +4234,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/image": {
+	"html/image": {
 		"name": "image",
 		"status": "deprecated",
 		"summary": "The `<image>` HTML element is an ancient and poorly supported precursor to the img element. It should not be used.",
@@ -4256,7 +4256,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/img": {
+	"html/img": {
 		"name": "img",
 		"status": "living",
 		"summary": "The `<img>` HTML element embeds an image into the document.",
@@ -4405,7 +4405,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/input": {
+	"html/input": {
 		"name": "input",
 		"status": "living",
 		"summary": "The `<input>` HTML element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. The `<input>` element is one of the most powerful and complex in all of HTML due to the sheer number of combinations of input types and attributes.",
@@ -4428,7 +4428,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/ins": {
+	"html/ins": {
 		"name": "ins",
 		"status": "living",
 		"summary": "The `<ins>` HTML element represents a range of text that has been added to a document. You can use the del element to similarly represent a range of text that has been deleted from the document.",
@@ -4468,7 +4468,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/kbd": {
+	"html/kbd": {
 		"name": "kbd",
 		"status": "living",
 		"summary": "The `<kbd>` HTML element represents a span of inline text denoting textual user input from a keyboard, voice input, or any other text entry device. By convention, the user agent defaults to rendering the contents of a `<kbd>` element using its default monospace font, although this is not mandated by the HTML standard.",
@@ -4495,7 +4495,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/keygen": {
+	"html/keygen": {
 		"name": "keygen",
 		"status": "deprecated",
 		"summary": "The `<keygen>` HTML element exists to facilitate generation of key material, and submission of the public key as part of an HTML form. This mechanism is designed for use with Web-based certificate management systems. It is expected that the `<keygen>` element will be used in an HTML form along with other information needed to construct a certificate request, and that the result of the process will be a signed certificate.",
@@ -4568,7 +4568,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/label": {
+	"html/label": {
 		"name": "label",
 		"status": "living",
 		"summary": "The `<label>` HTML element represents a caption for an item in a user interface.",
@@ -4598,7 +4598,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/legend": {
+	"html/legend": {
 		"name": "legend",
 		"status": "living",
 		"summary": "The `<legend>` HTML element represents a caption for the content of its parent fieldset.",
@@ -4618,7 +4618,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/li": {
+	"html/li": {
 		"name": "li",
 		"status": "living",
 		"summary": "The `<li>` HTML element is used to represent an item in a list. It must be contained in a parent element: an ordered list (ol), an unordered list (ul), or a menu (menu). In menus and unordered lists, list items are usually displayed using bullet points. In ordered lists, they are usually displayed with an ascending counter on the left, such as a number or letter.",
@@ -4656,7 +4656,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/link": {
+	"html/link": {
 		"name": "link",
 		"status": "living",
 		"summary": "The `<link>` HTML element specifies relationships between the current document and an external resource. This element is most commonly used to link to CSS, but is also used to establish site icons (both \"favicon\" style icons and icons for the home screen and apps on mobile devices) among other things.",
@@ -4822,7 +4822,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/main": {
+	"html/main": {
 		"name": "main",
 		"status": "living",
 		"summary": "The `<main>` HTML element represents the dominant content of the body of a document. The main content area consists of content that is directly related to or expands upon the central topic of a document, or the central functionality of an application.",
@@ -4841,7 +4841,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/map": {
+	"html/map": {
 		"name": "map",
 		"status": "living",
 		"summary": "The `<map>` HTML element is used with area elements to define an image map (a clickable link area).",
@@ -4871,7 +4871,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/mark": {
+	"html/mark": {
 		"name": "mark",
 		"status": "living",
 		"summary": "The `<mark>` HTML element represents text which is marked or highlighted for reference or notation purposes, due to the marked passage's relevance or importance in the enclosing context.",
@@ -4893,7 +4893,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/marquee": {
+	"html/marquee": {
 		"name": "marquee",
 		"status": "deprecated",
 		"summary": "The `<marquee>` HTML element is used to insert a scrolling area of text. You can control what happens when the text reaches the edges of its content area using its attributes.",
@@ -5011,7 +5011,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/menu": {
+	"html/menu": {
 		"name": "menu",
 		"status": "living",
 		"summary": "The `<menu>` HTML element is a semantic alternative to ul. It represents an unordered list of items (represented by li elements), each of which represents a link or other command that the user can activate.",
@@ -5030,7 +5030,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/menuitem": {
+	"html/menuitem": {
 		"name": "menuitem",
 		"status": "deprecated",
 		"summary": "The `<menuitem>` HTML element represents a command that a user is able to invoke through a popup menu. This includes context menus, as well as menus that might be attached to a menu button.",
@@ -5127,7 +5127,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/meta": {
+	"html/meta": {
 		"name": "meta",
 		"status": "living",
 		"summary": "The `<meta>` HTML element represents metadata that cannot be represented by other HTML meta-related elements, like base, link, script, style or title.",
@@ -5179,7 +5179,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/meter": {
+	"html/meter": {
 		"name": "meter",
 		"status": "living",
 		"summary": "The `<meter>` HTML element represents either a scalar value within a known range or a fractional value.",
@@ -5253,7 +5253,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/nav": {
+	"html/nav": {
 		"name": "nav",
 		"status": "living",
 		"summary": "The `<nav>` HTML element represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes.",
@@ -5275,7 +5275,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/nobr": {
+	"html/nobr": {
 		"name": "nobr",
 		"status": "deprecated",
 		"summary": "The `<nobr>` HTML element prevents the text it contains from automatically wrapping across multiple lines, potentially resulting in the user having to scroll horizontally to see the entire width of the text.",
@@ -5294,7 +5294,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/noembed": {
+	"html/noembed": {
 		"name": "noembed",
 		"status": "deprecated",
 		"summary": "The `<noembed>` HTML element is an obsolete, non-standard way to provide alternative, or \"fallback\", content for browsers that do not support the embed element or do not support the type of embedded content an author wishes to use. This element was deprecated in HTML 4.01 and above in favor of placing fallback content between the opening and closing tags of an object element.",
@@ -5315,7 +5315,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/noframes": {
+	"html/noframes": {
 		"name": "noframes",
 		"status": "deprecated",
 		"summary": "The `<noframes>` HTML element provides content to be presented in browsers that don't support (or have disabled support for) the frame element. Although most commonly-used browsers support frames, there are exceptions, including certain special-use browsers including some mobile browsers, as well as text-mode browsers.",
@@ -5335,7 +5335,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/noscript": {
+	"html/noscript": {
 		"name": "noscript",
 		"status": "living",
 		"summary": "The `<noscript>` HTML element defines a section of HTML to be inserted if a script type on the page is unsupported or if scripting is currently turned off in the browser.",
@@ -5354,7 +5354,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/object": {
+	"html/object": {
 		"name": "object",
 		"status": "living",
 		"summary": "The `<object>` HTML element represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin.",
@@ -5500,7 +5500,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/ol": {
+	"html/ol": {
 		"name": "ol",
 		"status": "living",
 		"summary": "The `<ol>` HTML element represents an ordered list of items — typically rendered as a numbered list.",
@@ -5548,7 +5548,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/optgroup": {
+	"html/optgroup": {
 		"name": "optgroup",
 		"status": "living",
 		"summary": "The `<optgroup>` HTML element creates a grouping of options within a select element.",
@@ -5587,7 +5587,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/option": {
+	"html/option": {
 		"name": "option",
 		"status": "living",
 		"summary": "The `<option>` HTML element is used to define an item contained in a select, an optgroup, or a datalist element. As such, `<option>` can represent menu items in popups and other lists of items in an HTML document.",
@@ -5645,7 +5645,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/output": {
+	"html/output": {
 		"name": "output",
 		"status": "living",
 		"summary": "The `<output>` HTML element is a container element into which a site or app can inject the results of a calculation or the outcome of a user action.",
@@ -5693,7 +5693,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/p": {
+	"html/p": {
 		"name": "p",
 		"status": "living",
 		"summary": "The `<p>` HTML element represents a paragraph. Paragraphs are usually represented in visual media as blocks of text separated from adjacent blocks by blank lines and/or first-line indentation, but HTML paragraphs can be any structural grouping of related content, such as images or form fields.",
@@ -5712,7 +5712,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/param": {
+	"html/param": {
 		"name": "param",
 		"status": "deprecated",
 		"summary": "The `<param>` HTML element defines parameters for an object element.",
@@ -5767,7 +5767,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/picture": {
+	"html/picture": {
 		"name": "picture",
 		"status": "living",
 		"summary": "The `<picture>` HTML element contains zero or more source elements and one img element to offer alternative versions of an image for different display/device scenarios.",
@@ -5789,7 +5789,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/plaintext": {
+	"html/plaintext": {
 		"name": "plaintext",
 		"status": "deprecated",
 		"summary": "The `<plaintext>` HTML element renders everything following the start tag as raw text, ignoring any following HTML. There is no closing tag, since everything after it is considered raw text.",
@@ -5808,7 +5808,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/portal": {
+	"html/portal": {
 		"name": "portal",
 		"status": "living",
 		"summary": "The `<portal>` HTML element enables the embedding of another HTML page into the current one for the purposes of allowing smoother navigation into new pages.",
@@ -5849,7 +5849,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/pre": {
+	"html/pre": {
 		"name": "pre",
 		"status": "living",
 		"summary": "The `<pre>` HTML element represents preformatted text which is to be presented exactly as written in the HTML file. The text is typically rendered using a non-proportional, or monospaced, font. Whitespace inside this element is displayed as written.",
@@ -5897,7 +5897,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/progress": {
+	"html/progress": {
 		"name": "progress",
 		"status": "living",
 		"summary": "The `<progress>` HTML element displays an indicator showing the completion progress of a task, typically displayed as a progress bar.",
@@ -5916,7 +5916,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/q": {
+	"html/q": {
 		"name": "q",
 		"status": "living",
 		"summary": "The `<q>` HTML element indicates that the enclosed text is a short inline quotation. Most modern browsers implement this by surrounding the text in quotation marks. This element is intended for short quotations that don't require paragraph breaks; for long quotations use the blockquote element.",
@@ -5950,7 +5950,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/rb": {
+	"html/rb": {
 		"name": "rb",
 		"status": "deprecated",
 		"summary": "The `<rb>` HTML element is used to delimit the base text component of a ruby annotation, i.e. the text that is being annotated. One `<rb>` element should wrap each separate atomic segment of the base text.",
@@ -5970,7 +5970,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/rp": {
+	"html/rp": {
 		"name": "rp",
 		"status": "living",
 		"summary": "The `<rp>` HTML element is used to provide fall-back parentheses for browsers that do not support display of ruby annotations using the ruby element. One `<rp>` element should enclose each of the opening and closing parentheses that wrap the rt element that contains the annotation's text.",
@@ -5991,7 +5991,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/rt": {
+	"html/rt": {
 		"name": "rt",
 		"status": "living",
 		"summary": "The `<rt>` HTML element specifies the ruby text component of a ruby annotation, which is used to provide pronunciation, translation, or transliteration information for East Asian typography. The `<rt>` element must always be contained within a ruby element.",
@@ -6012,7 +6012,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/rtc": {
+	"html/rtc": {
 		"name": "rtc",
 		"status": "deprecated",
 		"summary": "The `<rtc>` HTML element embraces semantic annotations of characters presented in a ruby of rb elements used inside of ruby element. rb elements can have both pronunciation (rt) and semantic (rtc) annotations.",
@@ -6032,7 +6032,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/ruby": {
+	"html/ruby": {
 		"name": "ruby",
 		"status": "living",
 		"summary": "The `<ruby>` HTML element represents small annotations that are rendered above, below, or next to base text, usually used for showing the pronunciation of East Asian characters. It can also be used for annotating other kinds of text, but this usage is less common.",
@@ -6051,7 +6051,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/s": {
+	"html/s": {
 		"name": "s",
 		"status": "living",
 		"summary": "The `<s>` HTML element renders text with a strikethrough, or a line through it. Use the `<s>` element to represent things that are no longer relevant or no longer accurate. However, `<s>` is not appropriate when indicating document edits; for that, use the del and ins elements, as appropriate.",
@@ -6071,7 +6071,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/samp": {
+	"html/samp": {
 		"name": "samp",
 		"status": "living",
 		"summary": "The `<samp>` HTML element is used to enclose inline text which represents sample (or quoted) output from a computer program. Its contents are typically rendered using the browser's default monospaced font (such as wikipedia or Lucida Console).",
@@ -6093,7 +6093,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/script": {
+	"html/script": {
 		"name": "script",
 		"status": "living",
 		"summary": "The `<script>` HTML element is used to embed executable code or data; this is typically used to embed or refer to JavaScript code. The `<script>` element can also be used with other languages, such as WebGL's GLSL shader programming language and JSON.",
@@ -6208,7 +6208,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/section": {
+	"html/section": {
 		"name": "section",
 		"status": "living",
 		"summary": "The `<section>` HTML element represents a generic standalone section of a document, which doesn't have a more specific semantic element to represent it. Sections should always have a heading, with very few exceptions.",
@@ -6227,7 +6227,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/select": {
+	"html/select": {
 		"name": "select",
 		"status": "living",
 		"summary": "The `<select>` HTML element represents a control that provides a menu of options.",
@@ -6320,7 +6320,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/shadow": {
+	"html/shadow": {
 		"name": "shadow",
 		"status": "deprecated",
 		"summary": "The `<shadow>` HTML element—an obsolete part of the Web Components technology suite—was intended to be used as a shadow DOM insertion point. You might have used it if you have created multiple shadow roots under a shadow host. It is not useful in ordinary HTML.",
@@ -6342,7 +6342,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/slot": {
+	"html/slot": {
 		"name": "slot",
 		"status": "living",
 		"summary": "The `<slot>` HTML element—part of the Web Components technology suite—is a placeholder inside a web component that you can fill with your own markup, which lets you create separate DOM trees and present them together.",
@@ -6373,7 +6373,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/small": {
+	"html/small": {
 		"name": "small",
 		"status": "living",
 		"summary": "The `<small>` HTML element represents side-comments and small print, like copyright and legal text, independent of its styled presentation. By default, it renders text within it one font-size smaller, such as from `small` to `x-small`.",
@@ -6393,7 +6393,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/source": {
+	"html/source": {
 		"name": "source",
 		"status": "living",
 		"summary": "The `<source>` HTML element specifies multiple media resources for the picture, the audio element, or the video element. It is an empty element, meaning that it has no content and does not have a closing tag. It is commonly used to offer the same media content in multiple file formats in order to provide compatibility with a broad range of browsers given their differing support for image file formats and media file formats.",
@@ -6478,7 +6478,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/spacer": {
+	"html/spacer": {
 		"name": "spacer",
 		"status": "deprecated",
 		"summary": "The `<spacer>` HTML element is an obsolete HTML element which allowed insertion of empty spaces on pages. It was devised by Netscape to accomplish the same effect as a single-pixel layout image, which was something web designers used to use to add white spaces to web pages without actually using an image. However, `<spacer>` no longer supported by any major browser and the same effects can now be achieved using simple CSS.",
@@ -6496,7 +6496,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/span": {
+	"html/span": {
 		"name": "span",
 		"status": "living",
 		"summary": "The `<span>` HTML element is a generic inline container for phrasing content, which does not inherently represent anything. It can be used to group elements for styling purposes (using the class or id attributes), or because they share attribute values, such as lang. It should be used only when no other semantic element is appropriate. `<span>` is very much like a div element, but div is a block-level element whereas a `<span>` is an inline element.",
@@ -6516,7 +6516,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/strike": {
+	"html/strike": {
 		"name": "strike",
 		"status": "deprecated",
 		"summary": "The `<strike>` HTML element places a strikethrough (horizontal line) over text.",
@@ -6534,7 +6534,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/strong": {
+	"html/strong": {
 		"name": "strong",
 		"status": "living",
 		"summary": "The `<strong>` HTML element indicates that its contents have strong importance, seriousness, or urgency. Browsers typically render the contents in bold type.",
@@ -6558,7 +6558,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/style": {
+	"html/style": {
 		"name": "style",
 		"status": "living",
 		"summary": "The `<style>` HTML element contains style information for a document, or part of a document. It contains CSS, which is applied to the contents of the document containing the `<style>` element.",
@@ -6606,7 +6606,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/sub": {
+	"html/sub": {
 		"name": "sub",
 		"status": "living",
 		"summary": "The `<sub>` HTML element specifies inline text which should be displayed as subscript for solely typographical reasons. Subscripts are typically rendered with a lowered baseline using smaller text.",
@@ -6631,7 +6631,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/summary": {
+	"html/summary": {
 		"name": "summary",
 		"status": "living",
 		"summary": "The `<summary>` HTML element specifies a summary, caption, or legend for a details element's disclosure box. Clicking the `<summary>` element toggles the state of the parent `<details>` element open and closed.",
@@ -6653,7 +6653,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/sup": {
+	"html/sup": {
 		"name": "sup",
 		"status": "living",
 		"summary": "The `<sup>` HTML element specifies inline text which is to be displayed as superscript for solely typographical reasons. Superscripts are usually rendered with a raised baseline using smaller text.",
@@ -6675,7 +6675,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/table": {
+	"html/table": {
 		"name": "table",
 		"status": "living",
 		"summary": "The `<table>` HTML element represents tabular data — that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.",
@@ -6696,7 +6696,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/tbody": {
+	"html/tbody": {
 		"name": "tbody",
 		"status": "living",
 		"summary": "The `<tbody>` HTML element encapsulates a set of table rows (tr elements), indicating that they comprise the body of the table (table).",
@@ -6718,7 +6718,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/td": {
+	"html/td": {
 		"name": "td",
 		"status": "living",
 		"summary": "The `<td>` HTML element defines a cell of a table that contains data. It participates in the table model.",
@@ -6772,7 +6772,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/template": {
+	"html/template": {
 		"name": "template",
 		"status": "living",
 		"summary": "The `<template>` HTML element is a mechanism for holding HTML that is not to be rendered immediately when a page is loaded but may be instantiated subsequently during runtime using JavaScript.",
@@ -6796,7 +6796,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/textarea": {
+	"html/textarea": {
 		"name": "textarea",
 		"status": "living",
 		"summary": "The `<textarea>` HTML element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.",
@@ -6826,7 +6826,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/tfoot": {
+	"html/tfoot": {
 		"name": "tfoot",
 		"status": "living",
 		"summary": "The `<tfoot>` HTML element defines a set of rows summarizing the columns of the table.",
@@ -6846,7 +6846,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/th": {
+	"html/th": {
 		"name": "th",
 		"status": "living",
 		"summary": "The `<th>` HTML element defines a cell as header of a group of table cells. The exact nature of this group is defined by the scope and headers attributes.",
@@ -6919,7 +6919,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/thead": {
+	"html/thead": {
 		"name": "thead",
 		"status": "living",
 		"summary": "The `<thead>` HTML element defines a set of rows defining the head of the columns of the table.",
@@ -6939,7 +6939,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/time": {
+	"html/time": {
 		"name": "time",
 		"status": "living",
 		"summary": "The `<time>` HTML element represents a specific period in time. It may include the `datetime` attribute to translate dates into machine-readable format, allowing for better search engine results or custom features such as reminders.",
@@ -6971,7 +6971,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/title": {
+	"html/title": {
 		"name": "title",
 		"status": "living",
 		"summary": "The `<title>` HTML element defines the document's title that is shown in a Browser's title bar or a page's tab. It only contains text; tags within the element are ignored.",
@@ -6997,7 +6997,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/tr": {
+	"html/tr": {
 		"name": "tr",
 		"status": "living",
 		"summary": "The `<tr>` HTML element defines a row of cells in a table. The row's cells can then be established using a mix of td (data cell) and th (header cell) elements.",
@@ -7019,7 +7019,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/track": {
+	"html/track": {
 		"name": "track",
 		"status": "living",
 		"summary": "The `<track>` HTML element is used as a child of the media elements, audio and video. It lets you specify timed text tracks (or time-based data), for example to automatically handle subtitles. The tracks are formatted in WebVTT format (`.vtt` files) — Web Video Text Tracks.",
@@ -7089,7 +7089,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/tt": {
+	"html/tt": {
 		"name": "tt",
 		"status": "deprecated",
 		"summary": "The `<tt>` HTML element creates inline text which is presented using the user agent default monospace font face. This element was created for the purpose of rendering text as it would be displayed on a fixed-width display such as a teletype, text-only screen, or line printer.",
@@ -7113,7 +7113,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/u": {
+	"html/u": {
 		"name": "u",
 		"status": "living",
 		"summary": "The `<u>` HTML element represents a span of inline text which should be rendered in a way that indicates that it has a non-textual annotation. This is rendered by default as a simple solid underline, but may be altered using CSS.",
@@ -7138,7 +7138,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/ul": {
+	"html/ul": {
 		"name": "ul",
 		"status": "living",
 		"summary": "The `<ul>` HTML element represents an unordered list of items, typically rendered as a bulleted list.",
@@ -7157,7 +7157,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/var": {
+	"html/var": {
 		"name": "var",
 		"status": "living",
 		"summary": "The `<var>` HTML element represents the name of a variable in a mathematical expression or a programming context. It's typically presented using an italicized version of the current typeface, although that behavior is browser-dependent.",
@@ -7180,7 +7180,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/video": {
+	"html/video": {
 		"name": "video",
 		"status": "living",
 		"summary": "The `<video>` HTML element embeds a media player which supports video playback into the document. You can use `<video>` for audio content as well, but the audio element may provide a more appropriate user experience.",
@@ -7344,7 +7344,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/wbr": {
+	"html/wbr": {
 		"name": "wbr",
 		"status": "living",
 		"summary": "The `<wbr>` HTML element represents a word break opportunity—a position within text where the browser may optionally break a line, though its line-breaking rules would not otherwise create a break at that location.",
@@ -7363,7 +7363,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/html/element/xmp": {
+	"html/xmp": {
 		"name": "xmp",
 		"status": "deprecated",
 		"summary": "The `<xmp>` HTML element renders text between the start and end tags without interpreting the HTML in between and using a monospaced font. The HTML2 specification recommended that it should be rendered wide enough to allow 80 characters per line.",
@@ -7381,7 +7381,7 @@
 			"HTML:global:aria"
 		]
 	},
-	"/web/svg/element/*": {
+	"svg/*": {
 		"name": "SVG:*",
 		"status": "virtual",
 		"summary": "Container to hold the global attributes of all SVG elements.",
@@ -7500,7 +7500,7 @@
 			}
 		}
 	},
-	"/web/svg/element/a": {
+	"svg/a": {
 		"name": "a",
 		"status": "living",
 		"summary": "The <a> SVG element creates a hyperlink to other web pages, files, locations in the same page, email addresses, or any other URL. It is very similar to HTML's a element.",
@@ -7574,8 +7574,8 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/altglyph": {
-		"name": "altglyph",
+	"svg/altGlyph": {
+		"name": "altGlyph",
 		"status": "deprecated",
 		"summary": "The `<altGlyph>` SVG element allows sophisticated selection of the glyphs used to render its child character data.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/altGlyph",
@@ -7593,7 +7593,7 @@
 				"summary": "The `x` attribute defines an x-axis coordinate in the user coordinate system.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/x",
 				"type": "attribute",
-				"scope": "SVG:altglyph",
+				"scope": "SVG:altGlyph",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
@@ -7615,7 +7615,7 @@
 				"summary": "The `y` attribute defines a y-axis coordinate in the user coordinate system.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/y",
 				"type": "attribute",
-				"scope": "SVG:altglyph",
+				"scope": "SVG:altGlyph",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
@@ -7637,7 +7637,7 @@
 				"summary": "The `dx` attribute indicates a shift along the x-axis on the position of an element or its content.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/dx",
 				"type": "attribute",
-				"scope": "SVG:altglyph",
+				"scope": "SVG:altGlyph",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
@@ -7654,7 +7654,7 @@
 				"summary": "The `dy` attribute indicates a shift along the y-axis on the position of an element or its content.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/dy",
 				"type": "attribute",
-				"scope": "SVG:altglyph",
+				"scope": "SVG:altGlyph",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
@@ -7671,7 +7671,7 @@
 				"summary": "The `rotate` attribute specifies how the animated element rotates as it travels along a path specified in an animateMotion element.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/rotate",
 				"type": "attribute",
-				"scope": "SVG:altglyph",
+				"scope": "SVG:altGlyph",
 				"tags": [
 					"Animation",
 					"Graphics",
@@ -7679,13 +7679,13 @@
 				],
 				"spec-urls": "https://svgwg.org/specs/animations/#RotateAttribute"
 			},
-			"glyphref": {
-				"name": "glyphref",
+			"glyphRef": {
+				"name": "glyphRef",
 				"status": "deprecated",
 				"summary": "The `glyphRef` attribute represents the glyph identifier, the format of which is dependent on the format of the given font.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/glyphRef",
 				"type": "attribute",
-				"scope": "SVG:altglyph",
+				"scope": "SVG:altGlyph",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
@@ -7697,7 +7697,7 @@
 				"summary": "The `format` attribute indicates the format of the given font.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/format",
 				"type": "attribute",
-				"scope": "SVG:altglyph",
+				"scope": "SVG:altGlyph",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
@@ -7709,7 +7709,7 @@
 				"summary": "The `xlink:href` attribute defines a reference to a resource as a reference IRI. The exact meaning of that link depends on the context of each element using it.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xlink:href",
 				"type": "attribute",
-				"scope": "SVG:altglyph",
+				"scope": "SVG:altGlyph",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
@@ -7740,8 +7740,8 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/altglyphdef": {
-		"name": "altglyphdef",
+	"svg/altGlyphDef": {
+		"name": "altGlyphDef",
 		"status": "deprecated",
 		"summary": "The `<altGlyphDef>` SVG element defines a substitution representation for glyphs.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/altGlyphDef",
@@ -7758,8 +7758,8 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/altglyphitem": {
-		"name": "altglyphitem",
+	"svg/altGlyphItem": {
+		"name": "altGlyphItem",
 		"status": "deprecated",
 		"summary": "The `<altGlyphItem>` element provides a set of candidates for glyph substitution by the altGlyph element.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/altGlyphItem",
@@ -7776,7 +7776,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/animate": {
+	"svg/animate": {
 		"name": "animate",
 		"status": "living",
 		"summary": "The SVG `<animate>` element provides a way to animate an attribute of an element over time.",
@@ -7794,8 +7794,8 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/animatemotion": {
-		"name": "animatemotion",
+	"svg/animateMotion": {
+		"name": "animateMotion",
 		"status": "living",
 		"summary": "The SVG `<animateMotion>` element provides a way to define how an element moves along a motion path.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/animateMotion",
@@ -7807,13 +7807,13 @@
 		],
 		"interface": "SVGAnimateMotionElement",
 		"attributes": {
-			"keypoints": {
-				"name": "keypoints",
+			"keyPoints": {
+				"name": "keyPoints",
 				"status": "living",
 				"summary": "The `keyPoints` attribute indicates the simple duration of an animation.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/keyPoints",
 				"type": "attribute",
-				"scope": "SVG:animatemotion",
+				"scope": "SVG:animateMotion",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
@@ -7825,7 +7825,7 @@
 				"summary": "The `path` attribute has two different meanings, either it defines a text path along which the characters of a text are rendered, or a motion path along which a referenced element is animated.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/path",
 				"type": "attribute",
-				"scope": "SVG:animatemotion",
+				"scope": "SVG:animateMotion",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
@@ -7841,7 +7841,7 @@
 				"summary": "The `rotate` attribute specifies how the animated element rotates as it travels along a path specified in an animateMotion element.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/rotate",
 				"type": "attribute",
-				"scope": "SVG:animatemotion",
+				"scope": "SVG:animateMotion",
 				"tags": [
 					"Animation",
 					"Graphics",
@@ -7855,8 +7855,8 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/animatetransform": {
-		"name": "animatetransform",
+	"svg/animateTransform": {
+		"name": "animateTransform",
 		"status": "living",
 		"summary": "The `animateTransform` element animates a transformation attribute on its target element, thereby allowing animations to control translation, scaling, rotation, and/or skewing.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/animateTransform",
@@ -7873,7 +7873,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/circle": {
+	"svg/circle": {
 		"name": "circle",
 		"status": "living",
 		"summary": "The `<circle>` SVG element is an SVG basic shape, used to draw circles based on a center point and a radius.",
@@ -7934,8 +7934,8 @@
 					"https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementRAttribute"
 				]
 			},
-			"pathlength": {
-				"name": "pathlength",
+			"pathLength": {
+				"name": "pathLength",
 				"status": "living",
 				"summary": "The `pathLength` attribute lets authors specify a total length for the path, in user units. This value is then used to calibrate the browser's distance calculations with those of the author, by scaling all distance computations using the ratio `pathLength`/(computed value of path length).",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/pathLength",
@@ -7953,8 +7953,8 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/clippath": {
-		"name": "clippath",
+	"svg/clipPath": {
+		"name": "clipPath",
 		"status": "living",
 		"summary": "The `<clipPath>` SVG element defines a clipping path, to be used by the clip-path property.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/clipPath",
@@ -7965,13 +7965,13 @@
 		],
 		"interface": "SVGClipPathElement",
 		"attributes": {
-			"clippathunits": {
-				"name": "clippathunits",
+			"clipPathUnits": {
+				"name": "clipPathUnits",
 				"status": "living",
 				"summary": "The `clipPathUnits` attribute indicates which coordinate system to use for the contents of the clipPath element.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/clipPathUnits",
 				"type": "attribute",
-				"scope": "SVG:clippath",
+				"scope": "SVG:clipPath",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
@@ -7984,7 +7984,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/cursor": {
+	"svg/cursor": {
 		"name": "cursor",
 		"status": "deprecated",
 		"summary": "Note: The CSS cursor property should be used instead of this element.",
@@ -8001,7 +8001,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/defs": {
+	"svg/defs": {
 		"name": "defs",
 		"status": "living",
 		"summary": "The `<defs>` element is used to store graphical objects that will be used at a later time. Objects created inside a `<defs>` element are not rendered directly. To display them you have to reference them (with a use element for example).",
@@ -8019,7 +8019,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/desc": {
+	"svg/desc": {
 		"name": "desc",
 		"status": "living",
 		"summary": "The `<desc>` element provides an accessible, long-text description of any SVG container element or graphics element.",
@@ -8037,7 +8037,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/discard": {
+	"svg/discard": {
 		"name": "discard",
 		"status": "living",
 		"summary": "The `<discard>` SVG element allows authors to specify the time at which particular elements are to be discarded, thereby reducing the resources required by an SVG user agent. This is particularly useful to help SVG viewers conserve memory while displaying long-running documents.",
@@ -8055,7 +8055,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/ellipse": {
+	"svg/ellipse": {
 		"name": "ellipse",
 		"status": "living",
 		"summary": "The `<ellipse>` element is an SVG basic shape, used to create ellipses based on a center coordinate, and both their x and y radius.",
@@ -8126,8 +8126,8 @@
 				],
 				"spec-urls": "https://svgwg.org/svg2-draft/geometry.html#RY"
 			},
-			"pathlength": {
-				"name": "pathlength",
+			"pathLength": {
+				"name": "pathLength",
 				"status": "living",
 				"summary": "The `pathLength` attribute lets authors specify a total length for the path, in user units. This value is then used to calibrate the browser's distance calculations with those of the author, by scaling all distance computations using the ratio `pathLength`/(computed value of path length).",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/pathLength",
@@ -8145,8 +8145,8 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/feblend": {
-		"name": "feblend",
+	"svg/feBlend": {
+		"name": "feBlend",
 		"status": "living",
 		"summary": "The `<feBlend>` SVG filter primitive composes two objects together ruled by a certain blending mode. This is similar to what is known from image editing software when blending two layers. The mode is defined by the mode attribute.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feBlend",
@@ -8163,8 +8163,8 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/fecolormatrix": {
-		"name": "fecolormatrix",
+	"svg/feColorMatrix": {
+		"name": "feColorMatrix",
 		"status": "living",
 		"summary": "The `<feColorMatrix>` SVG filter element changes colors based on a transformation matrix. Every pixel's color value `[R,G,B,A]` is matrix multiplied by a 5 by 5 color matrix to create new color `[R',G',B',A']`.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feColorMatrix",
@@ -8181,8 +8181,8 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/fecomponenttransfer": {
-		"name": "fecomponenttransfer",
+	"svg/feComponentTransfer": {
+		"name": "feComponentTransfer",
 		"status": "living",
 		"summary": "The `<feComponentTransfer>` SVG filter primitive performs color-component-wise remapping of data for each pixel. It allows operations like brightness adjustment, contrast adjustment, color balance or thresholding.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feComponentTransfer",
@@ -8199,8 +8199,8 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/fecomposite": {
-		"name": "fecomposite",
+	"svg/feComposite": {
+		"name": "feComposite",
 		"status": "living",
 		"summary": "The `<feComposite>` SVG filter primitive performs the combination of two input images pixel-wise in image space using one of the Porter-Duff compositing operations: `over`, `in`, `atop`, `out`, `xor`, `lighter`, or `arithmetic`.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feComposite",
@@ -8217,8 +8217,8 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/feconvolvematrix": {
-		"name": "feconvolvematrix",
+	"svg/feConvolveMatrix": {
+		"name": "feConvolveMatrix",
 		"status": "living",
 		"summary": "The `<feConvolveMatrix>` SVG filter primitive applies a matrix convolution filter effect. A convolution combines pixels in the input image with neighboring pixels to produce a resulting image. A wide variety of imaging operations can be achieved through convolutions, including blurring, edge detection, sharpening, embossing and beveling.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feConvolveMatrix",
@@ -8236,8 +8236,8 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/fediffuselighting": {
-		"name": "fediffuselighting",
+	"svg/feDiffuseLighting": {
+		"name": "feDiffuseLighting",
 		"status": "living",
 		"summary": "The `<feDiffuseLighting>` SVG filter primitive lights an image using the alpha channel as a bump map. The resulting image, which is an RGBA opaque image, depends on the light color, light position and surface geometry of the input bump map.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feDiffuseLighting",
@@ -8254,8 +8254,8 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/fedisplacementmap": {
-		"name": "fedisplacementmap",
+	"svg/feDisplacementMap": {
+		"name": "feDisplacementMap",
 		"status": "living",
 		"summary": "The `<feDisplacementMap>` SVG filter primitive uses the pixel values from the image from in2 to spatially displace the image from in.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feDisplacementMap",
@@ -8272,8 +8272,8 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/fedistantlight": {
-		"name": "fedistantlight",
+	"svg/feDistantLight": {
+		"name": "feDistantLight",
 		"status": "living",
 		"summary": "The `<feDistantLight>` filter primitive defines a distant light source that can be used within a lighting filter primitive: feDiffuseLighting or feSpecularLighting.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feDistantLight",
@@ -8291,8 +8291,8 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/fedropshadow": {
-		"name": "fedropshadow",
+	"svg/feDropShadow": {
+		"name": "feDropShadow",
 		"status": "living",
 		"summary": "The SVG `<feDropShadow>` filter primitive creates a drop shadow of the input image. It can only be used inside a  element.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feDropShadow",
@@ -8310,7 +8310,7 @@
 				"summary": "The `dx` attribute indicates a shift along the x-axis on the position of an element or its content.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/dx",
 				"type": "attribute",
-				"scope": "SVG:fedropshadow",
+				"scope": "SVG:feDropShadow",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
@@ -8327,7 +8327,7 @@
 				"summary": "The `dy` attribute indicates a shift along the y-axis on the position of an element or its content.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/dy",
 				"type": "attribute",
-				"scope": "SVG:fedropshadow",
+				"scope": "SVG:feDropShadow",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
@@ -8338,13 +8338,13 @@
 					"https://svgwg.org/svg2-draft/text.html#TextElementDYAttribute"
 				]
 			},
-			"stddeviation": {
-				"name": "stddeviation",
+			"stdDeviation": {
+				"name": "stdDeviation",
 				"status": "living",
 				"summary": "The `stdDeviation` attribute defines the standard deviation for the blur operation.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/stdDeviation",
 				"type": "attribute",
-				"scope": "SVG:fedropshadow",
+				"scope": "SVG:feDropShadow",
 				"tags": [
 					"Filters",
 					"SVG",
@@ -8357,8 +8357,8 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/feflood": {
-		"name": "feflood",
+	"svg/feFlood": {
+		"name": "feFlood",
 		"status": "living",
 		"summary": "The `<feFlood>` SVG filter primitive fills the filter subregion with the color and opacity defined by flood-color and flood-opacity.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feFlood",
@@ -8375,8 +8375,8 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/fefunca": {
-		"name": "fefunca",
+	"svg/feFuncA": {
+		"name": "feFuncA",
 		"status": "living",
 		"summary": "The `<feFuncA>` SVG filter primitive defines the transfer function for the alpha component of the input graphic of its parent feComponentTransfer element.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feFuncA",
@@ -8393,8 +8393,8 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/fefuncb": {
-		"name": "fefuncb",
+	"svg/feFuncB": {
+		"name": "feFuncB",
 		"status": "living",
 		"summary": "The `<feFuncB>` SVG filter primitive defines the transfer function for the blue component of the input graphic of its parent feComponentTransfer element.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feFuncB",
@@ -8411,8 +8411,8 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/fefuncg": {
-		"name": "fefuncg",
+	"svg/feFuncG": {
+		"name": "feFuncG",
 		"status": "living",
 		"summary": "The `<feFuncG>` SVG filter primitive defines the transfer function for the green component of the input graphic of its parent feComponentTransfer element.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feFuncG",
@@ -8429,8 +8429,8 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/fefuncr": {
-		"name": "fefuncr",
+	"svg/feFuncR": {
+		"name": "feFuncR",
 		"status": "living",
 		"summary": "The `<feFuncR>` SVG filter primitive defines the transfer function for the red component of the input graphic of its parent feComponentTransfer element.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feFuncR",
@@ -8447,8 +8447,8 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/fegaussianblur": {
-		"name": "fegaussianblur",
+	"svg/feGaussianBlur": {
+		"name": "feGaussianBlur",
 		"status": "living",
 		"summary": "The `<feGaussianBlur>` SVG filter primitive blurs the input image by the amount specified in stdDeviation, which defines the bell-curve.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feGaussianBlur",
@@ -8465,8 +8465,8 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/feimage": {
-		"name": "feimage",
+	"svg/feImage": {
+		"name": "feImage",
 		"status": "living",
 		"summary": "The `<feImage>` SVG filter primitive fetches image data from an external source and provides the pixel data as output (meaning if the external source is an SVG image, it is rasterized.)",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feImage",
@@ -8483,8 +8483,8 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/femerge": {
-		"name": "femerge",
+	"svg/feMerge": {
+		"name": "feMerge",
 		"status": "living",
 		"summary": "The `<feMerge>` SVG element allows filter effects to be applied concurrently instead of sequentially. This is achieved by other filters storing their output via the result attribute and then accessing it in a feMergeNode child.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feMerge",
@@ -8501,8 +8501,8 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/femergenode": {
-		"name": "femergenode",
+	"svg/feMergeNode": {
+		"name": "feMergeNode",
 		"status": "living",
 		"summary": "The `feMergeNode` takes the result of another filter to be processed by its parent feMerge.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feMergeNode",
@@ -8519,8 +8519,8 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/femorphology": {
-		"name": "femorphology",
+	"svg/feMorphology": {
+		"name": "feMorphology",
 		"status": "living",
 		"summary": "The `<feMorphology>` SVG filter primitive is used to erode or dilate the input image. Its usefulness lies especially in fattening or thinning effects.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feMorphology",
@@ -8537,8 +8537,8 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/feoffset": {
-		"name": "feoffset",
+	"svg/feOffset": {
+		"name": "feOffset",
 		"status": "living",
 		"summary": "The `<feOffset>` SVG filter primitive allows to offset the input image. The input image as a whole is offset by the values specified in the dx and dy attributes.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feOffset",
@@ -8555,8 +8555,8 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/fepointlight": {
-		"name": "fepointlight",
+	"svg/fePointLight": {
+		"name": "fePointLight",
 		"status": "living",
 		"summary": "The `<fePointLight>` filter primitive defines a light source which allows to create a point light effect. It that can be used within a lighting filter primitive: feDiffuseLighting or feSpecularLighting.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/fePointLight",
@@ -8574,8 +8574,8 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/fespecularlighting": {
-		"name": "fespecularlighting",
+	"svg/feSpecularLighting": {
+		"name": "feSpecularLighting",
 		"status": "living",
 		"summary": "The `<feSpecularLighting>` SVG filter primitive lights a source graphic using the alpha channel as a bump map. The resulting image is an RGBA image based on the light color. The lighting calculation follows the standard specular component of the Phong lighting model. The resulting image depends on the light color, light position and surface geometry of the input bump map. The result of the lighting calculation is added. The filter primitive assumes that the viewer is at infinity in the z direction.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feSpecularLighting",
@@ -8592,8 +8592,8 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/fespotlight": {
-		"name": "fespotlight",
+	"svg/feSpotLight": {
+		"name": "feSpotLight",
 		"status": "living",
 		"summary": "The `<feSpotLight>` SVG filter primitive defines a light source that can be used to create a spotlight effect. It is used within a lighting filter primitive: feDiffuseLighting or feSpecularLighting.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feSpotLight",
@@ -8610,8 +8610,8 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/fetile": {
-		"name": "fetile",
+	"svg/feTile": {
+		"name": "feTile",
 		"status": "living",
 		"summary": "The `<feTile>` SVG filter primitive allows to fill a target rectangle with a repeated, tiled pattern of an input image. The effect is similar to the one of a pattern.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feTile",
@@ -8628,8 +8628,8 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/feturbulence": {
-		"name": "feturbulence",
+	"svg/feTurbulence": {
+		"name": "feTurbulence",
 		"status": "living",
 		"summary": "The `<feTurbulence>` SVG filter primitive creates an image using the Perlin turbulence function. It allows the synthesis of artificial textures like clouds or marble. The resulting image will fill the entire filter primitive subregion.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feTurbulence",
@@ -8646,7 +8646,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/filter": {
+	"svg/filter": {
 		"name": "filter",
 		"status": "living",
 		"summary": "The `<filter>` SVG element defines a custom filter effect by grouping atomic filter primitives. It is never rendered itself, but must be used by the filter attribute on SVG elements, or the filter CSS property for SVG/HTML elements.",
@@ -8663,7 +8663,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/font": {
+	"svg/font": {
 		"name": "font",
 		"status": "deprecated",
 		"summary": "The `<font>` SVG element defines a font to be used for text layout.",
@@ -8681,7 +8681,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/font-face": {
+	"svg/font-face": {
 		"name": "font-face",
 		"status": "deprecated",
 		"summary": "The `<font-face>` SVG element corresponds to the CSS @font-face rule. It defines a font's outer properties.",
@@ -8699,7 +8699,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/font-face-format": {
+	"svg/font-face-format": {
 		"name": "font-face-format",
 		"status": "deprecated",
 		"summary": "The `<font-face-format>` SVG element describes the type of font referenced by its parent font-face-uri.",
@@ -8717,7 +8717,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/font-face-name": {
+	"svg/font-face-name": {
 		"name": "font-face-name",
 		"status": "deprecated",
 		"summary": "The `<font-face-name>` element points to a locally installed copy of this font, identified by its name.",
@@ -8735,7 +8735,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/font-face-src": {
+	"svg/font-face-src": {
 		"name": "font-face-src",
 		"status": "deprecated",
 		"summary": "The `<font-face-src>` SVG element corresponds to the @font-face/src descriptor in CSS @font-face rules. It serves as container for font-face-name, pointing to locally installed copies of this font, and font-face-uri, utilizing remotely defined fonts.",
@@ -8753,7 +8753,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/font-face-uri": {
+	"svg/font-face-uri": {
 		"name": "font-face-uri",
 		"status": "deprecated",
 		"summary": "The `<font-face-uri>` SVG element points to a remote definition of the current font.",
@@ -8771,8 +8771,8 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/foreignobject": {
-		"name": "foreignobject",
+	"svg/foreignObject": {
+		"name": "foreignObject",
 		"status": "living",
 		"summary": "The `<foreignObject>` SVG element includes elements from a different XML namespace. In the context of a browser, it is most likely (X)HTML.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/foreignObject",
@@ -8789,7 +8789,7 @@
 				"summary": "The `height` attribute defines the vertical length of an element in the user coordinate system.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/height",
 				"type": "attribute",
-				"scope": "SVG:foreignobject",
+				"scope": "SVG:foreignObject",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
@@ -8808,7 +8808,7 @@
 				"summary": "The `width` attribute defines the horizontal length of an element in the user coordinate system.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/width",
 				"type": "attribute",
-				"scope": "SVG:foreignobject",
+				"scope": "SVG:foreignObject",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
@@ -8827,7 +8827,7 @@
 				"summary": "The `x` attribute defines an x-axis coordinate in the user coordinate system.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/x",
 				"type": "attribute",
-				"scope": "SVG:foreignobject",
+				"scope": "SVG:foreignObject",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
@@ -8849,7 +8849,7 @@
 				"summary": "The `y` attribute defines a y-axis coordinate in the user coordinate system.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/y",
 				"type": "attribute",
-				"scope": "SVG:foreignobject",
+				"scope": "SVG:foreignObject",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
@@ -8871,7 +8871,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/g": {
+	"svg/g": {
 		"name": "g",
 		"status": "living",
 		"summary": "The `<g>` SVG element is a container used to group other SVG elements.",
@@ -8889,7 +8889,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/glyph": {
+	"svg/glyph": {
 		"name": "glyph",
 		"status": "living",
 		"summary": "A `<glyph>` defines a single glyph in an SVG font.",
@@ -8907,8 +8907,8 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/glyphref": {
-		"name": "glyphref",
+	"svg/glyphRef": {
+		"name": "glyphRef",
 		"status": "deprecated",
 		"summary": "The `glyphRef` element provides a single possible glyph to the referencing altGlyph substitution.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/glyphRef",
@@ -8925,7 +8925,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/hkern": {
+	"svg/hkern": {
 		"name": "hkern",
 		"status": "deprecated",
 		"summary": "The `<hkern>` SVG element allows to fine-tweak the horizontal distance between two glyphs. This process is known as kerning.",
@@ -8943,7 +8943,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/image": {
+	"svg/image": {
 		"name": "image",
 		"status": "living",
 		"summary": "The `<image>` SVG element includes images inside SVG documents. It can display raster image files or other SVG files.",
@@ -8961,7 +8961,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/line": {
+	"svg/line": {
 		"name": "line",
 		"status": "living",
 		"summary": "The `<line>` element is an SVG basic shape used to create a line connecting two points.",
@@ -9043,8 +9043,8 @@
 					"https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementY2Attribute"
 				]
 			},
-			"pathlength": {
-				"name": "pathlength",
+			"pathLength": {
+				"name": "pathLength",
 				"status": "living",
 				"summary": "The `pathLength` attribute lets authors specify a total length for the path, in user units. This value is then used to calibrate the browser's distance calculations with those of the author, by scaling all distance computations using the ratio `pathLength`/(computed value of path length).",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/pathLength",
@@ -9062,8 +9062,8 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/lineargradient": {
-		"name": "lineargradient",
+	"svg/linearGradient": {
+		"name": "linearGradient",
 		"status": "living",
 		"summary": "The `<linearGradient>` element lets authors define linear gradients to apply to other SVG elements.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/linearGradient",
@@ -9075,13 +9075,13 @@
 		],
 		"interface": "SVGLinearGradientElement",
 		"attributes": {
-			"gradientunits": {
-				"name": "gradientunits",
+			"gradientUnits": {
+				"name": "gradientUnits",
 				"status": "living",
 				"summary": "The `gradientUnits` attribute defines the coordinate system used for attributes specified on the gradient elements.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/gradientUnits",
 				"type": "attribute",
-				"scope": "SVG:lineargradient",
+				"scope": "SVG:linearGradient",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
@@ -9091,13 +9091,13 @@
 					"https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementGradientUnitsAttribute"
 				]
 			},
-			"gradienttransform": {
-				"name": "gradienttransform",
+			"gradientTransform": {
+				"name": "gradientTransform",
 				"status": "living",
 				"summary": "The `gradientTransform` attribute contains the definition of an optional additional transformation from the gradient coordinate system onto the target coordinate system (i.e., userSpaceOnUse or objectBoundingBox). This allows for things such as skewing the gradient. This additional transformation matrix is post-multiplied to (i.e., inserted to the right of) any previously defined transformations, including the implicit transformation necessary to convert from object bounding box units to user space.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/gradientTransform",
 				"type": "attribute",
-				"scope": "SVG:lineargradient",
+				"scope": "SVG:linearGradient",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
@@ -9109,19 +9109,19 @@
 				"summary": "The `href` attribute defines a link to a resource as a reference URL. The exact meaning of that link depends on the context of each element using it.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/href",
 				"type": "attribute",
-				"scope": "SVG:lineargradient",
+				"scope": "SVG:linearGradient",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
 				]
 			},
-			"spreadmethod": {
-				"name": "spreadmethod",
+			"spreadMethod": {
+				"name": "spreadMethod",
 				"status": "living",
 				"summary": "The `spreadMethod` attribute determines how a shape is filled beyond the defined edges of a gradient.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/spreadMethod",
 				"type": "attribute",
-				"scope": "SVG:lineargradient",
+				"scope": "SVG:linearGradient",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
@@ -9133,7 +9133,7 @@
 				"summary": "The `x1` attribute is used to specify the first x-coordinate for drawing an SVG element that requires more than one coordinate. Elements that only need one coordinate use the x attribute instead.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/x1",
 				"type": "attribute",
-				"scope": "SVG:lineargradient",
+				"scope": "SVG:linearGradient",
 				"tags": [
 					"Drawing Lines",
 					"Gradients",
@@ -9154,7 +9154,7 @@
 				"summary": "The `x2` attribute is used to specify the second x-coordinate for drawing an SVG element that requires more than one coordinate. Elements that only need one coordinate use the x attribute instead.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/x2",
 				"type": "attribute",
-				"scope": "SVG:lineargradient",
+				"scope": "SVG:linearGradient",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
@@ -9170,7 +9170,7 @@
 				"summary": "The `xlink:href` attribute defines a reference to a resource as a reference IRI. The exact meaning of that link depends on the context of each element using it.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xlink:href",
 				"type": "attribute",
-				"scope": "SVG:lineargradient",
+				"scope": "SVG:linearGradient",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
@@ -9201,7 +9201,7 @@
 				"summary": "The `y1` attribute is used to specify the first y-coordinate for drawing an SVG element that requires more than one coordinate. Elements that only need one coordinate use the y attribute instead.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/y1",
 				"type": "attribute",
-				"scope": "SVG:lineargradient",
+				"scope": "SVG:linearGradient",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
@@ -9217,7 +9217,7 @@
 				"summary": "The `y2` attribute is used to specify the second y-coordinate for drawing an SVG element that requires more than one coordinate. Elements that only need one coordinate use the y attribute instead.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/y2",
 				"type": "attribute",
-				"scope": "SVG:lineargradient",
+				"scope": "SVG:linearGradient",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
@@ -9233,7 +9233,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/marker": {
+	"svg/marker": {
 		"name": "marker",
 		"status": "living",
 		"summary": "The `<marker>` element defines the graphic that is to be used for drawing arrowheads or polymarkers on a given path, line, polyline or polygon element.",
@@ -9246,8 +9246,8 @@
 		],
 		"interface": "SVGMarkerElement",
 		"attributes": {
-			"markerheight": {
-				"name": "markerheight",
+			"markerHeight": {
+				"name": "markerHeight",
 				"status": "living",
 				"summary": "The `markerHeight` attribute represents the height of the viewport into which the marker is to be fitted when it is rendered according to the viewBox and preserveAspectRatio attributes.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/markerHeight",
@@ -9258,8 +9258,8 @@
 					"SVG Attribute"
 				]
 			},
-			"markerunits": {
-				"name": "markerunits",
+			"markerUnits": {
+				"name": "markerUnits",
 				"status": "living",
 				"summary": "The `markerUnits` attribute defines the coordinate system for the markerWidth and markerHeight attributes and the contents of the marker.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/markerUnits",
@@ -9270,8 +9270,8 @@
 					"SVG Attribute"
 				]
 			},
-			"markerwidth": {
-				"name": "markerwidth",
+			"markerWidth": {
+				"name": "markerWidth",
 				"status": "living",
 				"summary": "The `markerWidth` attribute represents the width of the viewport into which the marker is to be fitted when it is rendered according to the viewBox and preserveAspectRatio attributes.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/markerWidth",
@@ -9294,8 +9294,8 @@
 					"SVG Attr"
 				]
 			},
-			"preserveaspectratio": {
-				"name": "preserveaspectratio",
+			"preserveAspectRatio": {
+				"name": "preserveAspectRatio",
 				"status": "living",
 				"summary": "The `preserveAspectRatio` attribute indicates how an element with a viewBox providing a given aspect ratio must fit into a viewport with a different aspect ratio.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/preserveAspectRatio",
@@ -9310,8 +9310,8 @@
 					"https://svgwg.org/svg2-draft/coords.html#PreserveAspectRatioAttribute"
 				]
 			},
-			"refx": {
-				"name": "refx",
+			"refX": {
+				"name": "refX",
 				"status": "living",
 				"summary": "The `refX` attribute defines the x coordinate of an element's reference point.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/refX",
@@ -9323,8 +9323,8 @@
 					"https://svgwg.org/svg2-draft/struct.html#SymbolElementRefXAttribute"
 				]
 			},
-			"refy": {
-				"name": "refy",
+			"refY": {
+				"name": "refY",
 				"status": "living",
 				"summary": "The `refY` attribute defines the y coordinate of an element's reference point.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/refY",
@@ -9336,8 +9336,8 @@
 					"https://svgwg.org/svg2-draft/struct.html#SymbolElementRefYAttribute"
 				]
 			},
-			"viewbox": {
-				"name": "viewbox",
+			"viewBox": {
+				"name": "viewBox",
 				"status": "living",
 				"summary": "The `viewBox` attribute defines the position and dimension, in user space, of an SVG viewport.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/viewBox",
@@ -9355,7 +9355,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/mask": {
+	"svg/mask": {
 		"name": "mask",
 		"status": "living",
 		"summary": "The `<mask>` element defines an alpha mask for compositing the current object into the background. A mask is used/referenced using the mask property.",
@@ -9387,8 +9387,8 @@
 					"https://svgwg.org/svg2-draft/pservers.html#PatternElementHeightAttribute"
 				]
 			},
-			"maskcontentunits": {
-				"name": "maskcontentunits",
+			"maskContentUnits": {
+				"name": "maskContentUnits",
 				"status": "living",
 				"summary": "The `maskContentUnits` attribute indicates which coordinate system to use for the contents of the mask element.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/maskContentUnits",
@@ -9399,8 +9399,8 @@
 					"SVG Attribute"
 				]
 			},
-			"maskunits": {
-				"name": "maskunits",
+			"maskUnits": {
+				"name": "maskUnits",
 				"status": "living",
 				"summary": "The `maskUnits` attribute indicates which coordinate system to use for the geometry properties of the mask element.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/maskUnits",
@@ -9480,7 +9480,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/metadata": {
+	"svg/metadata": {
 		"name": "metadata",
 		"status": "living",
 		"summary": "The `<metadata>` SVG element adds metadata to SVG content. Metadata is structured information about data. The contents of `<metadata>` should be elements from other XML namespace such as RDF, FOAF, etc.",
@@ -9498,7 +9498,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/missing-glyph": {
+	"svg/missing-glyph": {
 		"name": "missing-glyph",
 		"status": "deprecated",
 		"summary": "The `<missing-glyph>` SVG element's content is rendered, if for a given character the font doesn't define an appropriate glyph.",
@@ -9516,7 +9516,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/mpath": {
+	"svg/mpath": {
 		"name": "mpath",
 		"status": "living",
 		"summary": "The `<mpath>` sub-element for the animateMotion element provides the ability to reference an external path element as the definition of a motion path.",
@@ -9534,7 +9534,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/path": {
+	"svg/path": {
 		"name": "path",
 		"status": "living",
 		"summary": "The `<path>` SVG element is the generic element to define a shape. All the basic shapes can be created with a path element.",
@@ -9559,8 +9559,8 @@
 					"SVG Attribute"
 				]
 			},
-			"pathlength": {
-				"name": "pathlength",
+			"pathLength": {
+				"name": "pathLength",
 				"status": "living",
 				"summary": "The `pathLength` attribute lets authors specify a total length for the path, in user units. This value is then used to calibrate the browser's distance calculations with those of the author, by scaling all distance computations using the ratio `pathLength`/(computed value of path length).",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/pathLength",
@@ -9578,7 +9578,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/pattern": {
+	"svg/pattern": {
 		"name": "pattern",
 		"status": "living",
 		"summary": "The `<pattern>` element defines a graphics object which can be redrawn at repeated x- and y-coordinate intervals (\"tiled\") to cover an area.",
@@ -9622,8 +9622,8 @@
 					"SVG Attribute"
 				]
 			},
-			"patterncontentunits": {
-				"name": "patterncontentunits",
+			"patternContentUnits": {
+				"name": "patternContentUnits",
 				"status": "living",
 				"summary": "The `patternContentUnits` attribute indicates which coordinate system to use for the contents of the pattern element.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/patternContentUnits",
@@ -9634,8 +9634,8 @@
 					"SVG Attribute"
 				]
 			},
-			"patterntransform": {
-				"name": "patterntransform",
+			"patternTransform": {
+				"name": "patternTransform",
 				"status": "living",
 				"summary": "The `patternTransform` attribute defines a list of transform definitions that are applied to a pattern tile.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/patternTransform",
@@ -9646,8 +9646,8 @@
 					"SVG Attribute"
 				]
 			},
-			"patternunits": {
-				"name": "patternunits",
+			"patternUnits": {
+				"name": "patternUnits",
 				"status": "living",
 				"summary": "The `patternUnits` attribute indicates which coordinate system to use for the geometry properties of the pattern element.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/patternUnits",
@@ -9658,8 +9658,8 @@
 					"SVG Attribute"
 				]
 			},
-			"preserveaspectratio": {
-				"name": "preserveaspectratio",
+			"preserveAspectRatio": {
+				"name": "preserveAspectRatio",
 				"status": "living",
 				"summary": "The `preserveAspectRatio` attribute indicates how an element with a viewBox providing a given aspect ratio must fit into a viewport with a different aspect ratio.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/preserveAspectRatio",
@@ -9674,8 +9674,8 @@
 					"https://svgwg.org/svg2-draft/coords.html#PreserveAspectRatioAttribute"
 				]
 			},
-			"viewbox": {
-				"name": "viewbox",
+			"viewBox": {
+				"name": "viewBox",
 				"status": "living",
 				"summary": "The `viewBox` attribute defines the position and dimension, in user space, of an SVG viewport.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/viewBox",
@@ -9787,7 +9787,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/polygon": {
+	"svg/polygon": {
 		"name": "polygon",
 		"status": "living",
 		"summary": "The `<polygon>` element defines a closed shape consisting of a set of connected straight line segments. The last point is connected to the first point.",
@@ -9816,8 +9816,8 @@
 					"https://svgwg.org/svg2-draft/shapes.html#PolylineElementPointsAttribute"
 				]
 			},
-			"pathlength": {
-				"name": "pathlength",
+			"pathLength": {
+				"name": "pathLength",
 				"status": "living",
 				"summary": "The `pathLength` attribute lets authors specify a total length for the path, in user units. This value is then used to calibrate the browser's distance calculations with those of the author, by scaling all distance computations using the ratio `pathLength`/(computed value of path length).",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/pathLength",
@@ -9835,7 +9835,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/polyline": {
+	"svg/polyline": {
 		"name": "polyline",
 		"status": "living",
 		"summary": "The `<polyline>` SVG element is an SVG basic shape that creates straight lines connecting several points. Typically a `polyline` is used to create open shapes as the last point doesn't have to be connected to the first point. For closed shapes see the polygon element.",
@@ -9864,8 +9864,8 @@
 					"https://svgwg.org/svg2-draft/shapes.html#PolylineElementPointsAttribute"
 				]
 			},
-			"pathlength": {
-				"name": "pathlength",
+			"pathLength": {
+				"name": "pathLength",
 				"status": "living",
 				"summary": "The `pathLength` attribute lets authors specify a total length for the path, in user units. This value is then used to calibrate the browser's distance calculations with those of the author, by scaling all distance computations using the ratio `pathLength`/(computed value of path length).",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/pathLength",
@@ -9883,8 +9883,8 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/radialgradient": {
-		"name": "radialgradient",
+	"svg/radialGradient": {
+		"name": "radialGradient",
 		"status": "living",
 		"summary": "The `<radialGradient>` element lets authors define radial gradients that can be applied to fill or stroke of graphical elements.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/radialGradient",
@@ -9902,7 +9902,7 @@
 				"summary": "The `cx` attribute define the x-axis coordinate of a center point.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/cx",
 				"type": "attribute",
-				"scope": "SVG:radialgradient",
+				"scope": "SVG:radialGradient",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
@@ -9918,7 +9918,7 @@
 				"summary": "The `cy` attribute define the y-axis coordinate of a center point.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/cy",
 				"type": "attribute",
-				"scope": "SVG:radialgradient",
+				"scope": "SVG:radialGradient",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
@@ -9934,7 +9934,7 @@
 				"summary": "The `fr` attribute defines the radius of the focal point for the radial gradient.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/fr",
 				"type": "attribute",
-				"scope": "SVG:radialgradient",
+				"scope": "SVG:radialGradient",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
@@ -9946,7 +9946,7 @@
 				"summary": "The `fx` attribute defines the x-axis coordinate of the focal point for a radial gradient.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/fx",
 				"type": "attribute",
-				"scope": "SVG:radialgradient",
+				"scope": "SVG:radialGradient",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
@@ -9958,19 +9958,19 @@
 				"summary": "The `fy` attribute defines the y-axis coordinate of the focal point for a radial gradient.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/fy",
 				"type": "attribute",
-				"scope": "SVG:radialgradient",
+				"scope": "SVG:radialGradient",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
 				]
 			},
-			"gradientunits": {
-				"name": "gradientunits",
+			"gradientUnits": {
+				"name": "gradientUnits",
 				"status": "living",
 				"summary": "The `gradientUnits` attribute defines the coordinate system used for attributes specified on the gradient elements.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/gradientUnits",
 				"type": "attribute",
-				"scope": "SVG:radialgradient",
+				"scope": "SVG:radialGradient",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
@@ -9980,13 +9980,13 @@
 					"https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementGradientUnitsAttribute"
 				]
 			},
-			"gradienttransform": {
-				"name": "gradienttransform",
+			"gradientTransform": {
+				"name": "gradientTransform",
 				"status": "living",
 				"summary": "The `gradientTransform` attribute contains the definition of an optional additional transformation from the gradient coordinate system onto the target coordinate system (i.e., userSpaceOnUse or objectBoundingBox). This allows for things such as skewing the gradient. This additional transformation matrix is post-multiplied to (i.e., inserted to the right of) any previously defined transformations, including the implicit transformation necessary to convert from object bounding box units to user space.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/gradientTransform",
 				"type": "attribute",
-				"scope": "SVG:radialgradient",
+				"scope": "SVG:radialGradient",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
@@ -9998,7 +9998,7 @@
 				"summary": "The `href` attribute defines a link to a resource as a reference URL. The exact meaning of that link depends on the context of each element using it.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/href",
 				"type": "attribute",
-				"scope": "SVG:radialgradient",
+				"scope": "SVG:radialGradient",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
@@ -10010,7 +10010,7 @@
 				"summary": "The `r` attribute defines the radius of a circle.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/r",
 				"type": "attribute",
-				"scope": "SVG:radialgradient",
+				"scope": "SVG:radialGradient",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
@@ -10020,13 +10020,13 @@
 					"https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementRAttribute"
 				]
 			},
-			"spreadmethod": {
-				"name": "spreadmethod",
+			"spreadMethod": {
+				"name": "spreadMethod",
 				"status": "living",
 				"summary": "The `spreadMethod` attribute determines how a shape is filled beyond the defined edges of a gradient.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/spreadMethod",
 				"type": "attribute",
-				"scope": "SVG:radialgradient",
+				"scope": "SVG:radialGradient",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
@@ -10038,7 +10038,7 @@
 				"summary": "The `xlink:href` attribute defines a reference to a resource as a reference IRI. The exact meaning of that link depends on the context of each element using it.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xlink:href",
 				"type": "attribute",
-				"scope": "SVG:radialgradient",
+				"scope": "SVG:radialGradient",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
@@ -10069,7 +10069,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/rect": {
+	"svg/rect": {
 		"name": "rect",
 		"status": "living",
 		"summary": "The `<rect>` element is a basic SVG shape that draws rectangles, defined by their position, width, and height. The rectangles may have their corners rounded.",
@@ -10190,8 +10190,8 @@
 				],
 				"spec-urls": "https://svgwg.org/svg2-draft/geometry.html#RY"
 			},
-			"pathlength": {
-				"name": "pathlength",
+			"pathLength": {
+				"name": "pathLength",
 				"status": "living",
 				"summary": "The `pathLength` attribute lets authors specify a total length for the path, in user units. This value is then used to calibrate the browser's distance calculations with those of the author, by scaling all distance computations using the ratio `pathLength`/(computed value of path length).",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/pathLength",
@@ -10209,7 +10209,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/script": {
+	"svg/script": {
 		"name": "script",
 		"status": "living",
 		"summary": "The SVG `script` element allows to add scripts to an SVG document.",
@@ -10283,7 +10283,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/set": {
+	"svg/set": {
 		"name": "set",
 		"status": "living",
 		"summary": "The SVG `<set>` element provides a simple means of just setting the value of an attribute for a specified duration.",
@@ -10318,7 +10318,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/stop": {
+	"svg/stop": {
 		"name": "stop",
 		"status": "living",
 		"summary": "The SVG `<stop>` element defines a color and its position to use on a gradient. This element is always a child of a linearGradient or radialGradient element.",
@@ -10370,7 +10370,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/style": {
+	"svg/style": {
 		"name": "style",
 		"status": "living",
 		"summary": "The SVG `<style>` element allows style sheets to be embedded directly within SVG content.",
@@ -10422,7 +10422,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/svg": {
+	"svg/svg": {
 		"name": "svg",
 		"status": "living",
 		"summary": "The `svg` element is a container that defines a new coordinate system and viewport. It is used as the outermost element of SVG documents, but it can also be used to embed an SVG fragment inside an SVG or HTML document.",
@@ -10434,8 +10434,8 @@
 		],
 		"interface": "SVGSVGElement",
 		"attributes": {
-			"baseprofile": {
-				"name": "baseprofile",
+			"baseProfile": {
+				"name": "baseProfile",
 				"status": "deprecated",
 				"summary": "The `baseProfile` attribute describes the minimum SVG language profile that the author believes is necessary to correctly render the content. The attribute does not specify any processing restrictions; It can be considered metadata.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/baseProfile",
@@ -10447,8 +10447,8 @@
 				],
 				"spec-urls": "https://www.w3.org/TR/SVG11/struct.html#SVGElementBaseProfileAttribute"
 			},
-			"contentscripttype": {
-				"name": "contentscripttype",
+			"contentScriptType": {
+				"name": "contentScriptType",
 				"status": "deprecated",
 				"summary": "The `contentScriptType` attribute specifies the default scripting language for the given document fragment on the svg element.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/contentScriptType",
@@ -10459,8 +10459,8 @@
 					"SVG Attribute"
 				]
 			},
-			"contentstyletype": {
-				"name": "contentstyletype",
+			"contentStyleType": {
+				"name": "contentStyleType",
 				"status": "deprecated",
 				"summary": "The `contentStyleType` attribute specifies the style sheet language for the given document fragment on the svg element.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/contentStyleType",
@@ -10490,8 +10490,8 @@
 					"https://svgwg.org/svg2-draft/pservers.html#PatternElementHeightAttribute"
 				]
 			},
-			"preserveaspectratio": {
-				"name": "preserveaspectratio",
+			"preserveAspectRatio": {
+				"name": "preserveAspectRatio",
 				"status": "living",
 				"summary": "The `preserveAspectRatio` attribute indicates how an element with a viewBox providing a given aspect ratio must fit into a viewport with a different aspect ratio.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/preserveAspectRatio",
@@ -10518,8 +10518,8 @@
 					"SVG Attribute"
 				]
 			},
-			"viewbox": {
-				"name": "viewbox",
+			"viewBox": {
+				"name": "viewBox",
 				"status": "living",
 				"summary": "The `viewBox` attribute defines the position and dimension, in user space, of an SVG viewport.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/viewBox",
@@ -10600,7 +10600,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/switch": {
+	"svg/switch": {
 		"name": "switch",
 		"status": "living",
 		"summary": "The `<switch>` SVG element evaluates any requiredFeatures, requiredExtensions and systemLanguage attributes on its direct child elements in order, and then renders the first child where these attributes evaluate to true.",
@@ -10618,7 +10618,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/symbol": {
+	"svg/symbol": {
 		"name": "symbol",
 		"status": "living",
 		"summary": "The `<symbol>` element is used to define graphical template objects which can be instantiated by a use element.",
@@ -10650,8 +10650,8 @@
 					"https://svgwg.org/svg2-draft/pservers.html#PatternElementHeightAttribute"
 				]
 			},
-			"preserveaspectratio": {
-				"name": "preserveaspectratio",
+			"preserveAspectRatio": {
+				"name": "preserveAspectRatio",
 				"status": "living",
 				"summary": "The `preserveAspectRatio` attribute indicates how an element with a viewBox providing a given aspect ratio must fit into a viewport with a different aspect ratio.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/preserveAspectRatio",
@@ -10666,8 +10666,8 @@
 					"https://svgwg.org/svg2-draft/coords.html#PreserveAspectRatioAttribute"
 				]
 			},
-			"refx": {
-				"name": "refx",
+			"refX": {
+				"name": "refX",
 				"status": "living",
 				"summary": "The `refX` attribute defines the x coordinate of an element's reference point.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/refX",
@@ -10679,8 +10679,8 @@
 					"https://svgwg.org/svg2-draft/struct.html#SymbolElementRefXAttribute"
 				]
 			},
-			"refy": {
-				"name": "refy",
+			"refY": {
+				"name": "refY",
 				"status": "living",
 				"summary": "The `refY` attribute defines the y coordinate of an element's reference point.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/refY",
@@ -10692,8 +10692,8 @@
 					"https://svgwg.org/svg2-draft/struct.html#SymbolElementRefYAttribute"
 				]
 			},
-			"viewbox": {
-				"name": "viewbox",
+			"viewBox": {
+				"name": "viewBox",
 				"status": "living",
 				"summary": "The `viewBox` attribute defines the position and dimension, in user space, of an SVG viewport.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/viewBox",
@@ -10774,7 +10774,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/text": {
+	"svg/text": {
 		"name": "text",
 		"status": "living",
 		"summary": "The SVG `<text>` element draws a graphics element consisting of text. It's possible to apply a gradient, pattern, clipping path, mask, or filter to `<text>`, like any other SVG graphics element.",
@@ -10879,8 +10879,8 @@
 				],
 				"spec-urls": "https://svgwg.org/specs/animations/#RotateAttribute"
 			},
-			"lengthadjust": {
-				"name": "lengthadjust",
+			"lengthAdjust": {
+				"name": "lengthAdjust",
 				"status": "living",
 				"summary": "The lengthAdjust attribute controls how the text is stretched into the length defined by the textLength attribute.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/lengthAdjust",
@@ -10891,8 +10891,8 @@
 					"SVG Attribute"
 				]
 			},
-			"textlength": {
-				"name": "textlength",
+			"textLength": {
+				"name": "textLength",
 				"status": "living",
 				"summary": "The `textLength` attribute, available on SVG text and tspan elements, lets you specify the width of the space into which the text will draw. The user agent will ensure that the text does not extend farther than that distance, using the method or methods specified by the lengthAdjust attribute. By default, only the spacing between characters is adjusted, but the glyph size can also be adjusted if you change `lengthAdjust`.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/textLength",
@@ -10916,8 +10916,8 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/textpath": {
-		"name": "textpath",
+	"svg/textPath": {
+		"name": "textPath",
 		"status": "living",
 		"summary": "To render text along the shape of a path, enclose the text in a `<textPath>` element that has an href attribute with a reference to the path element.",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/textPath",
@@ -10935,19 +10935,19 @@
 				"summary": "The `href` attribute defines a link to a resource as a reference URL. The exact meaning of that link depends on the context of each element using it.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/href",
 				"type": "attribute",
-				"scope": "SVG:textpath",
+				"scope": "SVG:textPath",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
 				]
 			},
-			"lengthadjust": {
-				"name": "lengthadjust",
+			"lengthAdjust": {
+				"name": "lengthAdjust",
 				"status": "living",
 				"summary": "The lengthAdjust attribute controls how the text is stretched into the length defined by the textLength attribute.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/lengthAdjust",
 				"type": "attribute",
-				"scope": "SVG:textpath",
+				"scope": "SVG:textPath",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
@@ -10959,7 +10959,7 @@
 				"summary": "The `method` attribute indicates the method by which text should be rendered along the path of a textPath element.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/method",
 				"type": "attribute",
-				"scope": "SVG:textpath",
+				"scope": "SVG:textPath",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
@@ -10972,7 +10972,7 @@
 				"summary": "The `path` attribute has two different meanings, either it defines a text path along which the characters of a text are rendered, or a motion path along which a referenced element is animated.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/path",
 				"type": "attribute",
-				"scope": "SVG:textpath",
+				"scope": "SVG:textPath",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
@@ -10988,7 +10988,7 @@
 				"summary": "The `side` attribute determines the side of a path the text is placed on (relative to the path direction).",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/side",
 				"type": "attribute",
-				"scope": "SVG:textpath",
+				"scope": "SVG:textPath",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
@@ -11000,31 +11000,31 @@
 				"summary": "The `spacing` attribute indicates how the user agent should determine the spacing between typographic characters that are to be rendered along a path.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/spacing",
 				"type": "attribute",
-				"scope": "SVG:textpath",
+				"scope": "SVG:textPath",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
 				]
 			},
-			"startoffset": {
-				"name": "startoffset",
+			"startOffset": {
+				"name": "startOffset",
 				"status": "living",
 				"summary": "The `startOffset` attribute defines an offset from the start of the path for the initial current text position along the path after converting the path to the textPath element's coordinate system.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/startOffset",
 				"type": "attribute",
-				"scope": "SVG:textpath",
+				"scope": "SVG:textPath",
 				"tags": [
 					"SVG",
 					"SVG Attribute"
 				]
 			},
-			"textlength": {
-				"name": "textlength",
+			"textLength": {
+				"name": "textLength",
 				"status": "living",
 				"summary": "The `textLength` attribute, available on SVG text and tspan elements, lets you specify the width of the space into which the text will draw. The user agent will ensure that the text does not extend farther than that distance, using the method or methods specified by the lengthAdjust attribute. By default, only the spacing between characters is adjusted, but the glyph size can also be adjusted if you change `lengthAdjust`.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/textLength",
 				"type": "attribute",
-				"scope": "SVG:textpath",
+				"scope": "SVG:textPath",
 				"tags": [
 					"CSS",
 					"HTML",
@@ -11043,7 +11043,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/title": {
+	"svg/title": {
 		"name": "title",
 		"status": "living",
 		"summary": "The `<title>` element provides an accessible, short-text description of any SVG container element or graphics element.",
@@ -11061,7 +11061,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/tref": {
+	"svg/tref": {
 		"name": "tref",
 		"status": "living",
 		"summary": "The textual content for a text SVG element can be either character data directly embedded within the text element or the character data content of a referenced element, where the referencing is specified with a `<tref>` element.",
@@ -11079,7 +11079,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/tspan": {
+	"svg/tspan": {
 		"name": "tspan",
 		"status": "living",
 		"summary": "The SVG `<tspan>` element defines a subtext within a  element or another `<tspan>` element. It allows for adjustment of the style and/or position of that subtext as needed.",
@@ -11184,8 +11184,8 @@
 				],
 				"spec-urls": "https://svgwg.org/specs/animations/#RotateAttribute"
 			},
-			"lengthadjust": {
-				"name": "lengthadjust",
+			"lengthAdjust": {
+				"name": "lengthAdjust",
 				"status": "living",
 				"summary": "The lengthAdjust attribute controls how the text is stretched into the length defined by the textLength attribute.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/lengthAdjust",
@@ -11196,8 +11196,8 @@
 					"SVG Attribute"
 				]
 			},
-			"textlength": {
-				"name": "textlength",
+			"textLength": {
+				"name": "textLength",
 				"status": "living",
 				"summary": "The `textLength` attribute, available on SVG text and tspan elements, lets you specify the width of the space into which the text will draw. The user agent will ensure that the text does not extend farther than that distance, using the method or methods specified by the lengthAdjust attribute. By default, only the spacing between characters is adjusted, but the glyph size can also be adjusted if you change `lengthAdjust`.",
 				"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/textLength",
@@ -11221,7 +11221,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/use": {
+	"svg/use": {
 		"name": "use",
 		"status": "living",
 		"summary": "The `<use>` element takes nodes from within the SVG document, and duplicates them somewhere else.",
@@ -11365,7 +11365,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/view": {
+	"svg/view": {
 		"name": "view",
 		"status": "living",
 		"summary": "A view is a defined way to view the image, like a zoom level or a detail view.",
@@ -11382,7 +11382,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/svg/element/vkern": {
+	"svg/vkern": {
 		"name": "vkern",
 		"status": "deprecated",
 		"summary": "The `<vkern>` SVG element allows to fine-tweak the vertical distance between two glyphs in top-to-bottom fonts. This process is known as kerning.",
@@ -11400,7 +11400,7 @@
 			"SVG:global:core"
 		]
 	},
-	"/web/mathml/element/*": {
+	"mathml/*": {
 		"name": "MathML:*",
 		"status": "virtual",
 		"summary": "Container to hold the global attributes of all MathML elements.",
@@ -11413,7 +11413,7 @@
 		"interface": "MathMLElement",
 		"attributes": {}
 	},
-	"/web/mathml/element/maction": {
+	"mathml/maction": {
 		"name": "maction",
 		"status": "living",
 		"summary": "The MathML `<maction>` element provides a possibility to bind actions to (sub-) expressions. The action itself is specified by the `actiontype` attribute, which accepts several values. To specify which child elements are addressed by the action, you can make use of the `selection` attribute.",
@@ -11511,7 +11511,7 @@
 			}
 		}
 	},
-	"/web/mathml/element/math": {
+	"mathml/math": {
 		"name": "math",
 		"status": "living",
 		"summary": "The top-level element in MathML is `<math>`. Every valid MathML instance must be wrapped in `<math>` tags. In addition you must not nest a second `<math>` element in another, but you can have an arbitrary number of other child elements in it.",
@@ -11608,7 +11608,7 @@
 			}
 		}
 	},
-	"/web/mathml/element/menclose": {
+	"mathml/menclose": {
 		"name": "menclose",
 		"status": "living",
 		"summary": "The MathML `<menclose>` element renders its content inside an enclosing notation specified by the `notation` attribute.",
@@ -11697,7 +11697,7 @@
 			}
 		}
 	},
-	"/web/mathml/element/merror": {
+	"mathml/merror": {
 		"name": "merror",
 		"status": "living",
 		"summary": "The MathML `<merror>` element is used to display contents as error messages. In Firefox this error message is rendered similar to the typical XML error message. Note that this error is not thrown when your MathML markup is wrong or not well-formed XML. You will still get an XML parsing error (in case of the XHTML notation of MathML), which has nothing to do with `<merror>`.",
@@ -11777,7 +11777,7 @@
 			}
 		}
 	},
-	"/web/mathml/element/mfenced": {
+	"mathml/mfenced": {
 		"name": "mfenced",
 		"status": "deprecated",
 		"summary": "The deprecated MathML `<mfenced>` element used to provide the possibility to add custom opening and closing parentheses (such as brackets) and separators (such as commas or semicolons) to an expression. It has been removed from the latest MathML standard and modern browsers no longer support it. Use the mrow and mo elements instead.",
@@ -11875,7 +11875,7 @@
 			}
 		}
 	},
-	"/web/mathml/element/mfrac": {
+	"mathml/mfrac": {
 		"name": "mfrac",
 		"status": "living",
 		"summary": "The MathML `<mfrac>` element is used to display fractions.",
@@ -11991,7 +11991,7 @@
 			}
 		}
 	},
-	"/web/mathml/element/mi": {
+	"mathml/mi": {
 		"name": "mi",
 		"status": "living",
 		"summary": "The MathML `<mi>` element indicates that the content should be rendered as an identifier such as function names, variables or symbolic constants. You can also have arbitrary text in it to mark up terms.",
@@ -12098,7 +12098,7 @@
 			}
 		}
 	},
-	"/web/mathml/element/mmultiscripts": {
+	"mathml/mmultiscripts": {
 		"name": "mmultiscripts",
 		"status": "living",
 		"summary": "The MathML `<mmultiscripts>` element allows you to create tensor-like objects. In a descriptive way tensors are multidimensional matrices (mathematical imprecise but exemplified). The degree of a tensor depends on the dimensionality of a representative array. For example, a number is a 0-dimensional array, or a 0th-order tensor. A 1-dimensional array (e.g. vectors) is a 1st-order tensor and so 2nd-order tensors are needed to represent square matrices. To learn more about the mathematical background of tensors refer to the entry on Wikipedia.",
@@ -12196,7 +12196,7 @@
 			}
 		}
 	},
-	"/web/mathml/element/mn": {
+	"mathml/mn": {
 		"name": "mn",
 		"status": "living",
 		"summary": "The MathML `<mn>` element represents a numeric literal which is normally a sequence of digits with a possible separator (a dot or a comma). However,  it is also allowed to have arbitrary text in it which is actually a numeric quantity, for example \"eleven\".",
@@ -12303,7 +12303,7 @@
 			}
 		}
 	},
-	"/web/mathml/element/mo": {
+	"mathml/mo": {
 		"name": "mo",
 		"status": "living",
 		"summary": "The MathML `<mo>` element represents an operator in a broad sense. Besides operators in strict mathematical meaning, this element also includes \"operators\" like parentheses, separators like comma and semicolon, or \"absolute value\" bars.",
@@ -12437,7 +12437,7 @@
 			}
 		}
 	},
-	"/web/mathml/element/mover": {
+	"mathml/mover": {
 		"name": "mover",
 		"status": "living",
 		"summary": "The MathML `<mover>` element is used to attach an accent or a limit over an expression. Use the following syntax: `<mover> base overscript </mover>`",
@@ -12535,7 +12535,7 @@
 			}
 		}
 	},
-	"/web/mathml/element/mpadded": {
+	"mathml/mpadded": {
 		"name": "mpadded",
 		"status": "living",
 		"summary": "The MathML `<mpadded>` element is used to add extra padding and to set the general adjustment of position and size of enclosed contents.",
@@ -12660,7 +12660,7 @@
 			}
 		}
 	},
-	"/web/mathml/element/mphantom": {
+	"mathml/mphantom": {
 		"name": "mphantom",
 		"status": "living",
 		"summary": "The MathML `<mphantom>` element is rendered invisibly, but dimensions (such as height, width, and baseline position) are still kept.",
@@ -12722,7 +12722,7 @@
 			}
 		}
 	},
-	"/web/mathml/element/mroot": {
+	"mathml/mroot": {
 		"name": "mroot",
 		"status": "living",
 		"summary": "The MathML `<mroot>` element is used to display roots with an explicit index. Two arguments are accepted, which leads to the syntax: `<mroot> base index </mroot>`.",
@@ -12802,7 +12802,7 @@
 			}
 		}
 	},
-	"/web/mathml/element/mrow": {
+	"mathml/mrow": {
 		"name": "mrow",
 		"status": "living",
 		"summary": "The MathML `<mrow>` element is used to group sub-expressions, which usually contain one or more operators with their respective operands (such as mi and mn). This element renders as a horizontal row containing its arguments.",
@@ -12891,7 +12891,7 @@
 			}
 		}
 	},
-	"/web/mathml/element/ms": {
+	"mathml/ms": {
 		"name": "ms",
 		"status": "living",
 		"summary": "The MathML `<ms>` element represents a string literal meant to be interpreted by programming languages and computer algebra systems. By default, string literals are displayed as enclosed by double quotes (`&quot;`); by using the `lquote` and `rquote` attributes, you can set custom characters to display. Note that quotation marks should not be specified unless they are part of the string literal. The content of an `<ms>` element is not an ASCII string per se, but rather a sequence of characters and malignmark elements.",
@@ -13007,7 +13007,7 @@
 			}
 		}
 	},
-	"/web/mathml/element/mspace": {
+	"mathml/mspace": {
 		"name": "mspace",
 		"status": "living",
 		"summary": "The MathML `<mspace>` element is used to display a blank space, whose size is set by its attributes.",
@@ -13096,7 +13096,7 @@
 			}
 		}
 	},
-	"/web/mathml/element/msqrt": {
+	"mathml/msqrt": {
 		"name": "msqrt",
 		"status": "living",
 		"summary": "The MathML `<msqrt>` element is used to display square roots (no index is displayed). The square root accepts only one argument, which leads to the following syntax: `<msqrt> base </msqrt>`.",
@@ -13176,7 +13176,7 @@
 			}
 		}
 	},
-	"/web/mathml/element/mstyle": {
+	"mathml/mstyle": {
 		"name": "mstyle",
 		"status": "living",
 		"summary": "The MathML `<mstyle>` element is used change the style of its children. It accepts all attributes of all MathML presentation elements with some exceptions and additional attributes listed below.",
@@ -13328,7 +13328,7 @@
 			}
 		}
 	},
-	"/web/mathml/element/msub": {
+	"mathml/msub": {
 		"name": "msub",
 		"status": "living",
 		"summary": "The MathML `<msub>` element is used to attach a subscript to an expression.",
@@ -13417,7 +13417,7 @@
 			}
 		}
 	},
-	"/web/mathml/element/msubsup": {
+	"mathml/msubsup": {
 		"name": "msubsup",
 		"status": "living",
 		"summary": "The MathML `<msubsup>` element is used to attach both a subscript and a superscript, together, to an expression.",
@@ -13515,7 +13515,7 @@
 			}
 		}
 	},
-	"/web/mathml/element/msup": {
+	"mathml/msup": {
 		"name": "msup",
 		"status": "living",
 		"summary": "The MathML `<msup>` element is used to attach a superscript to an expression.",
@@ -13604,7 +13604,7 @@
 			}
 		}
 	},
-	"/web/mathml/element/mtable": {
+	"mathml/mtable": {
 		"name": "mtable",
 		"status": "living",
 		"summary": "The MathML `<mtable>` element allows you to create tables or matrices. Inside a `<mtable>` only mtr and mtd elements may appear. These elements are similar to table , tr and td elements of HTML.",
@@ -13774,7 +13774,7 @@
 			}
 		}
 	},
-	"/web/mathml/element/mtd": {
+	"mathml/mtd": {
 		"name": "mtd",
 		"status": "living",
 		"summary": "The MathML `<mtd>` element represents a cell in a table or a matrix. It may only appear in a mtr element. This element is similar to the td element of HTML.",
@@ -13890,7 +13890,7 @@
 			}
 		}
 	},
-	"/web/mathml/element/mtext": {
+	"mathml/mtext": {
 		"name": "mtext",
 		"status": "living",
 		"summary": "The MathML <mtext> element is used to render arbitrary text with no notational meaning, such as comments or annotations.",
@@ -13997,7 +13997,7 @@
 			}
 		}
 	},
-	"/web/mathml/element/mtr": {
+	"mathml/mtr": {
 		"name": "mtr",
 		"status": "living",
 		"summary": "The MathML `<mtr>` element represents a row in a table or a matrix. It may only appear in a mtable element. This element is similar to the tr element of HTML.",
@@ -14095,7 +14095,7 @@
 			}
 		}
 	},
-	"/web/mathml/element/munder": {
+	"mathml/munder": {
 		"name": "munder",
 		"status": "living",
 		"summary": "The MathML `<munder>` element is used to attach an accent or a limit under an expression. It uses the following syntax: `<munder> base underscript </munder>`",
@@ -14193,7 +14193,7 @@
 			}
 		}
 	},
-	"/web/mathml/element/munderover": {
+	"mathml/munderover": {
 		"name": "munderover",
 		"status": "living",
 		"summary": "The MathML `<munderover>` element is used to attach accents or limits both under and over an expression.",
@@ -14300,7 +14300,7 @@
 			}
 		}
 	},
-	"/web/mathml/element/semantics": {
+	"mathml/semantics": {
 		"name": "semantics",
 		"status": "living",
 		"summary": "In MathML there are two ways to mark up mathematics: Presentation MathML is used to control the layout of equations, whereas Content MathML is designed to encode the semantic mathematical meaning and to make expressions understandable to computer algebra systems. The MathML elements `<semantics>`, `<annotation>` and `<annotation-xml>` are used to combine presentation and content markup and to provide both, layout information and semantic meaning of mathematical expressions.",

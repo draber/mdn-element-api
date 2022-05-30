@@ -10,8 +10,8 @@
 	],
 	"interface": "SVGSVGElement",
 	"attributes": {
-		"baseprofile": {
-			"name": "baseprofile",
+		"baseProfile": {
+			"name": "baseProfile",
 			"status": "deprecated",
 			"summary": "The `baseProfile` attribute describes the minimum SVG language profile that the author believes is necessary to correctly render the content. The attribute does not specify any processing restrictions; It can be considered metadata.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/baseProfile",
@@ -23,8 +23,8 @@
 			],
 			"spec-urls": "https://www.w3.org/TR/SVG11/struct.html#SVGElementBaseProfileAttribute"
 		},
-		"contentscripttype": {
-			"name": "contentscripttype",
+		"contentScriptType": {
+			"name": "contentScriptType",
 			"status": "deprecated",
 			"summary": "The `contentScriptType` attribute specifies the default scripting language for the given document fragment on the svg element.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/contentScriptType",
@@ -35,8 +35,8 @@
 				"SVG Attribute"
 			]
 		},
-		"contentstyletype": {
-			"name": "contentstyletype",
+		"contentStyleType": {
+			"name": "contentStyleType",
 			"status": "deprecated",
 			"summary": "The `contentStyleType` attribute specifies the style sheet language for the given document fragment on the svg element.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/contentStyleType",
@@ -66,8 +66,8 @@
 				"https://svgwg.org/svg2-draft/pservers.html#PatternElementHeightAttribute"
 			]
 		},
-		"preserveaspectratio": {
-			"name": "preserveaspectratio",
+		"preserveAspectRatio": {
+			"name": "preserveAspectRatio",
 			"status": "living",
 			"summary": "The `preserveAspectRatio` attribute indicates how an element with a viewBox providing a given aspect ratio must fit into a viewport with a different aspect ratio.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/preserveAspectRatio",
@@ -94,8 +94,8 @@
 				"SVG Attribute"
 			]
 		},
-		"viewbox": {
-			"name": "viewbox",
+		"viewBox": {
+			"name": "viewBox",
 			"status": "living",
 			"summary": "The `viewBox` attribute defines the position and dimension, in user space, of an SVG viewport.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/viewBox",

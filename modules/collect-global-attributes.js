@@ -43,10 +43,10 @@ const getGlobalAttributes = (scope) => {
 
     
 
-    const elemFragment = `/web/${scope.slice(
+    const elemFragment = `${scope.slice(
         0,
         scope.indexOf(":")
-    ).toLowerCase()}/element/*`;
+    ).toLowerCase()}/*`;
 
     lineArr.forEach((line, index) => {
         if (!line.startsWith("- [`")) {

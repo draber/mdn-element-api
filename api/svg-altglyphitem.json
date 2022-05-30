@@ -1,5 +1,5 @@
 {
-	"name": "altglyphitem",
+	"name": "altGlyphItem",
 	"status": "deprecated",
 	"summary": "The `<altGlyphItem>` element provides a set of candidates for glyph substitution by the altGlyph element.",
 	"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/altGlyphItem",

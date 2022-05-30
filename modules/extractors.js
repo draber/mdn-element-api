@@ -39,7 +39,6 @@ const getMetaData = (raw) => {
     if (elMatch) {
         meta.name = elMatch[1];
     }
-    meta.name = meta.name.toLowerCase();
     delete meta.title;
 
     // status

@@ -1,5 +1,5 @@
 {
-	"name": "femorphology",
+	"name": "feMorphology",
 	"status": "living",
 	"summary": "The `<feMorphology>` SVG filter primitive is used to erode or dilate the input image. Its usefulness lies especially in fattening or thinning effects.",
 	"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feMorphology",

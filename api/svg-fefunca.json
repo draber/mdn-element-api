@@ -1,5 +1,5 @@
 {
-	"name": "fefunca",
+	"name": "feFuncA",
 	"status": "living",
 	"summary": "The `<feFuncA>` SVG filter primitive defines the transfer function for the alpha component of the input graphic of its parent feComponentTransfer element.",
 	"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feFuncA",

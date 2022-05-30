@@ -42,8 +42,8 @@
 				"SVG Attribute"
 			]
 		},
-		"patterncontentunits": {
-			"name": "patterncontentunits",
+		"patternContentUnits": {
+			"name": "patternContentUnits",
 			"status": "living",
 			"summary": "The `patternContentUnits` attribute indicates which coordinate system to use for the contents of the pattern element.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/patternContentUnits",
@@ -54,8 +54,8 @@
 				"SVG Attribute"
 			]
 		},
-		"patterntransform": {
-			"name": "patterntransform",
+		"patternTransform": {
+			"name": "patternTransform",
 			"status": "living",
 			"summary": "The `patternTransform` attribute defines a list of transform definitions that are applied to a pattern tile.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/patternTransform",
@@ -66,8 +66,8 @@
 				"SVG Attribute"
 			]
 		},
-		"patternunits": {
-			"name": "patternunits",
+		"patternUnits": {
+			"name": "patternUnits",
 			"status": "living",
 			"summary": "The `patternUnits` attribute indicates which coordinate system to use for the geometry properties of the pattern element.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/patternUnits",
@@ -78,8 +78,8 @@
 				"SVG Attribute"
 			]
 		},
-		"preserveaspectratio": {
-			"name": "preserveaspectratio",
+		"preserveAspectRatio": {
+			"name": "preserveAspectRatio",
 			"status": "living",
 			"summary": "The `preserveAspectRatio` attribute indicates how an element with a viewBox providing a given aspect ratio must fit into a viewport with a different aspect ratio.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/preserveAspectRatio",
@@ -94,8 +94,8 @@
 				"https://svgwg.org/svg2-draft/coords.html#PreserveAspectRatioAttribute"
 			]
 		},
-		"viewbox": {
-			"name": "viewbox",
+		"viewBox": {
+			"name": "viewBox",
 			"status": "living",
 			"summary": "The `viewBox` attribute defines the position and dimension, in user space, of an SVG viewport.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/viewBox",

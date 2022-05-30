@@ -1,5 +1,5 @@
 {
-	"name": "feimage",
+	"name": "feImage",
 	"status": "living",
 	"summary": "The `<feImage>` SVG filter primitive fetches image data from an external source and provides the pixel data as output (meaning if the external source is an SVG image, it is rasterized.)",
 	"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feImage",

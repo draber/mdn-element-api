@@ -1,5 +1,5 @@
 {
-	"name": "clippath",
+	"name": "clipPath",
 	"status": "living",
 	"summary": "The `<clipPath>` SVG element defines a clipping path, to be used by the clip-path property.",
 	"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/clipPath",
@@ -10,13 +10,13 @@
 	],
 	"interface": "SVGClipPathElement",
 	"attributes": {
-		"clippathunits": {
-			"name": "clippathunits",
+		"clipPathUnits": {
+			"name": "clipPathUnits",
 			"status": "living",
 			"summary": "The `clipPathUnits` attribute indicates which coordinate system to use for the contents of the clipPath element.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/clipPathUnits",
 			"type": "attribute",
-			"scope": "SVG:clippath",
+			"scope": "SVG:clipPath",
 			"tags": [
 				"SVG",
 				"SVG Attribute"

@@ -1,5 +1,5 @@
 {
-	"name": "glyphref",
+	"name": "glyphRef",
 	"status": "deprecated",
 	"summary": "The `glyphRef` element provides a single possible glyph to the referencing altGlyph substitution.",
 	"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/glyphRef",
