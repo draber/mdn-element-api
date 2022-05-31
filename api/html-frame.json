@@ -12,63 +12,63 @@
 	"attributes": {
 		"src": {
 			"name": "src",
-			"status": "living",
+			"status": "inherited",
 			"summary": "This attribute specifies the document that will be displayed by the frame.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/frame",
 			"type": "attribute",
 			"scope": "HTML:frame",
 			"tags": []
 		},
 		"name": {
 			"name": "name",
-			"status": "living",
+			"status": "inherited",
 			"summary": "This attribute is used for labeling frames. Without labeling, every link will open in the frame that it's in – the closest parent frame. See the a attribute for more information.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/frame",
 			"type": "attribute",
 			"scope": "HTML:frame",
 			"tags": []
 		},
 		"noresize": {
 			"name": "noresize",
-			"status": "living",
+			"status": "inherited",
 			"summary": "This attribute prevents resizing of frames by users.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/frame",
 			"type": "attribute",
 			"scope": "HTML:frame",
 			"tags": []
 		},
 		"scrolling": {
 			"name": "scrolling",
-			"status": "living",
+			"status": "inherited",
 			"summary": "This attribute defines the existence of a scrollbar. If this attribute is not used, the browser adds a scrollbar when necessary. There are two choices: \"yes\" for forcing a scrollbar even when it is not necessary and \"no\" for forcing no scrollbar even when it is necessary.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/frame",
 			"type": "attribute",
 			"scope": "HTML:frame",
 			"tags": []
 		},
 		"marginheight": {
 			"name": "marginheight",
-			"status": "living",
+			"status": "inherited",
 			"summary": "This attribute defines the height of the margin between frames.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/frame",
 			"type": "attribute",
 			"scope": "HTML:frame",
 			"tags": []
 		},
 		"marginwidth": {
 			"name": "marginwidth",
-			"status": "living",
+			"status": "inherited",
 			"summary": "This attribute defines the width of the margin between frames.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/frame",
 			"type": "attribute",
 			"scope": "HTML:frame",
 			"tags": []
 		},
 		"frameborder": {
 			"name": "frameborder",
-			"status": "living",
+			"status": "inherited",
 			"summary": "This attribute allows you to specify a frame's border.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/frame",
 			"type": "attribute",
 			"scope": "HTML:frame",
 			"tags": []

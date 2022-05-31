@@ -13,7 +13,7 @@
 	"attributes": {
 		"x": {
 			"name": "x",
-			"status": "living",
+			"status": "inherited",
 			"summary": "The `x` attribute defines an x-axis coordinate in the user coordinate system.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/x",
 			"type": "attribute",
@@ -35,7 +35,7 @@
 		},
 		"y": {
 			"name": "y",
-			"status": "living",
+			"status": "inherited",
 			"summary": "The `y` attribute defines a y-axis coordinate in the user coordinate system.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/y",
 			"type": "attribute",
@@ -57,7 +57,7 @@
 		},
 		"dx": {
 			"name": "dx",
-			"status": "living",
+			"status": "inherited",
 			"summary": "The `dx` attribute indicates a shift along the x-axis on the position of an element or its content.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/dx",
 			"type": "attribute",
@@ -74,7 +74,7 @@
 		},
 		"dy": {
 			"name": "dy",
-			"status": "living",
+			"status": "inherited",
 			"summary": "The `dy` attribute indicates a shift along the y-axis on the position of an element or its content.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/dy",
 			"type": "attribute",
@@ -91,7 +91,7 @@
 		},
 		"rotate": {
 			"name": "rotate",
-			"status": "experimental",
+			"status": "inherited",
 			"summary": "The `rotate` attribute specifies how the animated element rotates as it travels along a path specified in an animateMotion element.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/rotate",
 			"type": "attribute",
@@ -105,7 +105,7 @@
 		},
 		"glyphRef": {
 			"name": "glyphRef",
-			"status": "deprecated",
+			"status": "inherited",
 			"summary": "The `glyphRef` attribute represents the glyph identifier, the format of which is dependent on the format of the given font.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/glyphRef",
 			"type": "attribute",
@@ -117,7 +117,7 @@
 		},
 		"format": {
 			"name": "format",
-			"status": "deprecated",
+			"status": "inherited",
 			"summary": "The `format` attribute indicates the format of the given font.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/format",
 			"type": "attribute",
@@ -129,7 +129,7 @@
 		},
 		"xlink:href": {
 			"name": "xlink:href",
-			"status": "living",
+			"status": "inherited",
 			"summary": "The `xlink:href` attribute defines a reference to a resource as a reference IRI. The exact meaning of that link depends on the context of each element using it.",
 			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xlink:href",
 			"type": "attribute",
@@ -253,15 +253,6 @@
 				"SVG",
 				"SVG Attribute"
 			]
-		},
-		"default": {
-			"name": "default",
-			"status": "living",
-			"summary": "",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/Core",
-			"type": "attribute",
-			"scope": "SVG:global:core",
-			"tags": []
 		}
 	}
 }

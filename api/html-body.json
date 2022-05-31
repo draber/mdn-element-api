@@ -16,7 +16,7 @@
 			"name": "alink",
 			"status": "deprecated",
 			"summary": "Color of text for hyperlinks when selected.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body",
 			"type": "attribute",
 			"scope": "HTML:body",
 			"tags": []
@@ -25,7 +25,7 @@
 			"name": "background",
 			"status": "deprecated",
 			"summary": "URI of a image to use as a background.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body",
 			"type": "attribute",
 			"scope": "HTML:body",
 			"tags": []
@@ -34,7 +34,7 @@
 			"name": "bgcolor",
 			"status": "deprecated",
 			"summary": "Background color for the document.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body",
 			"type": "attribute",
 			"scope": "HTML:body",
 			"tags": []
@@ -43,7 +43,7 @@
 			"name": "bottommargin",
 			"status": "deprecated",
 			"summary": "The margin of the bottom of the body.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body",
 			"type": "attribute",
 			"scope": "HTML:body",
 			"tags": []
@@ -52,7 +52,7 @@
 			"name": "leftmargin",
 			"status": "deprecated",
 			"summary": "The margin of the left of the body.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body",
 			"type": "attribute",
 			"scope": "HTML:body",
 			"tags": []
@@ -61,7 +61,7 @@
 			"name": "link",
 			"status": "deprecated",
 			"summary": "Color of text for unvisited hypertext links.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body",
 			"type": "attribute",
 			"scope": "HTML:body",
 			"tags": []
@@ -70,7 +70,7 @@
 			"name": "onafterprint",
 			"status": "living",
 			"summary": "Function to call after the user has printed the document.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body",
 			"type": "attribute",
 			"scope": "HTML:body",
 			"tags": []
@@ -79,7 +79,7 @@
 			"name": "onbeforeprint",
 			"status": "living",
 			"summary": "Function to call when the user requests printing of the document.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body",
 			"type": "attribute",
 			"scope": "HTML:body",
 			"tags": []
@@ -88,7 +88,7 @@
 			"name": "onbeforeunload",
 			"status": "living",
 			"summary": "Function to call when the document is about to be unloaded.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body",
 			"type": "attribute",
 			"scope": "HTML:body",
 			"tags": []
@@ -142,7 +142,7 @@
 			"name": "onhashchange",
 			"status": "living",
 			"summary": "Function to call when the fragment identifier part (starting with the hash (`'#'`) character) of the document's current address has changed.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body",
 			"type": "attribute",
 			"scope": "HTML:body",
 			"tags": []
@@ -151,7 +151,7 @@
 			"name": "onlanguagechange",
 			"status": "living",
 			"summary": "Function to call when the preferred languages changed.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body",
 			"type": "attribute",
 			"scope": "HTML:body",
 			"tags": []
@@ -175,7 +175,7 @@
 			"name": "onmessage",
 			"status": "living",
 			"summary": "Function to call when the document has received a message.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body",
 			"type": "attribute",
 			"scope": "HTML:body",
 			"tags": []
@@ -184,7 +184,7 @@
 			"name": "onoffline",
 			"status": "living",
 			"summary": "Function to call when network communication has failed.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body",
 			"type": "attribute",
 			"scope": "HTML:body",
 			"tags": []
@@ -193,7 +193,7 @@
 			"name": "ononline",
 			"status": "living",
 			"summary": "Function to call when network communication has been restored.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body",
 			"type": "attribute",
 			"scope": "HTML:body",
 			"tags": []
@@ -202,7 +202,7 @@
 			"name": "onpopstate",
 			"status": "living",
 			"summary": "Function to call when the user has navigated session history.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body",
 			"type": "attribute",
 			"scope": "HTML:body",
 			"tags": []
@@ -211,7 +211,7 @@
 			"name": "onredo",
 			"status": "living",
 			"summary": "Function to call when the user has moved forward in undo transaction history.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body",
 			"type": "attribute",
 			"scope": "HTML:body",
 			"tags": []
@@ -235,7 +235,7 @@
 			"name": "onstorage",
 			"status": "living",
 			"summary": "Function to call when the storage area has changed.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body",
 			"type": "attribute",
 			"scope": "HTML:body",
 			"tags": []
@@ -244,7 +244,7 @@
 			"name": "onundo",
 			"status": "living",
 			"summary": "Function to call when the user has moved backward in undo transaction history.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body",
 			"type": "attribute",
 			"scope": "HTML:body",
 			"tags": []
@@ -253,7 +253,7 @@
 			"name": "onunload",
 			"status": "living",
 			"summary": "Function to call when the document is going away.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body",
 			"type": "attribute",
 			"scope": "HTML:body",
 			"tags": []
@@ -262,7 +262,7 @@
 			"name": "rightmargin",
 			"status": "deprecated",
 			"summary": "The margin of the right of the body.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body",
 			"type": "attribute",
 			"scope": "HTML:body",
 			"tags": []
@@ -271,7 +271,7 @@
 			"name": "text",
 			"status": "deprecated",
 			"summary": "Foreground color of text.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body",
 			"type": "attribute",
 			"scope": "HTML:body",
 			"tags": []
@@ -280,7 +280,7 @@
 			"name": "topmargin",
 			"status": "deprecated",
 			"summary": "The margin of the top of the body.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body",
 			"type": "attribute",
 			"scope": "HTML:body",
 			"tags": []
@@ -289,7 +289,7 @@
 			"name": "vlink",
 			"status": "deprecated",
 			"summary": "Color of text for visited hypertext links.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body",
 			"type": "attribute",
 			"scope": "HTML:body",
 			"tags": []

@@ -17,7 +17,7 @@
 			"name": "dir",
 			"status": "living",
 			"summary": "Overall directionality of formulas. Possible values are either `ltr` (left to right) or `rtl` (right to left).",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mstyle",
 			"type": "attribute",
 			"scope": "MathML:mstyle",
 			"tags": []
@@ -26,7 +26,7 @@
 			"name": "displaystyle",
 			"status": "living",
 			"summary": "A Boolean value specifying whether more vertical space is used for displayed equations or, if set to `false`, a more compact layout is used to display formulas. The main effect is that larger versions of operators are displayed, when `displaystyle` is set to `true`. See also `movablelimits` on mo.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mstyle",
 			"type": "attribute",
 			"scope": "MathML:mstyle",
 			"tags": []
@@ -35,7 +35,7 @@
 			"name": "infixlinebreakstyle",
 			"status": "living",
 			"summary": "Specifies the default `linebreakstyle` to use for infix operators. The values `before`, `after` and `duplicate` are allowed.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mstyle",
 			"type": "attribute",
 			"scope": "MathML:mstyle",
 			"tags": []
@@ -44,7 +44,7 @@
 			"name": "scriptlevel",
 			"status": "living",
 			"summary": "Controls mostly the font-size. The higher the `scriptlevel`, the smaller the font size. This attribute accepts a non-negative integer, as well as a \"+\" or a \"-\" sign, which increments or decrements the current value. In addition, the `scriptlevel` attribute can never reduce the font size below `scriptminsize` in order to avoid unreadable small font sizes and depends on the multiplier specified in `scriptsizemultiplier`.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mstyle",
 			"type": "attribute",
 			"scope": "MathML:mstyle",
 			"tags": []
@@ -53,7 +53,7 @@
 			"name": "scriptminsize",
 			"status": "living",
 			"summary": "Specifies a minimum font size allowed due to changes in `scriptlevel`. The default value is 8pt.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mstyle",
 			"type": "attribute",
 			"scope": "MathML:mstyle",
 			"tags": []
@@ -62,7 +62,7 @@
 			"name": "scriptsizemultiplier",
 			"status": "living",
 			"summary": "Specifies the multiplier to be used to adjust font size due to changes in `scriptlevel`. The default value is 0.71.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mstyle",
 			"type": "attribute",
 			"scope": "MathML:mstyle",
 			"tags": []
@@ -71,7 +71,7 @@
 			"name": "height",
 			"status": "living",
 			"summary": "",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mstyle",
 			"type": "attribute",
 			"scope": "MathML:mstyle",
 			"tags": []
@@ -80,7 +80,7 @@
 			"name": "depthorwidthdonotapplyto",
 			"status": "living",
 			"summary": "",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mstyle",
 			"type": "attribute",
 			"scope": "MathML:mstyle",
 			"tags": []
@@ -89,7 +89,7 @@
 			"name": "rowalign",
 			"status": "living",
 			"summary": "",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mstyle",
 			"type": "attribute",
 			"scope": "MathML:mstyle",
 			"tags": []
@@ -98,7 +98,7 @@
 			"name": "columnalign",
 			"status": "living",
 			"summary": "",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mstyle",
 			"type": "attribute",
 			"scope": "MathML:mstyle",
 			"tags": []
@@ -107,7 +107,7 @@
 			"name": "orgroupaligndonotapplyto",
 			"status": "living",
 			"summary": "",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mstyle",
 			"type": "attribute",
 			"scope": "MathML:mstyle",
 			"tags": []
@@ -116,7 +116,7 @@
 			"name": "lspace",
 			"status": "living",
 			"summary": "",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mstyle",
 			"type": "attribute",
 			"scope": "MathML:mstyle",
 			"tags": []
@@ -125,7 +125,7 @@
 			"name": "align",
 			"status": "living",
 			"summary": "",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mstyle",
 			"type": "attribute",
 			"scope": "MathML:mstyle",
 			"tags": []
@@ -134,7 +134,7 @@
 			"name": "index",
 			"status": "living",
 			"summary": "",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mstyle",
 			"type": "attribute",
 			"scope": "MathML:mstyle",
 			"tags": []
@@ -143,7 +143,7 @@
 			"name": "actiontype",
 			"status": "living",
 			"summary": "",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mstyle",
 			"type": "attribute",
 			"scope": "MathML:mstyle",
 			"tags": []

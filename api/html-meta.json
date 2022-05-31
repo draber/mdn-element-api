@@ -20,7 +20,7 @@
 			"name": "charset",
 			"status": "living",
 			"summary": "This attribute declares the document's character encoding. If the attribute is present, its value must be an ASCII case-insensitive match for the string \"`utf-8`\", because UTF-8 is the only valid encoding for HTML5 documents. `<meta>` elements which declare a character encoding must be located entirely within the first 1024 bytes of the document.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta",
 			"type": "attribute",
 			"scope": "HTML:meta",
 			"tags": []
@@ -29,7 +29,7 @@
 			"name": "content",
 			"status": "living",
 			"summary": "This attribute contains the value for the http-equiv or name attribute, depending on which is used.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta",
 			"type": "attribute",
 			"scope": "HTML:meta",
 			"tags": []
@@ -38,7 +38,7 @@
 			"name": "http-equiv",
 			"status": "living",
 			"summary": "Defines a pragma directive. The attribute is named `http-equiv(alent)` because all the allowed values are names of particular HTTP headers.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta",
 			"type": "attribute",
 			"scope": "HTML:meta",
 			"tags": []

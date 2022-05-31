@@ -16,7 +16,7 @@
 			"name": "class",
 			"status": "living",
 			"summary": "Provided for use with stylesheets.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/math",
 			"type": "attribute",
 			"scope": "MathML:math",
 			"tags": []
@@ -25,7 +25,7 @@
 			"name": "id",
 			"status": "living",
 			"summary": "Provided for use with stylesheets.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/math",
 			"type": "attribute",
 			"scope": "MathML:math",
 			"tags": []
@@ -34,7 +34,7 @@
 			"name": "style",
 			"status": "living",
 			"summary": "Provided for use with stylesheets.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/math",
 			"type": "attribute",
 			"scope": "MathML:math",
 			"tags": []
@@ -43,7 +43,7 @@
 			"name": "dir",
 			"status": "living",
 			"summary": "Overall directionality of formulas. Possible values are either `ltr` (left to right) or `rtl` (right to left).",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/math",
 			"type": "attribute",
 			"scope": "MathML:math",
 			"tags": []
@@ -52,7 +52,7 @@
 			"name": "href",
 			"status": "living",
 			"summary": "Used to set a hyperlink to a specified URI.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/math",
 			"type": "attribute",
 			"scope": "MathML:math",
 			"tags": []
@@ -61,7 +61,7 @@
 			"name": "mathbackground",
 			"status": "living",
 			"summary": "The background color. You can use `#rgb`, `#rrggbb` and HTML color names.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/math",
 			"type": "attribute",
 			"scope": "MathML:math",
 			"tags": []
@@ -70,7 +70,7 @@
 			"name": "mathcolor",
 			"status": "living",
 			"summary": "The text color. You can use `#rgb`, `#rrggbb` and HTML color names.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/math",
 			"type": "attribute",
 			"scope": "MathML:math",
 			"tags": []
@@ -78,8 +78,8 @@
 		"display": {
 			"name": "display",
 			"status": "living",
-			"summary": "This enumerated attribute specifies how the enclosed MathML markup should be rendered. It can have one of the following values.",
-			"url": "",
+			"summary": "This enumerated attribute specifies how the enclosed MathML markup should be rendered",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/math",
 			"type": "attribute",
 			"scope": "MathML:math",
 			"tags": []
@@ -88,7 +88,7 @@
 			"name": "mode",
 			"status": "deprecated",
 			"summary": "Deprecated in favor of the display attribute.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/math",
 			"type": "attribute",
 			"scope": "MathML:math",
 			"tags": []

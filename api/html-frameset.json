@@ -12,18 +12,18 @@
 	"attributes": {
 		"cols": {
 			"name": "cols",
-			"status": "living",
+			"status": "inherited",
 			"summary": "This attribute specifies the number and size of horizontal spaces in a frameset.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/frameset",
 			"type": "attribute",
 			"scope": "HTML:frameset",
 			"tags": []
 		},
 		"rows": {
 			"name": "rows",
-			"status": "living",
+			"status": "inherited",
 			"summary": "This attribute specifies the number and size of vertical spaces in a frameset.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/frameset",
 			"type": "attribute",
 			"scope": "HTML:frameset",
 			"tags": []

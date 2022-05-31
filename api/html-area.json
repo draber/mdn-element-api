@@ -18,7 +18,7 @@
 			"name": "alt",
 			"status": "living",
 			"summary": "A text string alternative to display on browsers that do not display images.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area",
 			"type": "attribute",
 			"scope": "HTML:area",
 			"tags": []
@@ -27,7 +27,7 @@
 			"name": "coords",
 			"status": "living",
 			"summary": "The `coords` attribute details the coordinates of the `shape` attribute in size, shape, and placement of an `<area>`.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area",
 			"type": "attribute",
 			"scope": "HTML:area",
 			"tags": []
@@ -36,7 +36,7 @@
 			"name": "download",
 			"status": "living",
 			"summary": "This attribute, if present, indicates that the author intends the hyperlink to be used for downloading a resource.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area",
 			"type": "attribute",
 			"scope": "HTML:area",
 			"tags": []
@@ -45,7 +45,7 @@
 			"name": "href",
 			"status": "living",
 			"summary": "The hyperlink target for the area.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area",
 			"type": "attribute",
 			"scope": "HTML:area",
 			"tags": []
@@ -54,7 +54,7 @@
 			"name": "hreflang",
 			"status": "living",
 			"summary": "Indicates the language of the linked resource. Allowed values are defined by RFC 5646 \"Tags for Identifying Languages (also known as BCP 47)\".",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area",
 			"type": "attribute",
 			"scope": "HTML:area",
 			"tags": []
@@ -63,7 +63,7 @@
 			"name": "ping",
 			"status": "living",
 			"summary": "Contains a space-separated list of URLs to which, when the hyperlink is followed, POST requests with the body `PING` will be sent by the browser (in the background).",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area",
 			"type": "attribute",
 			"scope": "HTML:area",
 			"tags": []
@@ -72,7 +72,7 @@
 			"name": "referrerpolicy",
 			"status": "living",
 			"summary": "A string indicating which referrer to use when fetching the resource.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area",
 			"type": "attribute",
 			"scope": "HTML:area",
 			"tags": []
@@ -81,7 +81,7 @@
 			"name": "rel",
 			"status": "living",
 			"summary": "For anchors containing the href attribute, this attribute specifies the relationship of the target object to the link object.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area",
 			"type": "attribute",
 			"scope": "HTML:area",
 			"tags": []
@@ -90,7 +90,7 @@
 			"name": "shape",
 			"status": "living",
 			"summary": "The shape of the associated hot spot. The specifications for HTML defines the values `rect`, which defines a rectangular region; `circle`, which defines a circular region; `poly`, which defines a polygon; and `default`, which indicates the entire region beyond any defined shapes.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area",
 			"type": "attribute",
 			"scope": "HTML:area",
 			"tags": []
@@ -99,7 +99,7 @@
 			"name": "target",
 			"status": "living",
 			"summary": "A keyword or author-defined name of the browsing context to display the linked resource.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area",
 			"type": "attribute",
 			"scope": "HTML:area",
 			"tags": []

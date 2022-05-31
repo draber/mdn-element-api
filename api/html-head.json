@@ -16,7 +16,7 @@
 			"name": "profile",
 			"status": "deprecated",
 			"summary": "The URIs of one or more metadata profiles, separated by whitespace.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head",
 			"type": "attribute",
 			"scope": "HTML:head",
 			"tags": []

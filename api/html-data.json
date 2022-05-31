@@ -15,7 +15,7 @@
 			"name": "value",
 			"status": "living",
 			"summary": "This attribute specifies the machine-readable translation of the content of the element.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/data",
 			"type": "attribute",
 			"scope": "HTML:data",
 			"tags": []

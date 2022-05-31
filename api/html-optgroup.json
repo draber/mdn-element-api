@@ -16,7 +16,7 @@
 			"name": "disabled",
 			"status": "living",
 			"summary": "If this Boolean attribute is set, none of the items in this option group is selectable. Often browsers grey out such control and it won't receive any browsing events, like mouse clicks or focus-related ones.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup",
 			"type": "attribute",
 			"scope": "HTML:optgroup",
 			"tags": []
@@ -25,7 +25,7 @@
 			"name": "label",
 			"status": "living",
 			"summary": "The name of the group of options, which the browser can use when labeling the options in the user interface. This attribute is mandatory if this element is used.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup",
 			"type": "attribute",
 			"scope": "HTML:optgroup",
 			"tags": []

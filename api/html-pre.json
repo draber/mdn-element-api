@@ -16,7 +16,7 @@
 			"name": "cols",
 			"status": "deprecated",
 			"summary": "Contains the preferred count of characters that a line should have. It was a non-standard synonym of width. To achieve such an effect, use CSS width instead.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre",
 			"type": "attribute",
 			"scope": "HTML:pre",
 			"tags": []
@@ -25,7 +25,7 @@
 			"name": "width",
 			"status": "deprecated",
 			"summary": "Contains the preferred count of characters that a line should have. Though technically still implemented, this attribute has no visual effect; to achieve such an effect, use CSS width instead.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre",
 			"type": "attribute",
 			"scope": "HTML:pre",
 			"tags": []
@@ -34,7 +34,7 @@
 			"name": "wrap",
 			"status": "living",
 			"summary": "Is a hint indicating how the overflow must happen. In modern browser this hint is ignored and no visual effect results in its present; to achieve such an effect, use CSS white-space instead.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre",
 			"type": "attribute",
 			"scope": "HTML:pre",
 			"tags": []

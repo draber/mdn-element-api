@@ -16,7 +16,7 @@
 			"name": "reversed",
 			"status": "living",
 			"summary": "This Boolean attribute specifies that the list's items are in reverse order. Items will be numbered from high to low.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol",
 			"type": "attribute",
 			"scope": "HTML:ol",
 			"tags": []
@@ -25,7 +25,7 @@
 			"name": "start",
 			"status": "living",
 			"summary": "An integer to start counting from for the list items. Always an Arabic numeral (1, 2, 3, etc.), even when the numbering `type` is letters or Roman numerals. For example, to start numbering elements from the letter \"d\" or the Roman numeral \"iv,\" use `start=\"4\"`.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol",
 			"type": "attribute",
 			"scope": "HTML:ol",
 			"tags": []
@@ -34,7 +34,7 @@
 			"name": "type",
 			"status": "living",
 			"summary": "Sets the numbering type.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol",
 			"type": "attribute",
 			"scope": "HTML:ol",
 			"tags": []

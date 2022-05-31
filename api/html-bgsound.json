@@ -16,36 +16,36 @@
 	"attributes": {
 		"balance": {
 			"name": "balance",
-			"status": "living",
+			"status": "inherited",
 			"summary": "This attribute defines a number between -10,000 and +10,000 that determines how the volume will be divided between the speakers.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bgsound",
 			"type": "attribute",
 			"scope": "HTML:bgsound",
 			"tags": []
 		},
 		"loop": {
 			"name": "loop",
-			"status": "living",
+			"status": "inherited",
 			"summary": "This attribute indicates the number of times a sound is to be played and either has a numeric value or the keyword infinite.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bgsound",
 			"type": "attribute",
 			"scope": "HTML:bgsound",
 			"tags": []
 		},
 		"src": {
 			"name": "src",
-			"status": "living",
+			"status": "inherited",
 			"summary": "This attribute specifies the URL of the sound file to be played, which must be one of the following types: .wav, .au, or .mid.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bgsound",
 			"type": "attribute",
 			"scope": "HTML:bgsound",
 			"tags": []
 		},
 		"volume": {
 			"name": "volume",
-			"status": "living",
+			"status": "inherited",
 			"summary": "This attribute defines a number between -10,000 and 0 that determines the loudness of a page's background sound.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bgsound",
 			"type": "attribute",
 			"scope": "HTML:bgsound",
 			"tags": []

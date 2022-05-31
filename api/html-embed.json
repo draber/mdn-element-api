@@ -18,7 +18,7 @@
 			"name": "height",
 			"status": "living",
 			"summary": "The displayed height of the resource, in CSS pixels. This must be an absolute value; percentages are not allowed.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed",
 			"type": "attribute",
 			"scope": "HTML:embed",
 			"tags": []
@@ -27,7 +27,7 @@
 			"name": "src",
 			"status": "living",
 			"summary": "The URL of the resource being embedded.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed",
 			"type": "attribute",
 			"scope": "HTML:embed",
 			"tags": []
@@ -36,7 +36,7 @@
 			"name": "type",
 			"status": "living",
 			"summary": "The MIME type to use to select the plug-in to instantiate.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed",
 			"type": "attribute",
 			"scope": "HTML:embed",
 			"tags": []
@@ -45,7 +45,7 @@
 			"name": "width",
 			"status": "living",
 			"summary": "The displayed width of the resource, in CSS pixels. This must be an absolute value; percentages are not allowed.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed",
 			"type": "attribute",
 			"scope": "HTML:embed",
 			"tags": []

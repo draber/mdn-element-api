@@ -20,7 +20,7 @@
 			"name": "default",
 			"status": "living",
 			"summary": "This attribute indicates that the track should be enabled unless the user's preferences indicate that another track is more appropriate. This may only be used on one `track` element per media element.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track",
 			"type": "attribute",
 			"scope": "HTML:track",
 			"tags": []
@@ -29,7 +29,7 @@
 			"name": "kind",
 			"status": "living",
 			"summary": "How the text track is meant to be used. If omitted the default kind is `subtitles`. If the attribute contains an invalid value, it will use `metadata` (Versions of Chrome earlier than 52 treated an invalid value as `subtitles`). The following keywords are allowed.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track",
 			"type": "attribute",
 			"scope": "HTML:track",
 			"tags": []
@@ -38,7 +38,7 @@
 			"name": "label",
 			"status": "living",
 			"summary": "A user-readable title of the text track which is used by the browser when listing available text tracks.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track",
 			"type": "attribute",
 			"scope": "HTML:track",
 			"tags": []
@@ -47,7 +47,7 @@
 			"name": "src",
 			"status": "living",
 			"summary": "Address of the track (`.vtt` file). Must be a valid URL. This attribute must be specified and its URL value must have the same origin as the document — unless the audio or video parent element of the `track` element has a `crossorigin` attribute.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track",
 			"type": "attribute",
 			"scope": "HTML:track",
 			"tags": []
@@ -56,7 +56,7 @@
 			"name": "srclang",
 			"status": "living",
 			"summary": "Language of the track text data. It must be a valid BCP 47 language tag. If the `kind` attribute is set to `subtitles`, then `srclang` must be defined.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track",
 			"type": "attribute",
 			"scope": "HTML:track",
 			"tags": []

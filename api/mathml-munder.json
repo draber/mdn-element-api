@@ -17,7 +17,7 @@
 			"name": "accentunder",
 			"status": "living",
 			"summary": "If `true`, the element is an accent, which is drawn closer to the base expression.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/munder",
 			"type": "attribute",
 			"scope": "MathML:munder",
 			"tags": []
@@ -26,7 +26,7 @@
 			"name": "align",
 			"status": "deprecated",
 			"summary": "The alignment of the underscript. Possible values are: `left`, `center`, and `right`.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/munder",
 			"type": "attribute",
 			"scope": "MathML:munder",
 			"tags": []
@@ -35,7 +35,7 @@
 			"name": "class",
 			"status": "living",
 			"summary": "Provided for use with stylesheets.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/munder",
 			"type": "attribute",
 			"scope": "MathML:munder",
 			"tags": []
@@ -44,7 +44,7 @@
 			"name": "id",
 			"status": "living",
 			"summary": "Provided for use with stylesheets.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/munder",
 			"type": "attribute",
 			"scope": "MathML:munder",
 			"tags": []
@@ -53,7 +53,7 @@
 			"name": "style",
 			"status": "living",
 			"summary": "Provided for use with stylesheets.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/munder",
 			"type": "attribute",
 			"scope": "MathML:munder",
 			"tags": []
@@ -62,7 +62,7 @@
 			"name": "displaystyle",
 			"status": "living",
 			"summary": "A Boolean value specifying whether more vertical space is used for displayed equations or, if set to `false`, a more compact layout is used to display formulas. The main effect is that larger versions of operators are displayed, when `displaystyle` is set to `true`. See also `movablelimits` on mo.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/munder",
 			"type": "attribute",
 			"scope": "MathML:munder",
 			"tags": []
@@ -71,7 +71,7 @@
 			"name": "href",
 			"status": "living",
 			"summary": "Used to set a hyperlink to a specified URI.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/munder",
 			"type": "attribute",
 			"scope": "MathML:munder",
 			"tags": []
@@ -80,7 +80,7 @@
 			"name": "mathbackground",
 			"status": "living",
 			"summary": "The background color. You can use `#rgb`, `#rrggbb` and HTML color names.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/munder",
 			"type": "attribute",
 			"scope": "MathML:munder",
 			"tags": []
@@ -89,7 +89,7 @@
 			"name": "mathcolor",
 			"status": "living",
 			"summary": "The text color. You can use `#rgb`, `#rrggbb` and HTML color names.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/munder",
 			"type": "attribute",
 			"scope": "MathML:munder",
 			"tags": []

@@ -17,9 +17,9 @@
 	"attributes": {
 		"select": {
 			"name": "select",
-			"status": "living",
+			"status": "inherited",
 			"summary": "A comma-separated list of selectors. These have the same syntax as CSS selectors. They select the content to insert in place of the `<content>` element.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/content",
 			"type": "attribute",
 			"scope": "HTML:content",
 			"tags": []

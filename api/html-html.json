@@ -14,7 +14,7 @@
 			"name": "manifest",
 			"status": "deprecated",
 			"summary": "Specifies the URI of a resource manifest indicating resources that should be cached locally.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html",
 			"type": "attribute",
 			"scope": "HTML:html",
 			"tags": []
@@ -23,7 +23,7 @@
 			"name": "version",
 			"status": "deprecated",
 			"summary": "Specifies the version of the HTML Doctype that governs the current document. This attribute is not needed, because it is redundant with the version information in the document type declaration.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html",
 			"type": "attribute",
 			"scope": "HTML:html",
 			"tags": []
@@ -32,7 +32,7 @@
 			"name": "xmlns",
 			"status": "living",
 			"summary": "Specifies the XML Namespace of the document. Default value is `\"http://www.w3.org/1999/xhtml\"`. This is required in documents parsed with XML parser, and optional in text/html documents.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html",
 			"type": "attribute",
 			"scope": "HTML:html",
 			"tags": []

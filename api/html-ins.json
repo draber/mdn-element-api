@@ -17,7 +17,7 @@
 			"name": "cite",
 			"status": "living",
 			"summary": "This attribute defines the URI of a resource that explains the change, such as a link to meeting minutes or a ticket in a troubleshooting system.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ins",
 			"type": "attribute",
 			"scope": "HTML:ins",
 			"tags": []
@@ -26,7 +26,7 @@
 			"name": "datetime",
 			"status": "living",
 			"summary": "This attribute indicates the time and date of the change and must be a valid date with an optional time string. If the value cannot be parsed as a date with an optional time string, the element does not have an associated time stamp. For the format of the string without a time, see Format of a valid date string. The format of the string if it includes both date and time is covered in Format of a valid local date and time string.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ins",
 			"type": "attribute",
 			"scope": "HTML:ins",
 			"tags": []

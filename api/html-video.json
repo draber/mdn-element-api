@@ -24,7 +24,7 @@
 			"name": "autoplay",
 			"status": "living",
 			"summary": "A Boolean attribute; if specified, the video automatically begins to play back as soon as it can do so without stopping to finish loading the data.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video",
 			"type": "attribute",
 			"scope": "HTML:video",
 			"tags": []
@@ -33,7 +33,7 @@
 			"name": "autopictureinpicture",
 			"status": "experimental",
 			"summary": "A Boolean attribute which if `true` indicates that the element should automatically toggle picture-in-picture mode when the user switches back and forth between this document and another document or application.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video",
 			"type": "attribute",
 			"scope": "HTML:video",
 			"tags": []
@@ -42,7 +42,7 @@
 			"name": "controls",
 			"status": "living",
 			"summary": "If this attribute is present, the browser will offer controls to allow the user to control video playback, including volume, seeking, and pause/resume playback.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video",
 			"type": "attribute",
 			"scope": "HTML:video",
 			"tags": []
@@ -51,7 +51,7 @@
 			"name": "controlslist",
 			"status": "experimental",
 			"summary": "The `controlslist` attribute, when specified, helps the browser select what controls to show on the media element whenever the browser shows its own set of controls (e.g. when the `controls` attribute is specified).",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video",
 			"type": "attribute",
 			"scope": "HTML:video",
 			"tags": []
@@ -60,7 +60,7 @@
 			"name": "crossorigin",
 			"status": "living",
 			"summary": "This enumerated attribute indicates whether to use CORS to fetch the related video. CORS-enabled resources can be reused in the canvas element without being tainted. The allowed values are.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video",
 			"type": "attribute",
 			"scope": "HTML:video",
 			"tags": []
@@ -69,7 +69,7 @@
 			"name": "disablepictureinpicture",
 			"status": "experimental",
 			"summary": "Prevents the browser from suggesting a Picture-in-Picture context menu or to request Picture-in-Picture automatically in some cases.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video",
 			"type": "attribute",
 			"scope": "HTML:video",
 			"tags": []
@@ -78,7 +78,7 @@
 			"name": "disableremoteplayback",
 			"status": "experimental",
 			"summary": "A Boolean attribute used to disable the capability of remote playback in devices that are attached using wired (HDMI, DVI, etc.) and wireless technologies (Miracast, Chromecast, DLNA, AirPlay, etc).",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video",
 			"type": "attribute",
 			"scope": "HTML:video",
 			"tags": []
@@ -87,7 +87,7 @@
 			"name": "height",
 			"status": "living",
 			"summary": "The height of the video's display area, in CSS pixels (absolute values only; no percentages.)",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video",
 			"type": "attribute",
 			"scope": "HTML:video",
 			"tags": []
@@ -96,7 +96,7 @@
 			"name": "loop",
 			"status": "living",
 			"summary": "A Boolean attribute; if specified, the browser will automatically seek back to the start upon reaching the end of the video.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video",
 			"type": "attribute",
 			"scope": "HTML:video",
 			"tags": []
@@ -105,7 +105,7 @@
 			"name": "muted",
 			"status": "living",
 			"summary": "A Boolean attribute that indicates the default setting of the audio contained in the video. If set, the audio will be initially silenced. Its default value is `false`, meaning that the audio will be played when the video is played.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video",
 			"type": "attribute",
 			"scope": "HTML:video",
 			"tags": []
@@ -114,7 +114,7 @@
 			"name": "playsinline",
 			"status": "living",
 			"summary": "A Boolean attribute indicating that the video is to be played \"inline\", that is within the element's playback area. Note that the absence of this attribute does not imply that the video will always be played in fullscreen.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video",
 			"type": "attribute",
 			"scope": "HTML:video",
 			"tags": []
@@ -123,7 +123,7 @@
 			"name": "poster",
 			"status": "living",
 			"summary": "A URL for an image to be shown while the video is downloading. If this attribute isn't specified, nothing is displayed until the first frame is available, then the first frame is shown as the poster frame.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video",
 			"type": "attribute",
 			"scope": "HTML:video",
 			"tags": []
@@ -131,8 +131,8 @@
 		"preload": {
 			"name": "preload",
 			"status": "living",
-			"summary": "This enumerated attribute is intended to provide a hint to the browser about what the author thinks will lead to the best user experience with regards to what content is loaded before the video is played. It may have one of the following values.",
-			"url": "",
+			"summary": "This enumerated attribute is intended to provide a hint to the browser about what the author thinks will lead to the best user experience with regards to what content is loaded before the video is played",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video",
 			"type": "attribute",
 			"scope": "HTML:video",
 			"tags": []
@@ -141,7 +141,7 @@
 			"name": "src",
 			"status": "living",
 			"summary": "The URL of the video to embed. This is optional; you may instead use the source element within the video block to specify the video to embed.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video",
 			"type": "attribute",
 			"scope": "HTML:video",
 			"tags": []
@@ -150,7 +150,7 @@
 			"name": "width",
 			"status": "living",
 			"summary": "The width of the video's display area, in CSS pixels (absolute values only; no percentages).",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video",
 			"type": "attribute",
 			"scope": "HTML:video",
 			"tags": []

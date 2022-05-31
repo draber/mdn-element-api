@@ -18,72 +18,72 @@
 	"attributes": {
 		"checked": {
 			"name": "checked",
-			"status": "living",
+			"status": "inherited",
 			"summary": "Boolean attribute which indicates whether the command is selected. May only be used when the `type` attribute is `checkbox` or `radio`.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/menuitem",
 			"type": "attribute",
 			"scope": "HTML:menuitem",
 			"tags": []
 		},
 		"command": {
 			"name": "command",
-			"status": "living",
+			"status": "inherited",
 			"summary": "Specifies the ID of a separate element, indicating a command to be invoked indirectly. May not be used within a menu item that also includes the attributes `checked`, `disabled`, `icon`, `label`, `radiogroup` or `type`.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/menuitem",
 			"type": "attribute",
 			"scope": "HTML:menuitem",
 			"tags": []
 		},
 		"default": {
 			"name": "default",
-			"status": "living",
+			"status": "inherited",
 			"summary": "This Boolean attribute indicates use of the same command as the menu's subject element (such as a `button` or `input`).",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/menuitem",
 			"type": "attribute",
 			"scope": "HTML:menuitem",
 			"tags": []
 		},
 		"disabled": {
 			"name": "disabled",
-			"status": "living",
+			"status": "inherited",
 			"summary": "Boolean attribute which indicates that the command is not available in the current state. Note that `disabled` is distinct from `hidden`; the `disabled` attribute is appropriate in any context where a change in circumstances might render the command relevant.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/menuitem",
 			"type": "attribute",
 			"scope": "HTML:menuitem",
 			"tags": []
 		},
 		"icon": {
 			"name": "icon",
-			"status": "living",
+			"status": "inherited",
 			"summary": "Image URL, used to provide a picture to represent the command.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/menuitem",
 			"type": "attribute",
 			"scope": "HTML:menuitem",
 			"tags": []
 		},
 		"label": {
 			"name": "label",
-			"status": "living",
+			"status": "inherited",
 			"summary": "The name of the command as shown to the user. Required when a `command` attribute is not present.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/menuitem",
 			"type": "attribute",
 			"scope": "HTML:menuitem",
 			"tags": []
 		},
 		"radiogroup": {
 			"name": "radiogroup",
-			"status": "living",
+			"status": "inherited",
 			"summary": "This attribute specifies the name of a group of commands to be toggled as radio buttons when selected. May only be used where the `type` attribute is `radio`.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/menuitem",
 			"type": "attribute",
 			"scope": "HTML:menuitem",
 			"tags": []
 		},
 		"type": {
 			"name": "type",
-			"status": "living",
+			"status": "inherited",
 			"summary": "This attribute indicates the kind of command, and can be one of three values.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/menuitem",
 			"type": "attribute",
 			"scope": "HTML:menuitem",
 			"tags": []

@@ -24,8 +24,6 @@ const getGlobalAttributes = (scope) => {
         lineArr = attributes.blockToLineArr(
             contentObj["list of global attributes"]
         )
-        // dirty fix, there must obviously be a reason for this
-        .filter((line) => !line.includes("invalid/"));
     } else if (scope === "HTML:global:eventhandler") {
         lineArr = attributes.blockToLineArr(
             contentObj["summary"],

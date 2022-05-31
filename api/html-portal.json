@@ -18,7 +18,7 @@
 			"name": "referrerpolicy",
 			"status": "living",
 			"summary": "Sets the referrer policy to use when requesting the page at the URL given as the value of the `src` attribute.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/portal",
 			"type": "attribute",
 			"scope": "HTML:portal",
 			"tags": []
@@ -27,7 +27,7 @@
 			"name": "src",
 			"status": "living",
 			"summary": "The URL of the page to embed.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/portal",
 			"type": "attribute",
 			"scope": "HTML:portal",
 			"tags": []

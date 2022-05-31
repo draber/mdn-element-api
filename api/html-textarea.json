@@ -16,7 +16,7 @@
 			"name": "autocomplete",
 			"status": "living",
 			"summary": "This attribute indicates whether the value of the control can be automatically completed by the browser. Possible values are.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea",
 			"type": "attribute",
 			"scope": "HTML:textarea",
 			"tags": []

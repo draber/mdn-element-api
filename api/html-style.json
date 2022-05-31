@@ -16,7 +16,7 @@
 			"name": "media",
 			"status": "living",
 			"summary": "This attribute defines which media the style should be applied to. Its value is a media query, which defaults to `all` if the attribute is missing.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style",
 			"type": "attribute",
 			"scope": "HTML:style",
 			"tags": []
