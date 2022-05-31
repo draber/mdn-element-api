@@ -16,7 +16,7 @@
 			"name": "for",
 			"status": "living",
 			"summary": "The value of the `for` attribute must be a single id for a labelable form-related element in the same document as the `<label>` element. So, any given `label` element can be associated with only one form control.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label",
 			"type": "attribute",
 			"scope": "HTML:label",
 			"tags": []

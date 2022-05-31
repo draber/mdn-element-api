@@ -23,45 +23,45 @@
 		},
 		"challenge": {
 			"name": "challenge",
-			"status": "living",
+			"status": "inherited",
 			"summary": "A challenge string that is submitted along with the public key. Defaults to an empty string if not specified.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/keygen",
 			"type": "attribute",
 			"scope": "HTML:keygen",
 			"tags": []
 		},
 		"disabled": {
 			"name": "disabled",
-			"status": "living",
+			"status": "inherited",
 			"summary": "This Boolean attribute indicates that the form control is not available for interaction.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/keygen",
 			"type": "attribute",
 			"scope": "HTML:keygen",
 			"tags": []
 		},
 		"form": {
 			"name": "form",
-			"status": "living",
+			"status": "inherited",
 			"summary": "The form element that this element is associated with (its form owner). The value of the attribute must be an `id` of a form element in the same document. If this attribute is not specified, this element must be a descendant of a form element. This attribute enables you to place `<keygen>` elements anywhere within a document, not just as descendants of their form elements.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/keygen",
 			"type": "attribute",
 			"scope": "HTML:keygen",
 			"tags": []
 		},
 		"keytype": {
 			"name": "keytype",
-			"status": "living",
+			"status": "inherited",
 			"summary": "The type of key generated. The default value is `RSA`.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/keygen",
 			"type": "attribute",
 			"scope": "HTML:keygen",
 			"tags": []
 		},
 		"name": {
 			"name": "name",
-			"status": "living",
+			"status": "inherited",
 			"summary": "The name of the control, which is submitted with the form data.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/keygen",
 			"type": "attribute",
 			"scope": "HTML:keygen",
 			"tags": []

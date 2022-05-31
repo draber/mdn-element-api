@@ -150,6 +150,14 @@ export const getSummary = (text) => {
         // some md cleanup
         .replace(/\*{2,}/gi, "")
         .trim();
+    let tmpTextArr = text.split(".");
+
+    // remove the pattern 'foo has the following values:'
+    if(tmpTextArr.length > 1 && tmpTextArr[tmpTextArr.length - 1].trim().endsWith('values:')) {
+        tmpTextArr.pop();
+    }
+    text = tmpTextArr.join(".");
+    // replace remaining ':' at the end by '.'
     if (text.endsWith(":")) {
         text = text.slice(0, -1) + ".";
     }

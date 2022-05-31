@@ -19,7 +19,7 @@
 			"name": "nowrap",
 			"status": "living",
 			"summary": "If the value of this attribute is set to `yes`, the definition text will not wrap. The default value is `no`.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dd",
 			"type": "attribute",
 			"scope": "HTML:dd",
 			"tags": []

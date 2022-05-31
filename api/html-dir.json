@@ -15,9 +15,9 @@
 	"attributes": {
 		"compact": {
 			"name": "compact",
-			"status": "living",
+			"status": "inherited",
 			"summary": "This Boolean attribute hints that the list should be rendered in a compact style. The interpretation of this attribute depends on the user agent and it doesn't work in all browsers.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dir",
 			"type": "attribute",
 			"scope": "HTML:dir",
 			"tags": []

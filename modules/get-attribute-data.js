@@ -18,6 +18,7 @@ const blockToLineArr = (attrString, link = "invalid") => {
         .split(/\n/)
         .filter((line) => !!line)
         .filter((line) => line.trim().startsWith("- "));
+        
 
     for (let i = 0; i < lineArr.length; i++) {
         let line = lineArr[i];
@@ -75,12 +76,13 @@ const blockToLineArr = (attrString, link = "invalid") => {
 
     // this style is found in html/global_attributes/index.md
     // **`onabort`**, **`onautocomplete`**, **`onautocompleteerror`**...
-    const fromBlock = [...attrString.matchAll(/\*\*`([^`]+)`\*\*/g)]
+    const evtAttr = [...attrString.matchAll(/\*\*`([^`]+)`\*\*/g)]
         .map((attr) => attr[1])
+        .filter(attr => attr.startsWith('on'))
         .map((attr) => format(attr, link));
 
     return finalLineArr
-        .concat(fromBlock)
+        .concat(evtAttr)
         .filter((line) => !!line)
         .filter((line) => line.startsWith("- [") || line.startsWith("  - :"));
 };

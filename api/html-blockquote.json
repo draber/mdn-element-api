@@ -19,7 +19,7 @@
 			"name": "cite",
 			"status": "living",
 			"summary": "A URL that designates a source document or message for the information quoted. This attribute is intended to point to information explaining the context or the reference for the quote.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote",
 			"type": "attribute",
 			"scope": "HTML:blockquote",
 			"tags": []

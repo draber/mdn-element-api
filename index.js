@@ -3,7 +3,8 @@ import getElements from "./modules/collect-elements.js";
 import resource from "./modules/resource.js";
 import store from "./modules/store.js";
 import getSingleElement from "./modules/get-single-element.js";
-import { getGlobalAttrNs, getTypes } from "./modules/utils.js";
+import { getGlobAttrScopeArr, getTypes, getGlobAttrScopesByType } from "./modules/utils.js";
+
 
 /**
  * Build element listing
@@ -15,7 +16,7 @@ getTypes().forEach((type) => {
 /**
  * Build global attributes
  */
- getGlobalAttrNs().forEach((scope) => {
+ getGlobAttrScopeArr().forEach((scope) => {
     getGlobalAttributes(scope);
 });
 

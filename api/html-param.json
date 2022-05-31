@@ -12,36 +12,36 @@
 	"attributes": {
 		"name": {
 			"name": "name",
-			"status": "deprecated",
+			"status": "inherited",
 			"summary": "Name of the parameter.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/param",
 			"type": "attribute",
 			"scope": "HTML:param",
 			"tags": []
 		},
 		"value": {
 			"name": "value",
-			"status": "deprecated",
+			"status": "inherited",
 			"summary": "Specifies the value of the parameter.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/param",
 			"type": "attribute",
 			"scope": "HTML:param",
 			"tags": []
 		},
 		"type": {
 			"name": "type",
-			"status": "deprecated",
+			"status": "inherited",
 			"summary": "Only used if the `valuetype` is set to `ref`. Specifies the MIME type of values found at the URI specified by value.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/param",
 			"type": "attribute",
 			"scope": "HTML:param",
 			"tags": []
 		},
 		"valuetype": {
 			"name": "valuetype",
-			"status": "deprecated",
+			"status": "inherited",
 			"summary": "Specifies the type of the `value` attribute. Possible values are.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/param",
 			"type": "attribute",
 			"scope": "HTML:param",
 			"tags": []

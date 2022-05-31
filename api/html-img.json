@@ -27,7 +27,7 @@
 			"name": "alt",
 			"status": "living",
 			"summary": "Defines an alternative text description of the image.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img",
 			"type": "attribute",
 			"scope": "HTML:img",
 			"tags": []
@@ -36,7 +36,7 @@
 			"name": "crossorigin",
 			"status": "living",
 			"summary": "Indicates if the fetching of the image must be done using a CORS request. Image data from a CORS-enabled image returned from a CORS request can be reused in the canvas element without being marked \"tainted\".",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img",
 			"type": "attribute",
 			"scope": "HTML:img",
 			"tags": []
@@ -44,8 +44,8 @@
 		"decoding": {
 			"name": "decoding",
 			"status": "living",
-			"summary": "Provides an image decoding hint to the browser. Allowed values.",
-			"url": "",
+			"summary": "Provides an image decoding hint to the browser",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img",
 			"type": "attribute",
 			"scope": "HTML:img",
 			"tags": []
@@ -53,8 +53,8 @@
 		"fetchpriority": {
 			"name": "fetchpriority",
 			"status": "experimental",
-			"summary": "Provides a hint of the relative priority to use when fetching the image. Allowed values.",
-			"url": "",
+			"summary": "Provides a hint of the relative priority to use when fetching the image",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img",
 			"type": "attribute",
 			"scope": "HTML:img",
 			"tags": []
@@ -63,7 +63,7 @@
 			"name": "height",
 			"status": "living",
 			"summary": "The intrinsic height of the image, in pixels. Must be an integer without a unit.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img",
 			"type": "attribute",
 			"scope": "HTML:img",
 			"tags": []
@@ -72,7 +72,7 @@
 			"name": "ismap",
 			"status": "living",
 			"summary": "This Boolean attribute indicates that the image is part of a server-side map. If so, the coordinates where the user clicked on the image are sent to the server.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img",
 			"type": "attribute",
 			"scope": "HTML:img",
 			"tags": []
@@ -81,7 +81,7 @@
 			"name": "loading",
 			"status": "living",
 			"summary": "Indicates how the browser should load the image.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img",
 			"type": "attribute",
 			"scope": "HTML:img",
 			"tags": []
@@ -90,7 +90,7 @@
 			"name": "referrerpolicy",
 			"status": "living",
 			"summary": "A string indicating which referrer to use when fetching the resource.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img",
 			"type": "attribute",
 			"scope": "HTML:img",
 			"tags": []
@@ -99,7 +99,7 @@
 			"name": "sizes",
 			"status": "living",
 			"summary": "One or more strings separated by commas, indicating a set of source sizes. Each source size consists of.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img",
 			"type": "attribute",
 			"scope": "HTML:img",
 			"tags": []
@@ -108,7 +108,7 @@
 			"name": "src",
 			"status": "living",
 			"summary": "The image URL. Mandatory for the `<img>` element. On Browser supporting `srcset`, `src` is treated like a candidate image with a pixel density descriptor `1x`, unless an image with this pixel density descriptor is already defined in `srcset`, or unless `srcset` contains `w` descriptors.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img",
 			"type": "attribute",
 			"scope": "HTML:img",
 			"tags": []
@@ -117,7 +117,7 @@
 			"name": "srcset",
 			"status": "living",
 			"summary": "One or more strings separated by commas, indicating possible image sources for the user agent to use. Each string is composed of.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img",
 			"type": "attribute",
 			"scope": "HTML:img",
 			"tags": []
@@ -126,7 +126,7 @@
 			"name": "width",
 			"status": "living",
 			"summary": "The intrinsic width of the image in pixels. Must be an integer without a unit.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img",
 			"type": "attribute",
 			"scope": "HTML:img",
 			"tags": []
@@ -135,7 +135,7 @@
 			"name": "usemap",
 			"status": "living",
 			"summary": "The partial URL (starting with `#`) of an image map associated with the element.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img",
 			"type": "attribute",
 			"scope": "HTML:img",
 			"tags": []

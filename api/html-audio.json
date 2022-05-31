@@ -21,7 +21,7 @@
 			"name": "autoplay",
 			"status": "living",
 			"summary": "A Boolean attribute: if specified, the audio will automatically begin playback as soon as it can do so, without waiting for the entire audio file to finish downloading.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio",
 			"type": "attribute",
 			"scope": "HTML:audio",
 			"tags": []
@@ -30,7 +30,7 @@
 			"name": "controls",
 			"status": "living",
 			"summary": "If this attribute is present, the browser will offer controls to allow the user to control audio playback, including volume, seeking, and pause/resume playback.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio",
 			"type": "attribute",
 			"scope": "HTML:audio",
 			"tags": []
@@ -39,7 +39,7 @@
 			"name": "crossorigin",
 			"status": "living",
 			"summary": "This enumerated attribute indicates whether to use CORS to fetch the related audio file. CORS-enabled resources can be reused in the canvas element without being tainted. The allowed values are.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio",
 			"type": "attribute",
 			"scope": "HTML:audio",
 			"tags": []
@@ -48,7 +48,7 @@
 			"name": "disableremoteplayback",
 			"status": "experimental",
 			"summary": "A Boolean attribute used to disable the capability of remote playback in devices that are attached using wired (HDMI, DVI, etc.) and wireless technologies (Miracast, Chromecast, DLNA, AirPlay, etc). See this proposed specification for more information.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio",
 			"type": "attribute",
 			"scope": "HTML:audio",
 			"tags": []
@@ -57,7 +57,7 @@
 			"name": "loop",
 			"status": "living",
 			"summary": "A Boolean attribute: if specified, the audio player will automatically seek back to the start upon reaching the end of the audio.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio",
 			"type": "attribute",
 			"scope": "HTML:audio",
 			"tags": []
@@ -66,7 +66,7 @@
 			"name": "muted",
 			"status": "living",
 			"summary": "A Boolean attribute that indicates whether the audio will be initially silenced. Its default value is `false`.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio",
 			"type": "attribute",
 			"scope": "HTML:audio",
 			"tags": []
@@ -74,8 +74,8 @@
 		"preload": {
 			"name": "preload",
 			"status": "living",
-			"summary": "This enumerated attribute is intended to provide a hint to the browser about what the author thinks will lead to the best user experience. It may have one of the following values.",
-			"url": "",
+			"summary": "This enumerated attribute is intended to provide a hint to the browser about what the author thinks will lead to the best user experience",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio",
 			"type": "attribute",
 			"scope": "HTML:audio",
 			"tags": []
@@ -84,7 +84,7 @@
 			"name": "src",
 			"status": "living",
 			"summary": "The URL of the audio to embed. This is subject to HTTP access controls. This is optional; you may instead use the source element within the audio block to specify the audio to embed.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio",
 			"type": "attribute",
 			"scope": "HTML:audio",
 			"tags": []

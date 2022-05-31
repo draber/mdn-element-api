@@ -18,7 +18,7 @@
 			"name": "accept",
 			"status": "deprecated",
 			"summary": "Comma-separated content types the server accepts.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form",
 			"type": "attribute",
 			"scope": "HTML:form",
 			"tags": []
@@ -27,7 +27,7 @@
 			"name": "accept-charset",
 			"status": "living",
 			"summary": "Space-separated character encoding the server accepts. The browser uses them in the order in which they are listed. The default value means the same encoding as the page.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form",
 			"type": "attribute",
 			"scope": "HTML:form",
 			"tags": []
@@ -46,8 +46,8 @@
 		"autocomplete": {
 			"name": "autocomplete",
 			"status": "living",
-			"summary": "Indicates whether input elements can by default have their values automatically completed by the browser. `autocomplete` attributes on form elements override it on `<form>`. Possible values.",
-			"url": "",
+			"summary": "Indicates whether input elements can by default have their values automatically completed by the browser. `autocomplete` attributes on form elements override it on `<form>`",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form",
 			"type": "attribute",
 			"scope": "HTML:form",
 			"tags": []
@@ -56,7 +56,7 @@
 			"name": "name",
 			"status": "living",
 			"summary": "The name of the form. The value must not be the empty string, and must be unique among the `form` elements in the forms collection that it is in, if any.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form",
 			"type": "attribute",
 			"scope": "HTML:form",
 			"tags": []
@@ -65,7 +65,7 @@
 			"name": "rel",
 			"status": "living",
 			"summary": "Creates a hyperlink or annotation depending on the value, see the `rel` attribute for details.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form",
 			"type": "attribute",
 			"scope": "HTML:form",
 			"tags": []

@@ -18,7 +18,7 @@
 			"name": "datetime",
 			"status": "living",
 			"summary": "This attribute indicates the time and/or date of the element and must be in one of the formats described below.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time",
 			"type": "attribute",
 			"scope": "HTML:time",
 			"tags": []

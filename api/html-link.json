@@ -17,7 +17,7 @@
 			"name": "as",
 			"status": "living",
 			"summary": "This attribute is only used when `rel=\"preload\"` or `rel=\"prefetch\"` has been set on the `<link>` element.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link",
 			"type": "attribute",
 			"scope": "HTML:link",
 			"tags": []
@@ -26,7 +26,7 @@
 			"name": "crossorigin",
 			"status": "living",
 			"summary": "This enumerated attribute indicates whether CORS must be used when fetching the resource.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link",
 			"type": "attribute",
 			"scope": "HTML:link",
 			"tags": []
@@ -35,7 +35,7 @@
 			"name": "disabled",
 			"status": "living",
 			"summary": "For `rel=\"stylesheet\"` only, the `disabled` Boolean attribute indicates whether or not the described stylesheet should be loaded and applied to the document.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link",
 			"type": "attribute",
 			"scope": "HTML:link",
 			"tags": []
@@ -43,8 +43,8 @@
 		"fetchpriority": {
 			"name": "fetchpriority",
 			"status": "living",
-			"summary": "Provides a hint of the relative priority to use when fetching a preloaded resource. Allowed values.",
-			"url": "",
+			"summary": "Provides a hint of the relative priority to use when fetching a preloaded resource",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link",
 			"type": "attribute",
 			"scope": "HTML:link",
 			"tags": []
@@ -53,7 +53,7 @@
 			"name": "href",
 			"status": "living",
 			"summary": "This attribute specifies the URL of the linked resource. A URL can be absolute or relative.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link",
 			"type": "attribute",
 			"scope": "HTML:link",
 			"tags": []
@@ -62,7 +62,7 @@
 			"name": "hreflang",
 			"status": "living",
 			"summary": "This attribute indicates the language of the linked resource.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link",
 			"type": "attribute",
 			"scope": "HTML:link",
 			"tags": []
@@ -71,7 +71,7 @@
 			"name": "imagesizes",
 			"status": "living",
 			"summary": "For `rel=\"preload\"` and `as=\"image\"` only, the `imagesizes` attribute is a sizes attribute that indicates to preload the appropriate resource used by an `img` element with corresponding values for its `srcset` and `sizes` attributes.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link",
 			"type": "attribute",
 			"scope": "HTML:link",
 			"tags": []
@@ -80,7 +80,7 @@
 			"name": "imagesrcset",
 			"status": "living",
 			"summary": "For `rel=\"preload\"` and `as=\"image\"` only, the `imagesrcset` attribute is a sourceset attribute that indicates to preload the appropriate resource used by an `img` element with corresponding values for its `srcset` and `sizes` attributes.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link",
 			"type": "attribute",
 			"scope": "HTML:link",
 			"tags": []
@@ -89,7 +89,7 @@
 			"name": "integrity",
 			"status": "experimental",
 			"summary": "Contains inline metadata — a base64-encoded cryptographic hash of the resource (file) you're telling the browser to fetch.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link",
 			"type": "attribute",
 			"scope": "HTML:link",
 			"tags": []
@@ -98,7 +98,7 @@
 			"name": "media",
 			"status": "living",
 			"summary": "This attribute specifies the media that the linked resource applies to. Its value must be a media type / media query.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link",
 			"type": "attribute",
 			"scope": "HTML:link",
 			"tags": []
@@ -107,7 +107,7 @@
 			"name": "prefetch",
 			"status": "securecontext",
 			"summary": "Identifies a resource that might be required by the next navigation and that the user agent should retrieve it.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link",
 			"type": "attribute",
 			"scope": "HTML:link",
 			"tags": []
@@ -116,7 +116,7 @@
 			"name": "referrerpolicy",
 			"status": "experimental",
 			"summary": "A string indicating which referrer to use when fetching the resource.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link",
 			"type": "attribute",
 			"scope": "HTML:link",
 			"tags": []
@@ -125,7 +125,7 @@
 			"name": "rel",
 			"status": "living",
 			"summary": "This attribute names a relationship of the linked document to the current document. The attribute must be a space-separated list of link type values.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link",
 			"type": "attribute",
 			"scope": "HTML:link",
 			"tags": []
@@ -134,7 +134,7 @@
 			"name": "sizes",
 			"status": "living",
 			"summary": "This attribute defines the sizes of the icons for visual media contained in the resource.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link",
 			"type": "attribute",
 			"scope": "HTML:link",
 			"tags": []
@@ -154,7 +154,7 @@
 			"name": "type",
 			"status": "living",
 			"summary": "This attribute is used to define the type of the content linked to.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link",
 			"type": "attribute",
 			"scope": "HTML:link",
 			"tags": []

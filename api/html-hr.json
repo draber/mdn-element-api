@@ -15,7 +15,7 @@
 			"name": "align",
 			"status": "deprecated",
 			"summary": "Sets the alignment of the rule on the page. If no value is specified, the default value is `left`.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr",
 			"type": "attribute",
 			"scope": "HTML:hr",
 			"tags": []
@@ -24,7 +24,7 @@
 			"name": "color",
 			"status": "living",
 			"summary": "Sets the color of the rule through color name or hexadecimal value.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr",
 			"type": "attribute",
 			"scope": "HTML:hr",
 			"tags": []
@@ -33,7 +33,7 @@
 			"name": "noshade",
 			"status": "deprecated",
 			"summary": "Sets the rule to have no shading.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr",
 			"type": "attribute",
 			"scope": "HTML:hr",
 			"tags": []
@@ -42,7 +42,7 @@
 			"name": "size",
 			"status": "deprecated",
 			"summary": "Sets the height, in pixels, of the rule.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr",
 			"type": "attribute",
 			"scope": "HTML:hr",
 			"tags": []
@@ -51,7 +51,7 @@
 			"name": "width",
 			"status": "deprecated",
 			"summary": "Sets the length of the rule on the page through a pixel or percentage value.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr",
 			"type": "attribute",
 			"scope": "HTML:hr",
 			"tags": []

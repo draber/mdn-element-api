@@ -12,99 +12,99 @@
 	"attributes": {
 		"behavior": {
 			"name": "behavior",
-			"status": "living",
+			"status": "inherited",
 			"summary": "Sets how the text is scrolled within the marquee. Possible values are `scroll`, `slide` and `alternate`. If no value is specified, the default value is `scroll`.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee",
 			"type": "attribute",
 			"scope": "HTML:marquee",
 			"tags": []
 		},
 		"bgcolor": {
 			"name": "bgcolor",
-			"status": "living",
+			"status": "inherited",
 			"summary": "Sets the background color through color name or hexadecimal value.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee",
 			"type": "attribute",
 			"scope": "HTML:marquee",
 			"tags": []
 		},
 		"direction": {
 			"name": "direction",
-			"status": "living",
+			"status": "inherited",
 			"summary": "Sets the direction of the scrolling within the marquee. Possible values are `left`, `right`, `up` and `down`. If no value is specified, the default value is `left`.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee",
 			"type": "attribute",
 			"scope": "HTML:marquee",
 			"tags": []
 		},
 		"height": {
 			"name": "height",
-			"status": "living",
+			"status": "inherited",
 			"summary": "Sets the height in pixels or percentage value.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee",
 			"type": "attribute",
 			"scope": "HTML:marquee",
 			"tags": []
 		},
 		"hspace": {
 			"name": "hspace",
-			"status": "living",
+			"status": "inherited",
 			"summary": "Sets the horizontal margin",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee",
 			"type": "attribute",
 			"scope": "HTML:marquee",
 			"tags": []
 		},
 		"loop": {
 			"name": "loop",
-			"status": "living",
+			"status": "inherited",
 			"summary": "Sets the number of times the marquee will scroll. If no value is specified, the default value is −1, which means the marquee will scroll continuously.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee",
 			"type": "attribute",
 			"scope": "HTML:marquee",
 			"tags": []
 		},
 		"scrollamount": {
 			"name": "scrollamount",
-			"status": "living",
+			"status": "inherited",
 			"summary": "Sets the amount of scrolling at each interval in pixels. The default value is 6.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee",
 			"type": "attribute",
 			"scope": "HTML:marquee",
 			"tags": []
 		},
 		"scrolldelay": {
 			"name": "scrolldelay",
-			"status": "living",
+			"status": "inherited",
 			"summary": "Sets the interval between each scroll movement in milliseconds. The default value is 85. Note that any value smaller than 60 is ignored and the value 60 is used instead, unless`truespeed`is specified.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee",
 			"type": "attribute",
 			"scope": "HTML:marquee",
 			"tags": []
 		},
 		"truespeed": {
 			"name": "truespeed",
-			"status": "living",
+			"status": "inherited",
 			"summary": "By default,`scrolldelay`values lower than 60 are ignored. If`truespeed`is present, those values are not ignored.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee",
 			"type": "attribute",
 			"scope": "HTML:marquee",
 			"tags": []
 		},
 		"vspace": {
 			"name": "vspace",
-			"status": "living",
+			"status": "inherited",
 			"summary": "Sets the vertical margin in pixels or percentage value.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee",
 			"type": "attribute",
 			"scope": "HTML:marquee",
 			"tags": []
 		},
 		"width": {
 			"name": "width",
-			"status": "living",
+			"status": "inherited",
 			"summary": "Sets the width in pixels or percentage value.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee",
 			"type": "attribute",
 			"scope": "HTML:marquee",
 			"tags": []

@@ -214,15 +214,6 @@
 				"SVG",
 				"SVG Attribute"
 			]
-		},
-		"default": {
-			"name": "default",
-			"status": "living",
-			"summary": "",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/Core",
-			"type": "attribute",
-			"scope": "SVG:global:core",
-			"tags": []
 		}
 	}
 }

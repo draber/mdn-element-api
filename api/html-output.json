@@ -16,7 +16,7 @@
 			"name": "for",
 			"status": "living",
 			"summary": "A space-separated list of other elements' ids, indicating that those elements contributed input values to (or otherwise affected) the calculation.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/output",
 			"type": "attribute",
 			"scope": "HTML:output",
 			"tags": []
@@ -25,7 +25,7 @@
 			"name": "form",
 			"status": "living",
 			"summary": "The form element to associate the output with (its form owner). The value of this attribute must be the id of a `<form>` in the same document. (If this attribute is not set, the `<output>` is associated with its ancestor `<form>` element, if any.)",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/output",
 			"type": "attribute",
 			"scope": "HTML:output",
 			"tags": []
@@ -34,7 +34,7 @@
 			"name": "name",
 			"status": "living",
 			"summary": "The element's name. Used in the HTMLFormElement.elements API.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/output",
 			"type": "attribute",
 			"scope": "HTML:output",
 			"tags": []

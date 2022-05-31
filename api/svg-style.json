@@ -39,7 +39,7 @@
 			"name": "title",
 			"status": "living",
 			"summary": "This attribute the title of the style sheet which can be used to switch between alternate style sheets.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/style",
 			"type": "attribute",
 			"scope": "SVG:style",
 			"tags": []
@@ -139,15 +139,6 @@
 				"SVG",
 				"SVG Attribute"
 			]
-		},
-		"default": {
-			"name": "default",
-			"status": "living",
-			"summary": "",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/Core",
-			"type": "attribute",
-			"scope": "SVG:global:core",
-			"tags": []
 		}
 	}
 }

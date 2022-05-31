@@ -5,8 +5,9 @@ import path from "path";
 import resource from "./resource.js";
 import store from "./store.js";
 import { getSummary, getContentObj } from "./extractors.js";
-import { getElemPreset } from "./utils.js";
+import { getElemPreset, getGlobAttrScopesByType } from "./utils.js";
 import attributes from "./get-attribute-data.js";
+import ElasticObject from "elastic-object";
 
 const svgInterfaceMap = new Map(
     groupData[0].SVG.interfaces.map((e) => [e.toLowerCase(), e])
@@ -49,7 +50,7 @@ const getInterface = (tag, type) => {
                 ? svgInterfaceMap.get(guess)
                 : "SVGElement";
         default:
-            return "MathMLElement";
+            return `${type}Element`;
     }
 };
 
@@ -80,16 +81,6 @@ const getAttributes = (attrContent, scope) => {
     return attrObj;
 };
 
-const globalAttributeScopes = {
-    HTML: [
-        "HTML:global:generic",
-        "HTML:global:eventhandler",
-        "HTML:global:aria",
-    ],
-    SVG: ["SVG:global:styling", "SVG:global:core"],
-    mathml: [],
-};
-
 /**
  * Build the list of elements
  * @param {String} type 
@@ -110,7 +101,18 @@ const getElements = (type) => {
         fragment = resource.normalizeFragment(fragment);
         const contentObj = getContentObj(fragment);
 
-        const attrData = {
+        const attributes = new ElasticObject(getAttributes(
+            contentObj.attributes,
+            `${type}:${contentObj.meta.name}`
+        )).map(attr => {
+            attr.url = attr.url || contentObj.meta.url;
+            if(contentObj.meta.status !== 'living'){
+                attr.status = 'inherited';
+            }
+            return attr
+        })
+
+        const elemData = {
             ...getElemPreset(),
             ...contentObj.meta,
             ...{
@@ -118,25 +120,20 @@ const getElements = (type) => {
                 summary: getSummary(contentObj.summary),
                 scope: type,
             },
-            globalAttributeScopes: globalAttributeScopes[type],
-            attributes: getAttributes(
-                contentObj.attributes,
-                `${type}:${contentObj.meta.name}`
-            ),
+            globalAttributeScopes: getGlobAttrScopesByType(type),
+            attributes
         };
-
-        attrData.url = attrData.url || contentObj.meta.url;
 
         /**
          * Heading in MDN are all listed in one file ('heading_element.md')
          */
         if (contentObj.meta.name === "h1") {
             ["h1", "h2", "h3", "h4", "h5", "h6"].forEach((name) => {
-                attrData.name = name;
-                store.set(`${type.toLowerCase()}/${attrData.name}`, attrData);
+                elemData.name = name;
+                store.set(`${type.toLowerCase()}/${elemData.name}`, elemData);
             });
         } else {
-            store.set(`${type.toLowerCase()}/${attrData.name}`, attrData);
+            store.set(`${type.toLowerCase()}/${elemData.name}`, elemData);
         }
     });
 };

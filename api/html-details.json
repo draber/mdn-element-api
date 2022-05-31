@@ -17,7 +17,7 @@
 			"name": "open",
 			"status": "living",
 			"summary": "This Boolean attribute indicates whether or not the details — that is, the contents of the `<details>` element — are currently visible. The details are shown when this attribute exists, or hidden when this attribute is absent. By default this attribute is absent which means the details are not visible.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details",
 			"type": "attribute",
 			"scope": "HTML:details",
 			"tags": []

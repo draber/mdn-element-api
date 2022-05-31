@@ -17,7 +17,7 @@
 			"name": "class",
 			"status": "living",
 			"summary": "Provided for use with stylesheets.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mi",
 			"type": "attribute",
 			"scope": "MathML:mi",
 			"tags": []
@@ -26,7 +26,7 @@
 			"name": "id",
 			"status": "living",
 			"summary": "Provided for use with stylesheets.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mi",
 			"type": "attribute",
 			"scope": "MathML:mi",
 			"tags": []
@@ -35,7 +35,7 @@
 			"name": "style",
 			"status": "living",
 			"summary": "Provided for use with stylesheets.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mi",
 			"type": "attribute",
 			"scope": "MathML:mi",
 			"tags": []
@@ -44,7 +44,7 @@
 			"name": "dir",
 			"status": "living",
 			"summary": "The text direction. Possible values are either `ltr` (left to right) or `rtl` (right to left).",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mi",
 			"type": "attribute",
 			"scope": "MathML:mi",
 			"tags": []
@@ -53,7 +53,7 @@
 			"name": "displaystyle",
 			"status": "living",
 			"summary": "A Boolean value specifying whether more vertical space is used for displayed equations or, if set to `false`, a more compact layout is used to display formulas. The main effect is that larger versions of operators are displayed, when `displaystyle` is set to `true`. See also `movablelimits` on mo.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mi",
 			"type": "attribute",
 			"scope": "MathML:mi",
 			"tags": []
@@ -62,7 +62,7 @@
 			"name": "href",
 			"status": "living",
 			"summary": "Used to set a hyperlink to a specified URI.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mi",
 			"type": "attribute",
 			"scope": "MathML:mi",
 			"tags": []
@@ -71,7 +71,7 @@
 			"name": "mathbackground",
 			"status": "living",
 			"summary": "The background color. You can use `#rgb`, `#rrggbb` and HTML color names.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mi",
 			"type": "attribute",
 			"scope": "MathML:mi",
 			"tags": []
@@ -80,7 +80,7 @@
 			"name": "mathcolor",
 			"status": "living",
 			"summary": "The text color. You can use `#rgb`, `#rrggbb` and HTML color names.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mi",
 			"type": "attribute",
 			"scope": "MathML:mi",
 			"tags": []
@@ -89,7 +89,7 @@
 			"name": "mathsize",
 			"status": "living",
 			"summary": "The size of the content. See length for possible values.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mi",
 			"type": "attribute",
 			"scope": "MathML:mi",
 			"tags": []
@@ -98,7 +98,7 @@
 			"name": "mathvariant",
 			"status": "living",
 			"summary": "This logical class of the identifier, which varies in typography. That is, although the names suggest the typographic style for the class, semantically, items with the same class are treated \"the same\" within an expression, which might or might not involve displaying them with the named typography. The following values are allowed.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mi",
 			"type": "attribute",
 			"scope": "MathML:mi",
 			"tags": []

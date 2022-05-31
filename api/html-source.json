@@ -17,7 +17,7 @@
 			"name": "type",
 			"status": "living",
 			"summary": "The MIME media type of the resource, optionally with a `codecs` parameter.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source",
 			"type": "attribute",
 			"scope": "HTML:source",
 			"tags": []
@@ -26,7 +26,7 @@
 			"name": "src",
 			"status": "living",
 			"summary": "Required if the `source` element’s parent is an audio and video element, but not allowed if the `source` element’s parent is a picture element.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source",
 			"type": "attribute",
 			"scope": "HTML:source",
 			"tags": []
@@ -35,7 +35,7 @@
 			"name": "srcset",
 			"status": "living",
 			"summary": "Required if the `source` element’s parent is a picture element, but not allowed if the `source` element’s parent is an audio or video element.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source",
 			"type": "attribute",
 			"scope": "HTML:source",
 			"tags": []
@@ -44,7 +44,7 @@
 			"name": "sizes",
 			"status": "living",
 			"summary": "Allowed if the `source` element’s parent is a picture element, but not allowed if the `source` element’s parent is an audio or video element.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source",
 			"type": "attribute",
 			"scope": "HTML:source",
 			"tags": []
@@ -53,7 +53,7 @@
 			"name": "media",
 			"status": "living",
 			"summary": "Allowed if the `source` element’s parent is a picture element, but not allowed if the `source` element’s parent is an audio or video element.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source",
 			"type": "attribute",
 			"scope": "HTML:source",
 			"tags": []
@@ -62,7 +62,7 @@
 			"name": "height",
 			"status": "living",
 			"summary": "Allowed if the `source` element’s parent is a picture element, but not allowed if the `source` element’s parent is an audio or video element.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source",
 			"type": "attribute",
 			"scope": "HTML:source",
 			"tags": []
@@ -71,7 +71,7 @@
 			"name": "width",
 			"status": "living",
 			"summary": "Allowed if the `source` element’s parent is a picture element, but not allowed if the `source` element’s parent is an audio or video element.",
-			"url": "",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source",
 			"type": "attribute",
 			"scope": "HTML:source",
 			"tags": []
