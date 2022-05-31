@@ -1,98 +1,98 @@
 {
-	"name": "maction",
-	"status": "living",
-	"summary": "The MathML `<maction>` element provides a possibility to bind actions to (sub-) expressions. The action itself is specified by the `actiontype` attribute, which accepts several values. To specify which child elements are addressed by the action, you can make use of the `selection` attribute.",
-	"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/maction",
-	"type": "element",
-	"scope": "MathML",
-	"tags": [
-		"MathML",
-		"MathML Reference",
-		"MathML Element",
-		"MathML Enlivening Expressions"
-	],
-	"interface": "MathMLElement",
-	"attributes": {
-		"actiontype": {
-			"name": "actiontype",
-			"status": "living",
-			"summary": "The action which specifies what happens for this element. Possible values are.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/maction",
-			"type": "attribute",
-			"scope": "MathML:maction",
-			"tags": []
-		},
-		"class": {
-			"name": "class",
-			"status": "living",
-			"summary": "Provided for use with stylesheets.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/maction",
-			"type": "attribute",
-			"scope": "MathML:maction",
-			"tags": []
-		},
-		"id": {
-			"name": "id",
-			"status": "living",
-			"summary": "Provided for use with stylesheets.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/maction",
-			"type": "attribute",
-			"scope": "MathML:maction",
-			"tags": []
-		},
-		"style": {
-			"name": "style",
-			"status": "living",
-			"summary": "Provided for use with stylesheets.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/maction",
-			"type": "attribute",
-			"scope": "MathML:maction",
-			"tags": []
-		},
-		"displaystyle": {
-			"name": "displaystyle",
-			"status": "living",
-			"summary": "A Boolean value specifying whether more vertical space is used for displayed equations or, if set to `false`, a more compact layout is used to display formulas. The main effect is that larger versions of operators are displayed, when `displaystyle` is set to `true`. See also `movablelimits` on mo.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/maction",
-			"type": "attribute",
-			"scope": "MathML:maction",
-			"tags": []
-		},
-		"href": {
-			"name": "href",
-			"status": "living",
-			"summary": "Used to set a hyperlink to a specified URI.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/maction",
-			"type": "attribute",
-			"scope": "MathML:maction",
-			"tags": []
-		},
-		"mathbackground": {
-			"name": "mathbackground",
-			"status": "living",
-			"summary": "The background color. You can use `#rgb`, `#rrggbb` and HTML color names.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/maction",
-			"type": "attribute",
-			"scope": "MathML:maction",
-			"tags": []
-		},
-		"mathcolor": {
-			"name": "mathcolor",
-			"status": "living",
-			"summary": "The text color and also the fraction line color. You can use `#rgb`, `#rrggbb` and HTML color names.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/maction",
-			"type": "attribute",
-			"scope": "MathML:maction",
-			"tags": []
-		},
-		"selection": {
-			"name": "selection",
-			"status": "living",
-			"summary": "The child element which is addressed by the action. The default value is `1`, which is the first child element.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/maction",
-			"type": "attribute",
-			"scope": "MathML:maction",
-			"tags": []
-		}
-	}
+    "name": "maction",
+    "status": "living",
+    "summary": "The MathML `<maction>` element provides a possibility to bind actions to (sub-) expressions. The action itself is specified by the `actiontype` attribute, which accepts several values. To specify which child elements are addressed by the action, you can make use of the `selection` attribute.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/maction",
+    "type": "element",
+    "scope": "MathML",
+    "tags": [
+        "MathML",
+        "MathML Reference",
+        "MathML Element",
+        "MathML Enlivening Expressions"
+    ],
+    "interface": "MathMLElement",
+    "attributes": {
+        "actiontype": {
+            "name": "actiontype",
+            "status": "living",
+            "summary": "The action which specifies what happens for this element. Possible values are.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/maction",
+            "type": "attribute",
+            "scope": "MathML:maction",
+            "tags": []
+        },
+        "class": {
+            "name": "class",
+            "status": "living",
+            "summary": "Provided for use with stylesheets.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/maction",
+            "type": "attribute",
+            "scope": "MathML:maction",
+            "tags": []
+        },
+        "id": {
+            "name": "id",
+            "status": "living",
+            "summary": "Provided for use with stylesheets.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/maction",
+            "type": "attribute",
+            "scope": "MathML:maction",
+            "tags": []
+        },
+        "style": {
+            "name": "style",
+            "status": "living",
+            "summary": "Provided for use with stylesheets.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/maction",
+            "type": "attribute",
+            "scope": "MathML:maction",
+            "tags": []
+        },
+        "displaystyle": {
+            "name": "displaystyle",
+            "status": "living",
+            "summary": "A Boolean value specifying whether more vertical space is used for displayed equations or, if set to `false`, a more compact layout is used to display formulas. The main effect is that larger versions of operators are displayed, when `displaystyle` is set to `true`. See also `movablelimits` on mo.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/maction",
+            "type": "attribute",
+            "scope": "MathML:maction",
+            "tags": []
+        },
+        "href": {
+            "name": "href",
+            "status": "living",
+            "summary": "Used to set a hyperlink to a specified URI.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/maction",
+            "type": "attribute",
+            "scope": "MathML:maction",
+            "tags": []
+        },
+        "mathbackground": {
+            "name": "mathbackground",
+            "status": "living",
+            "summary": "The background color. You can use `#rgb`, `#rrggbb` and HTML color names.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/maction",
+            "type": "attribute",
+            "scope": "MathML:maction",
+            "tags": []
+        },
+        "mathcolor": {
+            "name": "mathcolor",
+            "status": "living",
+            "summary": "The text color and also the fraction line color. You can use `#rgb`, `#rrggbb` and HTML color names.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/maction",
+            "type": "attribute",
+            "scope": "MathML:maction",
+            "tags": []
+        },
+        "selection": {
+            "name": "selection",
+            "status": "living",
+            "summary": "The child element which is addressed by the action. The default value is `1`, which is the first child element.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/maction",
+            "type": "attribute",
+            "scope": "MathML:maction",
+            "tags": []
+        }
+    }
 }

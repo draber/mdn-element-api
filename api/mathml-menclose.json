@@ -1,89 +1,89 @@
 {
-	"name": "menclose",
-	"status": "living",
-	"summary": "The MathML `<menclose>` element renders its content inside an enclosing notation specified by the `notation` attribute.",
-	"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/menclose",
-	"type": "element",
-	"scope": "MathML",
-	"tags": [
-		"MathML",
-		"MathML Reference",
-		"MathML Element",
-		"MathML General Layout Schemata"
-	],
-	"interface": "MathMLElement",
-	"attributes": {
-		"class": {
-			"name": "class",
-			"status": "living",
-			"summary": "Provided for use with stylesheets.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/menclose",
-			"type": "attribute",
-			"scope": "MathML:menclose",
-			"tags": []
-		},
-		"id": {
-			"name": "id",
-			"status": "living",
-			"summary": "Provided for use with stylesheets.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/menclose",
-			"type": "attribute",
-			"scope": "MathML:menclose",
-			"tags": []
-		},
-		"style": {
-			"name": "style",
-			"status": "living",
-			"summary": "Provided for use with stylesheets.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/menclose",
-			"type": "attribute",
-			"scope": "MathML:menclose",
-			"tags": []
-		},
-		"displaystyle": {
-			"name": "displaystyle",
-			"status": "living",
-			"summary": "A Boolean value specifying whether more vertical space is used for displayed equations or, if set to `false`, a more compact layout is used to display formulas. The main effect is that larger versions of operators are displayed, when `displaystyle` is set to `true`. See also `movablelimits` on mo.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/menclose",
-			"type": "attribute",
-			"scope": "MathML:menclose",
-			"tags": []
-		},
-		"href": {
-			"name": "href",
-			"status": "living",
-			"summary": "Used to set a hyperlink to a specified URI.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/menclose",
-			"type": "attribute",
-			"scope": "MathML:menclose",
-			"tags": []
-		},
-		"mathbackground": {
-			"name": "mathbackground",
-			"status": "living",
-			"summary": "The background color. You can use `#rgb`, `#rrggbb` and HTML color names.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/menclose",
-			"type": "attribute",
-			"scope": "MathML:menclose",
-			"tags": []
-		},
-		"mathcolor": {
-			"name": "mathcolor",
-			"status": "living",
-			"summary": "The text color. You can use `#rgb`, `#rrggbb` and HTML color names.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/menclose",
-			"type": "attribute",
-			"scope": "MathML:menclose",
-			"tags": []
-		},
-		"notation": {
-			"name": "notation",
-			"status": "living",
-			"summary": "A list of notations, separated by white space, to apply to the child elements. The symbols are each drawn as if the others are not present, and therefore may overlap. Possible values are.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/menclose",
-			"type": "attribute",
-			"scope": "MathML:menclose",
-			"tags": []
-		}
-	}
+    "name": "menclose",
+    "status": "living",
+    "summary": "The MathML `<menclose>` element renders its content inside an enclosing notation specified by the `notation` attribute.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/menclose",
+    "type": "element",
+    "scope": "MathML",
+    "tags": [
+        "MathML",
+        "MathML Reference",
+        "MathML Element",
+        "MathML General Layout Schemata"
+    ],
+    "interface": "MathMLElement",
+    "attributes": {
+        "class": {
+            "name": "class",
+            "status": "living",
+            "summary": "Provided for use with stylesheets.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/menclose",
+            "type": "attribute",
+            "scope": "MathML:menclose",
+            "tags": []
+        },
+        "id": {
+            "name": "id",
+            "status": "living",
+            "summary": "Provided for use with stylesheets.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/menclose",
+            "type": "attribute",
+            "scope": "MathML:menclose",
+            "tags": []
+        },
+        "style": {
+            "name": "style",
+            "status": "living",
+            "summary": "Provided for use with stylesheets.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/menclose",
+            "type": "attribute",
+            "scope": "MathML:menclose",
+            "tags": []
+        },
+        "displaystyle": {
+            "name": "displaystyle",
+            "status": "living",
+            "summary": "A Boolean value specifying whether more vertical space is used for displayed equations or, if set to `false`, a more compact layout is used to display formulas. The main effect is that larger versions of operators are displayed, when `displaystyle` is set to `true`. See also `movablelimits` on mo.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/menclose",
+            "type": "attribute",
+            "scope": "MathML:menclose",
+            "tags": []
+        },
+        "href": {
+            "name": "href",
+            "status": "living",
+            "summary": "Used to set a hyperlink to a specified URI.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/menclose",
+            "type": "attribute",
+            "scope": "MathML:menclose",
+            "tags": []
+        },
+        "mathbackground": {
+            "name": "mathbackground",
+            "status": "living",
+            "summary": "The background color. You can use `#rgb`, `#rrggbb` and HTML color names.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/menclose",
+            "type": "attribute",
+            "scope": "MathML:menclose",
+            "tags": []
+        },
+        "mathcolor": {
+            "name": "mathcolor",
+            "status": "living",
+            "summary": "The text color. You can use `#rgb`, `#rrggbb` and HTML color names.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/menclose",
+            "type": "attribute",
+            "scope": "MathML:menclose",
+            "tags": []
+        },
+        "notation": {
+            "name": "notation",
+            "status": "living",
+            "summary": "A list of notations, separated by white space, to apply to the child elements. The symbols are each drawn as if the others are not present, and therefore may overlap. Possible values are.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/menclose",
+            "type": "attribute",
+            "scope": "MathML:menclose",
+            "tags": []
+        }
+    }
 }

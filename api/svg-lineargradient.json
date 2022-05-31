@@ -1,263 +1,263 @@
 {
-	"name": "linearGradient",
-	"status": "living",
-	"summary": "The `<linearGradient>` element lets authors define linear gradients to apply to other SVG elements.",
-	"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/linearGradient",
-	"type": "element",
-	"scope": "SVG",
-	"tags": [
-		"SVG",
-		"SVG Gradient"
-	],
-	"interface": "SVGLinearGradientElement",
-	"attributes": {
-		"gradientUnits": {
-			"name": "gradientUnits",
-			"status": "living",
-			"summary": "The `gradientUnits` attribute defines the coordinate system used for attributes specified on the gradient elements.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/gradientUnits",
-			"type": "attribute",
-			"scope": "SVG:linearGradient",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			],
-			"spec-urls": [
-				"https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementGradientUnitsAttribute",
-				"https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementGradientUnitsAttribute"
-			]
-		},
-		"gradientTransform": {
-			"name": "gradientTransform",
-			"status": "living",
-			"summary": "The `gradientTransform` attribute contains the definition of an optional additional transformation from the gradient coordinate system onto the target coordinate system (i.e., userSpaceOnUse or objectBoundingBox). This allows for things such as skewing the gradient. This additional transformation matrix is post-multiplied to (i.e., inserted to the right of) any previously defined transformations, including the implicit transformation necessary to convert from object bounding box units to user space.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/gradientTransform",
-			"type": "attribute",
-			"scope": "SVG:linearGradient",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			]
-		},
-		"href": {
-			"name": "href",
-			"status": "living",
-			"summary": "The `href` attribute defines a link to a resource as a reference URL. The exact meaning of that link depends on the context of each element using it.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/href",
-			"type": "attribute",
-			"scope": "SVG:linearGradient",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			]
-		},
-		"spreadMethod": {
-			"name": "spreadMethod",
-			"status": "living",
-			"summary": "The `spreadMethod` attribute determines how a shape is filled beyond the defined edges of a gradient.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/spreadMethod",
-			"type": "attribute",
-			"scope": "SVG:linearGradient",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			]
-		},
-		"x1": {
-			"name": "x1",
-			"status": "living",
-			"summary": "The `x1` attribute is used to specify the first x-coordinate for drawing an SVG element that requires more than one coordinate. Elements that only need one coordinate use the x attribute instead.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/x1",
-			"type": "attribute",
-			"scope": "SVG:linearGradient",
-			"tags": [
-				"Drawing Lines",
-				"Gradients",
-				"LInes",
-				"SVG",
-				"SVG Attribute",
-				"SVG Gradients",
-				"Vector Graphics"
-			],
-			"spec-urls": [
-				"https://svgwg.org/svg2-draft/shapes.html#LineElementX1Attribute",
-				"https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementX1Attribute"
-			]
-		},
-		"x2": {
-			"name": "x2",
-			"status": "living",
-			"summary": "The `x2` attribute is used to specify the second x-coordinate for drawing an SVG element that requires more than one coordinate. Elements that only need one coordinate use the x attribute instead.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/x2",
-			"type": "attribute",
-			"scope": "SVG:linearGradient",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			],
-			"spec-urls": [
-				"https://svgwg.org/svg2-draft/shapes.html#LineElementX2Attribute",
-				"https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementX2Attribute"
-			]
-		},
-		"xlink:href": {
-			"name": "xlink:href",
-			"status": "living",
-			"summary": "The `xlink:href` attribute defines a reference to a resource as a reference IRI. The exact meaning of that link depends on the context of each element using it.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xlink:href",
-			"type": "attribute",
-			"scope": "SVG:linearGradient",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			],
-			"spec-urls": [
-				"https://www.w3.org/TR/SVG11/linking.html#AElementXLinkHrefAttribute",
-				"https://www.w3.org/TR/SVG11/text.html#AltGlyphElementHrefAttribute",
-				"https://www.w3.org/TR/SVG11/animate.html#HrefAttribute",
-				"https://www.w3.org/TR/SVG11/interact.html#CursorElementHrefAttribute",
-				"https://www.w3.org/TR/SVG11/filters.html#feImageElementHrefAttribute",
-				"https://www.w3.org/TR/SVG11/filters.html#FilterElementHrefAttribute",
-				"https://www.w3.org/TR/SVG11/fonts.html#FontFaceUriElementHrefAttribute",
-				"https://www.w3.org/TR/SVG11/text.html#GlyphRefElementHrefAttribute",
-				"https://www.w3.org/TR/SVG11/struct.html#ImageElementHrefAttribute",
-				"https://www.w3.org/TR/SVG11/pservers.html#LinearGradientElementHrefAttribute",
-				"https://www.w3.org/TR/SVG11/animate.html#MPathElementHrefAttribute",
-				"https://www.w3.org/TR/SVG11/pservers.html#PatternElementHrefAttribute",
-				"https://www.w3.org/TR/SVG11/pservers.html#RadialGradientElementHrefAttribute",
-				"https://www.w3.org/TR/SVG11/script.html#ScriptElementHrefAttribute",
-				"https://www.w3.org/TR/SVG11/text.html#TextPathElementHrefAttribute",
-				"https://www.w3.org/TR/SVG11/struct.html#UseElementHrefAttribute",
-				"https://www.w3.org/TR/SVG11/text.html#TRefElementHrefAttribute"
-			]
-		},
-		"y1": {
-			"name": "y1",
-			"status": "living",
-			"summary": "The `y1` attribute is used to specify the first y-coordinate for drawing an SVG element that requires more than one coordinate. Elements that only need one coordinate use the y attribute instead.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/y1",
-			"type": "attribute",
-			"scope": "SVG:linearGradient",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			],
-			"spec-urls": [
-				"https://svgwg.org/svg2-draft/shapes.html#LineElementY1Attribute",
-				"https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementY1Attribute"
-			]
-		},
-		"y2": {
-			"name": "y2",
-			"status": "living",
-			"summary": "The `y2` attribute is used to specify the second y-coordinate for drawing an SVG element that requires more than one coordinate. Elements that only need one coordinate use the y attribute instead.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/y2",
-			"type": "attribute",
-			"scope": "SVG:linearGradient",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			],
-			"spec-urls": [
-				"https://svgwg.org/svg2-draft/shapes.html#LineElementY2Attribute",
-				"https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementY2Attribute"
-			]
-		},
-		"class": {
-			"name": "class",
-			"status": "living",
-			"summary": "Assigns a class name or set of class names to an element. You may assign the same class name or names to any number of elements, however, multiple class names must be separated by whitespace characters.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/class",
-			"type": "attribute",
-			"scope": "SVG:global:styling",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			]
-		},
-		"style": {
-			"name": "style",
-			"status": "living",
-			"summary": "The `style` attribute allows to style an element using CSS declarations. It functions identically to the `style` attribute in HTML.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/style",
-			"type": "attribute",
-			"scope": "SVG:global:styling",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			]
-		},
-		"id": {
-			"name": "id",
-			"status": "living",
-			"summary": "The `id` attribute assigns a unique name to an element.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/id",
-			"type": "attribute",
-			"scope": "SVG:global:core",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			]
-		},
-		"lang": {
-			"name": "lang",
-			"status": "living",
-			"summary": "The `lang` attribute specifies the primary language used in contents and attributes containing text content of particular elements.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/lang",
-			"type": "attribute",
-			"scope": "SVG:global:core",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			]
-		},
-		"tabindex": {
-			"name": "tabindex",
-			"status": "living",
-			"summary": "The `tabindex` attribute allows you to control whether an element is focusable and to define the relative order of the element for the purposes of sequential focus navigation.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/tabindex",
-			"type": "attribute",
-			"scope": "SVG:global:core",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			]
-		},
-		"xml:base": {
-			"name": "xml:base",
-			"status": "deprecated",
-			"summary": "The `xml:base` attribute specifies a base IRI other than the base IRI of the document or external entity.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xml:base",
-			"type": "attribute",
-			"scope": "SVG:global:core",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			]
-		},
-		"xml:lang": {
-			"name": "xml:lang",
-			"status": "living",
-			"summary": "The `xml:lang` attribute specifies the primary language used in contents and attributes containing text content of particular elements.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xml:lang",
-			"type": "attribute",
-			"scope": "SVG:global:core",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			]
-		},
-		"xml:space": {
-			"name": "xml:space",
-			"status": "living",
-			"summary": "SVG supports the built-in XML `xml:space` attribute to handle whitespace characters inside elements. Child elements inside an element may also have an `xml:space` attribute that overrides the parent's one.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xml:space",
-			"type": "attribute",
-			"scope": "SVG:global:core",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			]
-		}
-	}
+    "name": "linearGradient",
+    "status": "living",
+    "summary": "The `<linearGradient>` element lets authors define linear gradients to apply to other SVG elements.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/linearGradient",
+    "type": "element",
+    "scope": "SVG",
+    "tags": [
+        "SVG",
+        "SVG Gradient"
+    ],
+    "interface": "SVGLinearGradientElement",
+    "attributes": {
+        "gradientUnits": {
+            "name": "gradientUnits",
+            "status": "living",
+            "summary": "The `gradientUnits` attribute defines the coordinate system used for attributes specified on the gradient elements.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/gradientUnits",
+            "type": "attribute",
+            "scope": "SVG:linearGradient",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ],
+            "spec-urls": [
+                "https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementGradientUnitsAttribute",
+                "https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementGradientUnitsAttribute"
+            ]
+        },
+        "gradientTransform": {
+            "name": "gradientTransform",
+            "status": "living",
+            "summary": "The `gradientTransform` attribute contains the definition of an optional additional transformation from the gradient coordinate system onto the target coordinate system (i.e., userSpaceOnUse or objectBoundingBox). This allows for things such as skewing the gradient. This additional transformation matrix is post-multiplied to (i.e., inserted to the right of) any previously defined transformations, including the implicit transformation necessary to convert from object bounding box units to user space.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/gradientTransform",
+            "type": "attribute",
+            "scope": "SVG:linearGradient",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ]
+        },
+        "href": {
+            "name": "href",
+            "status": "living",
+            "summary": "The `href` attribute defines a link to a resource as a reference URL. The exact meaning of that link depends on the context of each element using it.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/href",
+            "type": "attribute",
+            "scope": "SVG:linearGradient",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ]
+        },
+        "spreadMethod": {
+            "name": "spreadMethod",
+            "status": "living",
+            "summary": "The `spreadMethod` attribute determines how a shape is filled beyond the defined edges of a gradient.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/spreadMethod",
+            "type": "attribute",
+            "scope": "SVG:linearGradient",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ]
+        },
+        "x1": {
+            "name": "x1",
+            "status": "living",
+            "summary": "The `x1` attribute is used to specify the first x-coordinate for drawing an SVG element that requires more than one coordinate. Elements that only need one coordinate use the x attribute instead.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/x1",
+            "type": "attribute",
+            "scope": "SVG:linearGradient",
+            "tags": [
+                "Drawing Lines",
+                "Gradients",
+                "LInes",
+                "SVG",
+                "SVG Attribute",
+                "SVG Gradients",
+                "Vector Graphics"
+            ],
+            "spec-urls": [
+                "https://svgwg.org/svg2-draft/shapes.html#LineElementX1Attribute",
+                "https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementX1Attribute"
+            ]
+        },
+        "x2": {
+            "name": "x2",
+            "status": "living",
+            "summary": "The `x2` attribute is used to specify the second x-coordinate for drawing an SVG element that requires more than one coordinate. Elements that only need one coordinate use the x attribute instead.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/x2",
+            "type": "attribute",
+            "scope": "SVG:linearGradient",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ],
+            "spec-urls": [
+                "https://svgwg.org/svg2-draft/shapes.html#LineElementX2Attribute",
+                "https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementX2Attribute"
+            ]
+        },
+        "xlink:href": {
+            "name": "xlink:href",
+            "status": "living",
+            "summary": "The `xlink:href` attribute defines a reference to a resource as a reference IRI. The exact meaning of that link depends on the context of each element using it.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xlink:href",
+            "type": "attribute",
+            "scope": "SVG:linearGradient",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ],
+            "spec-urls": [
+                "https://www.w3.org/TR/SVG11/linking.html#AElementXLinkHrefAttribute",
+                "https://www.w3.org/TR/SVG11/text.html#AltGlyphElementHrefAttribute",
+                "https://www.w3.org/TR/SVG11/animate.html#HrefAttribute",
+                "https://www.w3.org/TR/SVG11/interact.html#CursorElementHrefAttribute",
+                "https://www.w3.org/TR/SVG11/filters.html#feImageElementHrefAttribute",
+                "https://www.w3.org/TR/SVG11/filters.html#FilterElementHrefAttribute",
+                "https://www.w3.org/TR/SVG11/fonts.html#FontFaceUriElementHrefAttribute",
+                "https://www.w3.org/TR/SVG11/text.html#GlyphRefElementHrefAttribute",
+                "https://www.w3.org/TR/SVG11/struct.html#ImageElementHrefAttribute",
+                "https://www.w3.org/TR/SVG11/pservers.html#LinearGradientElementHrefAttribute",
+                "https://www.w3.org/TR/SVG11/animate.html#MPathElementHrefAttribute",
+                "https://www.w3.org/TR/SVG11/pservers.html#PatternElementHrefAttribute",
+                "https://www.w3.org/TR/SVG11/pservers.html#RadialGradientElementHrefAttribute",
+                "https://www.w3.org/TR/SVG11/script.html#ScriptElementHrefAttribute",
+                "https://www.w3.org/TR/SVG11/text.html#TextPathElementHrefAttribute",
+                "https://www.w3.org/TR/SVG11/struct.html#UseElementHrefAttribute",
+                "https://www.w3.org/TR/SVG11/text.html#TRefElementHrefAttribute"
+            ]
+        },
+        "y1": {
+            "name": "y1",
+            "status": "living",
+            "summary": "The `y1` attribute is used to specify the first y-coordinate for drawing an SVG element that requires more than one coordinate. Elements that only need one coordinate use the y attribute instead.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/y1",
+            "type": "attribute",
+            "scope": "SVG:linearGradient",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ],
+            "spec-urls": [
+                "https://svgwg.org/svg2-draft/shapes.html#LineElementY1Attribute",
+                "https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementY1Attribute"
+            ]
+        },
+        "y2": {
+            "name": "y2",
+            "status": "living",
+            "summary": "The `y2` attribute is used to specify the second y-coordinate for drawing an SVG element that requires more than one coordinate. Elements that only need one coordinate use the y attribute instead.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/y2",
+            "type": "attribute",
+            "scope": "SVG:linearGradient",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ],
+            "spec-urls": [
+                "https://svgwg.org/svg2-draft/shapes.html#LineElementY2Attribute",
+                "https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementY2Attribute"
+            ]
+        },
+        "class": {
+            "name": "class",
+            "status": "living",
+            "summary": "Assigns a class name or set of class names to an element. You may assign the same class name or names to any number of elements, however, multiple class names must be separated by whitespace characters.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/class",
+            "type": "attribute",
+            "scope": "SVG:global:styling",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ]
+        },
+        "style": {
+            "name": "style",
+            "status": "living",
+            "summary": "The `style` attribute allows to style an element using CSS declarations. It functions identically to the `style` attribute in HTML.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/style",
+            "type": "attribute",
+            "scope": "SVG:global:styling",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ]
+        },
+        "id": {
+            "name": "id",
+            "status": "living",
+            "summary": "The `id` attribute assigns a unique name to an element.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/id",
+            "type": "attribute",
+            "scope": "SVG:global:core",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ]
+        },
+        "lang": {
+            "name": "lang",
+            "status": "living",
+            "summary": "The `lang` attribute specifies the primary language used in contents and attributes containing text content of particular elements.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/lang",
+            "type": "attribute",
+            "scope": "SVG:global:core",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ]
+        },
+        "tabindex": {
+            "name": "tabindex",
+            "status": "living",
+            "summary": "The `tabindex` attribute allows you to control whether an element is focusable and to define the relative order of the element for the purposes of sequential focus navigation.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/tabindex",
+            "type": "attribute",
+            "scope": "SVG:global:core",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ]
+        },
+        "xml:base": {
+            "name": "xml:base",
+            "status": "deprecated",
+            "summary": "The `xml:base` attribute specifies a base IRI other than the base IRI of the document or external entity.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xml:base",
+            "type": "attribute",
+            "scope": "SVG:global:core",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ]
+        },
+        "xml:lang": {
+            "name": "xml:lang",
+            "status": "living",
+            "summary": "The `xml:lang` attribute specifies the primary language used in contents and attributes containing text content of particular elements.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xml:lang",
+            "type": "attribute",
+            "scope": "SVG:global:core",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ]
+        },
+        "xml:space": {
+            "name": "xml:space",
+            "status": "living",
+            "summary": "SVG supports the built-in XML `xml:space` attribute to handle whitespace characters inside elements. Child elements inside an element may also have an `xml:space` attribute that overrides the parent's one.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xml:space",
+            "type": "attribute",
+            "scope": "SVG:global:core",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ]
+        }
+    }
 }
