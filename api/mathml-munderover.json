@@ -1,107 +1,107 @@
 {
-	"name": "munderover",
-	"status": "living",
-	"summary": "The MathML `<munderover>` element is used to attach accents or limits both under and over an expression.",
-	"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/munderover",
-	"type": "element",
-	"scope": "MathML",
-	"tags": [
-		"MathML",
-		"MathML Reference",
-		"MathML Element",
-		"MathML Script and Limit Schemata"
-	],
-	"interface": "MathMLElement",
-	"attributes": {
-		"accent": {
-			"name": "accent",
-			"status": "living",
-			"summary": "If `true`, the overscript is an accent, which is drawn closer to the base expression.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/munderover",
-			"type": "attribute",
-			"scope": "MathML:munderover",
-			"tags": []
-		},
-		"accentunder": {
-			"name": "accentunder",
-			"status": "living",
-			"summary": "If `true`, the underscript is an accent, which is drawn closer to the base expression.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/munderover",
-			"type": "attribute",
-			"scope": "MathML:munderover",
-			"tags": []
-		},
-		"align": {
-			"name": "align",
-			"status": "deprecated",
-			"summary": "The alignment of both underscript and overscript. Possible values are: `left`, `center`, and `right`.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/munderover",
-			"type": "attribute",
-			"scope": "MathML:munderover",
-			"tags": []
-		},
-		"class": {
-			"name": "class",
-			"status": "living",
-			"summary": "Provided for use with stylesheets.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/munderover",
-			"type": "attribute",
-			"scope": "MathML:munderover",
-			"tags": []
-		},
-		"id": {
-			"name": "id",
-			"status": "living",
-			"summary": "Provided for use with stylesheets.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/munderover",
-			"type": "attribute",
-			"scope": "MathML:munderover",
-			"tags": []
-		},
-		"style": {
-			"name": "style",
-			"status": "living",
-			"summary": "Provided for use with stylesheets.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/munderover",
-			"type": "attribute",
-			"scope": "MathML:munderover",
-			"tags": []
-		},
-		"displaystyle": {
-			"name": "displaystyle",
-			"status": "living",
-			"summary": "A Boolean value specifying whether more vertical space is used for displayed equations or, if set to `false`, a more compact layout is used to display formulas. The main effect is that larger versions of operators are displayed, when `displaystyle` is set to `true`. See also `movablelimits` on mo.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/munderover",
-			"type": "attribute",
-			"scope": "MathML:munderover",
-			"tags": []
-		},
-		"href": {
-			"name": "href",
-			"status": "living",
-			"summary": "Used to set a hyperlink to a specified URI.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/munderover",
-			"type": "attribute",
-			"scope": "MathML:munderover",
-			"tags": []
-		},
-		"mathbackground": {
-			"name": "mathbackground",
-			"status": "living",
-			"summary": "The background color. You can use `#rgb`, `#rrggbb` and HTML color names.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/munderover",
-			"type": "attribute",
-			"scope": "MathML:munderover",
-			"tags": []
-		},
-		"mathcolor": {
-			"name": "mathcolor",
-			"status": "living",
-			"summary": "The text color. You can use `#rgb`, `#rrggbb` and HTML color names.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/munderover",
-			"type": "attribute",
-			"scope": "MathML:munderover",
-			"tags": []
-		}
-	}
+    "name": "munderover",
+    "status": "living",
+    "summary": "The MathML `<munderover>` element is used to attach accents or limits both under and over an expression.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/munderover",
+    "type": "element",
+    "scope": "MathML",
+    "tags": [
+        "MathML",
+        "MathML Reference",
+        "MathML Element",
+        "MathML Script and Limit Schemata"
+    ],
+    "interface": "MathMLElement",
+    "attributes": {
+        "accent": {
+            "name": "accent",
+            "status": "living",
+            "summary": "If `true`, the overscript is an accent, which is drawn closer to the base expression.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/munderover",
+            "type": "attribute",
+            "scope": "MathML:munderover",
+            "tags": []
+        },
+        "accentunder": {
+            "name": "accentunder",
+            "status": "living",
+            "summary": "If `true`, the underscript is an accent, which is drawn closer to the base expression.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/munderover",
+            "type": "attribute",
+            "scope": "MathML:munderover",
+            "tags": []
+        },
+        "align": {
+            "name": "align",
+            "status": "deprecated",
+            "summary": "The alignment of both underscript and overscript. Possible values are: `left`, `center`, and `right`.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/munderover",
+            "type": "attribute",
+            "scope": "MathML:munderover",
+            "tags": []
+        },
+        "class": {
+            "name": "class",
+            "status": "living",
+            "summary": "Provided for use with stylesheets.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/munderover",
+            "type": "attribute",
+            "scope": "MathML:munderover",
+            "tags": []
+        },
+        "id": {
+            "name": "id",
+            "status": "living",
+            "summary": "Provided for use with stylesheets.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/munderover",
+            "type": "attribute",
+            "scope": "MathML:munderover",
+            "tags": []
+        },
+        "style": {
+            "name": "style",
+            "status": "living",
+            "summary": "Provided for use with stylesheets.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/munderover",
+            "type": "attribute",
+            "scope": "MathML:munderover",
+            "tags": []
+        },
+        "displaystyle": {
+            "name": "displaystyle",
+            "status": "living",
+            "summary": "A Boolean value specifying whether more vertical space is used for displayed equations or, if set to `false`, a more compact layout is used to display formulas. The main effect is that larger versions of operators are displayed, when `displaystyle` is set to `true`. See also `movablelimits` on mo.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/munderover",
+            "type": "attribute",
+            "scope": "MathML:munderover",
+            "tags": []
+        },
+        "href": {
+            "name": "href",
+            "status": "living",
+            "summary": "Used to set a hyperlink to a specified URI.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/munderover",
+            "type": "attribute",
+            "scope": "MathML:munderover",
+            "tags": []
+        },
+        "mathbackground": {
+            "name": "mathbackground",
+            "status": "living",
+            "summary": "The background color. You can use `#rgb`, `#rrggbb` and HTML color names.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/munderover",
+            "type": "attribute",
+            "scope": "MathML:munderover",
+            "tags": []
+        },
+        "mathcolor": {
+            "name": "mathcolor",
+            "status": "living",
+            "summary": "The text color. You can use `#rgb`, `#rrggbb` and HTML color names.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/munderover",
+            "type": "attribute",
+            "scope": "MathML:munderover",
+            "tags": []
+        }
+    }
 }

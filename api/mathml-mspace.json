@@ -1,89 +1,89 @@
 {
-	"name": "mspace",
-	"status": "living",
-	"summary": "The MathML `<mspace>` element is used to display a blank space, whose size is set by its attributes.",
-	"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mspace",
-	"type": "element",
-	"scope": "MathML",
-	"tags": [
-		"MathML",
-		"MathML Reference",
-		"MathML Element",
-		"MathML Token Elements"
-	],
-	"interface": "MathMLElement",
-	"attributes": {
-		"class": {
-			"name": "class",
-			"status": "living",
-			"summary": "Provided for use with stylesheets.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mspace",
-			"type": "attribute",
-			"scope": "MathML:mspace",
-			"tags": []
-		},
-		"id": {
-			"name": "id",
-			"status": "living",
-			"summary": "Provided for use with stylesheets.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mspace",
-			"type": "attribute",
-			"scope": "MathML:mspace",
-			"tags": []
-		},
-		"style": {
-			"name": "style",
-			"status": "living",
-			"summary": "Provided for use with stylesheets.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mspace",
-			"type": "attribute",
-			"scope": "MathML:mspace",
-			"tags": []
-		},
-		"depth": {
-			"name": "depth",
-			"status": "living",
-			"summary": "The desired depth (below the baseline) of the space (see length for values and units).",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mspace",
-			"type": "attribute",
-			"scope": "MathML:mspace",
-			"tags": []
-		},
-		"displaystyle": {
-			"name": "displaystyle",
-			"status": "living",
-			"summary": "A Boolean value specifying whether more vertical space is used for displayed equations or, if set to `false`, a more compact layout is used to display formulas. The main effect is that larger versions of operators are displayed, when `displaystyle` is set to `true`. See also `movablelimits` on mo.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mspace",
-			"type": "attribute",
-			"scope": "MathML:mspace",
-			"tags": []
-		},
-		"height": {
-			"name": "height",
-			"status": "living",
-			"summary": "The desired height (above the baseline) of the space (see length for values and units).",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mspace",
-			"type": "attribute",
-			"scope": "MathML:mspace",
-			"tags": []
-		},
-		"mathbackground": {
-			"name": "mathbackground",
-			"status": "living",
-			"summary": "The background color. You can use `#rgb`, `#rrggbb` and HTML color names.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mspace",
-			"type": "attribute",
-			"scope": "MathML:mspace",
-			"tags": []
-		},
-		"width": {
-			"name": "width",
-			"status": "living",
-			"summary": "The desired width of the space (see length for values and units).",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mspace",
-			"type": "attribute",
-			"scope": "MathML:mspace",
-			"tags": []
-		}
-	}
+    "name": "mspace",
+    "status": "living",
+    "summary": "The MathML `<mspace>` element is used to display a blank space, whose size is set by its attributes.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mspace",
+    "type": "element",
+    "scope": "MathML",
+    "tags": [
+        "MathML",
+        "MathML Reference",
+        "MathML Element",
+        "MathML Token Elements"
+    ],
+    "interface": "MathMLElement",
+    "attributes": {
+        "class": {
+            "name": "class",
+            "status": "living",
+            "summary": "Provided for use with stylesheets.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mspace",
+            "type": "attribute",
+            "scope": "MathML:mspace",
+            "tags": []
+        },
+        "id": {
+            "name": "id",
+            "status": "living",
+            "summary": "Provided for use with stylesheets.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mspace",
+            "type": "attribute",
+            "scope": "MathML:mspace",
+            "tags": []
+        },
+        "style": {
+            "name": "style",
+            "status": "living",
+            "summary": "Provided for use with stylesheets.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mspace",
+            "type": "attribute",
+            "scope": "MathML:mspace",
+            "tags": []
+        },
+        "depth": {
+            "name": "depth",
+            "status": "living",
+            "summary": "The desired depth (below the baseline) of the space (see length for values and units).",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mspace",
+            "type": "attribute",
+            "scope": "MathML:mspace",
+            "tags": []
+        },
+        "displaystyle": {
+            "name": "displaystyle",
+            "status": "living",
+            "summary": "A Boolean value specifying whether more vertical space is used for displayed equations or, if set to `false`, a more compact layout is used to display formulas. The main effect is that larger versions of operators are displayed, when `displaystyle` is set to `true`. See also `movablelimits` on mo.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mspace",
+            "type": "attribute",
+            "scope": "MathML:mspace",
+            "tags": []
+        },
+        "height": {
+            "name": "height",
+            "status": "living",
+            "summary": "The desired height (above the baseline) of the space (see length for values and units).",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mspace",
+            "type": "attribute",
+            "scope": "MathML:mspace",
+            "tags": []
+        },
+        "mathbackground": {
+            "name": "mathbackground",
+            "status": "living",
+            "summary": "The background color. You can use `#rgb`, `#rrggbb` and HTML color names.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mspace",
+            "type": "attribute",
+            "scope": "MathML:mspace",
+            "tags": []
+        },
+        "width": {
+            "name": "width",
+            "status": "living",
+            "summary": "The desired width of the space (see length for values and units).",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mspace",
+            "type": "attribute",
+            "scope": "MathML:mspace",
+            "tags": []
+        }
+    }
 }

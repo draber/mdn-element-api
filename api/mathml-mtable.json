@@ -1,170 +1,170 @@
 {
-	"name": "mtable",
-	"status": "living",
-	"summary": "The MathML `<mtable>` element allows you to create tables or matrices. Inside a `<mtable>` only mtr and mtd elements may appear. These elements are similar to table , tr and td elements of HTML.",
-	"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mtable",
-	"type": "element",
-	"scope": "MathML",
-	"tags": [
-		"MathML",
-		"MathML Reference",
-		"MathML Element",
-		"MathML Tabular Math"
-	],
-	"interface": "MathMLElement",
-	"attributes": {
-		"align": {
-			"name": "align",
-			"status": "living",
-			"summary": "Specifies the vertical alignment of the table with respect to its environment.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mtable",
-			"type": "attribute",
-			"scope": "MathML:mtable",
-			"tags": []
-		},
-		"class": {
-			"name": "class",
-			"status": "living",
-			"summary": "Provided for use with stylesheets.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mtable",
-			"type": "attribute",
-			"scope": "MathML:mtable",
-			"tags": []
-		},
-		"id": {
-			"name": "id",
-			"status": "living",
-			"summary": "Provided for use with stylesheets.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mtable",
-			"type": "attribute",
-			"scope": "MathML:mtable",
-			"tags": []
-		},
-		"style": {
-			"name": "style",
-			"status": "living",
-			"summary": "Provided for use with stylesheets.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mtable",
-			"type": "attribute",
-			"scope": "MathML:mtable",
-			"tags": []
-		},
-		"columnalign": {
-			"name": "columnalign",
-			"status": "living",
-			"summary": "Specifies the horizontal alignment of the cells. Multiple values separated by space are allowed and apply to the corresponding columns (e.g. `columnalign=\"left right center\"`). Possible values are: `left`, `center` (default) and `right`.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mtable",
-			"type": "attribute",
-			"scope": "MathML:mtable",
-			"tags": []
-		},
-		"columnlines": {
-			"name": "columnlines",
-			"status": "living",
-			"summary": "Specifies column borders. Multiple values separated by space are allowed and apply to the corresponding columns (e.g. `columnlines=\"none none solid\"`). Possible values are: `none` (default), `solid` and `dashed`.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mtable",
-			"type": "attribute",
-			"scope": "MathML:mtable",
-			"tags": []
-		},
-		"columnspacing": {
-			"name": "columnspacing",
-			"status": "living",
-			"summary": "Specifies the space between table columns.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mtable",
-			"type": "attribute",
-			"scope": "MathML:mtable",
-			"tags": []
-		},
-		"displaystyle": {
-			"name": "displaystyle",
-			"status": "living",
-			"summary": "A Boolean value specifying whether more vertical space is used for displayed equations or, if set to `false`, a more compact layout is used to display formulas. The main effect is that larger versions of operators are displayed, when `displaystyle` is set to `true`.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mtable",
-			"type": "attribute",
-			"scope": "MathML:mtable",
-			"tags": []
-		},
-		"frame": {
-			"name": "frame",
-			"status": "living",
-			"summary": "Specifies borders of the entire table. Possible values are: `none` (default), `solid` and `dashed`.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mtable",
-			"type": "attribute",
-			"scope": "MathML:mtable",
-			"tags": []
-		},
-		"framespacing": {
-			"name": "framespacing",
-			"status": "living",
-			"summary": "Specifies additional space added between the table and frame.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mtable",
-			"type": "attribute",
-			"scope": "MathML:mtable",
-			"tags": []
-		},
-		"href": {
-			"name": "href",
-			"status": "living",
-			"summary": "Used to set a hyperlink to a specified URI.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mtable",
-			"type": "attribute",
-			"scope": "MathML:mtable",
-			"tags": []
-		},
-		"mathbackground": {
-			"name": "mathbackground",
-			"status": "living",
-			"summary": "The background color. You can use `#rgb`, `#rrggbb` and HTML color names.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mtable",
-			"type": "attribute",
-			"scope": "MathML:mtable",
-			"tags": []
-		},
-		"mathcolor": {
-			"name": "mathcolor",
-			"status": "living",
-			"summary": "The text color. You can use `#rgb`, `#rrggbb` and HTML color names.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mtable",
-			"type": "attribute",
-			"scope": "MathML:mtable",
-			"tags": []
-		},
-		"rowalign": {
-			"name": "rowalign",
-			"status": "living",
-			"summary": "Specifies the vertical alignment of the cells. Multiple values separated by space are allowed and apply to the corresponding rows (e.g. `rowalign=\"top bottom axis\"`). Possible values are: `axis`, `baseline` (default), `bottom`, `center` and `top`.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mtable",
-			"type": "attribute",
-			"scope": "MathML:mtable",
-			"tags": []
-		},
-		"rowlines": {
-			"name": "rowlines",
-			"status": "living",
-			"summary": "Specifies row borders. Multiple values separated by space are allowed and apply to the corresponding rows (e.g. `rowlines=\"none none solid\"`). Possible values are: `none` (default), `solid` and `dashed`.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mtable",
-			"type": "attribute",
-			"scope": "MathML:mtable",
-			"tags": []
-		},
-		"rowspacing": {
-			"name": "rowspacing",
-			"status": "unimplemented",
-			"summary": "Specifies the space between table rows.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mtable",
-			"type": "attribute",
-			"scope": "MathML:mtable",
-			"tags": []
-		},
-		"width": {
-			"name": "width",
-			"status": "living",
-			"summary": "Specifies the width of the entire table. Accepts length values.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mtable",
-			"type": "attribute",
-			"scope": "MathML:mtable",
-			"tags": []
-		}
-	}
+    "name": "mtable",
+    "status": "living",
+    "summary": "The MathML `<mtable>` element allows you to create tables or matrices. Inside a `<mtable>` only mtr and mtd elements may appear. These elements are similar to table , tr and td elements of HTML.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mtable",
+    "type": "element",
+    "scope": "MathML",
+    "tags": [
+        "MathML",
+        "MathML Reference",
+        "MathML Element",
+        "MathML Tabular Math"
+    ],
+    "interface": "MathMLElement",
+    "attributes": {
+        "align": {
+            "name": "align",
+            "status": "living",
+            "summary": "Specifies the vertical alignment of the table with respect to its environment.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mtable",
+            "type": "attribute",
+            "scope": "MathML:mtable",
+            "tags": []
+        },
+        "class": {
+            "name": "class",
+            "status": "living",
+            "summary": "Provided for use with stylesheets.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mtable",
+            "type": "attribute",
+            "scope": "MathML:mtable",
+            "tags": []
+        },
+        "id": {
+            "name": "id",
+            "status": "living",
+            "summary": "Provided for use with stylesheets.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mtable",
+            "type": "attribute",
+            "scope": "MathML:mtable",
+            "tags": []
+        },
+        "style": {
+            "name": "style",
+            "status": "living",
+            "summary": "Provided for use with stylesheets.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mtable",
+            "type": "attribute",
+            "scope": "MathML:mtable",
+            "tags": []
+        },
+        "columnalign": {
+            "name": "columnalign",
+            "status": "living",
+            "summary": "Specifies the horizontal alignment of the cells. Multiple values separated by space are allowed and apply to the corresponding columns (e.g. `columnalign=\"left right center\"`). Possible values are: `left`, `center` (default) and `right`.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mtable",
+            "type": "attribute",
+            "scope": "MathML:mtable",
+            "tags": []
+        },
+        "columnlines": {
+            "name": "columnlines",
+            "status": "living",
+            "summary": "Specifies column borders. Multiple values separated by space are allowed and apply to the corresponding columns (e.g. `columnlines=\"none none solid\"`). Possible values are: `none` (default), `solid` and `dashed`.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mtable",
+            "type": "attribute",
+            "scope": "MathML:mtable",
+            "tags": []
+        },
+        "columnspacing": {
+            "name": "columnspacing",
+            "status": "living",
+            "summary": "Specifies the space between table columns.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mtable",
+            "type": "attribute",
+            "scope": "MathML:mtable",
+            "tags": []
+        },
+        "displaystyle": {
+            "name": "displaystyle",
+            "status": "living",
+            "summary": "A Boolean value specifying whether more vertical space is used for displayed equations or, if set to `false`, a more compact layout is used to display formulas. The main effect is that larger versions of operators are displayed, when `displaystyle` is set to `true`.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mtable",
+            "type": "attribute",
+            "scope": "MathML:mtable",
+            "tags": []
+        },
+        "frame": {
+            "name": "frame",
+            "status": "living",
+            "summary": "Specifies borders of the entire table. Possible values are: `none` (default), `solid` and `dashed`.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mtable",
+            "type": "attribute",
+            "scope": "MathML:mtable",
+            "tags": []
+        },
+        "framespacing": {
+            "name": "framespacing",
+            "status": "living",
+            "summary": "Specifies additional space added between the table and frame.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mtable",
+            "type": "attribute",
+            "scope": "MathML:mtable",
+            "tags": []
+        },
+        "href": {
+            "name": "href",
+            "status": "living",
+            "summary": "Used to set a hyperlink to a specified URI.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mtable",
+            "type": "attribute",
+            "scope": "MathML:mtable",
+            "tags": []
+        },
+        "mathbackground": {
+            "name": "mathbackground",
+            "status": "living",
+            "summary": "The background color. You can use `#rgb`, `#rrggbb` and HTML color names.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mtable",
+            "type": "attribute",
+            "scope": "MathML:mtable",
+            "tags": []
+        },
+        "mathcolor": {
+            "name": "mathcolor",
+            "status": "living",
+            "summary": "The text color. You can use `#rgb`, `#rrggbb` and HTML color names.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mtable",
+            "type": "attribute",
+            "scope": "MathML:mtable",
+            "tags": []
+        },
+        "rowalign": {
+            "name": "rowalign",
+            "status": "living",
+            "summary": "Specifies the vertical alignment of the cells. Multiple values separated by space are allowed and apply to the corresponding rows (e.g. `rowalign=\"top bottom axis\"`). Possible values are: `axis`, `baseline` (default), `bottom`, `center` and `top`.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mtable",
+            "type": "attribute",
+            "scope": "MathML:mtable",
+            "tags": []
+        },
+        "rowlines": {
+            "name": "rowlines",
+            "status": "living",
+            "summary": "Specifies row borders. Multiple values separated by space are allowed and apply to the corresponding rows (e.g. `rowlines=\"none none solid\"`). Possible values are: `none` (default), `solid` and `dashed`.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mtable",
+            "type": "attribute",
+            "scope": "MathML:mtable",
+            "tags": []
+        },
+        "rowspacing": {
+            "name": "rowspacing",
+            "status": "unimplemented",
+            "summary": "Specifies the space between table rows.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mtable",
+            "type": "attribute",
+            "scope": "MathML:mtable",
+            "tags": []
+        },
+        "width": {
+            "name": "width",
+            "status": "living",
+            "summary": "Specifies the width of the entire table. Accepts length values.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mtable",
+            "type": "attribute",
+            "scope": "MathML:mtable",
+            "tags": []
+        }
+    }
 }

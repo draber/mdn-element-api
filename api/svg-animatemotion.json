@@ -1,153 +1,153 @@
 {
-	"name": "animateMotion",
-	"status": "living",
-	"summary": "The SVG `<animateMotion>` element provides a way to define how an element moves along a motion path.",
-	"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/animateMotion",
-	"type": "element",
-	"scope": "SVG",
-	"tags": [
-		"SVG",
-		"SVG Animation"
-	],
-	"interface": "SVGAnimateMotionElement",
-	"attributes": {
-		"keyPoints": {
-			"name": "keyPoints",
-			"status": "living",
-			"summary": "The `keyPoints` attribute indicates the simple duration of an animation.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/keyPoints",
-			"type": "attribute",
-			"scope": "SVG:animateMotion",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			]
-		},
-		"path": {
-			"name": "path",
-			"status": "living",
-			"summary": "The `path` attribute has two different meanings, either it defines a text path along which the characters of a text are rendered, or a motion path along which a referenced element is animated.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/path",
-			"type": "attribute",
-			"scope": "SVG:animateMotion",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			],
-			"spec-urls": [
-				"https://svgwg.org/svg2-draft/text.html#TextPathElementPathAttribute",
-				"https://svgwg.org/specs/animations/#AnimateMotionElementPathAttribute"
-			]
-		},
-		"rotate": {
-			"name": "rotate",
-			"status": "experimental",
-			"summary": "The `rotate` attribute specifies how the animated element rotates as it travels along a path specified in an animateMotion element.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/rotate",
-			"type": "attribute",
-			"scope": "SVG:animateMotion",
-			"tags": [
-				"Animation",
-				"Graphics",
-				"SVG"
-			],
-			"spec-urls": "https://svgwg.org/specs/animations/#RotateAttribute"
-		},
-		"class": {
-			"name": "class",
-			"status": "living",
-			"summary": "Assigns a class name or set of class names to an element. You may assign the same class name or names to any number of elements, however, multiple class names must be separated by whitespace characters.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/class",
-			"type": "attribute",
-			"scope": "SVG:global:styling",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			]
-		},
-		"style": {
-			"name": "style",
-			"status": "living",
-			"summary": "The `style` attribute allows to style an element using CSS declarations. It functions identically to the `style` attribute in HTML.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/style",
-			"type": "attribute",
-			"scope": "SVG:global:styling",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			]
-		},
-		"id": {
-			"name": "id",
-			"status": "living",
-			"summary": "The `id` attribute assigns a unique name to an element.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/id",
-			"type": "attribute",
-			"scope": "SVG:global:core",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			]
-		},
-		"lang": {
-			"name": "lang",
-			"status": "living",
-			"summary": "The `lang` attribute specifies the primary language used in contents and attributes containing text content of particular elements.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/lang",
-			"type": "attribute",
-			"scope": "SVG:global:core",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			]
-		},
-		"tabindex": {
-			"name": "tabindex",
-			"status": "living",
-			"summary": "The `tabindex` attribute allows you to control whether an element is focusable and to define the relative order of the element for the purposes of sequential focus navigation.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/tabindex",
-			"type": "attribute",
-			"scope": "SVG:global:core",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			]
-		},
-		"xml:base": {
-			"name": "xml:base",
-			"status": "deprecated",
-			"summary": "The `xml:base` attribute specifies a base IRI other than the base IRI of the document or external entity.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xml:base",
-			"type": "attribute",
-			"scope": "SVG:global:core",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			]
-		},
-		"xml:lang": {
-			"name": "xml:lang",
-			"status": "living",
-			"summary": "The `xml:lang` attribute specifies the primary language used in contents and attributes containing text content of particular elements.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xml:lang",
-			"type": "attribute",
-			"scope": "SVG:global:core",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			]
-		},
-		"xml:space": {
-			"name": "xml:space",
-			"status": "living",
-			"summary": "SVG supports the built-in XML `xml:space` attribute to handle whitespace characters inside elements. Child elements inside an element may also have an `xml:space` attribute that overrides the parent's one.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xml:space",
-			"type": "attribute",
-			"scope": "SVG:global:core",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			]
-		}
-	}
+    "name": "animateMotion",
+    "status": "living",
+    "summary": "The SVG `<animateMotion>` element provides a way to define how an element moves along a motion path.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/animateMotion",
+    "type": "element",
+    "scope": "SVG",
+    "tags": [
+        "SVG",
+        "SVG Animation"
+    ],
+    "interface": "SVGAnimateMotionElement",
+    "attributes": {
+        "keyPoints": {
+            "name": "keyPoints",
+            "status": "living",
+            "summary": "The `keyPoints` attribute indicates the simple duration of an animation.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/keyPoints",
+            "type": "attribute",
+            "scope": "SVG:animateMotion",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ]
+        },
+        "path": {
+            "name": "path",
+            "status": "living",
+            "summary": "The `path` attribute has two different meanings, either it defines a text path along which the characters of a text are rendered, or a motion path along which a referenced element is animated.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/path",
+            "type": "attribute",
+            "scope": "SVG:animateMotion",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ],
+            "spec-urls": [
+                "https://svgwg.org/svg2-draft/text.html#TextPathElementPathAttribute",
+                "https://svgwg.org/specs/animations/#AnimateMotionElementPathAttribute"
+            ]
+        },
+        "rotate": {
+            "name": "rotate",
+            "status": "experimental",
+            "summary": "The `rotate` attribute specifies how the animated element rotates as it travels along a path specified in an animateMotion element.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/rotate",
+            "type": "attribute",
+            "scope": "SVG:animateMotion",
+            "tags": [
+                "Animation",
+                "Graphics",
+                "SVG"
+            ],
+            "spec-urls": "https://svgwg.org/specs/animations/#RotateAttribute"
+        },
+        "class": {
+            "name": "class",
+            "status": "living",
+            "summary": "Assigns a class name or set of class names to an element. You may assign the same class name or names to any number of elements, however, multiple class names must be separated by whitespace characters.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/class",
+            "type": "attribute",
+            "scope": "SVG:global:styling",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ]
+        },
+        "style": {
+            "name": "style",
+            "status": "living",
+            "summary": "The `style` attribute allows to style an element using CSS declarations. It functions identically to the `style` attribute in HTML.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/style",
+            "type": "attribute",
+            "scope": "SVG:global:styling",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ]
+        },
+        "id": {
+            "name": "id",
+            "status": "living",
+            "summary": "The `id` attribute assigns a unique name to an element.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/id",
+            "type": "attribute",
+            "scope": "SVG:global:core",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ]
+        },
+        "lang": {
+            "name": "lang",
+            "status": "living",
+            "summary": "The `lang` attribute specifies the primary language used in contents and attributes containing text content of particular elements.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/lang",
+            "type": "attribute",
+            "scope": "SVG:global:core",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ]
+        },
+        "tabindex": {
+            "name": "tabindex",
+            "status": "living",
+            "summary": "The `tabindex` attribute allows you to control whether an element is focusable and to define the relative order of the element for the purposes of sequential focus navigation.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/tabindex",
+            "type": "attribute",
+            "scope": "SVG:global:core",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ]
+        },
+        "xml:base": {
+            "name": "xml:base",
+            "status": "deprecated",
+            "summary": "The `xml:base` attribute specifies a base IRI other than the base IRI of the document or external entity.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xml:base",
+            "type": "attribute",
+            "scope": "SVG:global:core",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ]
+        },
+        "xml:lang": {
+            "name": "xml:lang",
+            "status": "living",
+            "summary": "The `xml:lang` attribute specifies the primary language used in contents and attributes containing text content of particular elements.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xml:lang",
+            "type": "attribute",
+            "scope": "SVG:global:core",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ]
+        },
+        "xml:space": {
+            "name": "xml:space",
+            "status": "living",
+            "summary": "SVG supports the built-in XML `xml:space` attribute to handle whitespace characters inside elements. Child elements inside an element may also have an `xml:space` attribute that overrides the parent's one.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xml:space",
+            "type": "attribute",
+            "scope": "SVG:global:core",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ]
+        }
+    }
 }

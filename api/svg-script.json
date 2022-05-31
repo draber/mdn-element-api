@@ -1,166 +1,166 @@
 {
-	"name": "script",
-	"status": "living",
-	"summary": "The SVG `script` element allows to add scripts to an SVG document.",
-	"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/script",
-	"type": "element",
-	"scope": "SVG",
-	"tags": [
-		"SVG"
-	],
-	"interface": "SVGScriptElement",
-	"attributes": {
-		"href": {
-			"name": "href",
-			"status": "living",
-			"summary": "The `href` attribute defines a link to a resource as a reference URL. The exact meaning of that link depends on the context of each element using it.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/href",
-			"type": "attribute",
-			"scope": "SVG:script",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			]
-		},
-		"type": {
-			"name": "type",
-			"status": "living",
-			"summary": "The `type` attribute is a generic attribute and it has different meaning based on the context in which it's used.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/type",
-			"type": "attribute",
-			"scope": "SVG:script",
-			"tags": [
-				"SVG",
-				"SVG Attribute",
-				"filter"
-			]
-		},
-		"xlink:href": {
-			"name": "xlink:href",
-			"status": "living",
-			"summary": "The `xlink:href` attribute defines a reference to a resource as a reference IRI. The exact meaning of that link depends on the context of each element using it.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xlink:href",
-			"type": "attribute",
-			"scope": "SVG:script",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			],
-			"spec-urls": [
-				"https://www.w3.org/TR/SVG11/linking.html#AElementXLinkHrefAttribute",
-				"https://www.w3.org/TR/SVG11/text.html#AltGlyphElementHrefAttribute",
-				"https://www.w3.org/TR/SVG11/animate.html#HrefAttribute",
-				"https://www.w3.org/TR/SVG11/interact.html#CursorElementHrefAttribute",
-				"https://www.w3.org/TR/SVG11/filters.html#feImageElementHrefAttribute",
-				"https://www.w3.org/TR/SVG11/filters.html#FilterElementHrefAttribute",
-				"https://www.w3.org/TR/SVG11/fonts.html#FontFaceUriElementHrefAttribute",
-				"https://www.w3.org/TR/SVG11/text.html#GlyphRefElementHrefAttribute",
-				"https://www.w3.org/TR/SVG11/struct.html#ImageElementHrefAttribute",
-				"https://www.w3.org/TR/SVG11/pservers.html#LinearGradientElementHrefAttribute",
-				"https://www.w3.org/TR/SVG11/animate.html#MPathElementHrefAttribute",
-				"https://www.w3.org/TR/SVG11/pservers.html#PatternElementHrefAttribute",
-				"https://www.w3.org/TR/SVG11/pservers.html#RadialGradientElementHrefAttribute",
-				"https://www.w3.org/TR/SVG11/script.html#ScriptElementHrefAttribute",
-				"https://www.w3.org/TR/SVG11/text.html#TextPathElementHrefAttribute",
-				"https://www.w3.org/TR/SVG11/struct.html#UseElementHrefAttribute",
-				"https://www.w3.org/TR/SVG11/text.html#TRefElementHrefAttribute"
-			]
-		},
-		"class": {
-			"name": "class",
-			"status": "living",
-			"summary": "Assigns a class name or set of class names to an element. You may assign the same class name or names to any number of elements, however, multiple class names must be separated by whitespace characters.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/class",
-			"type": "attribute",
-			"scope": "SVG:global:styling",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			]
-		},
-		"style": {
-			"name": "style",
-			"status": "living",
-			"summary": "The `style` attribute allows to style an element using CSS declarations. It functions identically to the `style` attribute in HTML.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/style",
-			"type": "attribute",
-			"scope": "SVG:global:styling",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			]
-		},
-		"id": {
-			"name": "id",
-			"status": "living",
-			"summary": "The `id` attribute assigns a unique name to an element.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/id",
-			"type": "attribute",
-			"scope": "SVG:global:core",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			]
-		},
-		"lang": {
-			"name": "lang",
-			"status": "living",
-			"summary": "The `lang` attribute specifies the primary language used in contents and attributes containing text content of particular elements.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/lang",
-			"type": "attribute",
-			"scope": "SVG:global:core",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			]
-		},
-		"tabindex": {
-			"name": "tabindex",
-			"status": "living",
-			"summary": "The `tabindex` attribute allows you to control whether an element is focusable and to define the relative order of the element for the purposes of sequential focus navigation.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/tabindex",
-			"type": "attribute",
-			"scope": "SVG:global:core",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			]
-		},
-		"xml:base": {
-			"name": "xml:base",
-			"status": "deprecated",
-			"summary": "The `xml:base` attribute specifies a base IRI other than the base IRI of the document or external entity.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xml:base",
-			"type": "attribute",
-			"scope": "SVG:global:core",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			]
-		},
-		"xml:lang": {
-			"name": "xml:lang",
-			"status": "living",
-			"summary": "The `xml:lang` attribute specifies the primary language used in contents and attributes containing text content of particular elements.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xml:lang",
-			"type": "attribute",
-			"scope": "SVG:global:core",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			]
-		},
-		"xml:space": {
-			"name": "xml:space",
-			"status": "living",
-			"summary": "SVG supports the built-in XML `xml:space` attribute to handle whitespace characters inside elements. Child elements inside an element may also have an `xml:space` attribute that overrides the parent's one.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xml:space",
-			"type": "attribute",
-			"scope": "SVG:global:core",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			]
-		}
-	}
+    "name": "script",
+    "status": "living",
+    "summary": "The SVG `script` element allows to add scripts to an SVG document.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/script",
+    "type": "element",
+    "scope": "SVG",
+    "tags": [
+        "SVG"
+    ],
+    "interface": "SVGScriptElement",
+    "attributes": {
+        "href": {
+            "name": "href",
+            "status": "living",
+            "summary": "The `href` attribute defines a link to a resource as a reference URL. The exact meaning of that link depends on the context of each element using it.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/href",
+            "type": "attribute",
+            "scope": "SVG:script",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ]
+        },
+        "type": {
+            "name": "type",
+            "status": "living",
+            "summary": "The `type` attribute is a generic attribute and it has different meaning based on the context in which it's used.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/type",
+            "type": "attribute",
+            "scope": "SVG:script",
+            "tags": [
+                "SVG",
+                "SVG Attribute",
+                "filter"
+            ]
+        },
+        "xlink:href": {
+            "name": "xlink:href",
+            "status": "living",
+            "summary": "The `xlink:href` attribute defines a reference to a resource as a reference IRI. The exact meaning of that link depends on the context of each element using it.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xlink:href",
+            "type": "attribute",
+            "scope": "SVG:script",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ],
+            "spec-urls": [
+                "https://www.w3.org/TR/SVG11/linking.html#AElementXLinkHrefAttribute",
+                "https://www.w3.org/TR/SVG11/text.html#AltGlyphElementHrefAttribute",
+                "https://www.w3.org/TR/SVG11/animate.html#HrefAttribute",
+                "https://www.w3.org/TR/SVG11/interact.html#CursorElementHrefAttribute",
+                "https://www.w3.org/TR/SVG11/filters.html#feImageElementHrefAttribute",
+                "https://www.w3.org/TR/SVG11/filters.html#FilterElementHrefAttribute",
+                "https://www.w3.org/TR/SVG11/fonts.html#FontFaceUriElementHrefAttribute",
+                "https://www.w3.org/TR/SVG11/text.html#GlyphRefElementHrefAttribute",
+                "https://www.w3.org/TR/SVG11/struct.html#ImageElementHrefAttribute",
+                "https://www.w3.org/TR/SVG11/pservers.html#LinearGradientElementHrefAttribute",
+                "https://www.w3.org/TR/SVG11/animate.html#MPathElementHrefAttribute",
+                "https://www.w3.org/TR/SVG11/pservers.html#PatternElementHrefAttribute",
+                "https://www.w3.org/TR/SVG11/pservers.html#RadialGradientElementHrefAttribute",
+                "https://www.w3.org/TR/SVG11/script.html#ScriptElementHrefAttribute",
+                "https://www.w3.org/TR/SVG11/text.html#TextPathElementHrefAttribute",
+                "https://www.w3.org/TR/SVG11/struct.html#UseElementHrefAttribute",
+                "https://www.w3.org/TR/SVG11/text.html#TRefElementHrefAttribute"
+            ]
+        },
+        "class": {
+            "name": "class",
+            "status": "living",
+            "summary": "Assigns a class name or set of class names to an element. You may assign the same class name or names to any number of elements, however, multiple class names must be separated by whitespace characters.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/class",
+            "type": "attribute",
+            "scope": "SVG:global:styling",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ]
+        },
+        "style": {
+            "name": "style",
+            "status": "living",
+            "summary": "The `style` attribute allows to style an element using CSS declarations. It functions identically to the `style` attribute in HTML.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/style",
+            "type": "attribute",
+            "scope": "SVG:global:styling",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ]
+        },
+        "id": {
+            "name": "id",
+            "status": "living",
+            "summary": "The `id` attribute assigns a unique name to an element.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/id",
+            "type": "attribute",
+            "scope": "SVG:global:core",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ]
+        },
+        "lang": {
+            "name": "lang",
+            "status": "living",
+            "summary": "The `lang` attribute specifies the primary language used in contents and attributes containing text content of particular elements.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/lang",
+            "type": "attribute",
+            "scope": "SVG:global:core",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ]
+        },
+        "tabindex": {
+            "name": "tabindex",
+            "status": "living",
+            "summary": "The `tabindex` attribute allows you to control whether an element is focusable and to define the relative order of the element for the purposes of sequential focus navigation.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/tabindex",
+            "type": "attribute",
+            "scope": "SVG:global:core",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ]
+        },
+        "xml:base": {
+            "name": "xml:base",
+            "status": "deprecated",
+            "summary": "The `xml:base` attribute specifies a base IRI other than the base IRI of the document or external entity.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xml:base",
+            "type": "attribute",
+            "scope": "SVG:global:core",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ]
+        },
+        "xml:lang": {
+            "name": "xml:lang",
+            "status": "living",
+            "summary": "The `xml:lang` attribute specifies the primary language used in contents and attributes containing text content of particular elements.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xml:lang",
+            "type": "attribute",
+            "scope": "SVG:global:core",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ]
+        },
+        "xml:space": {
+            "name": "xml:space",
+            "status": "living",
+            "summary": "SVG supports the built-in XML `xml:space` attribute to handle whitespace characters inside elements. Child elements inside an element may also have an `xml:space` attribute that overrides the parent's one.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xml:space",
+            "type": "attribute",
+            "scope": "SVG:global:core",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ]
+        }
+    }
 }

@@ -6,5 +6,5 @@ const args = minimist(process.argv.slice(2));
 export const env = args.env || args['config-env'] || 'dev';
 
 export const jsonOptions = env === 'dev' ? {
-    spaces: '\t'
+    spaces: 4
 } : {};

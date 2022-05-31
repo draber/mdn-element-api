@@ -1,192 +1,192 @@
 {
-	"name": "foreignObject",
-	"status": "living",
-	"summary": "The `<foreignObject>` SVG element includes elements from a different XML namespace. In the context of a browser, it is most likely (X)HTML.",
-	"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/foreignObject",
-	"type": "element",
-	"scope": "SVG",
-	"tags": [
-		"SVG"
-	],
-	"interface": "SVGForeignObjectElement",
-	"attributes": {
-		"height": {
-			"name": "height",
-			"status": "living",
-			"summary": "The `height` attribute defines the vertical length of an element in the user coordinate system.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/height",
-			"type": "attribute",
-			"scope": "SVG:foreignObject",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			],
-			"spec-urls": [
-				"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-height",
-				"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-height",
-				"https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-height",
-				"https://svgwg.org/svg2-draft/geometry.html#Sizing",
-				"https://svgwg.org/svg2-draft/pservers.html#PatternElementHeightAttribute"
-			]
-		},
-		"width": {
-			"name": "width",
-			"status": "living",
-			"summary": "The `width` attribute defines the horizontal length of an element in the user coordinate system.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/width",
-			"type": "attribute",
-			"scope": "SVG:foreignObject",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			],
-			"spec-urls": [
-				"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-width",
-				"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-width",
-				"https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-width",
-				"https://svgwg.org/svg2-draft/geometry.html#Sizing",
-				"https://svgwg.org/svg2-draft/pservers.html#PatternElementWidthAttribute"
-			]
-		},
-		"x": {
-			"name": "x",
-			"status": "living",
-			"summary": "The `x` attribute defines an x-axis coordinate in the user coordinate system.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/x",
-			"type": "attribute",
-			"scope": "SVG:foreignObject",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			],
-			"spec-urls": [
-				"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-x",
-				"https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-x",
-				"https://drafts.fxtf.org/filter-effects/#element-attrdef-fepointlight-x",
-				"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-x",
-				"https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-x",
-				"https://svgwg.org/svg2-draft/geometry.html#X",
-				"https://svgwg.org/svg2-draft/pservers.html#PatternElementXAttribute",
-				"https://svgwg.org/svg2-draft/text.html#TextElementXAttribute"
-			]
-		},
-		"y": {
-			"name": "y",
-			"status": "living",
-			"summary": "The `y` attribute defines a y-axis coordinate in the user coordinate system.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/y",
-			"type": "attribute",
-			"scope": "SVG:foreignObject",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			],
-			"spec-urls": [
-				"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-y",
-				"https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-y",
-				"https://drafts.fxtf.org/filter-effects/#element-attrdef-fepointlight-y",
-				"https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-y",
-				"https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-y",
-				"https://svgwg.org/svg2-draft/geometry.html#Y",
-				"https://svgwg.org/svg2-draft/pservers.html#PatternElementYAttribute",
-				"https://svgwg.org/svg2-draft/text.html#TextElementYAttribute"
-			]
-		},
-		"class": {
-			"name": "class",
-			"status": "living",
-			"summary": "Assigns a class name or set of class names to an element. You may assign the same class name or names to any number of elements, however, multiple class names must be separated by whitespace characters.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/class",
-			"type": "attribute",
-			"scope": "SVG:global:styling",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			]
-		},
-		"style": {
-			"name": "style",
-			"status": "living",
-			"summary": "The `style` attribute allows to style an element using CSS declarations. It functions identically to the `style` attribute in HTML.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/style",
-			"type": "attribute",
-			"scope": "SVG:global:styling",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			]
-		},
-		"id": {
-			"name": "id",
-			"status": "living",
-			"summary": "The `id` attribute assigns a unique name to an element.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/id",
-			"type": "attribute",
-			"scope": "SVG:global:core",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			]
-		},
-		"lang": {
-			"name": "lang",
-			"status": "living",
-			"summary": "The `lang` attribute specifies the primary language used in contents and attributes containing text content of particular elements.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/lang",
-			"type": "attribute",
-			"scope": "SVG:global:core",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			]
-		},
-		"tabindex": {
-			"name": "tabindex",
-			"status": "living",
-			"summary": "The `tabindex` attribute allows you to control whether an element is focusable and to define the relative order of the element for the purposes of sequential focus navigation.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/tabindex",
-			"type": "attribute",
-			"scope": "SVG:global:core",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			]
-		},
-		"xml:base": {
-			"name": "xml:base",
-			"status": "deprecated",
-			"summary": "The `xml:base` attribute specifies a base IRI other than the base IRI of the document or external entity.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xml:base",
-			"type": "attribute",
-			"scope": "SVG:global:core",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			]
-		},
-		"xml:lang": {
-			"name": "xml:lang",
-			"status": "living",
-			"summary": "The `xml:lang` attribute specifies the primary language used in contents and attributes containing text content of particular elements.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xml:lang",
-			"type": "attribute",
-			"scope": "SVG:global:core",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			]
-		},
-		"xml:space": {
-			"name": "xml:space",
-			"status": "living",
-			"summary": "SVG supports the built-in XML `xml:space` attribute to handle whitespace characters inside elements. Child elements inside an element may also have an `xml:space` attribute that overrides the parent's one.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xml:space",
-			"type": "attribute",
-			"scope": "SVG:global:core",
-			"tags": [
-				"SVG",
-				"SVG Attribute"
-			]
-		}
-	}
+    "name": "foreignObject",
+    "status": "living",
+    "summary": "The `<foreignObject>` SVG element includes elements from a different XML namespace. In the context of a browser, it is most likely (X)HTML.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/foreignObject",
+    "type": "element",
+    "scope": "SVG",
+    "tags": [
+        "SVG"
+    ],
+    "interface": "SVGForeignObjectElement",
+    "attributes": {
+        "height": {
+            "name": "height",
+            "status": "living",
+            "summary": "The `height` attribute defines the vertical length of an element in the user coordinate system.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/height",
+            "type": "attribute",
+            "scope": "SVG:foreignObject",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ],
+            "spec-urls": [
+                "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-height",
+                "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-height",
+                "https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-height",
+                "https://svgwg.org/svg2-draft/geometry.html#Sizing",
+                "https://svgwg.org/svg2-draft/pservers.html#PatternElementHeightAttribute"
+            ]
+        },
+        "width": {
+            "name": "width",
+            "status": "living",
+            "summary": "The `width` attribute defines the horizontal length of an element in the user coordinate system.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/width",
+            "type": "attribute",
+            "scope": "SVG:foreignObject",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ],
+            "spec-urls": [
+                "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-width",
+                "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-width",
+                "https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-width",
+                "https://svgwg.org/svg2-draft/geometry.html#Sizing",
+                "https://svgwg.org/svg2-draft/pservers.html#PatternElementWidthAttribute"
+            ]
+        },
+        "x": {
+            "name": "x",
+            "status": "living",
+            "summary": "The `x` attribute defines an x-axis coordinate in the user coordinate system.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/x",
+            "type": "attribute",
+            "scope": "SVG:foreignObject",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ],
+            "spec-urls": [
+                "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-x",
+                "https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-x",
+                "https://drafts.fxtf.org/filter-effects/#element-attrdef-fepointlight-x",
+                "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-x",
+                "https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-x",
+                "https://svgwg.org/svg2-draft/geometry.html#X",
+                "https://svgwg.org/svg2-draft/pservers.html#PatternElementXAttribute",
+                "https://svgwg.org/svg2-draft/text.html#TextElementXAttribute"
+            ]
+        },
+        "y": {
+            "name": "y",
+            "status": "living",
+            "summary": "The `y` attribute defines a y-axis coordinate in the user coordinate system.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/y",
+            "type": "attribute",
+            "scope": "SVG:foreignObject",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ],
+            "spec-urls": [
+                "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-y",
+                "https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-y",
+                "https://drafts.fxtf.org/filter-effects/#element-attrdef-fepointlight-y",
+                "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-y",
+                "https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-y",
+                "https://svgwg.org/svg2-draft/geometry.html#Y",
+                "https://svgwg.org/svg2-draft/pservers.html#PatternElementYAttribute",
+                "https://svgwg.org/svg2-draft/text.html#TextElementYAttribute"
+            ]
+        },
+        "class": {
+            "name": "class",
+            "status": "living",
+            "summary": "Assigns a class name or set of class names to an element. You may assign the same class name or names to any number of elements, however, multiple class names must be separated by whitespace characters.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/class",
+            "type": "attribute",
+            "scope": "SVG:global:styling",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ]
+        },
+        "style": {
+            "name": "style",
+            "status": "living",
+            "summary": "The `style` attribute allows to style an element using CSS declarations. It functions identically to the `style` attribute in HTML.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/style",
+            "type": "attribute",
+            "scope": "SVG:global:styling",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ]
+        },
+        "id": {
+            "name": "id",
+            "status": "living",
+            "summary": "The `id` attribute assigns a unique name to an element.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/id",
+            "type": "attribute",
+            "scope": "SVG:global:core",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ]
+        },
+        "lang": {
+            "name": "lang",
+            "status": "living",
+            "summary": "The `lang` attribute specifies the primary language used in contents and attributes containing text content of particular elements.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/lang",
+            "type": "attribute",
+            "scope": "SVG:global:core",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ]
+        },
+        "tabindex": {
+            "name": "tabindex",
+            "status": "living",
+            "summary": "The `tabindex` attribute allows you to control whether an element is focusable and to define the relative order of the element for the purposes of sequential focus navigation.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/tabindex",
+            "type": "attribute",
+            "scope": "SVG:global:core",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ]
+        },
+        "xml:base": {
+            "name": "xml:base",
+            "status": "deprecated",
+            "summary": "The `xml:base` attribute specifies a base IRI other than the base IRI of the document or external entity.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xml:base",
+            "type": "attribute",
+            "scope": "SVG:global:core",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ]
+        },
+        "xml:lang": {
+            "name": "xml:lang",
+            "status": "living",
+            "summary": "The `xml:lang` attribute specifies the primary language used in contents and attributes containing text content of particular elements.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xml:lang",
+            "type": "attribute",
+            "scope": "SVG:global:core",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ]
+        },
+        "xml:space": {
+            "name": "xml:space",
+            "status": "living",
+            "summary": "SVG supports the built-in XML `xml:space` attribute to handle whitespace characters inside elements. Child elements inside an element may also have an `xml:space` attribute that overrides the parent's one.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xml:space",
+            "type": "attribute",
+            "scope": "SVG:global:core",
+            "tags": [
+                "SVG",
+                "SVG Attribute"
+            ]
+        }
+    }
 }

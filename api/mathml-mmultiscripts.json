@@ -1,98 +1,98 @@
 {
-	"name": "mmultiscripts",
-	"status": "living",
-	"summary": "The MathML `<mmultiscripts>` element allows you to create tensor-like objects. In a descriptive way tensors are multidimensional matrices (mathematical imprecise but exemplified). The degree of a tensor depends on the dimensionality of a representative array. For example, a number is a 0-dimensional array, or a 0th-order tensor. A 1-dimensional array (e.g. vectors) is a 1st-order tensor and so 2nd-order tensors are needed to represent square matrices. To learn more about the mathematical background of tensors refer to the entry on Wikipedia.",
-	"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mmultiscripts",
-	"type": "element",
-	"scope": "MathML",
-	"tags": [
-		"MathML",
-		"MathML Reference",
-		"MathML Element",
-		"MathML Script and Limit Schemata"
-	],
-	"interface": "MathMLElement",
-	"attributes": {
-		"class": {
-			"name": "class",
-			"status": "living",
-			"summary": "Provided for use with stylesheets.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mmultiscripts",
-			"type": "attribute",
-			"scope": "MathML:mmultiscripts",
-			"tags": []
-		},
-		"id": {
-			"name": "id",
-			"status": "living",
-			"summary": "Provided for use with stylesheets.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mmultiscripts",
-			"type": "attribute",
-			"scope": "MathML:mmultiscripts",
-			"tags": []
-		},
-		"style": {
-			"name": "style",
-			"status": "living",
-			"summary": "Provided for use with stylesheets.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mmultiscripts",
-			"type": "attribute",
-			"scope": "MathML:mmultiscripts",
-			"tags": []
-		},
-		"displaystyle": {
-			"name": "displaystyle",
-			"status": "living",
-			"summary": "A Boolean value specifying whether more vertical space is used for displayed equations or, if set to `false`, a more compact layout is used to display formulas. The main effect is that larger versions of operators are displayed, when `displaystyle` is set to `true`. See also `movablelimits` on mo.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mmultiscripts",
-			"type": "attribute",
-			"scope": "MathML:mmultiscripts",
-			"tags": []
-		},
-		"href": {
-			"name": "href",
-			"status": "living",
-			"summary": "Used to set a hyperlink to a specified URI.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mmultiscripts",
-			"type": "attribute",
-			"scope": "MathML:mmultiscripts",
-			"tags": []
-		},
-		"mathbackground": {
-			"name": "mathbackground",
-			"status": "living",
-			"summary": "The background color. You can use `#rgb`, `#rrggbb` and HTML color names.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mmultiscripts",
-			"type": "attribute",
-			"scope": "MathML:mmultiscripts",
-			"tags": []
-		},
-		"mathcolor": {
-			"name": "mathcolor",
-			"status": "living",
-			"summary": "The text color. You can use `#rgb`, `#rrggbb` and HTML color names.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mmultiscripts",
-			"type": "attribute",
-			"scope": "MathML:mmultiscripts",
-			"tags": []
-		},
-		"subscriptshift": {
-			"name": "subscriptshift",
-			"status": "deprecated",
-			"summary": "The minimum space by which to shift the subscript below the baseline of the expression, as a CSS length.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mmultiscripts",
-			"type": "attribute",
-			"scope": "MathML:mmultiscripts",
-			"tags": []
-		},
-		"superscriptshift": {
-			"name": "superscriptshift",
-			"status": "deprecated",
-			"summary": "The minimum space by which to shift the superscript above the baseline of the expression, as a CSS length.",
-			"url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mmultiscripts",
-			"type": "attribute",
-			"scope": "MathML:mmultiscripts",
-			"tags": []
-		}
-	}
+    "name": "mmultiscripts",
+    "status": "living",
+    "summary": "The MathML `<mmultiscripts>` element allows you to create tensor-like objects. In a descriptive way tensors are multidimensional matrices (mathematical imprecise but exemplified). The degree of a tensor depends on the dimensionality of a representative array. For example, a number is a 0-dimensional array, or a 0th-order tensor. A 1-dimensional array (e.g. vectors) is a 1st-order tensor and so 2nd-order tensors are needed to represent square matrices. To learn more about the mathematical background of tensors refer to the entry on Wikipedia.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mmultiscripts",
+    "type": "element",
+    "scope": "MathML",
+    "tags": [
+        "MathML",
+        "MathML Reference",
+        "MathML Element",
+        "MathML Script and Limit Schemata"
+    ],
+    "interface": "MathMLElement",
+    "attributes": {
+        "class": {
+            "name": "class",
+            "status": "living",
+            "summary": "Provided for use with stylesheets.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mmultiscripts",
+            "type": "attribute",
+            "scope": "MathML:mmultiscripts",
+            "tags": []
+        },
+        "id": {
+            "name": "id",
+            "status": "living",
+            "summary": "Provided for use with stylesheets.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mmultiscripts",
+            "type": "attribute",
+            "scope": "MathML:mmultiscripts",
+            "tags": []
+        },
+        "style": {
+            "name": "style",
+            "status": "living",
+            "summary": "Provided for use with stylesheets.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mmultiscripts",
+            "type": "attribute",
+            "scope": "MathML:mmultiscripts",
+            "tags": []
+        },
+        "displaystyle": {
+            "name": "displaystyle",
+            "status": "living",
+            "summary": "A Boolean value specifying whether more vertical space is used for displayed equations or, if set to `false`, a more compact layout is used to display formulas. The main effect is that larger versions of operators are displayed, when `displaystyle` is set to `true`. See also `movablelimits` on mo.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mmultiscripts",
+            "type": "attribute",
+            "scope": "MathML:mmultiscripts",
+            "tags": []
+        },
+        "href": {
+            "name": "href",
+            "status": "living",
+            "summary": "Used to set a hyperlink to a specified URI.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mmultiscripts",
+            "type": "attribute",
+            "scope": "MathML:mmultiscripts",
+            "tags": []
+        },
+        "mathbackground": {
+            "name": "mathbackground",
+            "status": "living",
+            "summary": "The background color. You can use `#rgb`, `#rrggbb` and HTML color names.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mmultiscripts",
+            "type": "attribute",
+            "scope": "MathML:mmultiscripts",
+            "tags": []
+        },
+        "mathcolor": {
+            "name": "mathcolor",
+            "status": "living",
+            "summary": "The text color. You can use `#rgb`, `#rrggbb` and HTML color names.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mmultiscripts",
+            "type": "attribute",
+            "scope": "MathML:mmultiscripts",
+            "tags": []
+        },
+        "subscriptshift": {
+            "name": "subscriptshift",
+            "status": "deprecated",
+            "summary": "The minimum space by which to shift the subscript below the baseline of the expression, as a CSS length.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mmultiscripts",
+            "type": "attribute",
+            "scope": "MathML:mmultiscripts",
+            "tags": []
+        },
+        "superscriptshift": {
+            "name": "superscriptshift",
+            "status": "deprecated",
+            "summary": "The minimum space by which to shift the superscript above the baseline of the expression, as a CSS length.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/MathML/Element/mmultiscripts",
+            "type": "attribute",
+            "scope": "MathML:mmultiscripts",
+            "tags": []
+        }
+    }
 }
