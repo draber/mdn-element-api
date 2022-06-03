@@ -1,8 +1,16 @@
 import { getContentObj } from "./extractors.js";
-import store from "./store.js";
 import attributes from "./get-attribute-data.js";
+import { scopeToType, getGlobAttrScopeArr } from "./utils.js";
 
-const getGlobalAttributes = (scope) => {
+import ElasticObject from "elastic-object";
+
+const attrStore = new ElasticObject();
+
+/**
+ * Collect all global attributes for a given scope
+ * @param {*} scope
+ */
+const getGlobalAttributesPerScope = (scope) => {
     let fragment;
     switch (true) {
         case scope.startsWith("HTML:global"):
@@ -23,13 +31,14 @@ const getGlobalAttributes = (scope) => {
     if (scope === "HTML:global:generic") {
         lineArr = attributes.blockToLineArr(
             contentObj["list of global attributes"]
-        )
+        );
     } else if (scope === "HTML:global:eventhandler") {
-        lineArr = attributes.blockToLineArr(
-            contentObj["summary"],
-            "web/api/globaleventhandlers"
-        )
-        .filter((line) => line.startsWith("- [`on"));
+        lineArr = attributes
+            .blockToLineArr(
+                contentObj["summary"],
+                "web/api/globaleventhandlers"
+            )
+            .filter((line) => line.startsWith("- [`on"));
     } else if (scope === "HTML:global:aria") {
         lineArr = attributes.blockToLineArr(
             contentObj["global aria attributes"]
@@ -41,13 +50,8 @@ const getGlobalAttributes = (scope) => {
             "web/svg/attribute"
         );
     }
-   
 
-    const elemFragment = `${scope.slice(
-        0,
-        scope.indexOf(":")
-    ).toLowerCase()}/*`;
-
+    const type = scopeToType(scope);
 
     lineArr.forEach((line, index) => {
         if (!line.startsWith("- [`")) {
@@ -55,12 +59,20 @@ const getGlobalAttributes = (scope) => {
         }
         const data = attributes.getData(line, index, lineArr, scope);
         data.url = data.url || contentObj.meta.url;
-        
-        const fragment = `${elemFragment}.attributes.${data.name}`;
+
         delete data.fragment;
 
-        store.set(fragment, data)
+        attrStore.set(`${type.toLowerCase()}.${data.name}`, data);
     });
 };
+
+
+const getGlobalAttributes = () => {
+    getGlobAttrScopeArr().forEach((scope) => {
+        getGlobalAttributesPerScope(scope);
+    });
+    return attrStore;
+}
+
 
 export default getGlobalAttributes;

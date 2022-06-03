@@ -3,73 +3,90 @@ import fs from "fs-extra";
 import groupData from "../mdn-content/files/jsondata/GroupData.json" assert { type: "json" };
 import path from "path";
 import resource from "./resource.js";
-import store from "./store.js";
 import { getSummary, getContentObj } from "./extractors.js";
-import { getElemPreset, getGlobAttrScopesByType } from "./utils.js";
+import { getElemPreset, scopeToType, getTypes } from "./utils.js";
 import attributes from "./get-attribute-data.js";
+import pkg from "../package.json" assert { type: "json" };
+
 import ElasticObject from "elastic-object";
+
+const elementStore = new ElasticObject();
 
 const svgInterfaceMap = new Map(
     groupData[0].SVG.interfaces.map((e) => [e.toLowerCase(), e])
 );
 
-
 /**
- * Container for global attributes
- * @param {String} type 
- * @returns {Object}
+ * Get the namespace for an element
+ * @param {String} type
+ * @returns {String}
  */
-const anyElement = (type) => {
-    return {
-        name: `${type}:*`,
-        status: "virtual",
-        summary: `Container to hold the global attributes of all ${type} elements.`,
-        url: `https://developer.mozilla.org/en-US/docs/Web/${type}/Element`,
-        type: "element",
-        scope: type,
-        tags: [type],
-        interface: `${type}Element`,
-        attributes: {},
-    };
-};
-
-/**
- * Get the Interface for an element
- * @param {String} tag 
- * @param {String} type 
- * @returns 
- */
-const getInterface = (tag, type) => {
+const getNamespaceUri = (type) => {
     switch (type) {
         case "HTML":
-            const element = document.createElement(tag);
-            return element.constructor.name;
+            return "http://www.w3.org/1999/xhtml";
         case "SVG":
-            const guess = `svg${tag.toLowerCase()}element`;
-            return svgInterfaceMap.has(guess)
-                ? svgInterfaceMap.get(guess)
-                : "SVGElement";
+            return "http://www.w3.org/2000/svg";
+        case "MathML":
+            return "http://www.w3.org/1998/Math/MathML";
         default:
-            return `${type}Element`;
+            return "";
     }
 };
 
 /**
+ * Get the Interfaces for an element
+ * @param {String} tag
+ * @param {String} type
+ * @returns {Array}
+ */
+const getInterfaces = (tag, type) => {
+    let interfaces = [];
+    switch (type) {
+        case "HTML":
+            const element = document.createElement(tag);
+            interfaces.push(element.constructor.name);
+            if (interfaces[0] !== "HTMLElement") {
+                interfaces.push("HTMLElement");
+            }
+            break;
+        case "SVG":
+            const guess = `svg${tag.toLowerCase()}element`;
+            interfaces.push(
+                svgInterfaceMap.has(guess)
+                    ? svgInterfaceMap.get(guess)
+                    : "SVGElement"
+            );
+            if (interfaces[0] !== "SVGElement") {
+                interfaces.push("SVGElement");
+            }
+            break;
+        default:
+            interfaces.push(`${type}Element`);
+    }
+    interfaces.push(`Element`);
+    return interfaces;
+};
+
+/**
  * Collect attributes for a specific element
- * @param {Object} attrContent 
- * @param {String} scope 
- * @returns 
+ * @param {Object} attrContent
+ * @param {String} scope
+ * @returns
  */
 const getAttributes = (attrContent, scope) => {
     if (!attrContent) {
         return [];
     }
 
-    const attrObj = {};    
-    let type = scope.slice(0, scope.indexOf(":"));
-    let lastFolder = scope === 'HTML' ? 'attributes' : 'attribute';
+    const attrObj = {};
+    let type = scopeToType(scope);
+    let lastFolder = scope === "HTML" ? "attributes" : "attribute";
 
-    const lineArr = attributes.blockToLineArr(attrContent, `web/${type}/${lastFolder}`)
+    const lineArr = attributes.blockToLineArr(
+        attrContent,
+        `web/${type}/${lastFolder}`
+    );
 
     lineArr.forEach((line, index) => {
         if (!line.startsWith("- [`")) {
@@ -83,12 +100,10 @@ const getAttributes = (attrContent, scope) => {
 
 /**
  * Build the list of elements
- * @param {String} type 
+ * @param {String} type
  */
-const getElements = (type) => {
-    // build an empty generic element to hold the global attributes
-    store.set(`${type.toLowerCase()}/*`, anyElement(type));
-    
+const getElementsByType = (type) => {
+
     const directory = path.dirname(
         resource.normalizeLocalPath(`/web/${type}/element`)
     );
@@ -101,27 +116,30 @@ const getElements = (type) => {
         fragment = resource.normalizeFragment(fragment);
         const contentObj = getContentObj(fragment);
 
-        const attributes = new ElasticObject(getAttributes(
-            contentObj.attributes,
-            `${type}:${contentObj.meta.name}`
-        )).map(attr => {
+        const attributes = new ElasticObject(
+            getAttributes(
+                contentObj.attributes,
+                `${type}:${contentObj.meta.name}`
+            )
+        ).map((attr) => {
             attr.url = attr.url || contentObj.meta.url;
-            if(contentObj.meta.status !== 'living'){
-                attr.status = 'inherited';
+            if (contentObj.meta.status !== "living") {
+                attr.status = "inherited";
             }
-            return attr
-        })
+            return attr;
+        });
 
         const elemData = {
             ...getElemPreset(),
             ...contentObj.meta,
             ...{
-                interface: getInterface(contentObj.meta.name, type),
                 summary: getSummary(contentObj.summary),
                 scope: type,
+                namespace: getNamespaceUri(type),
+                interfaces: getInterfaces(contentObj.meta.name, type),
             },
-            globalAttributeScopes: getGlobAttrScopesByType(type),
-            attributes
+            globalAttributes: `${pkg.custom.domain}/${type.toLowerCase()}/_global-attributes.json`,
+            attributes,
         };
 
         /**
@@ -130,12 +148,19 @@ const getElements = (type) => {
         if (contentObj.meta.name === "h1") {
             ["h1", "h2", "h3", "h4", "h5", "h6"].forEach((name) => {
                 elemData.name = name;
-                store.set(`${type.toLowerCase()}/${elemData.name}`, elemData);
+                elementStore.set(`${type.toLowerCase()}.${elemData.name}`, elemData);
             });
         } else {
-            store.set(`${type.toLowerCase()}/${elemData.name}`, elemData);
+            elementStore.set(`${type.toLowerCase()}.${elemData.name}`, elemData);
         }
     });
+};
+
+const getElements = () => {
+    getTypes().forEach((type) => {
+        getElementsByType(type);
+    });
+    return elementStore;
 };
 
 export default getElements;
