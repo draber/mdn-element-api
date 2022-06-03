@@ -1,0 +1,19 @@
+{
+    "name": "aside",
+    "status": "living",
+    "summary": "The `<aside>` HTML element represents a portion of a document whose content is only indirectly related to the document's main content. Asides are frequently presented as sidebars or call-out boxes.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside",
+    "type": "element",
+    "scope": "HTML",
+    "tags": [
+        "HTML",
+        "HTML sections",
+        "HTML Flow content",
+        "HTML Palpable Content",
+        "HTML Sectioning content"
+    ],
+    "interfaces": ["HTMLElement", "Element"],
+    "namespace": "http://www.w3.org/1999/xhtml",
+    "attributes": {},
+    "globalAttributes": "https://mdn-element-api.netlify.com/html/_global-attributes.json"
+}

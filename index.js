@@ -1,39 +1,20 @@
 import getGlobalAttributes from "./modules/collect-global-attributes.js";
 import getElements from "./modules/collect-elements.js";
 import resource from "./modules/resource.js";
-import store from "./modules/store.js";
-import getSingleElement from "./modules/get-single-element.js";
-import { getGlobAttrScopeArr, getTypes, getGlobAttrScopesByType } from "./modules/utils.js";
 
+const elements = getElements();
+const globalAttributes = getGlobalAttributes();
 
-/**
- * Build element listing
- */
-getTypes().forEach((type) => {
-    getElements(type);
+elements.forEach((elements, type) => {
+    resource.write(`${type}/_elements.json`, elements);
+    for(let [tagName, element] of Object.entries(elements)) {
+        resource.write(`${type}/${tagName}.json`, element);
+    }
+});
+resource.write("_elements.json", globalAttributes);
+
+globalAttributes.forEach((attributes, type) => {
+    resource.write(`${type}/_global-attributes.json`, attributes);
 });
 
-/**
- * Build global attributes
- */
- getGlobAttrScopeArr().forEach((scope) => {
-    getGlobalAttributes(scope);
-});
-
-/** 
- * Store an object with all elements.
- * Note that in this list, the elements don't have their global attributes
- */
-resource.write("all-elements.json", store);
-
-/**
- * Store individual objects for each element. These are complete with all relevant global attributes.
- */
-store
-    .keys()
-    .filter((key) => !key.endsWith("*"))
-    .forEach((key) => {
-        const elem = getSingleElement(store, key);
-        const file = `${elem.scope}-${elem.name}.json`;
-        resource.write(file.toLowerCase(), elem);
-    });
+resource.write("_global-attributes.json", globalAttributes);
