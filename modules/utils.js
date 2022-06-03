@@ -23,9 +23,16 @@ export const getElemPreset = () => {
         ...{
             interfaces: [],
             namespace: "",
+            contentCategories: "",
+            permittedContent: "",
+            tagOmission: "",
+            permittedParents: "",
+            implicitAriaRole: "",
+            permittedAriaRoles: "",
+            globalAttributes: "",
             attributes: {},
+            type: "element",
         },
-        ...{ type: "element" },
     };
 };
 
@@ -49,12 +56,12 @@ export const getTypes = () => {
 
 /**
  * Get the global attribute scopes for a given type
- * @param {String} type  
+ * @param {String} type
  * @returns {Array}
  */
 export const getGlobAttrScopesByType = (type) => {
     return globAttrScopes.get(type);
-}
+};
 
 /**
  * Get the global attribute scopes as one array
@@ -62,17 +69,31 @@ export const getGlobAttrScopesByType = (type) => {
  */
 export const getGlobAttrScopeArr = () => {
     let a1 = [];
-    globAttrScopes.values().forEach(a2 => {
+    globAttrScopes.values().forEach((a2) => {
         a1 = a1.concat(a2);
-    })
+    });
     return a1;
 };
 
 /**
  * Get the type, e.g. "HTML" from the scope, e.g. "HTML:global:generic"
- * @param {String} scope 
- * @returns {String} 
+ * @param {String} scope
+ * @returns {String}
  */
 export const scopeToType = (scope) => {
     return scope.split(":")[0];
-}
+};
+
+/**
+ * Convert a string to camelCase
+ * @see https://stackoverflow.com/a/2970667 with some modifications
+ * @param {String} term
+ */
+export const camel = (term) => {
+    return term
+        .replace(/[_-]+/g, " ")
+        .replace(/(?:^[\w]|[A-Z]|\b\w|\s+)/g, function (match, index) {
+            if (+match === 0) return "";
+            return index === 0 ? match.toLowerCase() : match.toUpperCase();
+        });
+};

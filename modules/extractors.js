@@ -1,27 +1,29 @@
 import "global-jsdom/register";
 import YAML from "yamljs";
 import MarkdownIt from "markdown-it";
+import { camel } from "./utils.js";
 
 import resource from "./resource.js";
+import ElasticObject from "elastic-object";
 
 const md = new MarkdownIt();
 
 /**
  * Parse and normalize the metadata of a file
  * @param {String} raw YML content
- * @returns 
+ * @returns
  */
 const getMetaData = (raw) => {
     const meta = {
         ...{
             name: "",
-            url: '',
+            url: "",
             tags: [],
-            title: '',
-            status: '',
+            title: "",
+            status: "",
         },
-        ...YAML.parse(raw)
-    }
+        ...YAML.parse(raw),
+    };
 
     // URL on MDN
     meta.url = meta.slug
@@ -65,7 +67,7 @@ const getMetaData = (raw) => {
                     "deprecated",
                     "experimental",
                     "obsolete",
-                    meta.name
+                    meta.name,
                 ].includes(e.toLowerCase())
         )
         .filter((e) => !e.startsWith("Needs"));
@@ -124,6 +126,31 @@ export const parseMdLink = (link) => {
     };
 };
 
+const processStr = (text) => {
+    return (
+        text
+            // extract text if possible
+            // {{someText("the b argument")}}                  => `the b argument`
+            // {{someText("the b argument","the d argument")}} => `the d argument`
+            .replace(
+                /{{\s*[\w]+\(("([^"]+)")(,"([^"]+)")?[^\}]*\)\s*}}/g,
+                (m, a, b, c, d) => {
+                    return d ? d : b;
+                }
+            )
+            // special case RFC
+            .replace(/\{\{(RFC)\(([^,]+),[^"]+"([^"]+)"\)\}\}/g, '$1 $2 "$3"')
+            // discard the rest
+            .replace(/{{[^\}]+}}/g, "")
+            .replace(/^[^a-z0-9`]*/gi, "")
+            .replace(/\n/gi, " ")
+            // some md cleanup
+            .replace(/\*{2,}/gi, "")
+            .replace(/\s+/g, ' ')
+            .trim()
+    );
+};
+
 export const getSummary = (text) => {
     text = text
         // erroneous case where a line break is ↩
@@ -131,29 +158,15 @@ export const getSummary = (text) => {
         .replace(/\n([^\s\n\r])/g, " $1")
         .split("\n")
         .filter((e) => !!e.trim())
-        .shift()
-        // extract text if possible
-        // {{someText("the b argument")}}                  => `the b argument`
-        // {{someText("the b argument","the d argument")}} => `the d argument`
-        .replace(
-            /{{\s*[\w]+\(("([^"]+)")(,"([^"]+)")?[^\}]*\)\s*}}/g,
-            (m, a, b, c, d) => {
-                return d ? d : b;
-            }
-        )
-        // special case RFC
-        .replace(/\{\{(RFC)\(([^,]+),[^"]+"([^"]+)"\)\}\}/g, '$1 $2 "$3"')
-        // discard the rest
-        .replace(/{{[^\}]+}}/g, "")
-        .replace(/^[^a-z0-9`]*/gi, "")
-        .replace(/\n/gi, " ")
-        // some md cleanup
-        .replace(/\*{2,}/gi, "")
-        .trim();
+        .shift();
+    text = processStr(text);
     let tmpTextArr = text.split(".");
 
     // remove the pattern 'foo has the following values:'
-    if(tmpTextArr.length > 1 && tmpTextArr[tmpTextArr.length - 1].trim().endsWith('values:')) {
+    if (
+        tmpTextArr.length > 1 &&
+        tmpTextArr[tmpTextArr.length - 1].trim().endsWith("values:")
+    ) {
         tmpTextArr.pop();
     }
     text = tmpTextArr.join(".");
@@ -168,4 +181,35 @@ export const getSummary = (text) => {
 
     document.body.innerHTML = md.render(text).replace(/<\/?code>/g, "`");
     return document.querySelector("p").textContent.trim();
+};
+
+/**
+ * Retrieve data from the property tables on the element pages
+ * @param {String} text
+ * @returns
+ */
+export const getPropTblData = (fragment) => {
+
+    const data = new ElasticObject();
+    let content = resource.read(fragment);
+    if (!content) {
+        return data;
+    }
+    const re = /(<table class="properties">.*?<\/table>)/s;
+    const table = content.match(re);
+    if (!table) {
+        return data;
+    }
+    document.body.innerHTML = table[1];
+
+    document.querySelectorAll("table tr").forEach(row => {
+        const cells = row.querySelectorAll("th, td");
+        const key = camel(processStr(cells[0].textContent).toLowerCase().replace(/\s/g, "-"));
+        let value = processStr(cells[1].textContent).replace(/ (<\/?[^>]+?>) /g, " `$1` ");
+        if(key === 'domInterface') {
+            return;
+        }
+        data.set(key, value);
+    })
+    return data;
 };
