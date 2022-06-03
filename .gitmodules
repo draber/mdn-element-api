@@ -1,1 +1,4 @@
 
+[submodule "mdn-content"]
+	path = mdn-content
+	url = https://github.com/mdn/content
