@@ -3,7 +3,7 @@ import fs from "fs-extra";
 import groupData from "../mdn-content/files/jsondata/GroupData.json" assert { type: "json" };
 import path from "path";
 import resource from "./resource.js";
-import { getSummary, getContentObj } from "./extractors.js";
+import { getSummary, getContentObj, getPropTblData } from "./extractors.js";
 import { getElemPreset, scopeToType, getTypes } from "./utils.js";
 import attributes from "./get-attribute-data.js";
 import pkg from "../package.json" assert { type: "json" };
@@ -132,6 +132,7 @@ const getElementsByType = (type) => {
         const elemData = {
             ...getElemPreset(),
             ...contentObj.meta,
+            ...getPropTblData(fragment),
             ...{
                 summary: getSummary(contentObj.summary),
                 scope: type,
