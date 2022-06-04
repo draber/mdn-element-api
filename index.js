@@ -11,7 +11,7 @@ elements.forEach((collection, type) => {
         resource.write(`${type}/${tagName}.json`, element);
     }
 });
-resource.write("_elements.json", globalAttributes);
+resource.write("_elements.json", elements);
 
 globalAttributes.forEach((attributes, type) => {
     resource.write(`${type}/_global-attributes.json`, attributes);
