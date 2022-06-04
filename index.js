@@ -5,9 +5,9 @@ import resource from "./modules/resource.js";
 const elements = getElements();
 const globalAttributes = getGlobalAttributes();
 
-elements.forEach((elements, type) => {
-    resource.write(`${type}/_elements.json`, elements);
-    for(let [tagName, element] of Object.entries(elements)) {
+elements.forEach((collection, type) => {
+    resource.write(`${type}/_elements.json`, collection);
+    for(let [tagName, element] of Object.entries(collection)) {
         resource.write(`${type}/${tagName}.json`, element);
     }
 });

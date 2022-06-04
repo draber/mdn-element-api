@@ -137,7 +137,7 @@ const getElementsByType = (type) => {
                 summary: getSummary(contentObj.summary),
                 scope: type,
                 namespace: getNamespaceUri(type),
-                interfaces: getInterfaces(contentObj.meta.name, type),
+                interfaces: getInterfaces(contentObj.meta.name, type)
             },
             globalAttributes: `${pkg.custom.domain}/${type.toLowerCase()}/_global-attributes.json`,
             attributes,
