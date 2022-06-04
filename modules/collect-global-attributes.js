@@ -12,6 +12,7 @@ const attrStore = new ElasticObject();
  */
 const getGlobalAttributesPerScope = (scope) => {
     let fragment;
+    let category = scope.split(':').pop();
     switch (true) {
         case scope.startsWith("HTML:global"):
             fragment = scope.includes("aria")
@@ -62,7 +63,7 @@ const getGlobalAttributesPerScope = (scope) => {
 
         delete data.fragment;
 
-        attrStore.set(`${type.toLowerCase()}.${data.name}`, data);
+        attrStore.set(`${type.toLowerCase()}.${category}.${data.name}`, data);
     });
 };
 
