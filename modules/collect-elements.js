@@ -152,7 +152,7 @@ const getElementsByType = (type) => {
                 elementStore.set(`${type.toLowerCase()}.${elemData.name}`, elemData);
             });
         } else {
-            elementStore.set(`${type.toLowerCase()}.${elemData.name}`, elemData);
+            elementStore.set(`${type}.${elemData.name}`, elemData);
         }
     });
 };
