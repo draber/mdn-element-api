@@ -149,7 +149,7 @@ const getElementsByType = (type) => {
         if (contentObj.meta.name === "h1") {
             ["h1", "h2", "h3", "h4", "h5", "h6"].forEach((name) => {
                 elemData.name = name;
-                elementStore.set(`${type.toLowerCase()}.${elemData.name}`, elemData);
+                elementStore.set(`${type}.${elemData.name}`, elemData);
             });
         } else {
             elementStore.set(`${type}.${elemData.name}`, elemData);
