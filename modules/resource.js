@@ -1,8 +1,6 @@
 import fs from "fs-extra";
-import { jsonOptions } from "./bootstrap.js";
 
 const mdnRoot = "./mdn-content/files/en-us";
-const apiDir = "./api";
 
 /**
  * Get the path to a file independently from the input format.
@@ -56,7 +54,7 @@ const normalizeFragment = (fragment) => {
  * @param {String} fragment The file path minus the MDN directory.
  * @returns {String} The contents of the file
  */
-const read = (fragment) => {
+const readMd = (fragment) => {
     const path = normalizeLocalPath(fragment);
     if (!fs.existsSync(path)) {
         return "";
@@ -64,24 +62,8 @@ const read = (fragment) => {
     return fs.readFileSync(path, "utf-8");
 };
 
-/**
- * Write a file to the API directory.
- * @param {String} fragment The file path minus the API directory.
- * @param {Object} content The contents of the file as an object.
- */
-const write = (fragment, content) => {
-    
-    const path = apiDir + "/" + fragment;
-    try {
-        fs.outputJsonSync(path, content, jsonOptions);
-    } catch (e) {
-        throw new Error(e);
-    }
-};
-
 export default {
-    write,
-    read,
+    readMd,
     normalizeLocalPath,
     normalizeFragment,
 };

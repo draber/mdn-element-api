@@ -5,8 +5,9 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
-        "dev": "node .",
-        "build": "node . --env=prod"
+        "dev": "node --experimental-json-modules --no-warnings .",
+        "build": "node --experimental-json-modules --no-warnings . --env=prod",
+        "sync": "node --experimental-json-modules --no-warnings . --env=sync"
     },
     "repository": {
         "type": "git",

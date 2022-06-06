@@ -85,7 +85,7 @@ export const getContentObj = (fragment) => {
     let contentObj = {
         meta: {},
     };
-    let content = resource.read(fragment);
+    let content = resource.readMd(fragment);
     if (!content) {
         return contentObj;
     }
@@ -191,7 +191,7 @@ export const getSummary = (text) => {
 export const getPropTblData = (fragment) => {
 
     const data = new ElasticObject();
-    let content = resource.read(fragment);
+    let content = resource.readMd(fragment);
     if (!content) {
         return data;
     }

@@ -1,20 +1,27 @@
 import getGlobalAttributes from "./modules/collect-global-attributes.js";
 import getElements from "./modules/collect-elements.js";
-import resource from "./modules/resource.js";
+import fs from 'fs-extra';
+import { env, jsonOptions } from "./modules/bootstrap.js";
+import sync from "./modules/sync-mdn-content.js";
+
+if(env === 'auto') {
+    sync();
+}
+
 
 const elements = getElements();
 const globalAttributes = getGlobalAttributes();
 
 elements.forEach((collection, type) => {
-    resource.write(`${type}/_elements.json`, collection);
+    fs.outputJson(`api/${type}/_elements.json`, collection, jsonOptions);
     for(let [tagName, element] of Object.entries(collection)) {
-        resource.write(`${type}/${tagName}.json`, element);
+        fs.outputJson(`api/${type}/${tagName}.json`, element, jsonOptions);
     }
 });
-resource.write("_elements.json", elements);
+fs.outputJson(`api/_elements.json`, elements);
 
 globalAttributes.forEach((attributes, type) => {
-    resource.write(`${type}/_global-attributes.json`, attributes);
+    fs.outputJson(`api/${type}/_global-attributes.json`, attributes, jsonOptions);
 });
 
-resource.write("_global-attributes.json", globalAttributes);
+fs.outputJson(`api/_global-attributes.json`, globalAttributes, jsonOptions);
